@@ -12,7 +12,7 @@ struct model_struct{
 };
 
 // data is for each packet is an int and a byte sized destination
-typedef ap_axiu<32, 0, 0, 8> pkt;
+typedef ap_axiu<32, 0, 0, 0> pkt;
 typedef ap_uint<32> data;
 
 extern "C" {
@@ -32,7 +32,7 @@ extern "C" {
         pkt in_pkt;
         pkt out_pkt;
         data ret_data;
-        uint32_t pkt_data;
+        uint16_t pkt_data;
         uint8_t pkt_id;
         uint8_t param_counter = 0;
         
@@ -42,9 +42,9 @@ extern "C" {
 #pragma HLS PIPELINE II = 1
 
         in_pkt = A.read();
-        pkt_data = static_cast<uint32_t>(in_pkt.get_data());
+        pkt_data = static_cast<uint16_t>(in_pkt.get_data() & 0x0000ffff);
 
-        pkt_id = static_cast<uint8_t>(in_pkt.get_dest());
+        pkt_id = static_cast<uint8_t>((in_pkt.get_data() & 0xff000000) >> 24);
 
         switch((pkt_id & 0xc0) >> 6) {      // checks first two bits of dest
             case 0:
