@@ -2,13 +2,20 @@
 #include "ap_axi_sdata.h"
 #include "hls_stream.h"
 
+// cannot be larger than 30
+#define MAX_NUM_LAYERS 10
+// total max buffer sizes are the number * 8
+#define PARAM_BUFF 100
+#define IM_BUFF 100
+
 struct model_struct{
-    uint16_t im_shape[3];
-    uint16_t layer_channels[6];
-    uint8_t mlp_size;
-    uint8_t packed_image[50];
-    uint8_t packed_params[50];
-    bool set[3];
+    uint16_t im_shape[3];                       // starting image shape
+    uint16_t layer_channels[MAX_NUM_LAYERS];    // number of channels in each layer
+    uint8_t output_num;                         // final number mlp outputs
+    uint8_t layer_kerns[MAX_NUM_LAYERS];        // square kernel sizes per layer (eg. 5x5 kernel is simply stored as 5)
+    uint8_t packed_image[IM_BUFF];              // the storage buffer for image data
+    uint8_t packed_params[PARAM_BUFF];          // storage for all model parameters
+    bool set[3];                                // verification that all model data is set before performing convolutions
 };
 
 // data is for each packet is an int and a byte sized destination
@@ -32,9 +39,9 @@ extern "C" {
         pkt in_pkt;
         pkt out_pkt;
         data ret_data;
+        uint32_t param_counter = 0;
         uint16_t pkt_data;
         uint8_t pkt_id;
-        uint8_t param_counter = 0;
         
         bool eos = false;
 
@@ -50,7 +57,12 @@ extern "C" {
             case 0:
                 // set image data and run inference
                 if(model.set[0] == true && model.set[1] == true && model.set[2] == true) {
-                    
+                    // initial convolution
+                    uint32_t count = (model.layer_kerns[0] * model.layer_kerns[0]) * im_shape[2];
+
+                    // bulk convolutions
+
+                    // final mlp and output
                 }
                 
                 
@@ -73,25 +85,19 @@ extern "C" {
                 
             case 2:
                 // set model dimensions
-                switch((pkt_id & 0x3f)) {
-                    case 0x00:
-                        // set mlp size
-                        model.set[1] = true;
-                    case 0x01:
-                        // set channel 1 size
-                    case 0x02:
-                        // set channel 2 size
-                    case 0x04:
-                        // set channel 3 size
-                    case 0x08:
-                        // set channel 4 size
-                    case 0x10:
-                        // set channel 5 size
-                    case 0x20:
-                        // set channel 6 size
-                    default:
-                        // should not happen
+                if((pkt_id & 0x3f) == 0x3f) {
+                    // set final mlp output size
+                    model.output_num = static_cast<uint8_t>(pkt_data);
+                    model.set[1] = true;
+                } else {
+                    if((pkt_id & 0x20) == 0x20) {
+                        // set layer kern size
+                        model.layer_kerns[(pkt_id & 0x1f)] = static_cast<uint8_t>(pkt_data);
+                    } else {
+                        // set layer channel num
+                        model.layer_channels[(pkt_id & 0x1f)] = static_cast<uint16_t>(pkt_data);
                     }
+                }
 
                     
             case 3:
@@ -99,13 +105,17 @@ extern "C" {
                 switch((pkt_id & 0x3f)) {
                     case 0x00:
                         // set image height
+                        model.im_shape[0] = static_cast<uint16_t>(pkt_data);
                     case 0x07:
                         // set image width
+                        model.im_shape[1] = static_cast<uint16_t>(pkt_data);
                     case 0x3f:
                         // set image channel num
+                        model.im_shape[2] = static_cast<uint16_t>(pkt_data);
                     default:
                         // should not happen
-                }
+                        eos = true;
+                    }
                 model.set[2] = true;
 
                 
@@ -118,7 +128,7 @@ extern "C" {
                out_pkt.set_last(in_pkt.get_last());
                out_pkt.set_keep(-1);
                B.write(out_pkt);
-        }
+            }
         
         if (in_pkt.get_last()) {
                 eos = true;

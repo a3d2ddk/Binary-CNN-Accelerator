@@ -4,3 +4,6 @@ import vitis
 client = vitis.create_client()
 client.set_workspace(path="hls_kernel")
 
+comp = client.get_component(name="hls_component")
+vitis.dispose()
+
