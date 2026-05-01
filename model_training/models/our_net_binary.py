@@ -66,10 +66,10 @@ class our_net(nn.Module):
             BinarizeLinear(512 * 2 * 2, 512, bias=True),
             nn.BatchNorm1d(512),
             nn.Hardtanh(inplace=True),
-            BinarizeLinear(512, 256, bias=True),
-            nn.BatchNorm1d(256),
+            BinarizeLinear(512, 512, bias=True),
+            nn.BatchNorm1d(512),
             nn.Hardtanh(inplace=True),
-            BinarizeLinear(256, num_classes, bias=True),
+            BinarizeLinear(512, num_classes, bias=True),
             nn.BatchNorm1d(num_classes, affine=False),
             nn.LogSoftmax(dim=1),
         )
