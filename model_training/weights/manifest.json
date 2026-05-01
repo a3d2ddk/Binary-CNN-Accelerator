@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "layers": [
+    {
+      "file": "layer1_conv.bin",
+      "layer_id": 1,
+      "num_packets": 128,
+      "raw_kb": 0.5,
+      "stored_kb": 0.5,
+      "compressed": false
+    },
+    {
+      "file": "layer2_conv.bin",
+      "layer_id": 2,
+      "num_packets": 2944,
+      "raw_kb": 11.5,
+      "stored_kb": 11.5,
+      "compressed": false
+    },
+    {
+      "file": "layer3_conv.bin",
+      "layer_id": 3,
+      "num_packets": 11264,
+      "raw_kb": 44.0,
+      "stored_kb": 44.0,
+      "compressed": false
+    },
+    {
+      "file": "layer4_conv.bin",
+      "layer_id": 4,
+      "num_packets": 44544,
+      "raw_kb": 174.0,
+      "stored_kb": 174.0,
+      "compressed": false
+    },
+    {
+      "file": "layer5_mlp.bin",
+      "layer_id": 5,
+      "num_packets": 39424,
+      "raw_kb": 154.0,
+      "stored_kb": 154.0,
+      "compressed": false
+    },
+    {
+      "file": "layer6_mlp.bin",
+      "layer_id": 6,
+      "num_packets": 5120,
+      "raw_kb": 20.0,
+      "stored_kb": 20.0,
+      "compressed": false
+    },
+    {
+      "file": "layer7_mlp.bin",
+      "layer_id": 7,
+      "num_packets": 110,
+      "raw_kb": 0.43,
+      "stored_kb": 0.43,
+      "compressed": false
+    }
+  ]
+}
