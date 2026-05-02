@@ -1,0 +1,247 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir /home/oldak/big-boi-pj/kernel/hls_component/hls_component 
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/oldak/big-boi-pj/kernel/hls_component/hls_component/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component '/home/oldak/big-boi-pj/kernel/hls_component/hls_component'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=kern.cpp' from hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file '/home/oldak/big-boi-pj/kernel/hls_component/kern.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=/home/oldak/Downloads/files/tb_cnn_accelerator.cpp' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file '/home/oldak/Downloads/files/tb_cnn_accelerator.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=kernel' from hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1465] Applying config ini 'clock=80MHz' from hls_config.cfg(10)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 12.5ns.
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/oldak/big-boi-pj/kernel/hls_component/hls_component/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2.2 seconds. CPU system time: 0.29 seconds. Elapsed time: 2.39 seconds; current allocated memory: 492.117 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file 'kern.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 4.26 seconds. CPU system time: 0.33 seconds. Elapsed time: 4.6 seconds; current allocated memory: 494.391 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 5,272 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 6,767 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 4,985 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 4,044 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 3,957 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 75,744 instructions in the design after the 'Array/Struct' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 69,234 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 69,234 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 69,234 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 73,414 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 72,556 instructions in the design after the 'Performance' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 71,125 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+WARNING: [HLS 200-1995] There were 152,011 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 94,263 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 94,247 instructions in the design after the 'HW Transforms' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 93,406 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-291] Loop 'L4_K' is marked as complete unroll implied by the pipeline pragma (kern.cpp:284:19)
+INFO: [HLS 214-291] Loop 'L4_KH' is marked as complete unroll implied by the pipeline pragma (kern.cpp:287:28)
+INFO: [HLS 214-291] Loop 'L4_KW' is marked as complete unroll implied by the pipeline pragma (kern.cpp:289:28)
+INFO: [HLS 214-291] Loop 'L3_K' is marked as complete unroll implied by the pipeline pragma (kern.cpp:221:19)
+INFO: [HLS 214-291] Loop 'L3_KH' is marked as complete unroll implied by the pipeline pragma (kern.cpp:224:28)
+INFO: [HLS 214-291] Loop 'L3_KW' is marked as complete unroll implied by the pipeline pragma (kern.cpp:226:28)
+INFO: [HLS 214-291] Loop 'L2_K' is marked as complete unroll implied by the pipeline pragma (kern.cpp:159:19)
+INFO: [HLS 214-291] Loop 'L2_KH' is marked as complete unroll implied by the pipeline pragma (kern.cpp:162:28)
+INFO: [HLS 214-291] Loop 'L2_KW' is marked as complete unroll implied by the pipeline pragma (kern.cpp:164:28)
+INFO: [HLS 214-291] Loop 'INIT_K' is marked as complete unroll implied by the pipeline pragma (kern.cpp:95:21)
+INFO: [HLS 214-291] Loop 'INIT_KH' is marked as complete unroll implied by the pipeline pragma (kern.cpp:98:30)
+INFO: [HLS 214-291] Loop 'INIT_KW' is marked as complete unroll implied by the pipeline pragma (kern.cpp:100:30)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_453_2' (kern.cpp:453:27) in function 'kernel' completely with a factor of 3 (kern.cpp:356:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_455_3' (kern.cpp:455:31) in function 'kernel' completely with a factor of 9 (kern.cpp:356:0)
+INFO: [HLS 214-186] Unrolling loop 'SM_EXP' (kern.cpp:337:13) in function 'softmax' completely with a factor of 10 (kern.cpp:328:0)
+INFO: [HLS 214-186] Unrolling loop 'SM_MAX' (kern.cpp:331:13) in function 'softmax' completely with a factor of 9 (kern.cpp:328:0)
+INFO: [HLS 214-186] Unrolling loop 'L4_K' (kern.cpp:284:19) in function 'conv2d_l4' completely with a factor of 3 (kern.cpp:275:0)
+INFO: [HLS 214-186] Unrolling loop 'L4_KH' (kern.cpp:287:28) in function 'conv2d_l4' completely with a factor of 3 (kern.cpp:275:0)
+INFO: [HLS 214-186] Unrolling loop 'L4_KW' (kern.cpp:289:28) in function 'conv2d_l4' completely with a factor of 3 (kern.cpp:275:0)
+INFO: [HLS 214-186] Unrolling loop 'L3_K' (kern.cpp:221:19) in function 'conv2d_l3' completely with a factor of 3 (kern.cpp:212:0)
+INFO: [HLS 214-186] Unrolling loop 'L3_KH' (kern.cpp:224:28) in function 'conv2d_l3' completely with a factor of 3 (kern.cpp:212:0)
+INFO: [HLS 214-186] Unrolling loop 'L3_KW' (kern.cpp:226:28) in function 'conv2d_l3' completely with a factor of 3 (kern.cpp:212:0)
+INFO: [HLS 214-186] Unrolling loop 'L2_K' (kern.cpp:159:19) in function 'conv2d_l2' completely with a factor of 3 (kern.cpp:150:0)
+INFO: [HLS 214-186] Unrolling loop 'L2_KH' (kern.cpp:162:28) in function 'conv2d_l2' completely with a factor of 3 (kern.cpp:150:0)
+INFO: [HLS 214-186] Unrolling loop 'L2_KW' (kern.cpp:164:28) in function 'conv2d_l2' completely with a factor of 3 (kern.cpp:150:0)
+INFO: [HLS 214-186] Unrolling loop 'INIT_K' (kern.cpp:95:21) in function 'conv2d_l1' completely with a factor of 3 (kern.cpp:86:0)
+INFO: [HLS 214-186] Unrolling loop 'INIT_KH' (kern.cpp:98:30) in function 'conv2d_l1' completely with a factor of 3 (kern.cpp:86:0)
+INFO: [HLS 214-186] Unrolling loop 'INIT_KW' (kern.cpp:100:30) in function 'conv2d_l1' completely with a factor of 3 (kern.cpp:86:0)
+INFO: [HLS 214-178] Inlining function 'batch_norm_relu(int)' into 'conv2d_l1(unsigned short*, ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [16][64])' (kern.cpp:86:0)
+INFO: [HLS 214-178] Inlining function 'batch_norm_relu(int)' into 'conv2d_l2(ap_uint<1> (*) [16][64], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [8][128])' (kern.cpp:150:0)
+INFO: [HLS 214-178] Inlining function 'batch_norm_relu(int)' into 'conv2d_l3(ap_uint<1> (*) [8][128], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [4][256])' (kern.cpp:212:0)
+INFO: [HLS 214-178] Inlining function 'batch_norm_relu(int)' into 'conv2d_l4(ap_uint<1> (*) [4][256], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [2][512])' (kern.cpp:275:0)
+INFO: [HLS 214-178] Inlining function 'batch_norm_relu(int)' into 'kernel' (kern.cpp:356:0)
+INFO: [HLS 214-248] Applying array_partition to 'starting_image': Cyclic partitioning with factor 14 on dimension 1. (kern.cpp:385:14)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1': Cyclic partitioning with factor 14 on dimension 3. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2': Cyclic partitioning with factor 14 on dimension 3. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3': Cyclic partitioning with factor 14 on dimension 3. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_4': Cyclic partitioning with factor 14 on dimension 3. (kern.cpp:393:16)
+INFO: [HLS 214-248] Applying array_partition to 'mlp_hidden_1': Complete partitioning on dimension 1. (kern.cpp:397:16)
+INFO: [HLS 214-248] Applying array_partition to 'mlp_hidden_2': Complete partitioning on dimension 1. (kern.cpp:398:16)
+INFO: [HLS 214-248] Applying array_partition to 'buffer': Complete partitioning on dimension 1. (kern.cpp:407:11)
+INFO: [HLS 214-248] Applying array_partition to 'kern_a': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:412:16)
+WARNING: [HLS 214-358] Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations. (kern.cpp:465:17)
+INFO: [HLS 214-376] Pipelining loop< VITIS_LOOP_409_1> at kern.cpp:409:23 due to pipeline_loops threshold
+INFO: [HLS 214-376] Pipelining loop< OUT_STREAM> at kern.cpp:641:41 due to pipeline_loops threshold
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_0' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_0' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_1' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_1' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_10' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_10' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_11' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_11' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_12' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_12' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_13' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_13' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_2' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_2' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_3' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_3' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_4' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_4' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_5' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_5' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_6' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_6' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_7' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_7' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_8' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_8' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_9' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_9' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_0' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_0' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_1' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_1' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_10' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_10' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_11' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_11' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_12' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_12' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_13' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_13' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_2' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_2' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_3' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_3' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_4' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_4' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_5' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_5' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_6' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_6' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_7' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_7' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_8' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_8' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_9' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_9' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_0' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_0' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_1' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_1' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_10' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_10' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_11' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_11' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_12' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_12' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_13' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_13' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_2' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_2' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_3' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_3' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_4' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_4' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_5' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_5' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_6' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_6' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_7' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_7' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_8' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_8' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_9' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_9' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_0': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_1': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_2': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_3': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_4': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_5': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_6': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_7': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_8': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_9': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_10': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_11': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_12': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_13': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_0': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_1': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_2': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_3': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_4': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_5': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_6': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_7': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_8': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_9': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_10': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_11': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_12': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_13': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_0': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_1': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_2': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_3': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_4': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_5': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_6': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_7': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_8': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_9': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_10': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_11': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_12': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_13': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1438.93 seconds. CPU system time: 1.07 seconds. Elapsed time: 1444.09 seconds; current allocated memory: 501.512 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 501.512 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 48.12 seconds. CPU system time: 0.08 seconds. Elapsed time: 48.2 seconds; current allocated memory: 675.027 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 22.69 seconds. CPU system time: 0.05 seconds. Elapsed time: 22.76 seconds; current allocated memory: 787.133 MB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (kern.cpp:564:1) in function 'kernel'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (kern.cpp:595:1) in function 'kernel'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (kern.cpp:624:1) in function 'kernel'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (kern.cpp:282:1) to (kern.cpp:300:34) in function 'conv2d_l4'... converting 52 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (kern.cpp:219:1) to (kern.cpp:237:34) in function 'conv2d_l3'... converting 52 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (kern.cpp:157:1) to (kern.cpp:175:34) in function 'conv2d_l2'... converting 52 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (kern.cpp:93:1) to (kern.cpp:111:34) in function 'conv2d_l1'... converting 52 basic blocks.
+INFO: [XFORM 203-11] Balancing expressions in function 'softmax' (kern.cpp:330:14)...17 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 238.97 seconds. CPU system time: 0.26 seconds. Elapsed time: 239.62 seconds; current allocated memory: 1.451 GB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'L4_H'(kern.cpp:280:15) and 'L4_W'(kern.cpp:281:15) in function 'conv2d_l4' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'L4_FH'(kern.cpp:304:16) and 'L4_FW'(kern.cpp:305:16) in function 'conv2d_l4' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'L3_H'(kern.cpp:217:15) and 'L3_W'(kern.cpp:218:15) in function 'conv2d_l3' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'L3_FH'(kern.cpp:241:16) and 'L3_FW'(kern.cpp:242:16) in function 'conv2d_l3' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'L2_H'(kern.cpp:155:15) and 'L2_W'(kern.cpp:156:15) in function 'conv2d_l2' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'L2_FH'(kern.cpp:179:16) and 'L2_FW'(kern.cpp:180:16) in function 'conv2d_l2' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'INIT_H'(kern.cpp:91:17) and 'INIT_W'(kern.cpp:92:17) in function 'conv2d_l1' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'INIT_FH'(kern.cpp:115:18) and 'INIT_FW'(kern.cpp:116:18) in function 'conv2d_l1' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'L4_H' (kern.cpp:280:15) in function 'conv2d_l4'.
+INFO: [XFORM 203-541] Flattening a loop nest 'L4_FH' (kern.cpp:304:16) in function 'conv2d_l4'.
+INFO: [XFORM 203-541] Flattening a loop nest 'L3_H' (kern.cpp:217:15) in function 'conv2d_l3'.
+INFO: [XFORM 203-541] Flattening a loop nest 'L3_FH' (kern.cpp:241:16) in function 'conv2d_l3'.
+INFO: [XFORM 203-541] Flattening a loop nest 'L2_H' (kern.cpp:155:15) in function 'conv2d_l2'.
+INFO: [XFORM 203-541] Flattening a loop nest 'L2_FH' (kern.cpp:179:16) in function 'conv2d_l2'.
+INFO: [XFORM 203-541] Flattening a loop nest 'INIT_H' (kern.cpp:91:17) in function 'conv2d_l1'.
+INFO: [XFORM 203-541] Flattening a loop nest 'INIT_FH' (kern.cpp:115:18) in function 'conv2d_l1'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 307.63 seconds. CPU system time: 0.25 seconds. Elapsed time: 308.08 seconds; current allocated memory: 2.281 GB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'kernel' ...

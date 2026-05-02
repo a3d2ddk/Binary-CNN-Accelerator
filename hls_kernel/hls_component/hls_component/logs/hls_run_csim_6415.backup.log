@@ -1,0 +1,38 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir /home/oldak/big-boi-pj/kernel/hls_component/hls_component 
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/oldak/big-boi-pj/kernel/hls_component/hls_component/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component '/home/oldak/big-boi-pj/kernel/hls_component/hls_component'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=kern.cpp' from hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file '/home/oldak/big-boi-pj/kernel/hls_component/kern.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=/home/oldak/Downloads/files/tb_cnn_accelerator.cpp' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file '/home/oldak/Downloads/files/tb_cnn_accelerator.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=kernel' from hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from hls_config.cfg(10)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/oldak/big-boi-pj/kernel/hls_component/hls_component/vitis-comp.json
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [HLS 200-2191] C-Simulation will use clang-16 as the compiler
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../../../../Downloads/files/tb_cnn_accelerator.cpp in debug mode
+   Compiling ../../../../kern.cpp in debug mode
+   Generating csim.exe
+ld.lld: error: undefined symbol: kernel(hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&)
+>>> referenced by tb_cnn_accelerator.cpp:214 (../../../../../../../Downloads/files/tb_cnn_accelerator.cpp:214)
+>>>               obj/tb_cnn_accelerator.o:(main)
+>>> did you mean: extern "C" kernel
+>>> defined in: obj/kern.o
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Makefile.rules:333: csim.exe] Error 1
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+ERROR: CSIM Failed
+INFO: [HLS 200-112] Total CPU user time: 4.22 seconds. Total CPU system time: 0.41 seconds. Total elapsed time: 4.51 seconds; peak allocated memory: 489.125 MB.

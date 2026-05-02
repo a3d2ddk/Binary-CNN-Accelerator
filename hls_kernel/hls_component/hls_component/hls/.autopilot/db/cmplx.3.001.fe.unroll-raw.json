@@ -1,0 +1,125 @@
+{
+  "0": {
+    "basicblocks": 174,
+    "calls": "5 5 1 1 3 3 2 2 6 6 4",
+    "control_depth": 3,
+    "def_use_depth": 9,
+    "file": "kern.cpp",
+    "fileloc": 343,
+    "instructions": 833,
+    "loads": {
+      "L": 22
+    },
+    "memory_accesses": 17,
+    "name": "kernel",
+    "stores": {
+      "L": 50
+    },
+    "total_instructions": 2609
+  },
+  "1": {
+    "basicblocks": 44,
+    "calls": "6",
+    "control_depth": 5,
+    "def_use_depth": 8,
+    "file": "kern.cpp",
+    "fileloc": 139,
+    "instructions": 182,
+    "loads": {
+      "L": 9
+    },
+    "memory_accesses": 13,
+    "name": "conv2d_l2",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 189
+  },
+  "2": {
+    "basicblocks": 44,
+    "calls": "6",
+    "control_depth": 5,
+    "def_use_depth": 8,
+    "file": "kern.cpp",
+    "fileloc": 258,
+    "instructions": 182,
+    "loads": {
+      "L": 9
+    },
+    "memory_accesses": 13,
+    "name": "conv2d_l4",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 189
+  },
+  "3": {
+    "basicblocks": 44,
+    "calls": "6",
+    "control_depth": 5,
+    "def_use_depth": 8,
+    "file": "kern.cpp",
+    "fileloc": 198,
+    "instructions": 182,
+    "loads": {
+      "L": 9
+    },
+    "memory_accesses": 13,
+    "name": "conv2d_l3",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 189
+  },
+  "4": {
+    "basicblocks": 62,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 5,
+    "file": "kern.cpp",
+    "fileloc": 317,
+    "instructions": 224,
+    "loads": {
+      "L": 30
+    },
+    "memory_accesses": 2,
+    "name": "softmax",
+    "stores": {
+      "L": 11
+    },
+    "total_instructions": 224
+  },
+  "5": {
+    "basicblocks": 47,
+    "calls": "6",
+    "control_depth": 5,
+    "def_use_depth": 10,
+    "file": "kern.cpp",
+    "fileloc": 78,
+    "instructions": 189,
+    "loads": {
+      "L": 9
+    },
+    "memory_accesses": 13,
+    "name": "conv2d_l1",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 196
+  },
+  "6": {
+    "basicblocks": 4,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 1,
+    "file": "kern.cpp",
+    "fileloc": 59,
+    "instructions": 7,
+    "memory_accesses": 0,
+    "name": "batch_norm_relu",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 7
+  }
+}

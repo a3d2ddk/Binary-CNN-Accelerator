@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls_component.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Fri May  1 17:39:56 2026",
+ "timestampMillis": "1777671596479",
+ "buildStep": {
+  "cmdId": "bc0a5080-7274-417c-87b7-04c8ea0f56e0",
+  "name": "vitis-run",
+  "logFile": "/home/oldak/big-boi-pj/kernel/hls_component/hls_component/logs/hls_component.steps.log",
+  "commandLine": "/home/oldak/chonky-boi/2025.2/Vitis/bin/unwrapped/lnx64.o/vitis-run  --mode hls --csim --config /home/oldak/big-boi-pj/kernel/hls_component/hls_config.cfg --work_dir hls_component ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "/home/oldak/big-boi-pj/kernel/hls_component/hls_config.cfg",
+   "--work_dir",
+   "hls_component"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/oldak/big-boi-pj/kernel/hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri May  1 17:39:56 2026",
+ "timestampMillis": "1777671596479",
+ "status": {
+  "cmdId": "bc0a5080-7274-417c-87b7-04c8ea0f56e0",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Fri May  1 17:39:59 2026",
+ "timestampMillis": "1777671599767",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "kernel",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/oldak/big-boi-pj/kernel/hls_component/kern.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri May  1 17:39:59 2026",
+ "timestampMillis": "1777671599768",
+ "buildStep": {
+  "cmdId": "9a7b0d0f-e201-4e17-9761-77675fbc8505",
+  "name": "",
+  "logFile": "/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/oldak/big-boi-pj/kernel/hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri May  1 17:39:59 2026",
+ "timestampMillis": "1777671599768",
+ "status": {
+  "cmdId": "9a7b0d0f-e201-4e17-9761-77675fbc8505",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri May  1 17:40:02 2026",
+ "timestampMillis": "1777671602670",
+ "status": {
+  "cmdId": "9a7b0d0f-e201-4e17-9761-77675fbc8505",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri May  1 17:40:02 2026",
+ "timestampMillis": "1777671602789",
+ "status": {
+  "cmdId": "bc0a5080-7274-417c-87b7-04c8ea0f56e0",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri May  1 17:40:02 2026",
+ "timestampMillis": "1777671602789",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri May  1 17:40:02 2026",
+ "timestampMillis": "1777671602790",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

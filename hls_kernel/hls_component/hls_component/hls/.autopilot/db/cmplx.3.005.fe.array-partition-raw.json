@@ -1,0 +1,110 @@
+{
+  "0": {
+    "basicblocks": 72,
+    "calls": "2 4 4 3 3 5 5 1 1",
+    "control_depth": 2,
+    "def_use_depth": 9,
+    "file": "kern.cpp",
+    "fileloc": 343,
+    "instructions": 943,
+    "loads": {
+      "L": 101
+    },
+    "memory_accesses": 107,
+    "name": "kernel",
+    "stores": {
+      "L": 57
+    },
+    "total_instructions": 3893
+  },
+  "1": {
+    "basicblocks": 45,
+    "calls": "",
+    "control_depth": 3,
+    "def_use_depth": 14,
+    "file": "kern.cpp",
+    "fileloc": 258,
+    "instructions": 350,
+    "loads": {
+      "L": 48
+    },
+    "memory_accesses": 68,
+    "name": "conv2d_l4",
+    "stores": {
+      "L": 20
+    },
+    "total_instructions": 350
+  },
+  "2": {
+    "basicblocks": 5,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 32,
+    "file": "kern.cpp",
+    "fileloc": 317,
+    "instructions": 128,
+    "loads": {
+      "L": 11
+    },
+    "memory_accesses": 2,
+    "name": "softmax",
+    "stores": {
+      "L": 11
+    },
+    "total_instructions": 128
+  },
+  "3": {
+    "basicblocks": 45,
+    "calls": "",
+    "control_depth": 3,
+    "def_use_depth": 14,
+    "file": "kern.cpp",
+    "fileloc": 139,
+    "instructions": 350,
+    "loads": {
+      "L": 48
+    },
+    "memory_accesses": 68,
+    "name": "conv2d_l2",
+    "stores": {
+      "L": 20
+    },
+    "total_instructions": 350
+  },
+  "4": {
+    "basicblocks": 45,
+    "calls": "",
+    "control_depth": 3,
+    "def_use_depth": 14,
+    "file": "kern.cpp",
+    "fileloc": 78,
+    "instructions": 361,
+    "loads": {
+      "L": 48
+    },
+    "memory_accesses": 68,
+    "name": "conv2d_l1",
+    "stores": {
+      "L": 20
+    },
+    "total_instructions": 361
+  },
+  "5": {
+    "basicblocks": 45,
+    "calls": "",
+    "control_depth": 3,
+    "def_use_depth": 14,
+    "file": "kern.cpp",
+    "fileloc": 198,
+    "instructions": 350,
+    "loads": {
+      "L": 48
+    },
+    "memory_accesses": 68,
+    "name": "conv2d_l3",
+    "stores": {
+      "L": 20
+    },
+    "total_instructions": 350
+  }
+}

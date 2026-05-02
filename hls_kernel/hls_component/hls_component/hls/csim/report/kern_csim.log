@@ -1,0 +1,63 @@
+INFO: [SIM 2] *************** CSIM start ***************
+   Compiling ../../../../../../../Downloads/files/tb_cnn_accelerator.cpp in debug mode
+   Compiling ../../../../kern.cpp in debug mode
+   Generating csim.exe
+
+----------------------------------------------------
+  Binary CNN Accelerator — HLS Testbench
+----------------------------------------------------
+  Test pattern : pixel=100  weight=1  bias=0
+  Expected prob (each class) : 6553
+  Expected logit (each class): 1024
+
+  Building input packet stream...
+  Input stream depth : 1343622 packets
+  Running DUT (this may take several seconds)...
+  Output stream depth: 5 packets
+
+  Computing reference output...
+
+----------------------------------------------------
+  Test 1: Protocol checks
+----------------------------------------------------
+  [PASS] Output packet count: 5
+  [PASS] TLAST asserted on final output packet
+  [PASS] Input stream fully consumed
+
+----------------------------------------------------
+  Test 2: Intermediate layer sanity (reference model)
+----------------------------------------------------
+  [PASS] Conv1 output all-1  (0 wrong)
+  [PASS] MLP1 output all-1   (0 wrong)
+  [PASS] Logits uniform (all = 1024)
+  [PASS] Logit value correct (expected 1024, got 1024)
+
+----------------------------------------------------
+  Test 3: DUT probabilities vs reference
+----------------------------------------------------
+   Class       DUT   Reference  Expected  Result
+----------------------------------------------------
+       0      6553        6553      6553    PASS
+       1      6553        6553      6553    PASS
+       2      6553        6553      6553    PASS
+       3      6553        6553      6553    PASS
+       4      6553        6553      6553    PASS
+       5      6553        6553      6553    PASS
+       6      6553        6553      6553    PASS
+       7      6553        6553      6553    PASS
+       8      6553        6553      6553    PASS
+       9      6553        6553      6553    PASS
+
+----------------------------------------------------
+  Test 4: Probability sum
+----------------------------------------------------
+  DUT prob sum = 65530  (expected 65530–65535)
+  [PASS] Probability sum
+
+----------------------------------------------------
+  *** ALL TESTS PASSED ***
+----------------------------------------------------
+
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 1343622
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

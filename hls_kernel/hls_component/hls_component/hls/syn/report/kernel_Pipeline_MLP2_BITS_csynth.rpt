@@ -1,0 +1,203 @@
+
+
+================================================================
+== Vitis HLS Report for 'kernel_Pipeline_MLP2_BITS'
+================================================================
+* Date:           Fri May  1 17:43:50 2026
+
+* Version:        2025.2 (Build 6295257 on Nov 14 2025)
+* Project:        hls_component
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  13.00 ns|  7.433 ns|     3.51 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+----------+-----+-----+-------------------+
+    |  Latency (cycles) |  Latency (absolute)  |  Interval |      Pipeline     |
+    |   min   |   max   |    min    |    max   | min | max |        Type       |
+    +---------+---------+-----------+----------+-----+-----+-------------------+
+    |        3|       29|  39.000 ns|  0.377 us|    0|    0|  loop pipeline stp|
+    +---------+---------+-----------+----------+-----+-----+-------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+---------+---------+----------+-----------+-----------+--------+----------+
+        |             |  Latency (cycles) | Iteration|  Initiation Interval  |  Trip  |          |
+        |  Loop Name  |   min   |   max   |  Latency |  achieved |   target  |  Count | Pipelined|
+        +-------------+---------+---------+----------+-----------+-----------+--------+----------+
+        |- MLP2_BITS  |        1|       27|         2|          1|          1|  0 ~ 27|       yes|
+        +-------------+---------+---------+----------+-----------+-----------+--------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|    221|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        -|    -|       0|    153|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       0|     81|    -|
+|Register         |        -|    -|      60|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|      60|    455|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|      ~0|     ~0|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +-------------------------+----------------------+---------+----+---+----+-----+
+    |         Instance        |        Module        | BRAM_18K| DSP| FF| LUT| URAM|
+    +-------------------------+----------------------+---------+----+---+----+-----+
+    |sparsemux_19_4_1_1_1_U3  |sparsemux_19_4_1_1_1  |        0|   0|  0|  48|    0|
+    |sparsemux_19_4_1_1_1_U4  |sparsemux_19_4_1_1_1  |        0|   0|  0|  48|    0|
+    |sparsemux_19_4_1_1_1_U5  |sparsemux_19_4_1_1_1  |        0|   0|  0|  48|    0|
+    |sparsemux_7_2_1_1_1_U6   |sparsemux_7_2_1_1_1   |        0|   0|  0|   9|    0|
+    +-------------------------+----------------------+---------+----+---+----+-----+
+    |Total                    |                      |        0|   0|  0| 153|    0|
+    +-------------------------+----------------------+---------+----+---+----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +--------------------------+----------+----+---+----+------------+------------+
+    |       Variable Name      | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +--------------------------+----------+----+---+----+------------+------------+
+    |add_ln591_fu_617_p2       |         +|   0|  0|  13|           5|           1|
+    |add_ln592_fu_388_p2       |         +|   0|  0|  13|           5|           1|
+    |add_ln593_fu_412_p2       |         +|   0|  0|  40|          33|          33|
+    |add_ln596_fu_439_p2       |         +|   0|  0|  12|          11|           6|
+    |mlp2_acc_5_fu_666_p2      |         +|   0|  0|  39|          32|          32|
+    |or_cond871_fu_629_p2      |       and|   0|  0|   2|           1|           1|
+    |icmp_ln591_fu_623_p2      |      icmp|   0|  0|  13|           5|           5|
+    |icmp_ln592_fu_394_p2      |      icmp|   0|  0|  13|           5|           4|
+    |icmp_ln594_fu_433_p2      |      icmp|   0|  0|  31|          24|           1|
+    |mlp2_acc_2_fu_672_p3      |    select|   0|  0|  32|           1|          32|
+    |select_ln592_fu_400_p3    |    select|   0|  0|   5|           1|           1|
+    |select_ln597_fu_658_p3    |    select|   0|  0|   2|           1|           2|
+    |ap_enable_pp0             |       xor|   0|  0|   2|           1|           2|
+    |not_icmp_ln594_fu_611_p2  |       xor|   0|  0|   2|           1|           2|
+    |xor_ln597_fu_653_p2       |       xor|   0|  0|   2|           1|           1|
+    +--------------------------+----------+----+---+----+------------+------------+
+    |Total                     |          |   0|  0| 221|         127|         124|
+    +--------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +----------------------------------+----+-----------+-----+-----------+
+    |               Name               | LUT| Input Size| Bits| Total Bits|
+    +----------------------------------+----+-----------+-----+-----------+
+    |ap_done_int                       |   9|          2|    1|          2|
+    |ap_loop_exit_ready_pp0_iter1_reg  |   9|          2|    1|          2|
+    |ap_sig_allocacmp_i_3              |   9|          2|    5|         10|
+    |ap_sig_allocacmp_phi_mul20_load   |   9|          2|   11|         22|
+    |ap_sig_allocacmp_phi_urem22_load  |   9|          2|    5|         10|
+    |i_fu_158                          |   9|          2|    5|         10|
+    |mlp2_acc_1_fu_154                 |   9|          2|   32|         64|
+    |phi_mul20_fu_150                  |   9|          2|   11|         22|
+    |phi_urem22_fu_146                 |   9|          2|    5|         10|
+    +----------------------------------+----+-----------+-----+-----------+
+    |Total                             |  81|         18|   76|        152|
+    +----------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------------------------+----+----+-----+-----------+
+    |               Name               | FF | LUT| Bits| Const Bits|
+    +----------------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                         |   1|   0|    1|          0|
+    |ap_done_reg                       |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1           |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter1_reg  |   1|   0|    1|          0|
+    |i_fu_158                          |   5|   0|    5|          0|
+    |icmp_ln594_reg_718                |   1|   0|    1|          0|
+    |mlp2_acc_1_fu_154                 |  32|   0|   32|          0|
+    |or_cond871_reg_733                |   1|   0|    1|          0|
+    |phi_mul20_fu_150                  |  11|   0|   11|          0|
+    |phi_urem22_fu_146                 |   5|   0|    5|          0|
+    |w_reg_728                         |   1|   0|    1|          0|
+    +----------------------------------+----+----+-----+-----------+
+    |Total                             |  60|   0|   60|          0|
+    +----------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------------+-----+-----+------------+---------------------------+--------------+
+|       RTL Ports       | Dir | Bits|  Protocol  |       Source Object       |    C Type    |
++-----------------------+-----+-----+------------+---------------------------+--------------+
+|ap_clk                 |   in|    1|  ap_ctrl_hs|  kernel_Pipeline_MLP2_BITS|  return value|
+|ap_rst                 |   in|    1|  ap_ctrl_hs|  kernel_Pipeline_MLP2_BITS|  return value|
+|ap_start               |   in|    1|  ap_ctrl_hs|  kernel_Pipeline_MLP2_BITS|  return value|
+|ap_done                |  out|    1|  ap_ctrl_hs|  kernel_Pipeline_MLP2_BITS|  return value|
+|ap_idle                |  out|    1|  ap_ctrl_hs|  kernel_Pipeline_MLP2_BITS|  return value|
+|ap_ready               |  out|    1|  ap_ctrl_hs|  kernel_Pipeline_MLP2_BITS|  return value|
+|mlp2_acc               |   in|   32|     ap_none|                   mlp2_acc|        scalar|
+|sext_ln591             |   in|   32|     ap_none|                 sext_ln591|        scalar|
+|mlp_hidden_1_address0  |  out|    9|   ap_memory|               mlp_hidden_1|         array|
+|mlp_hidden_1_ce0       |  out|    1|   ap_memory|               mlp_hidden_1|         array|
+|mlp_hidden_1_q0        |   in|    1|   ap_memory|               mlp_hidden_1|         array|
+|empty_76               |   in|    1|     ap_none|                   empty_76|        scalar|
+|empty_77               |   in|    1|     ap_none|                   empty_77|        scalar|
+|empty_78               |   in|    1|     ap_none|                   empty_78|        scalar|
+|empty_79               |   in|    1|     ap_none|                   empty_79|        scalar|
+|empty_80               |   in|    1|     ap_none|                   empty_80|        scalar|
+|empty_81               |   in|    1|     ap_none|                   empty_81|        scalar|
+|empty_82               |   in|    1|     ap_none|                   empty_82|        scalar|
+|empty_83               |   in|    1|     ap_none|                   empty_83|        scalar|
+|empty_84               |   in|    1|     ap_none|                   empty_84|        scalar|
+|empty_85               |   in|    1|     ap_none|                   empty_85|        scalar|
+|empty_86               |   in|    1|     ap_none|                   empty_86|        scalar|
+|empty_87               |   in|    1|     ap_none|                   empty_87|        scalar|
+|empty_88               |   in|    1|     ap_none|                   empty_88|        scalar|
+|empty_89               |   in|    1|     ap_none|                   empty_89|        scalar|
+|empty_90               |   in|    1|     ap_none|                   empty_90|        scalar|
+|empty_91               |   in|    1|     ap_none|                   empty_91|        scalar|
+|empty_92               |   in|    1|     ap_none|                   empty_92|        scalar|
+|empty_93               |   in|    1|     ap_none|                   empty_93|        scalar|
+|empty_94               |   in|    1|     ap_none|                   empty_94|        scalar|
+|empty_95               |   in|    1|     ap_none|                   empty_95|        scalar|
+|empty_96               |   in|    1|     ap_none|                   empty_96|        scalar|
+|empty_97               |   in|    1|     ap_none|                   empty_97|        scalar|
+|empty_98               |   in|    1|     ap_none|                   empty_98|        scalar|
+|empty_99               |   in|    1|     ap_none|                   empty_99|        scalar|
+|empty_100              |   in|    1|     ap_none|                  empty_100|        scalar|
+|empty_101              |   in|    1|     ap_none|                  empty_101|        scalar|
+|empty_102              |   in|    1|     ap_none|                  empty_102|        scalar|
+|empty                  |   in|    5|     ap_none|                      empty|        scalar|
+|mlp2_acc_2_out         |  out|   32|      ap_vld|             mlp2_acc_2_out|       pointer|
+|mlp2_acc_2_out_ap_vld  |  out|    1|      ap_vld|             mlp2_acc_2_out|       pointer|
++-----------------------+-----+-----+------------+---------------------------+--------------+
+

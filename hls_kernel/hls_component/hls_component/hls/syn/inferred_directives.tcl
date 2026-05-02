@@ -1,0 +1,12 @@
+# Inferred from syn.compile.pipeline_loops=64
+set_directive_pipeline kernel/VITIS_LOOP_406_1
+set_directive_pipeline kernel/OUT_STREAM
+# Inferred from performance & pipeline pragmas/directives
+set_directive_loop_flatten conv2d_l1/INIT_KH
+set_directive_loop_flatten conv2d_l1/INIT_FH
+set_directive_loop_flatten conv2d_l2/L2_KH
+set_directive_loop_flatten conv2d_l2/L2_FH
+set_directive_loop_flatten conv2d_l3/L3_KH
+set_directive_loop_flatten conv2d_l3/L3_FH
+set_directive_loop_flatten conv2d_l4/L4_KH
+set_directive_loop_flatten conv2d_l4/L4_FH

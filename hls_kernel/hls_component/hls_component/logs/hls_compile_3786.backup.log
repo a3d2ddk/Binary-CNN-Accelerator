@@ -1,0 +1,732 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir /home/oldak/big-boi-pj/kernel/hls_component/hls_component 
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/oldak/big-boi-pj/kernel/hls_component/hls_component/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component '/home/oldak/big-boi-pj/kernel/hls_component/hls_component'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=kern.cpp' from hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file '/home/oldak/big-boi-pj/kernel/hls_component/kern.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=/home/oldak/Downloads/files/tb_cnn_accelerator.cpp' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file '/home/oldak/Downloads/files/tb_cnn_accelerator.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=kernel' from hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from hls_config.cfg(10)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/oldak/big-boi-pj/kernel/hls_component/hls_component/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2.28 seconds. CPU system time: 0.25 seconds. Elapsed time: 2.51 seconds; current allocated memory: 492.234 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file 'kern.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 4.41 seconds. CPU system time: 0.44 seconds. Elapsed time: 5.3 seconds; current allocated memory: 494.539 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 5,272 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 6,767 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 4,985 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 4,044 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 3,957 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 75,744 instructions in the design after the 'Array/Struct' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 69,234 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 69,234 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 69,234 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 73,414 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 72,556 instructions in the design after the 'Performance' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 71,125 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+WARNING: [HLS 200-1995] There were 152,011 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 94,263 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 94,247 instructions in the design after the 'HW Transforms' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 93,406 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-291] Loop 'L4_K' is marked as complete unroll implied by the pipeline pragma (kern.cpp:284:19)
+INFO: [HLS 214-291] Loop 'L4_KH' is marked as complete unroll implied by the pipeline pragma (kern.cpp:287:28)
+INFO: [HLS 214-291] Loop 'L4_KW' is marked as complete unroll implied by the pipeline pragma (kern.cpp:289:28)
+INFO: [HLS 214-291] Loop 'L3_K' is marked as complete unroll implied by the pipeline pragma (kern.cpp:221:19)
+INFO: [HLS 214-291] Loop 'L3_KH' is marked as complete unroll implied by the pipeline pragma (kern.cpp:224:28)
+INFO: [HLS 214-291] Loop 'L3_KW' is marked as complete unroll implied by the pipeline pragma (kern.cpp:226:28)
+INFO: [HLS 214-291] Loop 'L2_K' is marked as complete unroll implied by the pipeline pragma (kern.cpp:159:19)
+INFO: [HLS 214-291] Loop 'L2_KH' is marked as complete unroll implied by the pipeline pragma (kern.cpp:162:28)
+INFO: [HLS 214-291] Loop 'L2_KW' is marked as complete unroll implied by the pipeline pragma (kern.cpp:164:28)
+INFO: [HLS 214-291] Loop 'INIT_K' is marked as complete unroll implied by the pipeline pragma (kern.cpp:95:21)
+INFO: [HLS 214-291] Loop 'INIT_KH' is marked as complete unroll implied by the pipeline pragma (kern.cpp:98:30)
+INFO: [HLS 214-291] Loop 'INIT_KW' is marked as complete unroll implied by the pipeline pragma (kern.cpp:100:30)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_453_2' (kern.cpp:453:27) in function 'kernel' completely with a factor of 3 (kern.cpp:356:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_455_3' (kern.cpp:455:31) in function 'kernel' completely with a factor of 9 (kern.cpp:356:0)
+INFO: [HLS 214-186] Unrolling loop 'SM_EXP' (kern.cpp:337:13) in function 'softmax' completely with a factor of 10 (kern.cpp:328:0)
+INFO: [HLS 214-186] Unrolling loop 'SM_MAX' (kern.cpp:331:13) in function 'softmax' completely with a factor of 9 (kern.cpp:328:0)
+INFO: [HLS 214-186] Unrolling loop 'L4_K' (kern.cpp:284:19) in function 'conv2d_l4' completely with a factor of 3 (kern.cpp:275:0)
+INFO: [HLS 214-186] Unrolling loop 'L4_KH' (kern.cpp:287:28) in function 'conv2d_l4' completely with a factor of 3 (kern.cpp:275:0)
+INFO: [HLS 214-186] Unrolling loop 'L4_KW' (kern.cpp:289:28) in function 'conv2d_l4' completely with a factor of 3 (kern.cpp:275:0)
+INFO: [HLS 214-186] Unrolling loop 'L3_K' (kern.cpp:221:19) in function 'conv2d_l3' completely with a factor of 3 (kern.cpp:212:0)
+INFO: [HLS 214-186] Unrolling loop 'L3_KH' (kern.cpp:224:28) in function 'conv2d_l3' completely with a factor of 3 (kern.cpp:212:0)
+INFO: [HLS 214-186] Unrolling loop 'L3_KW' (kern.cpp:226:28) in function 'conv2d_l3' completely with a factor of 3 (kern.cpp:212:0)
+INFO: [HLS 214-186] Unrolling loop 'L2_K' (kern.cpp:159:19) in function 'conv2d_l2' completely with a factor of 3 (kern.cpp:150:0)
+INFO: [HLS 214-186] Unrolling loop 'L2_KH' (kern.cpp:162:28) in function 'conv2d_l2' completely with a factor of 3 (kern.cpp:150:0)
+INFO: [HLS 214-186] Unrolling loop 'L2_KW' (kern.cpp:164:28) in function 'conv2d_l2' completely with a factor of 3 (kern.cpp:150:0)
+INFO: [HLS 214-186] Unrolling loop 'INIT_K' (kern.cpp:95:21) in function 'conv2d_l1' completely with a factor of 3 (kern.cpp:86:0)
+INFO: [HLS 214-186] Unrolling loop 'INIT_KH' (kern.cpp:98:30) in function 'conv2d_l1' completely with a factor of 3 (kern.cpp:86:0)
+INFO: [HLS 214-186] Unrolling loop 'INIT_KW' (kern.cpp:100:30) in function 'conv2d_l1' completely with a factor of 3 (kern.cpp:86:0)
+INFO: [HLS 214-178] Inlining function 'batch_norm_relu(int)' into 'conv2d_l1(unsigned short*, ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [16][64])' (kern.cpp:86:0)
+INFO: [HLS 214-178] Inlining function 'batch_norm_relu(int)' into 'conv2d_l2(ap_uint<1> (*) [16][64], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [8][128])' (kern.cpp:150:0)
+INFO: [HLS 214-178] Inlining function 'batch_norm_relu(int)' into 'conv2d_l3(ap_uint<1> (*) [8][128], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [4][256])' (kern.cpp:212:0)
+INFO: [HLS 214-178] Inlining function 'batch_norm_relu(int)' into 'conv2d_l4(ap_uint<1> (*) [4][256], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [2][512])' (kern.cpp:275:0)
+INFO: [HLS 214-178] Inlining function 'batch_norm_relu(int)' into 'kernel' (kern.cpp:356:0)
+INFO: [HLS 214-248] Applying array_partition to 'starting_image': Cyclic partitioning with factor 14 on dimension 1. (kern.cpp:385:14)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1': Cyclic partitioning with factor 14 on dimension 3. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2': Cyclic partitioning with factor 14 on dimension 3. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3': Cyclic partitioning with factor 14 on dimension 3. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_4': Cyclic partitioning with factor 14 on dimension 3. (kern.cpp:393:16)
+INFO: [HLS 214-248] Applying array_partition to 'mlp_hidden_1': Complete partitioning on dimension 1. (kern.cpp:397:16)
+INFO: [HLS 214-248] Applying array_partition to 'mlp_hidden_2': Complete partitioning on dimension 1. (kern.cpp:398:16)
+INFO: [HLS 214-248] Applying array_partition to 'buffer': Complete partitioning on dimension 1. (kern.cpp:407:11)
+INFO: [HLS 214-248] Applying array_partition to 'kern_a': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:412:16)
+WARNING: [HLS 214-358] Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations. (kern.cpp:465:17)
+INFO: [HLS 214-376] Pipelining loop< VITIS_LOOP_409_1> at kern.cpp:409:23 due to pipeline_loops threshold
+INFO: [HLS 214-376] Pipelining loop< OUT_STREAM> at kern.cpp:641:41 due to pipeline_loops threshold
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_0' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_0' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_1' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_1' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_10' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_10' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_11' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_11' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_12' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_12' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_13' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_13' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_2' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_2' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_3' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_3' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_4' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_4' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_5' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_5' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_6' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_6' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_7' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_7' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_8' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_8' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_1_9' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_1_9' due to pipeline pragma (kern.cpp:157:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_0' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_0' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_1' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_1' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_10' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_10' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_11' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_11' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_12' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_12' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_13' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_13' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_2' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_2' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_3' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_3' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_4' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_4' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_5' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_5' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_6' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_6' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_7' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_7' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_8' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_8' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'packed_image_2_9' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'packed_image_2_9' due to pipeline pragma (kern.cpp:219:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_0' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_0' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_1' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_1' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_10' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_10' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_11' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_11' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_12' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_12' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_13' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_13' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_2' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_2' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_3' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_3' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_4' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_4' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_5' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_5' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_6' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_6' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_7' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_7' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_8' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_8' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'packed_image_3_9' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'packed_image_3_9' due to pipeline pragma (kern.cpp:282:1)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_0': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_1': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_2': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_3': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_4': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_5': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_6': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_7': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_8': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_9': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_10': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_11': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_12': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_1_13': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:387:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_0': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_1': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_2': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_3': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_4': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_5': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_6': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_7': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_8': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_9': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_10': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_11': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_12': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_2_13': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (kern.cpp:389:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_0': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_1': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_2': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_3': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_4': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_5': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_6': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_7': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_8': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_9': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_10': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_11': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_12': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 214-248] Applying array_partition to 'packed_image_3_13': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (kern.cpp:391:16)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1482.39 seconds. CPU system time: 0.71 seconds. Elapsed time: 1484.57 seconds; current allocated memory: 501.629 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 501.629 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 50.93 seconds. CPU system time: 0.09 seconds. Elapsed time: 51.04 seconds; current allocated memory: 633.703 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 22.72 seconds. CPU system time: 0.04 seconds. Elapsed time: 22.76 seconds; current allocated memory: 787.066 MB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (kern.cpp:564:1) in function 'kernel'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (kern.cpp:595:1) in function 'kernel'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (kern.cpp:624:1) in function 'kernel'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (kern.cpp:282:1) to (kern.cpp:300:34) in function 'conv2d_l4'... converting 52 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (kern.cpp:219:1) to (kern.cpp:237:34) in function 'conv2d_l3'... converting 52 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (kern.cpp:157:1) to (kern.cpp:175:34) in function 'conv2d_l2'... converting 52 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (kern.cpp:93:1) to (kern.cpp:111:34) in function 'conv2d_l1'... converting 52 basic blocks.
+INFO: [XFORM 203-11] Balancing expressions in function 'softmax' (kern.cpp:330:14)...17 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 242.05 seconds. CPU system time: 0.26 seconds. Elapsed time: 242.45 seconds; current allocated memory: 1.451 GB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'L4_H'(kern.cpp:280:15) and 'L4_W'(kern.cpp:281:15) in function 'conv2d_l4' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'L4_FH'(kern.cpp:304:16) and 'L4_FW'(kern.cpp:305:16) in function 'conv2d_l4' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'L3_H'(kern.cpp:217:15) and 'L3_W'(kern.cpp:218:15) in function 'conv2d_l3' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'L3_FH'(kern.cpp:241:16) and 'L3_FW'(kern.cpp:242:16) in function 'conv2d_l3' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'L2_H'(kern.cpp:155:15) and 'L2_W'(kern.cpp:156:15) in function 'conv2d_l2' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'L2_FH'(kern.cpp:179:16) and 'L2_FW'(kern.cpp:180:16) in function 'conv2d_l2' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'INIT_H'(kern.cpp:91:17) and 'INIT_W'(kern.cpp:92:17) in function 'conv2d_l1' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'INIT_FH'(kern.cpp:115:18) and 'INIT_FW'(kern.cpp:116:18) in function 'conv2d_l1' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'L4_H' (kern.cpp:280:15) in function 'conv2d_l4'.
+INFO: [XFORM 203-541] Flattening a loop nest 'L4_FH' (kern.cpp:304:16) in function 'conv2d_l4'.
+INFO: [XFORM 203-541] Flattening a loop nest 'L3_H' (kern.cpp:217:15) in function 'conv2d_l3'.
+INFO: [XFORM 203-541] Flattening a loop nest 'L3_FH' (kern.cpp:241:16) in function 'conv2d_l3'.
+INFO: [XFORM 203-541] Flattening a loop nest 'L2_H' (kern.cpp:155:15) in function 'conv2d_l2'.
+INFO: [XFORM 203-541] Flattening a loop nest 'L2_FH' (kern.cpp:179:16) in function 'conv2d_l2'.
+INFO: [XFORM 203-541] Flattening a loop nest 'INIT_H' (kern.cpp:91:17) in function 'conv2d_l1'.
+INFO: [XFORM 203-541] Flattening a loop nest 'INIT_FH' (kern.cpp:115:18) in function 'conv2d_l1'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 357.72 seconds. CPU system time: 0.27 seconds. Elapsed time: 358.08 seconds; current allocated memory: 2.281 GB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'kernel' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'kernel_Pipeline_VITIS_LOOP_409_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_409_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'VITIS_LOOP_409_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 168.4 seconds. CPU system time: 0.16 seconds. Elapsed time: 168.61 seconds; current allocated memory: 2.329 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 7.61 seconds. CPU system time: 0.03 seconds. Elapsed time: 7.64 seconds; current allocated memory: 2.329 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'kernel_Pipeline_MLP2_BITS' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'MLP2_BITS'.
+WARNING: [HLS 200-887] Cannot meet target clock period from basic block for.body211_ifconv to 'and' operation 1 bit ('or_cond871', kern.cpp:594) (combination delay: 7.4325 ns) to honor II or Latency constraint in region 'MLP2_BITS'.
+Resolution: For help on HLS 200-887 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-887.html
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, loop 'MLP2_BITS'
+WARNING: [HLS 200-871] Estimated clock period (7.433 ns) exceeds the target (target clock period: 10.000 ns, clock uncertainty: 2.700 ns, effective delay budget: 7.300 ns).
+Resolution: For help on HLS 200-871 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-871.html
+WARNING: [HLS 200-1016] The critical path in module 'kernel_Pipeline_MLP2_BITS' consists of the following:
+	'store' operation ('i_write_ln594', kern.cpp:594) of constant 0 5 bit on local variable 'i', kern.cpp:594 [1091]  (1.588 ns)
+	'load' operation 5 bit ('i', kern.cpp:594) on local variable 'i', kern.cpp:594 [1100]  (0.000 ns)
+	'add' operation 33 bit ('add_ln596', kern.cpp:596) [1108]  (2.552 ns)
+	'icmp' operation 1 bit ('icmp_ln597', kern.cpp:597) [1111]  (2.314 ns)
+	'xor' operation 1 bit ('not_icmp_ln597', kern.cpp:597) [1123]  (0.000 ns)
+	'and' operation 1 bit ('or_cond871', kern.cpp:594) [1127]  (0.978 ns)
+
+Resolution: For help on HLS 200-1016 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1016.html
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.52 seconds. CPU system time: 0.02 seconds. Elapsed time: 1.54 seconds; current allocated memory: 2.329 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.09 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 2.329 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'kernel_Pipeline_MLP1_BITS' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln571_1) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'MLP1_BITS'.
+WARNING: [HLS 200-887] Cannot meet target clock period from basic block for.body154_ifconv to 'and' operation 1 bit ('or_cond872', kern.cpp:563) (combination delay: 7.34344 ns) to honor II or Latency constraint in region 'MLP1_BITS'.
+Resolution: For help on HLS 200-887 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-887.html
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 39, loop 'MLP1_BITS'
+WARNING: [HLS 200-871] Estimated clock period (7.343 ns) exceeds the target (target clock period: 10.000 ns, clock uncertainty: 2.700 ns, effective delay budget: 7.300 ns).
+Resolution: For help on HLS 200-871 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-871.html
+WARNING: [HLS 200-1016] The critical path in module 'kernel_Pipeline_MLP1_BITS' consists of the following:
+	'store' operation ('i_2_write_ln563', kern.cpp:563) of constant 0 5 bit on local variable 'i', kern.cpp:563 [81]  (1.588 ns)
+	'load' operation 5 bit ('i', kern.cpp:563) on local variable 'i', kern.cpp:563 [88]  (0.000 ns)
+	'add' operation 32 bit ('flat', kern.cpp:565) [97]  (2.552 ns)
+	'icmp' operation 1 bit ('icmp_ln566', kern.cpp:566) [99]  (2.225 ns)
+	'xor' operation 1 bit ('not_icmp_ln566', kern.cpp:566) [181]  (0.000 ns)
+	'and' operation 1 bit ('or_cond872', kern.cpp:563) [185]  (0.978 ns)
+
+Resolution: For help on HLS 200-1016 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1016.html
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.19 seconds. CPU system time: 0 seconds. Elapsed time: 0.19 seconds; current allocated memory: 2.329 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 2.329 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'conv2d_l4_Pipeline_L4_H_L4_W' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L4_H_L4_W'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 18, loop 'L4_H_L4_W'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.36 seconds. CPU system time: 0.03 seconds. Elapsed time: 1.39 seconds; current allocated memory: 2.369 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.46 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.47 seconds; current allocated memory: 2.369 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'conv2d_l4_Pipeline_L4_FH_L4_FW' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln314) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'L4_FH_L4_FW'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 4, loop 'L4_FH_L4_FW'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.39 seconds. CPU system time: 0 seconds. Elapsed time: 0.39 seconds; current allocated memory: 2.369 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 2.369 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'conv2d_l4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.91 seconds. CPU system time: 0 seconds. Elapsed time: 1.92 seconds; current allocated memory: 2.369 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.28 seconds. CPU system time: 0 seconds. Elapsed time: 0.28 seconds; current allocated memory: 2.369 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'conv2d_l3_Pipeline_L3_H_L3_W' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L3_H_L3_W'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 89, loop 'L3_H_L3_W'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1194.75 seconds. CPU system time: 0.19 seconds. Elapsed time: 1195.36 seconds; current allocated memory: 2.609 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 4.62 seconds. CPU system time: 0.08 seconds. Elapsed time: 4.7 seconds; current allocated memory: 2.609 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'conv2d_l3_Pipeline_L3_FH_L3_FW' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L3_FH_L3_FW'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 4, loop 'L3_FH_L3_FW'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 3.65 seconds. CPU system time: 0.08 seconds. Elapsed time: 3.74 seconds; current allocated memory: 2.609 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.36 seconds. CPU system time: 0 seconds. Elapsed time: 0.36 seconds; current allocated memory: 2.609 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'conv2d_l3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.62 seconds. CPU system time: 0 seconds. Elapsed time: 0.62 seconds; current allocated memory: 2.609 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.19 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.2 seconds; current allocated memory: 2.609 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'conv2d_l2_Pipeline_L2_H_L2_W' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L2_H_L2_W'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 28, loop 'L2_H_L2_W'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1122.01 seconds. CPU system time: 0.23 seconds. Elapsed time: 1122.71 seconds; current allocated memory: 2.977 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 8.5 seconds. CPU system time: 0.05 seconds. Elapsed time: 8.56 seconds; current allocated memory: 2.977 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'conv2d_l2_Pipeline_L2_FH_L2_FW' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L2_FH_L2_FW'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 9, loop 'L2_FH_L2_FW'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 18.5 seconds. CPU system time: 0.11 seconds. Elapsed time: 18.61 seconds; current allocated memory: 2.977 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1.39 seconds. CPU system time: 0 seconds. Elapsed time: 1.4 seconds; current allocated memory: 2.977 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'conv2d_l2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 4.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 4.13 seconds; current allocated memory: 2.977 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.78 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.79 seconds; current allocated memory: 2.977 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'conv2d_l1_Pipeline_INIT_H_INIT_W' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'input_13'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'input_12'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'input_11'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'input_10'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'input_9'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'input_8'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'input_7'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'input_6'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'input_5'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'input_4'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'input_3'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'input_2'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'input_1'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'input_0'. Use bind_storage pragma to override this type.
+INFO: [SCHED 204-61] Pipelining loop 'INIT_H_INIT_W'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 90, loop 'INIT_H_INIT_W'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 528.76 seconds. CPU system time: 0.11 seconds. Elapsed time: 529.04 seconds; current allocated memory: 3.192 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 16.46 seconds. CPU system time: 0.03 seconds. Elapsed time: 16.51 seconds; current allocated memory: 3.192 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'conv2d_l1_Pipeline_INIT_FH_INIT_FW' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'INIT_FH_INIT_FW'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 10, loop 'INIT_FH_INIT_FW'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 213.8 seconds. CPU system time: 0.1 seconds. Elapsed time: 213.99 seconds; current allocated memory: 3.192 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 14.37 seconds. CPU system time: 0.04 seconds. Elapsed time: 14.42 seconds; current allocated memory: 3.192 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'conv2d_l1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 91.44 seconds. CPU system time: 0.07 seconds. Elapsed time: 91.58 seconds; current allocated memory: 3.192 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 5.18 seconds. CPU system time: 0.06 seconds. Elapsed time: 5.24 seconds; current allocated memory: 3.207 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'kernel_Pipeline_MLPO_BITS' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'MLPO_BITS'.
+WARNING: [HLS 200-887] Cannot meet target clock period from basic block for.body269_ifconv to 'and' operation 1 bit ('or_cond', kern.cpp:623) (combination delay: 7.4325 ns) to honor II or Latency constraint in region 'MLPO_BITS'.
+Resolution: For help on HLS 200-887 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-887.html
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, loop 'MLPO_BITS'
+WARNING: [HLS 200-871] Estimated clock period (7.433 ns) exceeds the target (target clock period: 10.000 ns, clock uncertainty: 2.700 ns, effective delay budget: 7.300 ns).
+Resolution: For help on HLS 200-871 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-871.html
+WARNING: [HLS 200-1016] The critical path in module 'kernel_Pipeline_MLPO_BITS' consists of the following:
+	'store' operation ('i_1_write_ln623', kern.cpp:623) of constant 0 5 bit on local variable 'i', kern.cpp:623 [1091]  (1.588 ns)
+	'load' operation 5 bit ('i', kern.cpp:623) on local variable 'i', kern.cpp:623 [1100]  (0.000 ns)
+	'add' operation 33 bit ('add_ln625', kern.cpp:625) [1108]  (2.552 ns)
+	'icmp' operation 1 bit ('icmp_ln626', kern.cpp:626) [1111]  (2.314 ns)
+	'xor' operation 1 bit ('not_icmp_ln626', kern.cpp:626) [1123]  (0.000 ns)
+	'and' operation 1 bit ('or_cond', kern.cpp:623) [1127]  (0.978 ns)
+
+Resolution: For help on HLS 200-1016 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1016.html
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2.8 seconds. CPU system time: 0.08 seconds. Elapsed time: 2.87 seconds; current allocated memory: 3.207 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.11 seconds; current allocated memory: 3.207 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'softmax_Pipeline_SM_NORM' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'SM_NORM'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 39, loop 'SM_NORM'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 3.207 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 3.207 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'softmax' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 3.207 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 3.207 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'kernel_Pipeline_OUT_STREAM' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'OUT_STREAM'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'OUT_STREAM'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 3.207 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 3.207 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'kernel' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'starting_image_13'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'starting_image'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'starting_image_1'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'starting_image_2'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'starting_image_3'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'starting_image_4'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'starting_image_5'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'starting_image_6'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'starting_image_7'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'starting_image_8'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'starting_image_9'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'starting_image_10'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'starting_image_11'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'starting_image_12'. Use bind_storage pragma to override this type.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 7.69 seconds. CPU system time: 0.01 seconds. Elapsed time: 7.7 seconds; current allocated memory: 3.224 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 4.09 seconds. CPU system time: 0.04 seconds. Elapsed time: 4.13 seconds; current allocated memory: 3.224 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'kernel_Pipeline_VITIS_LOOP_409_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-104] Estimated max fanout for 'kernel_Pipeline_VITIS_LOOP_409_1' is 32779 from HDL expression: (ap_loop_init == 1'b1)
+INFO: [RTGEN 206-100] Finished creating RTL model for 'kernel_Pipeline_VITIS_LOOP_409_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 4.85 seconds. CPU system time: 0.07 seconds. Elapsed time: 4.92 seconds; current allocated memory: 3.224 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'kernel_Pipeline_MLP2_BITS' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'kernel_Pipeline_MLP2_BITS' pipeline 'MLP2_BITS' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_1025_9_1_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_19_4_1_1_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_1_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'kernel_Pipeline_MLP2_BITS'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 3.08 seconds. CPU system time: 0.11 seconds. Elapsed time: 3.2 seconds; current allocated memory: 3.281 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'kernel_Pipeline_MLP1_BITS' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'kernel_Pipeline_MLP1_BITS' pipeline 'MLP1_BITS' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_6ns_3s_8s_8_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_32ns_34ns_65_2_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_19_4_1_1_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_29_4_1_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_1_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_32s_5ns_4_36_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'kernel_Pipeline_MLP1_BITS'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.39 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.41 seconds; current allocated memory: 3.293 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'conv2d_l4_Pipeline_L4_H_L4_W' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'conv2d_l4_Pipeline_L4_H_L4_W' pipeline 'L4_H_L4_W' pipeline type 'loop pipeline'
+WARNING: [RTGEN 206-101] RTL name 'sparsemux_7_2_1_1_1' is changed to 'sparsemux_7_2_1_1_1_x' due to conflict.
+WARNING: [RTGEN 206-101] RTL name 'sparsemux_29_4_1_1_1' is changed to 'sparsemux_29_4_1_1_1_x' due to conflict.
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_29_4_1_1_1': 9 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_29_4_1_1_1_x': 18 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_1_1_1': 294 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_1_1_1_x': 294 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_32_1_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_9_2_1_1_1': 294 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'conv2d_l4_Pipeline_L4_H_L4_W'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.45 seconds. CPU system time: 0.02 seconds. Elapsed time: 2.47 seconds; current allocated memory: 3.341 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'conv2d_l4_Pipeline_L4_FH_L4_FW' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'conv2d_l4_Pipeline_L4_FH_L4_FW' pipeline 'L4_FH_L4_FW' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_6ns_3ns_8s_8_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_9_4_32_1_1': 4 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'conv2d_l4_Pipeline_L4_FH_L4_FW'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.47 seconds. CPU system time: 0.04 seconds. Elapsed time: 1.51 seconds; current allocated memory: 3.392 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'conv2d_l4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'mul_32ns_34ns_65_2_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_32ns_5ns_4_36_seq_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'conv2d_l4'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.54 seconds. CPU system time: 0 seconds. Elapsed time: 0.54 seconds; current allocated memory: 3.403 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'conv2d_l3_Pipeline_L3_H_L3_W' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'conv2d_l3_Pipeline_L3_H_L3_W' pipeline 'L3_H_L3_W' pipeline type 'loop pipeline'
+WARNING: [RTGEN 206-101] RTL name 'sparsemux_7_2_1_1_1' is changed to 'sparsemux_7_2_1_1_1_x0' due to conflict.
+INFO: [RTGEN 206-104] Estimated max fanout for 'conv2d_l3_Pipeline_L3_H_L3_W' is 7573 from HDL expression: (1'b0 == ap_block_pp0_stage0_11001)
+INFO: [RTGEN 206-100] Generating core module 'mul_4ns_6ns_9_1_1': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_64ns_66ns_129_5_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_129_6_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_29_4_1_1_1': 9 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_29_4_1_1_1_x': 18 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_1_1_1': 126 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_1_1_1_x0': 252 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_32_1_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_4ns_3ns_2_8_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_64s_3ns_5_68_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'conv2d_l3_Pipeline_L3_H_L3_W'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 21.14 seconds. CPU system time: 0.14 seconds. Elapsed time: 21.28 seconds; current allocated memory: 3.635 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'conv2d_l3_Pipeline_L3_FH_L3_FW' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'conv2d_l3_Pipeline_L3_FH_L3_FW' pipeline 'L3_FH_L3_FW' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_6_32_1_1': 4 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'conv2d_l3_Pipeline_L3_FH_L3_FW'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 7.65 seconds. CPU system time: 0.32 seconds. Elapsed time: 7.99 seconds; current allocated memory: 3.765 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'conv2d_l3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'mul_32ns_34ns_65_2_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_32ns_5ns_4_36_seq_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'conv2d_l3'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.21 seconds. CPU system time: 0.05 seconds. Elapsed time: 1.25 seconds; current allocated memory: 3.819 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'conv2d_l2_Pipeline_L2_H_L2_W' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'conv2d_l2_Pipeline_L2_H_L2_W' pipeline 'L2_H_L2_W' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-104] Estimated max fanout for 'conv2d_l2_Pipeline_L2_H_L2_W' is 8448 from HDL expression: ((ap_loop_exit_ready_pp0_iter26_reg == 1'b1) & (icmp_ln155_reg_61917_pp0_iter25_reg == 1'd1) & (1'b0 == ap_block_pp0_stage0_01001))
+INFO: [RTGEN 206-100] Generating core module 'mul_5ns_7ns_11_1_1': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_64ns_66ns_129_5_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_29_4_1_1_1': 9 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_29_4_1_1_1_x': 18 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_513_8_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_1_1_1': 84 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_1_1_1_x0': 168 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_32_1_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_5ns_3ns_2_9_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'conv2d_l2_Pipeline_L2_H_L2_W'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 22.39 seconds. CPU system time: 0.15 seconds. Elapsed time: 22.53 seconds; current allocated memory: 4.106 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'conv2d_l2_Pipeline_L2_FH_L2_FW' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'conv2d_l2_Pipeline_L2_FH_L2_FW' pipeline 'L2_FH_L2_FW' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-104] Estimated max fanout for 'conv2d_l2_Pipeline_L2_FH_L2_FW' is 8448 from HDL expression: ((ap_loop_exit_ready_pp0_iter7_reg == 1'b1) & (icmp_ln179_reg_24052_pp0_iter6_reg == 1'd1) & (1'b0 == ap_block_pp0_stage0_01001))
+INFO: [RTGEN 206-100] Generating core module 'mul_4ns_6ns_9_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_129_8_32_1_1': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_4ns_3ns_2_8_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'conv2d_l2_Pipeline_L2_FH_L2_FW'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 10.48 seconds. CPU system time: 0.36 seconds. Elapsed time: 10.84 seconds; current allocated memory: 4.278 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'conv2d_l2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-104] Estimated max fanout for 'conv2d_l2' is 16896 from HDL expression: ((finalize_read_read_fu_8316_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state41))
+INFO: [RTGEN 206-100] Generating core module 'mul_32ns_34ns_65_2_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_32ns_5ns_4_36_seq_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'conv2d_l2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 6.24 seconds. CPU system time: 0.18 seconds. Elapsed time: 6.43 seconds; current allocated memory: 4.566 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'conv2d_l1_Pipeline_INIT_H_INIT_W' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'conv2d_l1_Pipeline_INIT_H_INIT_W' pipeline 'INIT_H_INIT_W' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-104] Estimated max fanout for 'conv2d_l1_Pipeline_INIT_H_INIT_W' is 33792 from HDL expression: ((1'b0 == ap_block_pp0_stage0_01001) & (ap_loop_exit_ready_pp0_iter88_reg == 1'b1) & (icmp_ln91_reg_96508_pp0_iter87_reg == 1'd1))
+INFO: [RTGEN 206-100] Generating core module 'mul_64ns_66ns_129_5_1': 27 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_2049_10_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_29_4_16_1_1': 27 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_32_1_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_64s_5ns_4_68_1': 3 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'conv2d_l1_Pipeline_INIT_H_INIT_W'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 45.13 seconds. CPU system time: 0.3 seconds. Elapsed time: 45.44 seconds; current allocated memory: 5.068 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'conv2d_l1_Pipeline_INIT_FH_INIT_FW' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'conv2d_l1_Pipeline_INIT_FH_INIT_FW' pipeline 'INIT_FH_INIT_FW' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-104] Estimated max fanout for 'conv2d_l1_Pipeline_INIT_FH_INIT_FW' is 33792 from HDL expression: ((1'b0 == ap_block_pp0_stage0_01001) & (ap_loop_exit_ready_pp0_iter8_reg == 1'b1) & (icmp_ln115_reg_88180_pp0_iter7_reg == 1'd1))
+INFO: [RTGEN 206-100] Generating core module 'mul_5ns_7ns_11_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_513_10_32_1_1': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_5ns_3ns_2_9_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'conv2d_l1_Pipeline_INIT_FH_INIT_FW'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 23.19 seconds. CPU system time: 0.32 seconds. Elapsed time: 23.52 seconds; current allocated memory: 5.270 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'conv2d_l1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------

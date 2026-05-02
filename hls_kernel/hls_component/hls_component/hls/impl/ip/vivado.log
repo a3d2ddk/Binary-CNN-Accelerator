@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Fri May  1 17:44:44 2026
+# Process ID         : 8193
+# Current directory  : /home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/impl/ip
+# Command line       : vivado -notrace -mode batch -source run_ippack.tcl
+# Log file           : /home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/impl/ip/vivado.log
+# Journal file       : /home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/impl/ip/vivado.jou
+# Running On         : oldak-ZenBook-UX325EA-UX325EA
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.5 LTS
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency      : 2800.000 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16447 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 18594 MB
+# Available Virtual  : 12282 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/hls_data.json outdir=/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/impl/ip srcdir=/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls ippack_options_dict= ippack_options_dict=
+INFO: Copied 1 ipmisc file(s) to /home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/impl/ip/misc
+INFO: Copied 52 verilog file(s) to /home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/impl/ip/hdl/verilog
+INFO: Copied 50 vhdl file(s) to /home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/impl/ip/hdl/vhdl
+INFO: Copied 10 swdriver file(s) to /home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/impl/ip/drivers
+INFO: Import ports from HDL: /home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/impl/ip/hdl/vhdl/kernel.vhd (kernel)
+INFO: Add axi4lite interface s_axi_control
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst_n
+INFO: Add interrupt interface interrupt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/oldak/chonky-boi/2025.2/data/ip'.
+INFO: Add axi4stream interface A
+INFO: Add axi4stream interface B
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP /home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/impl/ip/component.xml
+INFO: Created IP archive /home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/impl/ip/xilinx_com_hls_kernel_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Fri May  1 17:44:51 2026...

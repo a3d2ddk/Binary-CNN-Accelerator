@@ -1,0 +1,50 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'conv2d_l3'" level="0">
+<item name = "Date">Fri May  1 17:43:47 2026
+</item>
+<item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
+<item name = "Project">hls_component</item>
+<item name = "Solution">hls (Vivado IP Flow Target)</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">13.00 ns, 9.480 ns, 3.51 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">56, 16180, 0.728 us, 0.210 ms, 56, 16180, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_conv2d_l3_Pipeline_L3_FH_L3_FW_fu_486">conv2d_l3_Pipeline_L3_FH_L3_FW, 20, 20, 0.260 us, 0.260 us, 0, 0, loop pipeline stp</column>
+<column name="grp_conv2d_l3_Pipeline_L3_KH_L3_KW_fu_526">conv2d_l3_Pipeline_L3_KH_L3_KW, 13, 13, 0.169 us, 0.169 us, 0, 0, loop pipeline stp</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- L3_H">592, 16144, 74 ~ 2018, -, -, 8, no</column>
+<column name=" + L3_W">72, 2016, 9 ~ 252, -, -, 8, no</column>
+<column name="  ++ L3_K">6, 249, 2 ~ 83, -, -, 3, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

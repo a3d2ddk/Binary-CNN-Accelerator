@@ -1,0 +1,30 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir /home/oldak/big-boi-pj/kernel/hls_component/hls_component 
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/oldak/big-boi-pj/kernel/hls_component/hls_component/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component '/home/oldak/big-boi-pj/kernel/hls_component/hls_component'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=kern.cpp' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file '/home/oldak/big-boi-pj/kernel/hls_component/kern.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=/home/oldak/Downloads/files/tb_cnn_accelerator.cpp' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file '/home/oldak/Downloads/files/tb_cnn_accelerator.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=kern' from hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/oldak/big-boi-pj/kernel/hls_component/hls_component/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2.97 seconds. CPU system time: 0.33 seconds. Elapsed time: 3.27 seconds; current allocated memory: 489.164 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file 'kern.cpp' ... 
+WARNING: [HLS 200-1986] Could not apply TOP directive, invalid function, label, or variable (:0)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 6.28 seconds. CPU system time: 0.57 seconds. Elapsed time: 7.31 seconds; current allocated memory: 491.059 MB.
+ERROR: [HLS 214-157] Top function not found: there is no function named 'kern'
+error: Top function not found: there is no function named 'kern'
+ERROR: Error in opt
+INFO: [HLS 200-112] Total CPU user time: 11.24 seconds. Total CPU system time: 1.08 seconds. Total elapsed time: 12.91 seconds; peak allocated memory: 491.312 MB.

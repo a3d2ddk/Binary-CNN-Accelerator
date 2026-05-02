@@ -1,0 +1,3 @@
+relativeroot=/home/oldak/big-boi-pj/kernel/hls_component
+original_argv=--mode hls --package --config /home/oldak/big-boi-pj/kernel/hls_component/hls_config.cfg --work_dir hls_component 
+
