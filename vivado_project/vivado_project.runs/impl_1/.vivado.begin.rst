@@ -38,3 +38,18 @@
     <Process Command="vivado" Owner="oldak" Host="oldak-ZenBook-UX325EA-UX325EA" Pid="41652" HostCore="8" HostMemory="16061656">
     </Process>
 </ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="oldak" Host="oldak-ZenBook-UX325EA-UX325EA" Pid="51572" HostCore="8" HostMemory="16061656">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="oldak" Host="oldak-ZenBook-UX325EA-UX325EA" Pid="63600" HostCore="8" HostMemory="16061656">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="oldak" Host="oldak-ZenBook-UX325EA-UX325EA" Pid="74559" HostCore="8" HostMemory="16061656">
+    </Process>
+</ProcessHandle>

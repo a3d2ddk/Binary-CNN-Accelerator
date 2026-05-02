@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'conv2d_l4'" level="0">
-<item name = "Date">Fri May  1 21:41:11 2026
+<item name = "Date">Fri May  1 23:52:22 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">hls_component</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 7.299 ns, 2.70 ns</column>
+<column name="ap_clk">13.00 ns, 9.171 ns, 3.51 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">46, 4317, 0.460 us, 43.170 us, 46, 4317, no</column>
+<column name="">44, 4268, 0.572 us, 55.484 us, 44, 4268, no</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,9 +35,9 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- L4_H">152, 4280, 38 ~ 1070, -, -, 4, no</column>
-<column name=" + L4_W">36, 1068, 9 ~ 267, -, -, 4, no</column>
-<column name="  ++ L4_K">6, 264, 2 ~ 88, -, -, 3, no</column>
+<column name="- L4_H">152, 4232, 38 ~ 1058, -, -, 4, no</column>
+<column name=" + L4_W">36, 1056, 9 ~ 264, -, -, 4, no</column>
+<column name="  ++ L4_K">6, 261, 2 ~ 87, -, -, 3, no</column>
 </table>
 </item>
 </section>

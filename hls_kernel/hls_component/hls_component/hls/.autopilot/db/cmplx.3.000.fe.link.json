@@ -1,7 +1,7 @@
 {
   "0": {
     "basicblocks": 110,
-    "calls": "1 1 6 6 2 2 4 4 5 5 3",
+    "calls": "6 6 4 4 3 3 1 1 2 2 5",
     "control_depth": 4,
     "def_use_depth": 5,
     "file": "kern.cpp",
@@ -18,26 +18,38 @@
     "total_instructions": 5270
   },
   "1": {
-    "basicblocks": 71,
-    "calls": "5",
-    "control_depth": 6,
-    "def_use_depth": 10,
+    "basicblocks": 68,
+    "calls": "2",
+    "control_depth": 5,
+    "def_use_depth": 9,
     "file": "kern.cpp",
-    "fileloc": 28,
-    "instructions": 223,
+    "fileloc": 194,
+    "instructions": 224,
     "loads": {
       "L": 8
     },
-    "memory_accesses": 15,
-    "name": "conv2d_l1",
+    "memory_accesses": 16,
+    "name": "conv2d_l4",
     "stores": {
-      "L": 7
+      "L": 8
     },
-    "total_instructions": 274
+    "total_instructions": 280
   },
   "2": {
+    "basicblocks": 4,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 1,
+    "file": "kern.cpp",
+    "fileloc": 23,
+    "instructions": 7,
+    "memory_accesses": 0,
+    "name": "batch_norm_relu",
+    "total_instructions": 41
+  },
+  "3": {
     "basicblocks": 68,
-    "calls": "5",
+    "calls": "2",
     "control_depth": 5,
     "def_use_depth": 9,
     "file": "kern.cpp",
@@ -53,7 +65,25 @@
     },
     "total_instructions": 280
   },
-  "3": {
+  "4": {
+    "basicblocks": 68,
+    "calls": "2",
+    "control_depth": 5,
+    "def_use_depth": 9,
+    "file": "kern.cpp",
+    "fileloc": 83,
+    "instructions": 224,
+    "loads": {
+      "L": 8
+    },
+    "memory_accesses": 16,
+    "name": "conv2d_l2",
+    "stores": {
+      "L": 8
+    },
+    "total_instructions": 280
+  },
+  "5": {
     "basicblocks": 27,
     "calls": "",
     "control_depth": 2,
@@ -71,52 +101,22 @@
     },
     "total_instructions": 80
   },
-  "4": {
-    "basicblocks": 68,
-    "calls": "5",
-    "control_depth": 5,
-    "def_use_depth": 9,
-    "file": "kern.cpp",
-    "fileloc": 194,
-    "instructions": 224,
-    "loads": {
-      "L": 8
-    },
-    "memory_accesses": 16,
-    "name": "conv2d_l4",
-    "stores": {
-      "L": 8
-    },
-    "total_instructions": 280
-  },
-  "5": {
-    "basicblocks": 4,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 1,
-    "file": "kern.cpp",
-    "fileloc": 23,
-    "instructions": 7,
-    "memory_accesses": 0,
-    "name": "batch_norm_relu",
-    "total_instructions": 41
-  },
   "6": {
-    "basicblocks": 68,
-    "calls": "5",
-    "control_depth": 5,
-    "def_use_depth": 9,
+    "basicblocks": 71,
+    "calls": "2",
+    "control_depth": 6,
+    "def_use_depth": 10,
     "file": "kern.cpp",
-    "fileloc": 83,
-    "instructions": 224,
+    "fileloc": 28,
+    "instructions": 223,
     "loads": {
       "L": 8
     },
-    "memory_accesses": 16,
-    "name": "conv2d_l2",
+    "memory_accesses": 15,
+    "name": "conv2d_l1",
     "stores": {
-      "L": 8
+      "L": 7
     },
-    "total_instructions": 280
+    "total_instructions": 274
   }
 }

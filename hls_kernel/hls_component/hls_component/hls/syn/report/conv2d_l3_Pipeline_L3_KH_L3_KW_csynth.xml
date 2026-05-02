@@ -9,8 +9,8 @@
 <ProductFamily>zynq</ProductFamily>
 <Part>xc7z020-clg400-1</Part>
 <TopModelName>conv2d_l3_Pipeline_L3_KH_L3_KW</TopModelName>
-<TargetClockPeriod>10.00</TargetClockPeriod>
-<ClockUncertainty>2.70</ClockUncertainty>
+<TargetClockPeriod>13.00</TargetClockPeriod>
+<ClockUncertainty>3.51</ClockUncertainty>
 <FlowTarget>vivado</FlowTarget>
 </UserAssignments>
 
@@ -18,29 +18,29 @@
 <PipelineType>loop pipeline stp</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>7.299</EstimatedClockPeriod>
+<EstimatedClockPeriod>7.965</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>14</Best-caseLatency>
-<Average-caseLatency>14</Average-caseLatency>
-<Worst-caseLatency>14</Worst-caseLatency>
-<Best-caseRealTimeLatency>0.140 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>0.140 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>0.140 us</Worst-caseRealTimeLatency>
+<Best-caseLatency>13</Best-caseLatency>
+<Average-caseLatency>13</Average-caseLatency>
+<Worst-caseLatency>13</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.169 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.169 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.169 us</Worst-caseRealTimeLatency>
 <Interval-min>10</Interval-min>
 <Interval-max>10</Interval-max>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <L3_KH_L3_KW>
-<Slack>7.30</Slack>
+<Slack>9.49</Slack>
 <TripCount>9</TripCount>
 <isPerfectNested>0</isPerfectNested>
-<Latency>12</Latency>
-<AbsoluteTimeLatency>120</AbsoluteTimeLatency>
+<Latency>11</Latency>
+<AbsoluteTimeLatency>143</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
-<PipelineDepth>5</PipelineDepth>
+<PipelineDepth>4</PipelineDepth>
 <PerformancePragma>-</PerformancePragma>
 <InstanceList>
 </InstanceList>
@@ -63,8 +63,8 @@
 
 <AreaEstimates>
 <Resources>
-<FF>205</FF>
-<LUT>608</LUT>
+<FF>68</FF>
+<LUT>544</LUT>
 <BRAM_18K>0</BRAM_18K>
 <DSP>0</DSP>
 <URAM>0</URAM>

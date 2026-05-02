@@ -15,8 +15,8 @@ INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cf
 INFO: [HLS 200-1505] Using flow_target 'vivado'
 Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
 INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.cfg(1)
-INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from hls_config.cfg(10)
-INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'clock=13ns' from hls_config.cfg(10)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 13ns.
 INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
 INFO: [HLS 200-2176] Writing Vitis IDE component file /home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/vitis-comp.json
 INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
@@ -25,7 +25,7 @@ INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
   **** SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
   **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
   **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-  **** Start of session at: Fri May  1 21:41:41 2026
+  **** Start of session at: Fri May  1 23:58:57 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -50,7 +50,7 @@ INFO: Calling post_process_sysgen to specialize IP
 Generating sysgen info xml from json file
 INFO: Created IP /home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/impl/ip/component.xml
 INFO: Created IP archive /home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/impl/ip/xilinx_com_hls_kernel_1_0.zip
-INFO: [Common 17-206] Exiting Vivado at Fri May  1 21:41:48 2026...
+INFO: [Common 17-206] Exiting Vivado at Fri May  1 23:59:02 2026...
 INFO: [HLS 200-802] Generated output file hls_component/kernel.zip
-INFO: [HLS 200-112] Total CPU user time: 24.51 seconds. Total CPU system time: 1.46 seconds. Total elapsed time: 12.88 seconds; peak allocated memory: 560.324 MB.
-INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 17s
+INFO: [HLS 200-112] Total CPU user time: 19.35 seconds. Total CPU system time: 1.02 seconds. Total elapsed time: 9.31 seconds; peak allocated memory: 560.305 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 13s

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'conv2d_l4'" level="0">
-<item name = "Date">Fri May  1 21:41:13 2026
+<item name = "Date">Fri May  1 23:52:24 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">hls_component</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 7.299 ns, 2.70 ns</column>
+<column name="ap_clk">13.00 ns, 9.171 ns, 3.51 ns</column>
 </table>
 </item>
 </section>
@@ -24,22 +24,22 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">46, 4317, 0.460 us, 43.170 us, 46, 4317, no</column>
+<column name="">44, 4268, 0.572 us, 55.484 us, 44, 4268, no</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_conv2d_l4_Pipeline_L4_KH_L4_KW_fu_484">conv2d_l4_Pipeline_L4_KH_L4_KW, 16, 16, 0.160 us, 0.160 us, 0, 0, loop pipeline stp</column>
-<column name="grp_conv2d_l4_Pipeline_L4_FH_L4_FW_fu_552">conv2d_l4_Pipeline_L4_FH_L4_FW, 9, 9, 90.000 ns, 90.000 ns, 0, 0, loop pipeline stp</column>
+<column name="grp_conv2d_l4_Pipeline_L4_FH_L4_FW_fu_484">conv2d_l4_Pipeline_L4_FH_L4_FW, 8, 8, 0.104 us, 0.104 us, 0, 0, loop pipeline stp</column>
+<column name="grp_conv2d_l4_Pipeline_L4_KH_L4_KW_fu_524">conv2d_l4_Pipeline_L4_KH_L4_KW, 16, 16, 0.208 us, 0.208 us, 0, 0, loop pipeline stp</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- L4_H">152, 4280, 38 ~ 1070, -, -, 4, no</column>
-<column name=" + L4_W">36, 1068, 9 ~ 267, -, -, 4, no</column>
-<column name="  ++ L4_K">6, 264, 2 ~ 88, -, -, 3, no</column>
+<column name="- L4_H">152, 4232, 38 ~ 1058, -, -, 4, no</column>
+<column name=" + L4_W">36, 1056, 9 ~ 264, -, -, 4, no</column>
+<column name="  ++ L4_K">6, 261, 2 ~ 87, -, -, 3, no</column>
 </table>
 </item>
 </section>
@@ -54,10 +54,10 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, 0, 270, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">-, 22, 2160, 2002, -</column>
+<column name="Instance">-, 22, 1907, 1926, -</column>
 <column name="Memory">-, -, -, -, -</column>
-<column name="Multiplexer">-, -, 0, 763, -</column>
-<column name="Register">-, -, 307, -, -</column>
+<column name="Multiplexer">-, -, 0, 742, -</column>
+<column name="Register">-, -, 300, -, -</column>
 <specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
 <specialColumn name="Utilization (%)">0, 10, 2, 5, 0</specialColumn>
 </table>
@@ -66,10 +66,10 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="grp_conv2d_l4_Pipeline_L4_FH_L4_FW_fu_552">conv2d_l4_Pipeline_L4_FH_L4_FW, 0, 1, 113, 364, 0</column>
-<column name="grp_conv2d_l4_Pipeline_L4_KH_L4_KW_fu_484">conv2d_l4_Pipeline_L4_KH_L4_KW, 0, 1, 260, 621, 0</column>
-<column name="mul_32ns_34ns_65_2_1_U174">mul_32ns_34ns_65_2_1, 0, 4, 173, 54, 0</column>
-<column name="mul_64ns_66ns_129_5_1_U175">mul_64ns_66ns_129_5_1, 0, 16, 441, 256, 0</column>
+<column name="grp_conv2d_l4_Pipeline_L4_FH_L4_FW_fu_484">conv2d_l4_Pipeline_L4_FH_L4_FW, 0, 1, 111, 382, 0</column>
+<column name="grp_conv2d_l4_Pipeline_L4_KH_L4_KW_fu_524">conv2d_l4_Pipeline_L4_KH_L4_KW, 0, 1, 261, 621, 0</column>
+<column name="mul_32ns_34ns_65_1_1_U174">mul_32ns_34ns_65_1_1, 0, 4, 0, 22, 0</column>
+<column name="mul_64ns_66ns_129_3_1_U175">mul_64ns_66ns_129_3_1, 0, 16, 362, 194, 0</column>
 <column name="urem_32ns_5ns_4_36_seq_1_U176">urem_32ns_5ns_4_36_seq_1, 0, 0, 394, 238, 0</column>
 <column name="urem_64s_5ns_4_68_seq_1_U177">urem_64s_5ns_4_68_seq_1, 0, 0, 779, 469, 0</column>
 </table>
@@ -88,32 +88,32 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="add_ln209_fu_679_p2">+, 0, 0, 11, 3, 1</column>
-<column name="add_ln210_fu_701_p2">+, 0, 0, 11, 3, 1</column>
-<column name="add_ln211_fu_721_p2">+, 0, 0, 11, 3, 3</column>
-<column name="add_ln212_fu_758_p2">+, 0, 0, 10, 2, 1</column>
-<column name="add_ln219_fu_773_p2">+, 0, 0, 40, 33, 33</column>
-<column name="sub_ln195_fu_648_p2">-, 0, 0, 13, 3, 4</column>
-<column name="sub_ln211_fu_829_p2">-, 0, 0, 13, 3, 4</column>
-<column name="ap_block_state113_on_subcall_done">and, 0, 0, 2, 1, 1</column>
-<column name="icmp_ln209_fu_673_p2">icmp, 0, 0, 13, 3, 4</column>
-<column name="icmp_ln210_fu_695_p2">icmp, 0, 0, 13, 3, 4</column>
-<column name="icmp_ln212_fu_752_p2">icmp, 0, 0, 10, 2, 2</column>
-<column name="icmp_ln213_fu_768_p2">icmp, 0, 0, 10, 2, 2</column>
+<column name="add_ln209_fu_681_p2">+, 0, 0, 11, 3, 1</column>
+<column name="add_ln210_fu_703_p2">+, 0, 0, 11, 3, 1</column>
+<column name="add_ln211_fu_723_p2">+, 0, 0, 11, 3, 3</column>
+<column name="add_ln212_fu_760_p2">+, 0, 0, 10, 2, 1</column>
+<column name="add_ln219_fu_775_p2">+, 0, 0, 40, 33, 33</column>
+<column name="sub_ln195_fu_649_p2">-, 0, 0, 13, 3, 4</column>
+<column name="sub_ln211_fu_834_p2">-, 0, 0, 13, 3, 4</column>
+<column name="ap_block_state37_on_subcall_done">and, 0, 0, 2, 1, 1</column>
+<column name="icmp_ln209_fu_675_p2">icmp, 0, 0, 13, 3, 4</column>
+<column name="icmp_ln210_fu_697_p2">icmp, 0, 0, 13, 3, 4</column>
+<column name="icmp_ln212_fu_754_p2">icmp, 0, 0, 10, 2, 2</column>
+<column name="icmp_ln213_fu_770_p2">icmp, 0, 0, 10, 2, 2</column>
 <column name="buffer_0_we0">or, 0, 0, 2, 1, 1</column>
 <column name="buffer_1_we0">or, 0, 0, 2, 1, 1</column>
-<column name="loc_fu_744_p3">select, 0, 0, 32, 1, 32</column>
-<column name="select_ln195_1_fu_614_p3">select, 0, 0, 2, 1, 2</column>
-<column name="select_ln195_fu_654_p3">select, 0, 0, 4, 1, 4</column>
-<column name="select_ln211_3_fu_794_p3">select, 0, 0, 2, 1, 2</column>
-<column name="select_ln211_fu_835_p3">select, 0, 0, 4, 1, 4</column>
-<column name="grp_fu_628_p0">xor, 0, 0, 32, 32, 32</column>
-<column name="xor_ln211_fu_801_p2">xor, 0, 0, 33, 33, 33</column>
+<column name="loc_fu_746_p3">select, 0, 0, 32, 1, 32</column>
+<column name="select_ln195_1_fu_625_p3">select, 0, 0, 2, 1, 2</column>
+<column name="select_ln195_fu_655_p3">select, 0, 0, 4, 1, 4</column>
+<column name="select_ln211_3_fu_788_p3">select, 0, 0, 2, 1, 2</column>
+<column name="select_ln211_fu_840_p3">select, 0, 0, 4, 1, 4</column>
+<column name="grp_fu_639_p0">xor, 0, 0, 32, 32, 32</column>
+<column name="xor_ln211_fu_796_p2">xor, 0, 0, 33, 33, 33</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
-<column name="ap_NS_fsm">573, 114, 1, 114</column>
+<column name="ap_NS_fsm">552, 111, 1, 111</column>
 <column name="ap_phi_mux_loc_4_phi_fu_476_p4">9, 2, 32, 64</column>
 <column name="buffer_0_address0">9, 2, 9, 18</column>
 <column name="buffer_0_address0_local">14, 3, 9, 27</column>
@@ -138,33 +138,32 @@
 </item>
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
-<column name="add_ln209_reg_1042">3, 0, 3, 0</column>
-<column name="add_ln210_reg_1060">3, 0, 3, 0</column>
-<column name="add_ln212_reg_1092">2, 0, 2, 0</column>
-<column name="add_ln219_reg_1101">33, 0, 33, 0</column>
-<column name="ap_CS_fsm">113, 0, 113, 0</column>
-<column name="buffer_0_addr_reg_1065">3, 0, 9, 6</column>
-<column name="buffer_1_addr_reg_1070">3, 0, 9, 6</column>
-<column name="grp_conv2d_l4_Pipeline_L4_FH_L4_FW_fu_552_ap_start_reg">1, 0, 1, 0</column>
-<column name="grp_conv2d_l4_Pipeline_L4_KH_L4_KW_fu_484_ap_start_reg">1, 0, 1, 0</column>
-<column name="icmp_ln213_reg_1097">1, 0, 1, 0</column>
+<column name="add_ln209_reg_1041">3, 0, 3, 0</column>
+<column name="add_ln210_reg_1059">3, 0, 3, 0</column>
+<column name="add_ln212_reg_1091">2, 0, 2, 0</column>
+<column name="add_ln219_reg_1100">33, 0, 33, 0</column>
+<column name="ap_CS_fsm">110, 0, 110, 0</column>
+<column name="buffer_0_addr_reg_1064">3, 0, 9, 6</column>
+<column name="buffer_1_addr_reg_1069">3, 0, 9, 6</column>
+<column name="grp_conv2d_l4_Pipeline_L4_FH_L4_FW_fu_484_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_conv2d_l4_Pipeline_L4_KH_L4_KW_fu_524_ap_start_reg">1, 0, 1, 0</column>
+<column name="icmp_ln213_reg_1096">1, 0, 1, 0</column>
 <column name="k_reg_448">2, 0, 2, 0</column>
 <column name="loc_1_reg_460">32, 0, 32, 0</column>
 <column name="loc_4_reg_472">32, 0, 32, 0</column>
 <column name="oh_fu_214">3, 0, 3, 0</column>
 <column name="ow_reg_436">3, 0, 3, 0</column>
-<column name="select_ln195_reg_1022">4, 0, 4, 0</column>
-<column name="select_ln211_reg_1133">4, 0, 4, 0</column>
-<column name="sext_ln209_reg_1034">33, 0, 33, 0</column>
-<column name="shl_ln211_reg_1052">3, 0, 3, 0</column>
-<column name="tmp_130_reg_858">1, 0, 1, 0</column>
-<column name="tmp_131_reg_1107">1, 0, 1, 0</column>
-<column name="trunc_ln209_reg_1047">2, 0, 2, 0</column>
-<column name="trunc_ln210_1_reg_1080">1, 0, 1, 0</column>
-<column name="trunc_ln210_reg_1075">2, 0, 2, 0</column>
-<column name="udiv_ln2_cast_reg_1123">9, 0, 9, 0</column>
-<column name="udiv_ln_cast_reg_868">8, 0, 8, 0</column>
-<column name="urem_ln211_reg_1128">4, 0, 4, 0</column>
+<column name="select_ln195_reg_1021">4, 0, 4, 0</column>
+<column name="select_ln211_reg_1125">4, 0, 4, 0</column>
+<column name="sext_ln209_reg_1033">33, 0, 33, 0</column>
+<column name="shl_ln211_reg_1051">3, 0, 3, 0</column>
+<column name="tmp_130_reg_862">1, 0, 1, 0</column>
+<column name="tmp_131_reg_1105">1, 0, 1, 0</column>
+<column name="trunc_ln209_reg_1046">2, 0, 2, 0</column>
+<column name="trunc_ln210_1_reg_1079">1, 0, 1, 0</column>
+<column name="trunc_ln210_reg_1074">2, 0, 2, 0</column>
+<column name="udiv_ln2_cast_reg_1120">9, 0, 9, 0</column>
+<column name="udiv_ln_cast_reg_857">8, 0, 8, 0</column>
 </table>
 </item>
 </section>

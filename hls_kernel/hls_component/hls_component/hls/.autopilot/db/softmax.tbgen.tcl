@@ -72,17 +72,17 @@ set NewPortList {[
 set ArgLastReadFirstWriteLatency {
 	softmax {
 		logits {Type I LastRead 5 FirstWrite -1}
-		probs {Type O LastRead -1 FirstWrite 38}}
+		probs {Type O LastRead -1 FirstWrite 36}}
 	softmax_Pipeline_SM_NORM {
 		es_1 {Type I LastRead 0 FirstWrite -1}
-		probs {Type O LastRead -1 FirstWrite 38}
+		probs {Type O LastRead -1 FirstWrite 36}
 		ev {Type I LastRead 0 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "62", "Max" : "62"}
-	, {"Name" : "Interval", "Min" : "62", "Max" : "62"}
+	{"Name" : "Latency", "Min" : "59", "Max" : "59"}
+	, {"Name" : "Interval", "Min" : "59", "Max" : "59"}
 ]}
 
 set PipelineEnableSignalInfo {[

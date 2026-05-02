@@ -313,20 +313,20 @@ set ArgLastReadFirstWriteLatency {
 		zext_ln153 {Type I LastRead 0 FirstWrite -1}
 		zext_ln154 {Type I LastRead 0 FirstWrite -1}
 		udiv_ln3 {Type I LastRead 0 FirstWrite -1}
-		input_0 {Type I LastRead 2 FirstWrite -1}
-		input_1 {Type I LastRead 2 FirstWrite -1}
-		input_2 {Type I LastRead 2 FirstWrite -1}
-		input_3 {Type I LastRead 2 FirstWrite -1}
-		input_4 {Type I LastRead 2 FirstWrite -1}
-		input_5 {Type I LastRead 2 FirstWrite -1}
-		input_6 {Type I LastRead 2 FirstWrite -1}
-		input_7 {Type I LastRead 2 FirstWrite -1}
-		input_8 {Type I LastRead 2 FirstWrite -1}
-		input_9 {Type I LastRead 2 FirstWrite -1}
-		input_10 {Type I LastRead 2 FirstWrite -1}
-		input_11 {Type I LastRead 2 FirstWrite -1}
-		input_12 {Type I LastRead 2 FirstWrite -1}
-		input_13 {Type I LastRead 2 FirstWrite -1}
+		input_0 {Type I LastRead 1 FirstWrite -1}
+		input_1 {Type I LastRead 1 FirstWrite -1}
+		input_2 {Type I LastRead 1 FirstWrite -1}
+		input_3 {Type I LastRead 1 FirstWrite -1}
+		input_4 {Type I LastRead 1 FirstWrite -1}
+		input_5 {Type I LastRead 1 FirstWrite -1}
+		input_6 {Type I LastRead 1 FirstWrite -1}
+		input_7 {Type I LastRead 1 FirstWrite -1}
+		input_8 {Type I LastRead 1 FirstWrite -1}
+		input_9 {Type I LastRead 1 FirstWrite -1}
+		input_10 {Type I LastRead 1 FirstWrite -1}
+		input_11 {Type I LastRead 1 FirstWrite -1}
+		input_12 {Type I LastRead 1 FirstWrite -1}
+		input_13 {Type I LastRead 1 FirstWrite -1}
 		select_ln155 {Type I LastRead 0 FirstWrite -1}
 		kern_0_0_val {Type I LastRead 0 FirstWrite -1}
 		kern_0_1_val {Type I LastRead 0 FirstWrite -1}
@@ -356,12 +356,12 @@ set ArgLastReadFirstWriteLatency {
 		kern_2_7_val {Type I LastRead 0 FirstWrite -1}
 		kern_2_8_val {Type I LastRead 0 FirstWrite -1}
 		k {Type I LastRead 0 FirstWrite -1}
-		loc_7_out {Type O LastRead -1 FirstWrite 3}}}
+		loc_7_out {Type O LastRead -1 FirstWrite 2}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "14", "Max" : "14"}
+	{"Name" : "Latency", "Min" : "13", "Max" : "13"}
 	, {"Name" : "Interval", "Min" : "10", "Max" : "10"}
 ]}
 

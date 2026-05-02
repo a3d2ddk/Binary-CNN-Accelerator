@@ -309,20 +309,20 @@ set ArgLastReadFirstWriteLatency {
 		oh_4 {Type I LastRead 0 FirstWrite -1}
 		ow_4 {Type I LastRead 0 FirstWrite -1}
 		add_ln53 {Type I LastRead 0 FirstWrite -1}
-		input_0 {Type I LastRead 69 FirstWrite -1}
-		input_1 {Type I LastRead 69 FirstWrite -1}
-		input_2 {Type I LastRead 69 FirstWrite -1}
-		input_3 {Type I LastRead 69 FirstWrite -1}
-		input_4 {Type I LastRead 69 FirstWrite -1}
-		input_5 {Type I LastRead 69 FirstWrite -1}
-		input_6 {Type I LastRead 69 FirstWrite -1}
-		input_7 {Type I LastRead 69 FirstWrite -1}
-		input_8 {Type I LastRead 69 FirstWrite -1}
-		input_9 {Type I LastRead 69 FirstWrite -1}
-		input_10 {Type I LastRead 69 FirstWrite -1}
-		input_11 {Type I LastRead 69 FirstWrite -1}
-		input_12 {Type I LastRead 69 FirstWrite -1}
-		input_13 {Type I LastRead 69 FirstWrite -1}
+		input_0 {Type I LastRead 68 FirstWrite -1}
+		input_1 {Type I LastRead 68 FirstWrite -1}
+		input_2 {Type I LastRead 68 FirstWrite -1}
+		input_3 {Type I LastRead 68 FirstWrite -1}
+		input_4 {Type I LastRead 68 FirstWrite -1}
+		input_5 {Type I LastRead 68 FirstWrite -1}
+		input_6 {Type I LastRead 68 FirstWrite -1}
+		input_7 {Type I LastRead 68 FirstWrite -1}
+		input_8 {Type I LastRead 68 FirstWrite -1}
+		input_9 {Type I LastRead 68 FirstWrite -1}
+		input_10 {Type I LastRead 68 FirstWrite -1}
+		input_11 {Type I LastRead 68 FirstWrite -1}
+		input_12 {Type I LastRead 68 FirstWrite -1}
+		input_13 {Type I LastRead 68 FirstWrite -1}
 		kern_0_0_val {Type I LastRead 0 FirstWrite -1}
 		kern_0_1_val {Type I LastRead 0 FirstWrite -1}
 		kern_0_2_val {Type I LastRead 0 FirstWrite -1}
@@ -351,12 +351,12 @@ set ArgLastReadFirstWriteLatency {
 		kern_2_7_val {Type I LastRead 0 FirstWrite -1}
 		kern_2_8_val {Type I LastRead 0 FirstWrite -1}
 		k {Type I LastRead 0 FirstWrite -1}
-		loc_11_out {Type O LastRead -1 FirstWrite 70}}}
+		loc_11_out {Type O LastRead -1 FirstWrite 69}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "81", "Max" : "81"}
+	{"Name" : "Latency", "Min" : "80", "Max" : "80"}
 	, {"Name" : "Interval", "Min" : "10", "Max" : "10"}
 ]}
 

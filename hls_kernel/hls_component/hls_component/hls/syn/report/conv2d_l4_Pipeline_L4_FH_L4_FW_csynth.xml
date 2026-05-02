@@ -9,8 +9,8 @@
 <ProductFamily>zynq</ProductFamily>
 <Part>xc7z020-clg400-1</Part>
 <TopModelName>conv2d_l4_Pipeline_L4_FH_L4_FW</TopModelName>
-<TargetClockPeriod>10.00</TargetClockPeriod>
-<ClockUncertainty>2.70</ClockUncertainty>
+<TargetClockPeriod>13.00</TargetClockPeriod>
+<ClockUncertainty>3.51</ClockUncertainty>
 <FlowTarget>vivado</FlowTarget>
 </UserAssignments>
 
@@ -18,29 +18,29 @@
 <PipelineType>loop pipeline stp</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>6.504</EstimatedClockPeriod>
+<EstimatedClockPeriod>7.400</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>9</Best-caseLatency>
-<Average-caseLatency>9</Average-caseLatency>
-<Worst-caseLatency>9</Worst-caseLatency>
-<Best-caseRealTimeLatency>90.000 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>90.000 ns</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>90.000 ns</Worst-caseRealTimeLatency>
+<Best-caseLatency>8</Best-caseLatency>
+<Average-caseLatency>8</Average-caseLatency>
+<Worst-caseLatency>8</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.104 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.104 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.104 us</Worst-caseRealTimeLatency>
 <Interval-min>5</Interval-min>
 <Interval-max>5</Interval-max>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <L4_FH_L4_FW>
-<Slack>7.30</Slack>
+<Slack>9.49</Slack>
 <TripCount>4</TripCount>
 <isPerfectNested>0</isPerfectNested>
-<Latency>7</Latency>
-<AbsoluteTimeLatency>70</AbsoluteTimeLatency>
+<Latency>6</Latency>
+<AbsoluteTimeLatency>78</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
-<PipelineDepth>5</PipelineDepth>
+<PipelineDepth>4</PipelineDepth>
 <PerformancePragma>-</PerformancePragma>
 <InstanceList>
 </InstanceList>
@@ -64,8 +64,8 @@
 <AreaEstimates>
 <Resources>
 <DSP>1</DSP>
-<FF>113</FF>
-<LUT>364</LUT>
+<FF>111</FF>
+<LUT>382</LUT>
 <BRAM_18K>0</BRAM_18K>
 <URAM>0</URAM>
 </Resources>

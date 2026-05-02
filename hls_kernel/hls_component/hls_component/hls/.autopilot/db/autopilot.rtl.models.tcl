@@ -12,7 +12,7 @@ set SynModuleInfo {
   }
   {SRCNAME kernel_Pipeline_MLP1_BITS MODELNAME kernel_Pipeline_MLP1_BITS RTLNAME kernel_kernel_Pipeline_MLP1_BITS
     SUBMODULES {
-      {MODELNAME kernel_mul_32ns_34ns_65_2_1 RTLNAME kernel_mul_32ns_34ns_65_2_1 BINDTYPE op TYPE mul IMPL auto LATENCY 1 ALLOW_PRAGMA 1}
+      {MODELNAME kernel_mul_32ns_34ns_65_1_1 RTLNAME kernel_mul_32ns_34ns_65_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
       {MODELNAME kernel_urem_32s_5ns_4_36_1 RTLNAME kernel_urem_32s_5ns_4_36_1 BINDTYPE op TYPE urem IMPL auto LATENCY 35 ALLOW_PRAGMA 1}
       {MODELNAME kernel_sparsemux_29_4_1_1_1 RTLNAME kernel_sparsemux_29_4_1_1_1 BINDTYPE op TYPE sparsemux IMPL compactencoding_dontcare}
       {MODELNAME kernel_mac_muladd_6ns_3s_8s_8_4_1 RTLNAME kernel_mac_muladd_6ns_3s_8s_8_4_1 BINDTYPE op TYPE all IMPL dsp_slice LATENCY 3}
@@ -30,7 +30,7 @@ set SynModuleInfo {
   }
   {SRCNAME conv2d_l4 MODELNAME conv2d_l4 RTLNAME kernel_conv2d_l4
     SUBMODULES {
-      {MODELNAME kernel_mul_64ns_66ns_129_5_1 RTLNAME kernel_mul_64ns_66ns_129_5_1 BINDTYPE op TYPE mul IMPL auto LATENCY 4 ALLOW_PRAGMA 1}
+      {MODELNAME kernel_mul_64ns_66ns_129_3_1 RTLNAME kernel_mul_64ns_66ns_129_3_1 BINDTYPE op TYPE mul IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
       {MODELNAME kernel_urem_32ns_5ns_4_36_seq_1 RTLNAME kernel_urem_32ns_5ns_4_36_seq_1 BINDTYPE op TYPE urem IMPL auto_seq LATENCY 35 ALLOW_PRAGMA 1}
       {MODELNAME kernel_urem_64s_5ns_4_68_seq_1 RTLNAME kernel_urem_64s_5ns_4_68_seq_1 BINDTYPE op TYPE urem IMPL auto_seq LATENCY 67 ALLOW_PRAGMA 1}
     }

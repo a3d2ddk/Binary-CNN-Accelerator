@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'conv2d_l4'
 ================================================================
-* Date:           Fri May  1 21:41:11 2026
+* Date:           Fri May  1 23:52:22 2026
 
 * Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        hls_component
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  10.00 ns|  7.299 ns|     2.70 ns|
+    |ap_clk  |  13.00 ns|  9.171 ns|     3.51 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -29,7 +29,7 @@
     |  Latency (cycles) |  Latency (absolute)  |  Interval  | Pipeline|
     |   min   |   max   |    min   |    max    | min |  max |   Type  |
     +---------+---------+----------+-----------+-----+------+---------+
-    |       46|     4317|  0.460 us|  43.170 us|   46|  4317|       no|
+    |       44|     4268|  0.572 us|  55.484 us|   44|  4268|       no|
     +---------+---------+----------+-----------+-----+------+---------+
 
     + Detail: 
@@ -41,9 +41,9 @@
         |           |  Latency (cycles) | Iteration |  Initiation Interval  | Trip |          |
         | Loop Name |   min   |   max   |  Latency  |  achieved |   target  | Count| Pipelined|
         +-----------+---------+---------+-----------+-----------+-----------+------+----------+
-        |- L4_H     |      152|     4280|  38 ~ 1070|          -|          -|     4|        no|
-        | + L4_W    |       36|     1068|    9 ~ 267|          -|          -|     4|        no|
-        |  ++ L4_K  |        6|      264|     2 ~ 88|          -|          -|     3|        no|
+        |- L4_H     |      152|     4232|  38 ~ 1058|          -|          -|     4|        no|
+        | + L4_W    |       36|     1056|    9 ~ 264|          -|          -|     4|        no|
+        |  ++ L4_K  |        6|      261|     2 ~ 87|          -|          -|     3|        no|
         +-----------+---------+---------+-----------+-----------+-----------+------+----------+
 
 ============================================================
@@ -72,7 +72,7 @@ IsGatedGlobalClock: 0
 ============================================================
 + Verbose Summary: Schedule
 ============================================================
-* Number of FSM states : 113
+* Number of FSM states : 110
 * Pipeline : 0
 * Dataflow Pipeline: 0
 
@@ -112,11 +112,11 @@ IsGatedGlobalClock: 0
 33 --> 34 
 34 --> 35 
 35 --> 36 
-36 --> 112 37 
-37 --> 38 113 
+36 --> 37 
+37 --> 38 
 38 --> 39 37 
 39 --> 40 
-40 --> 41 111 38 
+40 --> 41 110 38 
 41 --> 42 
 42 --> 43 
 43 --> 44 
@@ -186,180 +186,180 @@ IsGatedGlobalClock: 0
 107 --> 108 
 108 --> 109 
 109 --> 110 
-110 --> 111 
-111 --> 40 
-112 --> 113 
-113 --> 
+110 --> 40 
 
 * FSM state operations: 
 
-State 1 <SV = 0> <Delay = 6.91>
-ST_1 : Operation 114 [1/1] (0.00ns)   --->   "%out_ch_read = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %out_ch"   --->   Operation 114 'read' 'out_ch_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 115 [1/1] (0.00ns)   --->   "%loc_3_loc = alloca i64 1"   --->   Operation 115 'alloca' 'loc_3_loc' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 116 [1/1] (0.00ns)   --->   "%zext_ln195 = zext i32 %out_ch_read" [kern.cpp:195]   --->   Operation 116 'zext' 'zext_ln195' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 117 [2/2] (6.91ns)   --->   "%mul_ln195 = mul i65 %zext_ln195, i65 4908534053" [kern.cpp:195]   --->   Operation 117 'mul' 'mul_ln195' <Predicate = true> <Delay = 6.91> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 1> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 118 [1/1] (0.00ns)   --->   "%tmp_130 = bitselect i1 @_ssdm_op_BitSelect.i1.i32.i32, i32 %out_ch_read, i32 31" [kern.cpp:195]   --->   Operation 118 'bitselect' 'tmp_130' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 119 [1/1] (0.00ns) (grouped into LUT with out node xor_ln195)   --->   "%select_ln195_1 = select i1 %tmp_130, i32 4294967295, i32 0" [kern.cpp:195]   --->   Operation 119 'select' 'select_ln195_1' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_1 : Operation 120 [1/1] (0.99ns) (out node of the LUT)   --->   "%xor_ln195 = xor i32 %select_ln195_1, i32 %out_ch_read" [kern.cpp:195]   --->   Operation 120 'xor' 'xor_ln195' <Predicate = true> <Delay = 0.99> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 121 [36/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 121 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 1 <SV = 0> <Delay = 8.49>
+ST_1 : Operation 111 [1/1] (0.00ns)   --->   "%out_ch_read = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %out_ch"   --->   Operation 111 'read' 'out_ch_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 112 [1/1] (0.00ns)   --->   "%loc_3_loc = alloca i64 1"   --->   Operation 112 'alloca' 'loc_3_loc' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 113 [1/1] (0.00ns)   --->   "%zext_ln195 = zext i32 %out_ch_read" [kern.cpp:195]   --->   Operation 113 'zext' 'zext_ln195' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 114 [1/1] (8.49ns)   --->   "%mul_ln195 = mul i65 %zext_ln195, i65 4908534053" [kern.cpp:195]   --->   Operation 114 'mul' 'mul_ln195' <Predicate = true> <Delay = 8.49> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 8.49> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 115 [1/1] (0.00ns)   --->   "%udiv_ln_cast = partselect i8 @_ssdm_op_PartSelect.i8.i65.i32.i32, i65 %mul_ln195, i32 36, i32 43" [kern.cpp:195]   --->   Operation 115 'partselect' 'udiv_ln_cast' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 116 [1/1] (0.00ns)   --->   "%tmp_130 = bitselect i1 @_ssdm_op_BitSelect.i1.i32.i32, i32 %out_ch_read, i32 31" [kern.cpp:195]   --->   Operation 116 'bitselect' 'tmp_130' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 117 [1/1] (0.00ns) (grouped into LUT with out node xor_ln195)   --->   "%select_ln195_1 = select i1 %tmp_130, i32 4294967295, i32 0" [kern.cpp:195]   --->   Operation 117 'select' 'select_ln195_1' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 118 [1/1] (0.99ns) (out node of the LUT)   --->   "%xor_ln195 = xor i32 %select_ln195_1, i32 %out_ch_read" [kern.cpp:195]   --->   Operation 118 'xor' 'xor_ln195' <Predicate = true> <Delay = 0.99> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 119 [36/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 119 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 2 <SV = 1> <Delay = 6.91>
-ST_2 : Operation 122 [1/2] (6.91ns)   --->   "%mul_ln195 = mul i65 %zext_ln195, i65 4908534053" [kern.cpp:195]   --->   Operation 122 'mul' 'mul_ln195' <Predicate = true> <Delay = 6.91> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 1> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 123 [1/1] (0.00ns)   --->   "%udiv_ln_cast = partselect i8 @_ssdm_op_PartSelect.i8.i65.i32.i32, i65 %mul_ln195, i32 36, i32 43" [kern.cpp:195]   --->   Operation 123 'partselect' 'udiv_ln_cast' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 124 [35/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 124 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 2 <SV = 1> <Delay = 4.13>
+ST_2 : Operation 120 [35/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 120 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 3 <SV = 2> <Delay = 4.13>
-ST_3 : Operation 125 [34/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 125 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 121 [34/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 121 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 4 <SV = 3> <Delay = 4.13>
-ST_4 : Operation 126 [33/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 126 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 122 [33/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 122 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 5 <SV = 4> <Delay = 4.13>
-ST_5 : Operation 127 [32/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 127 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 123 [32/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 123 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 6 <SV = 5> <Delay = 4.13>
-ST_6 : Operation 128 [31/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 128 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 124 [31/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 124 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 7 <SV = 6> <Delay = 4.13>
-ST_7 : Operation 129 [30/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 129 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 125 [30/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 125 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 8 <SV = 7> <Delay = 4.13>
-ST_8 : Operation 130 [29/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 130 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 126 [29/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 126 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 9 <SV = 8> <Delay = 4.13>
-ST_9 : Operation 131 [28/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 131 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 127 [28/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 127 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 10 <SV = 9> <Delay = 4.13>
-ST_10 : Operation 132 [27/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 132 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 128 [27/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 128 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 11 <SV = 10> <Delay = 4.13>
-ST_11 : Operation 133 [26/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 133 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_11 : Operation 129 [26/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 129 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 12 <SV = 11> <Delay = 4.13>
-ST_12 : Operation 134 [25/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 134 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 130 [25/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 130 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 13 <SV = 12> <Delay = 4.13>
-ST_13 : Operation 135 [24/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 135 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 131 [24/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 131 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 14 <SV = 13> <Delay = 4.13>
-ST_14 : Operation 136 [23/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 136 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_14 : Operation 132 [23/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 132 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 15 <SV = 14> <Delay = 4.13>
-ST_15 : Operation 137 [22/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 137 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_15 : Operation 133 [22/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 133 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 16 <SV = 15> <Delay = 4.13>
-ST_16 : Operation 138 [21/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 138 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_16 : Operation 134 [21/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 134 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 17 <SV = 16> <Delay = 4.13>
-ST_17 : Operation 139 [20/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 139 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_17 : Operation 135 [20/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 135 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 18 <SV = 17> <Delay = 4.13>
-ST_18 : Operation 140 [19/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 140 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_18 : Operation 136 [19/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 136 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 19 <SV = 18> <Delay = 4.13>
-ST_19 : Operation 141 [18/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 141 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_19 : Operation 137 [18/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 137 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 20 <SV = 19> <Delay = 4.13>
-ST_20 : Operation 142 [17/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 142 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_20 : Operation 138 [17/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 138 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 21 <SV = 20> <Delay = 4.13>
-ST_21 : Operation 143 [16/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 143 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_21 : Operation 139 [16/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 139 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 22 <SV = 21> <Delay = 4.13>
-ST_22 : Operation 144 [15/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 144 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_22 : Operation 140 [15/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 140 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 23 <SV = 22> <Delay = 4.13>
-ST_23 : Operation 145 [14/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 145 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_23 : Operation 141 [14/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 141 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 24 <SV = 23> <Delay = 4.13>
-ST_24 : Operation 146 [13/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 146 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_24 : Operation 142 [13/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 142 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 25 <SV = 24> <Delay = 4.13>
-ST_25 : Operation 147 [12/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 147 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_25 : Operation 143 [12/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 143 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 26 <SV = 25> <Delay = 4.13>
-ST_26 : Operation 148 [11/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 148 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_26 : Operation 144 [11/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 144 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 27 <SV = 26> <Delay = 4.13>
-ST_27 : Operation 149 [10/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 149 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_27 : Operation 145 [10/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 145 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 28 <SV = 27> <Delay = 4.13>
-ST_28 : Operation 150 [9/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 150 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_28 : Operation 146 [9/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 146 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 29 <SV = 28> <Delay = 4.13>
-ST_29 : Operation 151 [8/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 151 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_29 : Operation 147 [8/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 147 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 30 <SV = 29> <Delay = 4.13>
-ST_30 : Operation 152 [7/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 152 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_30 : Operation 148 [7/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 148 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 31 <SV = 30> <Delay = 4.13>
-ST_31 : Operation 153 [6/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 153 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_31 : Operation 149 [6/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 149 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 32 <SV = 31> <Delay = 4.13>
-ST_32 : Operation 154 [5/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 154 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_32 : Operation 150 [5/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 150 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 33 <SV = 32> <Delay = 4.13>
-ST_33 : Operation 155 [4/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 155 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_33 : Operation 151 [4/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 151 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 34 <SV = 33> <Delay = 4.13>
-ST_34 : Operation 156 [3/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 156 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_34 : Operation 152 [3/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 152 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 35 <SV = 34> <Delay = 4.13>
-ST_35 : Operation 157 [2/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 157 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_35 : Operation 153 [2/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 153 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 36 <SV = 35> <Delay = 6.89>
-ST_36 : Operation 158 [1/1] (0.00ns)   --->   "%bias_read = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %bias"   --->   Operation 158 'read' 'bias_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 159 [1/1] (0.00ns)   --->   "%finalize_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %finalize"   --->   Operation 159 'read' 'finalize_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 160 [1/1] (0.00ns)   --->   "%in_ch_start_read = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %in_ch_start"   --->   Operation 160 'read' 'in_ch_start_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 161 [1/1] (0.00ns)   --->   "%num_kerns_val_read = read i2 @_ssdm_op_Read.ap_auto.i2, i2 %num_kerns_val"   --->   Operation 161 'read' 'num_kerns_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 162 [1/1] (0.00ns)   --->   "%kern_2_8_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_2_8_val"   --->   Operation 162 'read' 'kern_2_8_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 163 [1/1] (0.00ns)   --->   "%kern_2_7_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_2_7_val"   --->   Operation 163 'read' 'kern_2_7_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 164 [1/1] (0.00ns)   --->   "%kern_2_6_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_2_6_val"   --->   Operation 164 'read' 'kern_2_6_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 165 [1/1] (0.00ns)   --->   "%kern_2_5_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_2_5_val"   --->   Operation 165 'read' 'kern_2_5_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 166 [1/1] (0.00ns)   --->   "%kern_2_4_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_2_4_val"   --->   Operation 166 'read' 'kern_2_4_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 167 [1/1] (0.00ns)   --->   "%kern_2_3_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_2_3_val"   --->   Operation 167 'read' 'kern_2_3_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 168 [1/1] (0.00ns)   --->   "%kern_2_2_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_2_2_val"   --->   Operation 168 'read' 'kern_2_2_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 169 [1/1] (0.00ns)   --->   "%kern_2_1_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_2_1_val"   --->   Operation 169 'read' 'kern_2_1_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 170 [1/1] (0.00ns)   --->   "%kern_2_0_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_2_0_val"   --->   Operation 170 'read' 'kern_2_0_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 171 [1/1] (0.00ns)   --->   "%kern_1_8_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_1_8_val"   --->   Operation 171 'read' 'kern_1_8_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 172 [1/1] (0.00ns)   --->   "%kern_1_7_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_1_7_val"   --->   Operation 172 'read' 'kern_1_7_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 173 [1/1] (0.00ns)   --->   "%kern_1_6_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_1_6_val"   --->   Operation 173 'read' 'kern_1_6_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 174 [1/1] (0.00ns)   --->   "%kern_1_5_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_1_5_val"   --->   Operation 174 'read' 'kern_1_5_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 175 [1/1] (0.00ns)   --->   "%kern_1_4_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_1_4_val"   --->   Operation 175 'read' 'kern_1_4_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 176 [1/1] (0.00ns)   --->   "%kern_1_3_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_1_3_val"   --->   Operation 176 'read' 'kern_1_3_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 177 [1/1] (0.00ns)   --->   "%kern_1_2_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_1_2_val"   --->   Operation 177 'read' 'kern_1_2_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 178 [1/1] (0.00ns)   --->   "%kern_1_1_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_1_1_val"   --->   Operation 178 'read' 'kern_1_1_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 179 [1/1] (0.00ns)   --->   "%kern_1_0_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_1_0_val"   --->   Operation 179 'read' 'kern_1_0_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 180 [1/1] (0.00ns)   --->   "%kern_0_8_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_0_8_val"   --->   Operation 180 'read' 'kern_0_8_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 181 [1/1] (0.00ns)   --->   "%kern_0_7_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_0_7_val"   --->   Operation 181 'read' 'kern_0_7_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 182 [1/1] (0.00ns)   --->   "%kern_0_6_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_0_6_val"   --->   Operation 182 'read' 'kern_0_6_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 183 [1/1] (0.00ns)   --->   "%kern_0_5_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_0_5_val"   --->   Operation 183 'read' 'kern_0_5_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 184 [1/1] (0.00ns)   --->   "%kern_0_4_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_0_4_val"   --->   Operation 184 'read' 'kern_0_4_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 185 [1/1] (0.00ns)   --->   "%kern_0_3_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_0_3_val"   --->   Operation 185 'read' 'kern_0_3_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 186 [1/1] (0.00ns)   --->   "%kern_0_2_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_0_2_val"   --->   Operation 186 'read' 'kern_0_2_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 187 [1/1] (0.00ns)   --->   "%kern_0_1_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_0_1_val"   --->   Operation 187 'read' 'kern_0_1_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 188 [1/1] (0.00ns)   --->   "%kern_0_0_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_0_0_val"   --->   Operation 188 'read' 'kern_0_0_val_read' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 189 [1/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 189 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_36 : Operation 190 [1/1] (0.00ns)   --->   "%trunc_ln195 = trunc i4 %urem_ln195" [kern.cpp:195]   --->   Operation 190 'trunc' 'trunc_ln195' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 191 [1/1] (1.73ns)   --->   "%sub_ln195 = sub i4 13, i4 %trunc_ln195" [kern.cpp:195]   --->   Operation 191 'sub' 'sub_ln195' <Predicate = (tmp_130)> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_36 : Operation 192 [1/1] (1.02ns)   --->   "%select_ln195 = select i1 %tmp_130, i4 %sub_ln195, i4 %trunc_ln195" [kern.cpp:195]   --->   Operation 192 'select' 'select_ln195' <Predicate = true> <Delay = 1.02> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.02> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_36 : Operation 193 [1/1] (0.00ns)   --->   "%br_ln208 = br i1 %finalize_read, void %L4_H, void %L4_FH" [kern.cpp:208]   --->   Operation 193 'br' 'br_ln208' <Predicate = true> <Delay = 0.00>
-ST_36 : Operation 194 [1/1] (0.00ns)   --->   "%oh = alloca i32 1" [kern.cpp:209]   --->   Operation 194 'alloca' 'oh' <Predicate = (!finalize_read)> <Delay = 0.00>
-ST_36 : Operation 195 [1/1] (0.00ns)   --->   "%sext_ln209 = sext i32 %in_ch_start_read" [kern.cpp:209]   --->   Operation 195 'sext' 'sext_ln209' <Predicate = (!finalize_read)> <Delay = 0.00>
-ST_36 : Operation 196 [1/1] (1.58ns)   --->   "%store_ln209 = store i3 0, i3 %oh" [kern.cpp:209]   --->   Operation 196 'store' 'store_ln209' <Predicate = (!finalize_read)> <Delay = 1.58>
-ST_36 : Operation 197 [1/1] (0.00ns)   --->   "%br_ln209 = br void %L4_W" [kern.cpp:209]   --->   Operation 197 'br' 'br_ln209' <Predicate = (!finalize_read)> <Delay = 0.00>
+State 36 <SV = 35> <Delay = 8.62>
+ST_36 : Operation 154 [1/1] (0.00ns)   --->   "%bias_read = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %bias"   --->   Operation 154 'read' 'bias_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 155 [1/1] (0.00ns)   --->   "%finalize_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %finalize"   --->   Operation 155 'read' 'finalize_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 156 [1/1] (0.00ns)   --->   "%in_ch_start_read = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %in_ch_start"   --->   Operation 156 'read' 'in_ch_start_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 157 [1/1] (0.00ns)   --->   "%num_kerns_val_read = read i2 @_ssdm_op_Read.ap_auto.i2, i2 %num_kerns_val"   --->   Operation 157 'read' 'num_kerns_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 158 [1/1] (0.00ns)   --->   "%kern_2_8_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_2_8_val"   --->   Operation 158 'read' 'kern_2_8_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 159 [1/1] (0.00ns)   --->   "%kern_2_7_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_2_7_val"   --->   Operation 159 'read' 'kern_2_7_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 160 [1/1] (0.00ns)   --->   "%kern_2_6_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_2_6_val"   --->   Operation 160 'read' 'kern_2_6_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 161 [1/1] (0.00ns)   --->   "%kern_2_5_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_2_5_val"   --->   Operation 161 'read' 'kern_2_5_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 162 [1/1] (0.00ns)   --->   "%kern_2_4_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_2_4_val"   --->   Operation 162 'read' 'kern_2_4_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 163 [1/1] (0.00ns)   --->   "%kern_2_3_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_2_3_val"   --->   Operation 163 'read' 'kern_2_3_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 164 [1/1] (0.00ns)   --->   "%kern_2_2_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_2_2_val"   --->   Operation 164 'read' 'kern_2_2_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 165 [1/1] (0.00ns)   --->   "%kern_2_1_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_2_1_val"   --->   Operation 165 'read' 'kern_2_1_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 166 [1/1] (0.00ns)   --->   "%kern_2_0_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_2_0_val"   --->   Operation 166 'read' 'kern_2_0_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 167 [1/1] (0.00ns)   --->   "%kern_1_8_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_1_8_val"   --->   Operation 167 'read' 'kern_1_8_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 168 [1/1] (0.00ns)   --->   "%kern_1_7_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_1_7_val"   --->   Operation 168 'read' 'kern_1_7_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 169 [1/1] (0.00ns)   --->   "%kern_1_6_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_1_6_val"   --->   Operation 169 'read' 'kern_1_6_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 170 [1/1] (0.00ns)   --->   "%kern_1_5_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_1_5_val"   --->   Operation 170 'read' 'kern_1_5_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 171 [1/1] (0.00ns)   --->   "%kern_1_4_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_1_4_val"   --->   Operation 171 'read' 'kern_1_4_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 172 [1/1] (0.00ns)   --->   "%kern_1_3_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_1_3_val"   --->   Operation 172 'read' 'kern_1_3_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 173 [1/1] (0.00ns)   --->   "%kern_1_2_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_1_2_val"   --->   Operation 173 'read' 'kern_1_2_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 174 [1/1] (0.00ns)   --->   "%kern_1_1_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_1_1_val"   --->   Operation 174 'read' 'kern_1_1_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 175 [1/1] (0.00ns)   --->   "%kern_1_0_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_1_0_val"   --->   Operation 175 'read' 'kern_1_0_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 176 [1/1] (0.00ns)   --->   "%kern_0_8_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_0_8_val"   --->   Operation 176 'read' 'kern_0_8_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 177 [1/1] (0.00ns)   --->   "%kern_0_7_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_0_7_val"   --->   Operation 177 'read' 'kern_0_7_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 178 [1/1] (0.00ns)   --->   "%kern_0_6_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_0_6_val"   --->   Operation 178 'read' 'kern_0_6_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 179 [1/1] (0.00ns)   --->   "%kern_0_5_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_0_5_val"   --->   Operation 179 'read' 'kern_0_5_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 180 [1/1] (0.00ns)   --->   "%kern_0_4_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_0_4_val"   --->   Operation 180 'read' 'kern_0_4_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 181 [1/1] (0.00ns)   --->   "%kern_0_3_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_0_3_val"   --->   Operation 181 'read' 'kern_0_3_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 182 [1/1] (0.00ns)   --->   "%kern_0_2_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_0_2_val"   --->   Operation 182 'read' 'kern_0_2_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 183 [1/1] (0.00ns)   --->   "%kern_0_1_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_0_1_val"   --->   Operation 183 'read' 'kern_0_1_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 184 [1/1] (0.00ns)   --->   "%kern_0_0_val_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %kern_0_0_val"   --->   Operation 184 'read' 'kern_0_0_val_read' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 185 [1/36] (4.13ns)   --->   "%urem_ln195 = urem i32 %xor_ln195, i32 14" [kern.cpp:195]   --->   Operation 185 'urem' 'urem_ln195' <Predicate = true> <Delay = 4.13> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 35> <II = 4> <Delay = 4.13> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_36 : Operation 186 [1/1] (0.00ns)   --->   "%trunc_ln195 = trunc i4 %urem_ln195" [kern.cpp:195]   --->   Operation 186 'trunc' 'trunc_ln195' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 187 [1/1] (1.73ns)   --->   "%sub_ln195 = sub i4 13, i4 %trunc_ln195" [kern.cpp:195]   --->   Operation 187 'sub' 'sub_ln195' <Predicate = (tmp_130)> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_36 : Operation 188 [1/1] (1.02ns)   --->   "%select_ln195 = select i1 %tmp_130, i4 %sub_ln195, i4 %trunc_ln195" [kern.cpp:195]   --->   Operation 188 'select' 'select_ln195' <Predicate = true> <Delay = 1.02> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.02> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_36 : Operation 189 [1/1] (0.00ns)   --->   "%br_ln208 = br i1 %finalize_read, void %L4_H, void %L4_FH" [kern.cpp:208]   --->   Operation 189 'br' 'br_ln208' <Predicate = true> <Delay = 0.00>
+ST_36 : Operation 190 [1/1] (0.00ns)   --->   "%oh = alloca i32 1" [kern.cpp:209]   --->   Operation 190 'alloca' 'oh' <Predicate = (!finalize_read)> <Delay = 0.00>
+ST_36 : Operation 191 [1/1] (0.00ns)   --->   "%sext_ln209 = sext i32 %in_ch_start_read" [kern.cpp:209]   --->   Operation 191 'sext' 'sext_ln209' <Predicate = (!finalize_read)> <Delay = 0.00>
+ST_36 : Operation 192 [1/1] (1.58ns)   --->   "%store_ln209 = store i3 0, i3 %oh" [kern.cpp:209]   --->   Operation 192 'store' 'store_ln209' <Predicate = (!finalize_read)> <Delay = 1.58>
+ST_36 : Operation 193 [1/1] (0.00ns)   --->   "%br_ln209 = br void %L4_W" [kern.cpp:209]   --->   Operation 193 'br' 'br_ln209' <Predicate = (!finalize_read)> <Delay = 0.00>
+ST_36 : Operation 194 [2/2] (1.73ns)   --->   "%call_ln195 = call void @conv2d_l4_Pipeline_L4_FH_L4_FW, i8 %udiv_ln_cast, i1 %output_0, i1 %output_1, i1 %output_2, i1 %output_3, i1 %output_4, i1 %output_5, i1 %output_6, i1 %output_7, i1 %output_8, i1 %output_9, i1 %output_10, i1 %output_11, i1 %output_12, i1 %output_13, i32 %buffer_1, i32 %buffer_0, i16 %bias_read, i4 %select_ln195" [kern.cpp:195]   --->   Operation 194 'call' 'call_ln195' <Predicate = (finalize_read)> <Delay = 1.73> <CoreType = "Generic">   --->   Generic Core
 
 State 37 <SV = 36> <Delay = 3.23>
-ST_37 : Operation 198 [1/1] (0.00ns)   --->   "%oh_1 = load i3 %oh" [kern.cpp:209]   --->   Operation 198 'load' 'oh_1' <Predicate = true> <Delay = 0.00>
-ST_37 : Operation 199 [1/1] (1.65ns)   --->   "%icmp_ln209 = icmp_eq  i3 %oh_1, i3 4" [kern.cpp:209]   --->   Operation 199 'icmp' 'icmp_ln209' <Predicate = true> <Delay = 1.65> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.65> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
-ST_37 : Operation 200 [1/1] (1.65ns)   --->   "%add_ln209 = add i3 %oh_1, i3 1" [kern.cpp:209]   --->   Operation 200 'add' 'add_ln209' <Predicate = true> <Delay = 1.65> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_37 : Operation 201 [1/1] (0.00ns)   --->   "%br_ln209 = br i1 %icmp_ln209, void %L4_W.split, void %if.end148.loopexit" [kern.cpp:209]   --->   Operation 201 'br' 'br_ln209' <Predicate = true> <Delay = 0.00>
-ST_37 : Operation 202 [1/1] (0.00ns)   --->   "%trunc_ln209 = trunc i3 %oh_1" [kern.cpp:209]   --->   Operation 202 'trunc' 'trunc_ln209' <Predicate = (!icmp_ln209)> <Delay = 0.00>
-ST_37 : Operation 203 [1/1] (0.00ns)   --->   "%speclooptripcount_ln209 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 4, i64 4, i64 4" [kern.cpp:209]   --->   Operation 203 'speclooptripcount' 'speclooptripcount_ln209' <Predicate = (!icmp_ln209)> <Delay = 0.00>
-ST_37 : Operation 204 [1/1] (0.00ns)   --->   "%specloopname_ln209 = specloopname void @_ssdm_op_SpecLoopName, void @empty_14" [kern.cpp:209]   --->   Operation 204 'specloopname' 'specloopname_ln209' <Predicate = (!icmp_ln209)> <Delay = 0.00>
-ST_37 : Operation 205 [1/1] (0.00ns)   --->   "%shl_ln211 = shl i3 %oh_1, i3 1" [kern.cpp:211]   --->   Operation 205 'shl' 'shl_ln211' <Predicate = (!icmp_ln209)> <Delay = 0.00>
-ST_37 : Operation 206 [1/1] (1.58ns)   --->   "%br_ln210 = br void %L4_K" [kern.cpp:210]   --->   Operation 206 'br' 'br_ln210' <Predicate = (!icmp_ln209)> <Delay = 1.58>
-ST_37 : Operation 207 [1/1] (0.00ns)   --->   "%br_ln0 = br void %if.end148"   --->   Operation 207 'br' 'br_ln0' <Predicate = (icmp_ln209)> <Delay = 0.00>
+ST_37 : Operation 195 [1/1] (0.00ns)   --->   "%oh_1 = load i3 %oh" [kern.cpp:209]   --->   Operation 195 'load' 'oh_1' <Predicate = (!finalize_read)> <Delay = 0.00>
+ST_37 : Operation 196 [1/1] (1.65ns)   --->   "%icmp_ln209 = icmp_eq  i3 %oh_1, i3 4" [kern.cpp:209]   --->   Operation 196 'icmp' 'icmp_ln209' <Predicate = (!finalize_read)> <Delay = 1.65> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.65> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_37 : Operation 197 [1/1] (1.65ns)   --->   "%add_ln209 = add i3 %oh_1, i3 1" [kern.cpp:209]   --->   Operation 197 'add' 'add_ln209' <Predicate = (!finalize_read)> <Delay = 1.65> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_37 : Operation 198 [1/1] (0.00ns)   --->   "%br_ln209 = br i1 %icmp_ln209, void %L4_W.split, void %if.end148.loopexit" [kern.cpp:209]   --->   Operation 198 'br' 'br_ln209' <Predicate = (!finalize_read)> <Delay = 0.00>
+ST_37 : Operation 199 [1/1] (0.00ns)   --->   "%trunc_ln209 = trunc i3 %oh_1" [kern.cpp:209]   --->   Operation 199 'trunc' 'trunc_ln209' <Predicate = (!finalize_read & !icmp_ln209)> <Delay = 0.00>
+ST_37 : Operation 200 [1/1] (0.00ns)   --->   "%speclooptripcount_ln209 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 4, i64 4, i64 4" [kern.cpp:209]   --->   Operation 200 'speclooptripcount' 'speclooptripcount_ln209' <Predicate = (!finalize_read & !icmp_ln209)> <Delay = 0.00>
+ST_37 : Operation 201 [1/1] (0.00ns)   --->   "%specloopname_ln209 = specloopname void @_ssdm_op_SpecLoopName, void @empty_14" [kern.cpp:209]   --->   Operation 201 'specloopname' 'specloopname_ln209' <Predicate = (!finalize_read & !icmp_ln209)> <Delay = 0.00>
+ST_37 : Operation 202 [1/1] (0.00ns)   --->   "%shl_ln211 = shl i3 %oh_1, i3 1" [kern.cpp:211]   --->   Operation 202 'shl' 'shl_ln211' <Predicate = (!finalize_read & !icmp_ln209)> <Delay = 0.00>
+ST_37 : Operation 203 [1/1] (1.58ns)   --->   "%br_ln210 = br void %L4_K" [kern.cpp:210]   --->   Operation 203 'br' 'br_ln210' <Predicate = (!finalize_read & !icmp_ln209)> <Delay = 1.58>
+ST_37 : Operation 204 [1/1] (0.00ns)   --->   "%br_ln0 = br void %if.end148"   --->   Operation 204 'br' 'br_ln0' <Predicate = (!finalize_read & icmp_ln209)> <Delay = 0.00>
+ST_37 : Operation 205 [1/2] (0.00ns)   --->   "%call_ln195 = call void @conv2d_l4_Pipeline_L4_FH_L4_FW, i8 %udiv_ln_cast, i1 %output_0, i1 %output_1, i1 %output_2, i1 %output_3, i1 %output_4, i1 %output_5, i1 %output_6, i1 %output_7, i1 %output_8, i1 %output_9, i1 %output_10, i1 %output_11, i1 %output_12, i1 %output_13, i32 %buffer_1, i32 %buffer_0, i16 %bias_read, i4 %select_ln195" [kern.cpp:195]   --->   Operation 205 'call' 'call_ln195' <Predicate = (finalize_read)> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+ST_37 : Operation 206 [1/1] (0.00ns)   --->   "%br_ln0 = br void %if.end148"   --->   Operation 206 'br' 'br_ln0' <Predicate = (finalize_read)> <Delay = 0.00>
+ST_37 : Operation 207 [1/1] (0.00ns)   --->   "%ret_ln247 = ret" [kern.cpp:247]   --->   Operation 207 'ret' 'ret_ln247' <Predicate = (icmp_ln209) | (finalize_read)> <Delay = 0.00>
 
 State 38 <SV = 37> <Delay = 4.90>
 ST_38 : Operation 208 [1/1] (0.00ns)   --->   "%ow = phi i3 0, void %L4_W.split, i3 %add_ln210, void %arrayidx4.exit" [kern.cpp:210]   --->   Operation 208 'phi' 'ow' <Predicate = true> <Delay = 0.00>
@@ -387,7 +387,7 @@ ST_39 : Operation 227 [1/2] ( I:3.25ns O:3.25ns )   --->   "%buffer_1_load = loa
 ST_39 : Operation 228 [1/1] (0.69ns)   --->   "%loc = select i1 %trunc_ln210_1, i32 %buffer_1_load, i32 %buffer_0_load" [kern.cpp:211]   --->   Operation 228 'select' 'loc' <Predicate = true> <Delay = 0.69> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.69> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_39 : Operation 229 [1/1] (1.58ns)   --->   "%br_ln212 = br void %for.body8" [kern.cpp:212]   --->   Operation 229 'br' 'br_ln212' <Predicate = true> <Delay = 1.58>
 
-State 40 <SV = 39> <Delay = 4.81>
+State 40 <SV = 39> <Delay = 8.61>
 ST_40 : Operation 230 [1/1] (0.00ns)   --->   "%k = phi i2 0, void %L4_K.split, i2 %add_ln212, void %for.inc48" [kern.cpp:212]   --->   Operation 230 'phi' 'k' <Predicate = true> <Delay = 0.00>
 ST_40 : Operation 231 [1/1] (0.00ns)   --->   "%loc_1 = phi i32 %loc, void %L4_K.split, i32 %loc_4, void %for.inc48"   --->   Operation 231 'phi' 'loc_1' <Predicate = true> <Delay = 0.00>
 ST_40 : Operation 232 [1/1] (1.56ns)   --->   "%icmp_ln212 = icmp_eq  i2 %k, i2 3" [kern.cpp:212]   --->   Operation 232 'icmp' 'icmp_ln212' <Predicate = true> <Delay = 1.56> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
@@ -400,265 +400,253 @@ ST_40 : Operation 238 [1/1] (1.56ns)   --->   "%icmp_ln213 = icmp_ult  i2 %k, i2
 ST_40 : Operation 239 [1/1] (1.58ns)   --->   "%br_ln213 = br i1 %icmp_ln213, void %for.inc48, void %L4_KH" [kern.cpp:213]   --->   Operation 239 'br' 'br_ln213' <Predicate = (!icmp_ln212)> <Delay = 1.58>
 ST_40 : Operation 240 [1/1] (2.55ns)   --->   "%add_ln219 = add i33 %zext_ln212, i33 %sext_ln209" [kern.cpp:219]   --->   Operation 240 'add' 'add_ln219' <Predicate = (!icmp_ln212 & icmp_ln213)> <Delay = 2.55> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_40 : Operation 241 [1/1] (0.00ns)   --->   "%tmp_131 = bitselect i1 @_ssdm_op_BitSelect.i1.i33.i32, i33 %add_ln219, i32 32" [kern.cpp:211]   --->   Operation 241 'bitselect' 'tmp_131' <Predicate = (!icmp_ln212 & icmp_ln213)> <Delay = 0.00>
-ST_40 : Operation 242 [1/1] (0.00ns)   --->   "%br_ln226 = br i1 %trunc_ln210_1, void %arrayidx4.case.0, void %arrayidx4.case.1" [kern.cpp:226]   --->   Operation 242 'br' 'br_ln226' <Predicate = (icmp_ln212)> <Delay = 0.00>
-ST_40 : Operation 243 [1/1] ( I:3.25ns O:3.25ns )   --->   "%store_ln226 = store i32 %loc_1, i9 %buffer_0_addr" [kern.cpp:226]   --->   Operation 243 'store' 'store_ln226' <Predicate = (icmp_ln212 & !trunc_ln210_1)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 512> <RAM>
-ST_40 : Operation 244 [1/1] (0.00ns)   --->   "%br_ln226 = br void %arrayidx4.exit" [kern.cpp:226]   --->   Operation 244 'br' 'br_ln226' <Predicate = (icmp_ln212 & !trunc_ln210_1)> <Delay = 0.00>
-ST_40 : Operation 245 [1/1] ( I:3.25ns O:3.25ns )   --->   "%store_ln226 = store i32 %loc_1, i9 %buffer_1_addr" [kern.cpp:226]   --->   Operation 245 'store' 'store_ln226' <Predicate = (icmp_ln212 & trunc_ln210_1)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 512> <RAM>
-ST_40 : Operation 246 [1/1] (0.00ns)   --->   "%br_ln226 = br void %arrayidx4.exit" [kern.cpp:226]   --->   Operation 246 'br' 'br_ln226' <Predicate = (icmp_ln212 & trunc_ln210_1)> <Delay = 0.00>
-ST_40 : Operation 247 [1/1] (0.00ns)   --->   "%br_ln210 = br void %L4_K" [kern.cpp:210]   --->   Operation 247 'br' 'br_ln210' <Predicate = (icmp_ln212)> <Delay = 0.00>
+ST_40 : Operation 242 [1/1] (0.00ns) (grouped into LUT with out node xor_ln211)   --->   "%select_ln211_3 = select i1 %tmp_131, i33 8589934591, i33 0" [kern.cpp:211]   --->   Operation 242 'select' 'select_ln211_3' <Predicate = (!icmp_ln212 & icmp_ln213)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_40 : Operation 243 [1/1] (0.99ns) (out node of the LUT)   --->   "%xor_ln211 = xor i33 %add_ln219, i33 %select_ln211_3" [kern.cpp:211]   --->   Operation 243 'xor' 'xor_ln211' <Predicate = (!icmp_ln212 & icmp_ln213)> <Delay = 0.99> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_40 : Operation 244 [1/1] (0.00ns)   --->   "%sext_ln211_1 = sext i33 %xor_ln211" [kern.cpp:211]   --->   Operation 244 'sext' 'sext_ln211_1' <Predicate = (!icmp_ln212 & icmp_ln213)> <Delay = 0.00>
+ST_40 : Operation 245 [68/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 245 'urem' 'urem_ln211' <Predicate = (!icmp_ln212 & icmp_ln213)> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_40 : Operation 246 [1/1] (0.00ns)   --->   "%br_ln226 = br i1 %trunc_ln210_1, void %arrayidx4.case.0, void %arrayidx4.case.1" [kern.cpp:226]   --->   Operation 246 'br' 'br_ln226' <Predicate = (icmp_ln212)> <Delay = 0.00>
+ST_40 : Operation 247 [1/1] ( I:3.25ns O:3.25ns )   --->   "%store_ln226 = store i32 %loc_1, i9 %buffer_0_addr" [kern.cpp:226]   --->   Operation 247 'store' 'store_ln226' <Predicate = (icmp_ln212 & !trunc_ln210_1)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 512> <RAM>
+ST_40 : Operation 248 [1/1] (0.00ns)   --->   "%br_ln226 = br void %arrayidx4.exit" [kern.cpp:226]   --->   Operation 248 'br' 'br_ln226' <Predicate = (icmp_ln212 & !trunc_ln210_1)> <Delay = 0.00>
+ST_40 : Operation 249 [1/1] ( I:3.25ns O:3.25ns )   --->   "%store_ln226 = store i32 %loc_1, i9 %buffer_1_addr" [kern.cpp:226]   --->   Operation 249 'store' 'store_ln226' <Predicate = (icmp_ln212 & trunc_ln210_1)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 512> <RAM>
+ST_40 : Operation 250 [1/1] (0.00ns)   --->   "%br_ln226 = br void %arrayidx4.exit" [kern.cpp:226]   --->   Operation 250 'br' 'br_ln226' <Predicate = (icmp_ln212 & trunc_ln210_1)> <Delay = 0.00>
+ST_40 : Operation 251 [1/1] (0.00ns)   --->   "%br_ln210 = br void %L4_K" [kern.cpp:210]   --->   Operation 251 'br' 'br_ln210' <Predicate = (icmp_ln212)> <Delay = 0.00>
 
-State 41 <SV = 40> <Delay = 6.97>
-ST_41 : Operation 248 [1/1] (0.00ns)   --->   "%sext_ln211 = sext i33 %add_ln219" [kern.cpp:211]   --->   Operation 248 'sext' 'sext_ln211' <Predicate = true> <Delay = 0.00>
-ST_41 : Operation 249 [1/1] (0.00ns)   --->   "%zext_ln211_2 = zext i64 %sext_ln211" [kern.cpp:211]   --->   Operation 249 'zext' 'zext_ln211_2' <Predicate = true> <Delay = 0.00>
-ST_41 : Operation 250 [5/5] (6.97ns)   --->   "%mul_ln211 = mul i129 %zext_ln211_2, i129 21081993227096630419" [kern.cpp:211]   --->   Operation 250 'mul' 'mul_ln211' <Predicate = true> <Delay = 6.97> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 4> <II = 1> <Delay = 6.97> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
-ST_41 : Operation 251 [1/1] (0.00ns) (grouped into LUT with out node xor_ln211)   --->   "%select_ln211_3 = select i1 %tmp_131, i33 8589934591, i33 0" [kern.cpp:211]   --->   Operation 251 'select' 'select_ln211_3' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_41 : Operation 252 [1/1] (0.99ns) (out node of the LUT)   --->   "%xor_ln211 = xor i33 %add_ln219, i33 %select_ln211_3" [kern.cpp:211]   --->   Operation 252 'xor' 'xor_ln211' <Predicate = true> <Delay = 0.99> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_41 : Operation 253 [1/1] (0.00ns)   --->   "%sext_ln211_1 = sext i33 %xor_ln211" [kern.cpp:211]   --->   Operation 253 'sext' 'sext_ln211_1' <Predicate = true> <Delay = 0.00>
-ST_41 : Operation 254 [68/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 254 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 41 <SV = 40> <Delay = 9.17>
+ST_41 : Operation 252 [1/1] (0.00ns)   --->   "%sext_ln211 = sext i33 %add_ln219" [kern.cpp:211]   --->   Operation 252 'sext' 'sext_ln211' <Predicate = true> <Delay = 0.00>
+ST_41 : Operation 253 [1/1] (0.00ns)   --->   "%zext_ln211_2 = zext i64 %sext_ln211" [kern.cpp:211]   --->   Operation 253 'zext' 'zext_ln211_2' <Predicate = true> <Delay = 0.00>
+ST_41 : Operation 254 [3/3] (9.17ns)   --->   "%mul_ln211 = mul i129 %zext_ln211_2, i129 21081993227096630419" [kern.cpp:211]   --->   Operation 254 'mul' 'mul_ln211' <Predicate = true> <Delay = 9.17> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 2> <II = 1> <Delay = 9.17> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_41 : Operation 255 [67/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 255 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 42 <SV = 41> <Delay = 6.97>
-ST_42 : Operation 255 [4/5] (6.97ns)   --->   "%mul_ln211 = mul i129 %zext_ln211_2, i129 21081993227096630419" [kern.cpp:211]   --->   Operation 255 'mul' 'mul_ln211' <Predicate = true> <Delay = 6.97> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 4> <II = 1> <Delay = 6.97> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
-ST_42 : Operation 256 [67/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 256 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 42 <SV = 41> <Delay = 9.17>
+ST_42 : Operation 256 [2/3] (9.17ns)   --->   "%mul_ln211 = mul i129 %zext_ln211_2, i129 21081993227096630419" [kern.cpp:211]   --->   Operation 256 'mul' 'mul_ln211' <Predicate = true> <Delay = 9.17> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 2> <II = 1> <Delay = 9.17> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_42 : Operation 257 [66/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 257 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 43 <SV = 42> <Delay = 6.97>
-ST_43 : Operation 257 [3/5] (6.97ns)   --->   "%mul_ln211 = mul i129 %zext_ln211_2, i129 21081993227096630419" [kern.cpp:211]   --->   Operation 257 'mul' 'mul_ln211' <Predicate = true> <Delay = 6.97> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 4> <II = 1> <Delay = 6.97> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
-ST_43 : Operation 258 [66/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 258 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 43 <SV = 42> <Delay = 9.17>
+ST_43 : Operation 258 [1/3] (9.17ns)   --->   "%mul_ln211 = mul i129 %zext_ln211_2, i129 21081993227096630419" [kern.cpp:211]   --->   Operation 258 'mul' 'mul_ln211' <Predicate = true> <Delay = 9.17> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 2> <II = 1> <Delay = 9.17> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_43 : Operation 259 [1/1] (0.00ns)   --->   "%udiv_ln2_cast = partselect i9 @_ssdm_op_PartSelect.i9.i129.i32.i32, i129 %mul_ln211, i32 68, i32 76" [kern.cpp:211]   --->   Operation 259 'partselect' 'udiv_ln2_cast' <Predicate = true> <Delay = 0.00>
+ST_43 : Operation 260 [65/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 260 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 44 <SV = 43> <Delay = 6.97>
-ST_44 : Operation 259 [2/5] (6.97ns)   --->   "%mul_ln211 = mul i129 %zext_ln211_2, i129 21081993227096630419" [kern.cpp:211]   --->   Operation 259 'mul' 'mul_ln211' <Predicate = true> <Delay = 6.97> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 4> <II = 1> <Delay = 6.97> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
-ST_44 : Operation 260 [65/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 260 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 44 <SV = 43> <Delay = 5.07>
+ST_44 : Operation 261 [64/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 261 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 45 <SV = 44> <Delay = 6.97>
-ST_45 : Operation 261 [1/5] (6.97ns)   --->   "%mul_ln211 = mul i129 %zext_ln211_2, i129 21081993227096630419" [kern.cpp:211]   --->   Operation 261 'mul' 'mul_ln211' <Predicate = true> <Delay = 6.97> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 4> <II = 1> <Delay = 6.97> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
-ST_45 : Operation 262 [1/1] (0.00ns)   --->   "%udiv_ln2_cast = partselect i9 @_ssdm_op_PartSelect.i9.i129.i32.i32, i129 %mul_ln211, i32 68, i32 76" [kern.cpp:211]   --->   Operation 262 'partselect' 'udiv_ln2_cast' <Predicate = true> <Delay = 0.00>
-ST_45 : Operation 263 [64/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 263 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 45 <SV = 44> <Delay = 5.07>
+ST_45 : Operation 262 [63/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 262 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 46 <SV = 45> <Delay = 5.07>
-ST_46 : Operation 264 [63/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 264 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_46 : Operation 263 [62/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 263 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 47 <SV = 46> <Delay = 5.07>
-ST_47 : Operation 265 [62/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 265 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_47 : Operation 264 [61/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 264 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 48 <SV = 47> <Delay = 5.07>
-ST_48 : Operation 266 [61/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 266 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_48 : Operation 265 [60/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 265 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 49 <SV = 48> <Delay = 5.07>
-ST_49 : Operation 267 [60/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 267 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_49 : Operation 266 [59/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 266 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 50 <SV = 49> <Delay = 5.07>
-ST_50 : Operation 268 [59/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 268 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_50 : Operation 267 [58/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 267 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 51 <SV = 50> <Delay = 5.07>
-ST_51 : Operation 269 [58/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 269 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_51 : Operation 268 [57/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 268 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 52 <SV = 51> <Delay = 5.07>
-ST_52 : Operation 270 [57/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 270 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_52 : Operation 269 [56/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 269 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 53 <SV = 52> <Delay = 5.07>
-ST_53 : Operation 271 [56/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 271 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_53 : Operation 270 [55/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 270 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 54 <SV = 53> <Delay = 5.07>
-ST_54 : Operation 272 [55/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 272 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_54 : Operation 271 [54/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 271 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 55 <SV = 54> <Delay = 5.07>
-ST_55 : Operation 273 [54/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 273 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_55 : Operation 272 [53/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 272 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 56 <SV = 55> <Delay = 5.07>
-ST_56 : Operation 274 [53/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 274 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_56 : Operation 273 [52/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 273 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 57 <SV = 56> <Delay = 5.07>
-ST_57 : Operation 275 [52/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 275 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_57 : Operation 274 [51/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 274 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 58 <SV = 57> <Delay = 5.07>
-ST_58 : Operation 276 [51/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 276 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_58 : Operation 275 [50/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 275 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 59 <SV = 58> <Delay = 5.07>
-ST_59 : Operation 277 [50/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 277 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_59 : Operation 276 [49/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 276 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 60 <SV = 59> <Delay = 5.07>
-ST_60 : Operation 278 [49/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 278 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_60 : Operation 277 [48/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 277 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 61 <SV = 60> <Delay = 5.07>
-ST_61 : Operation 279 [48/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 279 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_61 : Operation 278 [47/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 278 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 62 <SV = 61> <Delay = 5.07>
-ST_62 : Operation 280 [47/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 280 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_62 : Operation 279 [46/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 279 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 63 <SV = 62> <Delay = 5.07>
-ST_63 : Operation 281 [46/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 281 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_63 : Operation 280 [45/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 280 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 64 <SV = 63> <Delay = 5.07>
-ST_64 : Operation 282 [45/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 282 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_64 : Operation 281 [44/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 281 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 65 <SV = 64> <Delay = 5.07>
-ST_65 : Operation 283 [44/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 283 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_65 : Operation 282 [43/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 282 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 66 <SV = 65> <Delay = 5.07>
-ST_66 : Operation 284 [43/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 284 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_66 : Operation 283 [42/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 283 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 67 <SV = 66> <Delay = 5.07>
-ST_67 : Operation 285 [42/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 285 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_67 : Operation 284 [41/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 284 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 68 <SV = 67> <Delay = 5.07>
-ST_68 : Operation 286 [41/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 286 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_68 : Operation 285 [40/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 285 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 69 <SV = 68> <Delay = 5.07>
-ST_69 : Operation 287 [40/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 287 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_69 : Operation 286 [39/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 286 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 70 <SV = 69> <Delay = 5.07>
-ST_70 : Operation 288 [39/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 288 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_70 : Operation 287 [38/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 287 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 71 <SV = 70> <Delay = 5.07>
-ST_71 : Operation 289 [38/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 289 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_71 : Operation 288 [37/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 288 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 72 <SV = 71> <Delay = 5.07>
-ST_72 : Operation 290 [37/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 290 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_72 : Operation 289 [36/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 289 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 73 <SV = 72> <Delay = 5.07>
-ST_73 : Operation 291 [36/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 291 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_73 : Operation 290 [35/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 290 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 74 <SV = 73> <Delay = 5.07>
-ST_74 : Operation 292 [35/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 292 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_74 : Operation 291 [34/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 291 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 75 <SV = 74> <Delay = 5.07>
-ST_75 : Operation 293 [34/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 293 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_75 : Operation 292 [33/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 292 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 76 <SV = 75> <Delay = 5.07>
-ST_76 : Operation 294 [33/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 294 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_76 : Operation 293 [32/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 293 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 77 <SV = 76> <Delay = 5.07>
-ST_77 : Operation 295 [32/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 295 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_77 : Operation 294 [31/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 294 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 78 <SV = 77> <Delay = 5.07>
-ST_78 : Operation 296 [31/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 296 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_78 : Operation 295 [30/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 295 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 79 <SV = 78> <Delay = 5.07>
-ST_79 : Operation 297 [30/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 297 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_79 : Operation 296 [29/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 296 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 80 <SV = 79> <Delay = 5.07>
-ST_80 : Operation 298 [29/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 298 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_80 : Operation 297 [28/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 297 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 81 <SV = 80> <Delay = 5.07>
-ST_81 : Operation 299 [28/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 299 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_81 : Operation 298 [27/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 298 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 82 <SV = 81> <Delay = 5.07>
-ST_82 : Operation 300 [27/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 300 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_82 : Operation 299 [26/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 299 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 83 <SV = 82> <Delay = 5.07>
-ST_83 : Operation 301 [26/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 301 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_83 : Operation 300 [25/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 300 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 84 <SV = 83> <Delay = 5.07>
-ST_84 : Operation 302 [25/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 302 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_84 : Operation 301 [24/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 301 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 85 <SV = 84> <Delay = 5.07>
-ST_85 : Operation 303 [24/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 303 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_85 : Operation 302 [23/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 302 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 86 <SV = 85> <Delay = 5.07>
-ST_86 : Operation 304 [23/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 304 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_86 : Operation 303 [22/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 303 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 87 <SV = 86> <Delay = 5.07>
-ST_87 : Operation 305 [22/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 305 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_87 : Operation 304 [21/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 304 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 88 <SV = 87> <Delay = 5.07>
-ST_88 : Operation 306 [21/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 306 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_88 : Operation 305 [20/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 305 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 89 <SV = 88> <Delay = 5.07>
-ST_89 : Operation 307 [20/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 307 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_89 : Operation 306 [19/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 306 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 90 <SV = 89> <Delay = 5.07>
-ST_90 : Operation 308 [19/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 308 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_90 : Operation 307 [18/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 307 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 91 <SV = 90> <Delay = 5.07>
-ST_91 : Operation 309 [18/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 309 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_91 : Operation 308 [17/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 308 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 92 <SV = 91> <Delay = 5.07>
-ST_92 : Operation 310 [17/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 310 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_92 : Operation 309 [16/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 309 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 93 <SV = 92> <Delay = 5.07>
-ST_93 : Operation 311 [16/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 311 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_93 : Operation 310 [15/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 310 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 94 <SV = 93> <Delay = 5.07>
-ST_94 : Operation 312 [15/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 312 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_94 : Operation 311 [14/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 311 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 95 <SV = 94> <Delay = 5.07>
-ST_95 : Operation 313 [14/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 313 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_95 : Operation 312 [13/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 312 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 96 <SV = 95> <Delay = 5.07>
-ST_96 : Operation 314 [13/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 314 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_96 : Operation 313 [12/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 313 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 97 <SV = 96> <Delay = 5.07>
-ST_97 : Operation 315 [12/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 315 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_97 : Operation 314 [11/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 314 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 98 <SV = 97> <Delay = 5.07>
-ST_98 : Operation 316 [11/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 316 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_98 : Operation 315 [10/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 315 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 99 <SV = 98> <Delay = 5.07>
-ST_99 : Operation 317 [10/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 317 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_99 : Operation 316 [9/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 316 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 100 <SV = 99> <Delay = 5.07>
-ST_100 : Operation 318 [9/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 318 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_100 : Operation 317 [8/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 317 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 101 <SV = 100> <Delay = 5.07>
-ST_101 : Operation 319 [8/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 319 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_101 : Operation 318 [7/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 318 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 102 <SV = 101> <Delay = 5.07>
-ST_102 : Operation 320 [7/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 320 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_102 : Operation 319 [6/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 319 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 103 <SV = 102> <Delay = 5.07>
-ST_103 : Operation 321 [6/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 321 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_103 : Operation 320 [5/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 320 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 104 <SV = 103> <Delay = 5.07>
-ST_104 : Operation 322 [5/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 322 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_104 : Operation 321 [4/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 321 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 105 <SV = 104> <Delay = 5.07>
-ST_105 : Operation 323 [4/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 323 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_105 : Operation 322 [3/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 322 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
 State 106 <SV = 105> <Delay = 5.07>
-ST_106 : Operation 324 [3/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 324 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_106 : Operation 323 [2/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 323 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 107 <SV = 106> <Delay = 5.07>
-ST_107 : Operation 325 [2/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 325 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 107 <SV = 106> <Delay = 7.83>
+ST_107 : Operation 324 [1/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 324 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_107 : Operation 325 [1/1] (0.00ns)   --->   "%trunc_ln211 = trunc i4 %urem_ln211" [kern.cpp:211]   --->   Operation 325 'trunc' 'trunc_ln211' <Predicate = true> <Delay = 0.00>
+ST_107 : Operation 326 [1/1] (1.73ns)   --->   "%sub_ln211 = sub i4 13, i4 %trunc_ln211" [kern.cpp:211]   --->   Operation 326 'sub' 'sub_ln211' <Predicate = (tmp_131)> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_107 : Operation 327 [1/1] (1.02ns)   --->   "%select_ln211 = select i1 %tmp_131, i4 %sub_ln211, i4 %trunc_ln211" [kern.cpp:211]   --->   Operation 327 'select' 'select_ln211' <Predicate = true> <Delay = 1.02> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.02> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 
-State 108 <SV = 107> <Delay = 5.07>
-ST_108 : Operation 326 [1/68] (5.07ns)   --->   "%urem_ln211 = urem i64 %sext_ln211_1, i64 14" [kern.cpp:211]   --->   Operation 326 'urem' 'urem_ln211' <Predicate = true> <Delay = 5.07> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 67> <II = 4> <Delay = 5.07> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 108 <SV = 107> <Delay = 3.13>
+ST_108 : Operation 328 [2/2] (3.13ns)   --->   "%call_ln211 = call void @conv2d_l4_Pipeline_L4_KH_L4_KW, i32 %loc_1, i2 %trunc_ln209, i2 %trunc_ln210, i9 %udiv_ln2_cast, i1 %input_0, i1 %input_1, i1 %input_2, i1 %input_3, i1 %input_4, i1 %input_5, i1 %input_6, i1 %input_7, i1 %input_8, i1 %input_9, i1 %input_10, i1 %input_11, i1 %input_12, i1 %input_13, i4 %select_ln211, i1 %kern_0_0_val_read, i1 %kern_0_1_val_read, i1 %kern_0_2_val_read, i1 %kern_0_3_val_read, i1 %kern_0_4_val_read, i1 %kern_0_5_val_read, i1 %kern_0_6_val_read, i1 %kern_0_7_val_read, i1 %kern_0_8_val_read, i1 %kern_1_0_val_read, i1 %kern_1_1_val_read, i1 %kern_1_2_val_read, i1 %kern_1_3_val_read, i1 %kern_1_4_val_read, i1 %kern_1_5_val_read, i1 %kern_1_6_val_read, i1 %kern_1_7_val_read, i1 %kern_1_8_val_read, i1 %kern_2_0_val_read, i1 %kern_2_1_val_read, i1 %kern_2_2_val_read, i1 %kern_2_3_val_read, i1 %kern_2_4_val_read, i1 %kern_2_5_val_read, i1 %kern_2_6_val_read, i1 %kern_2_7_val_read, i1 %kern_2_8_val_read, i2 %k, i32 %loc_3_loc" [kern.cpp:211]   --->   Operation 328 'call' 'call_ln211' <Predicate = true> <Delay = 3.13> <CoreType = "Generic">   --->   Generic Core
 
-State 109 <SV = 108> <Delay = 4.34>
-ST_109 : Operation 327 [1/1] (0.00ns)   --->   "%trunc_ln211 = trunc i4 %urem_ln211" [kern.cpp:211]   --->   Operation 327 'trunc' 'trunc_ln211' <Predicate = true> <Delay = 0.00>
-ST_109 : Operation 328 [1/1] (1.73ns)   --->   "%sub_ln211 = sub i4 13, i4 %trunc_ln211" [kern.cpp:211]   --->   Operation 328 'sub' 'sub_ln211' <Predicate = (tmp_131)> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_109 : Operation 329 [1/1] (1.02ns)   --->   "%select_ln211 = select i1 %tmp_131, i4 %sub_ln211, i4 %trunc_ln211" [kern.cpp:211]   --->   Operation 329 'select' 'select_ln211' <Predicate = true> <Delay = 1.02> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.02> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_109 : Operation 330 [2/2] (1.58ns)   --->   "%call_ln211 = call void @conv2d_l4_Pipeline_L4_KH_L4_KW, i32 %loc_1, i2 %trunc_ln209, i2 %trunc_ln210, i9 %udiv_ln2_cast, i1 %input_0, i1 %input_1, i1 %input_2, i1 %input_3, i1 %input_4, i1 %input_5, i1 %input_6, i1 %input_7, i1 %input_8, i1 %input_9, i1 %input_10, i1 %input_11, i1 %input_12, i1 %input_13, i4 %select_ln211, i1 %kern_0_0_val_read, i1 %kern_0_1_val_read, i1 %kern_0_2_val_read, i1 %kern_0_3_val_read, i1 %kern_0_4_val_read, i1 %kern_0_5_val_read, i1 %kern_0_6_val_read, i1 %kern_0_7_val_read, i1 %kern_0_8_val_read, i1 %kern_1_0_val_read, i1 %kern_1_1_val_read, i1 %kern_1_2_val_read, i1 %kern_1_3_val_read, i1 %kern_1_4_val_read, i1 %kern_1_5_val_read, i1 %kern_1_6_val_read, i1 %kern_1_7_val_read, i1 %kern_1_8_val_read, i1 %kern_2_0_val_read, i1 %kern_2_1_val_read, i1 %kern_2_2_val_read, i1 %kern_2_3_val_read, i1 %kern_2_4_val_read, i1 %kern_2_5_val_read, i1 %kern_2_6_val_read, i1 %kern_2_7_val_read, i1 %kern_2_8_val_read, i2 %k, i32 %loc_3_loc" [kern.cpp:211]   --->   Operation 330 'call' 'call_ln211' <Predicate = true> <Delay = 1.58> <CoreType = "Generic">   --->   Generic Core
+State 109 <SV = 108> <Delay = 0.00>
+ST_109 : Operation 329 [1/2] (0.00ns)   --->   "%call_ln211 = call void @conv2d_l4_Pipeline_L4_KH_L4_KW, i32 %loc_1, i2 %trunc_ln209, i2 %trunc_ln210, i9 %udiv_ln2_cast, i1 %input_0, i1 %input_1, i1 %input_2, i1 %input_3, i1 %input_4, i1 %input_5, i1 %input_6, i1 %input_7, i1 %input_8, i1 %input_9, i1 %input_10, i1 %input_11, i1 %input_12, i1 %input_13, i4 %select_ln211, i1 %kern_0_0_val_read, i1 %kern_0_1_val_read, i1 %kern_0_2_val_read, i1 %kern_0_3_val_read, i1 %kern_0_4_val_read, i1 %kern_0_5_val_read, i1 %kern_0_6_val_read, i1 %kern_0_7_val_read, i1 %kern_0_8_val_read, i1 %kern_1_0_val_read, i1 %kern_1_1_val_read, i1 %kern_1_2_val_read, i1 %kern_1_3_val_read, i1 %kern_1_4_val_read, i1 %kern_1_5_val_read, i1 %kern_1_6_val_read, i1 %kern_1_7_val_read, i1 %kern_1_8_val_read, i1 %kern_2_0_val_read, i1 %kern_2_1_val_read, i1 %kern_2_2_val_read, i1 %kern_2_3_val_read, i1 %kern_2_4_val_read, i1 %kern_2_5_val_read, i1 %kern_2_6_val_read, i1 %kern_2_7_val_read, i1 %kern_2_8_val_read, i2 %k, i32 %loc_3_loc" [kern.cpp:211]   --->   Operation 329 'call' 'call_ln211' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
 
-State 110 <SV = 109> <Delay = 0.00>
-ST_110 : Operation 331 [1/2] (0.00ns)   --->   "%call_ln211 = call void @conv2d_l4_Pipeline_L4_KH_L4_KW, i32 %loc_1, i2 %trunc_ln209, i2 %trunc_ln210, i9 %udiv_ln2_cast, i1 %input_0, i1 %input_1, i1 %input_2, i1 %input_3, i1 %input_4, i1 %input_5, i1 %input_6, i1 %input_7, i1 %input_8, i1 %input_9, i1 %input_10, i1 %input_11, i1 %input_12, i1 %input_13, i4 %select_ln211, i1 %kern_0_0_val_read, i1 %kern_0_1_val_read, i1 %kern_0_2_val_read, i1 %kern_0_3_val_read, i1 %kern_0_4_val_read, i1 %kern_0_5_val_read, i1 %kern_0_6_val_read, i1 %kern_0_7_val_read, i1 %kern_0_8_val_read, i1 %kern_1_0_val_read, i1 %kern_1_1_val_read, i1 %kern_1_2_val_read, i1 %kern_1_3_val_read, i1 %kern_1_4_val_read, i1 %kern_1_5_val_read, i1 %kern_1_6_val_read, i1 %kern_1_7_val_read, i1 %kern_1_8_val_read, i1 %kern_2_0_val_read, i1 %kern_2_1_val_read, i1 %kern_2_2_val_read, i1 %kern_2_3_val_read, i1 %kern_2_4_val_read, i1 %kern_2_5_val_read, i1 %kern_2_6_val_read, i1 %kern_2_7_val_read, i1 %kern_2_8_val_read, i2 %k, i32 %loc_3_loc" [kern.cpp:211]   --->   Operation 331 'call' 'call_ln211' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
-
-State 111 <SV = 110> <Delay = 1.58>
-ST_111 : Operation 332 [1/1] (0.00ns)   --->   "%loc_3_loc_load = load i32 %loc_3_loc"   --->   Operation 332 'load' 'loc_3_loc_load' <Predicate = (icmp_ln213)> <Delay = 0.00>
-ST_111 : Operation 333 [1/1] (1.58ns)   --->   "%br_ln0 = br void %for.inc48"   --->   Operation 333 'br' 'br_ln0' <Predicate = (icmp_ln213)> <Delay = 1.58>
-ST_111 : Operation 334 [1/1] (0.00ns)   --->   "%loc_4 = phi i32 %loc_1, void %for.body8.split, i32 %loc_3_loc_load, void %L4_KH"   --->   Operation 334 'phi' 'loc_4' <Predicate = true> <Delay = 0.00>
-ST_111 : Operation 335 [1/1] (0.00ns)   --->   "%br_ln212 = br void %for.body8" [kern.cpp:212]   --->   Operation 335 'br' 'br_ln212' <Predicate = true> <Delay = 0.00>
-
-State 112 <SV = 36> <Delay = 1.73>
-ST_112 : Operation 336 [2/2] (1.73ns)   --->   "%call_ln195 = call void @conv2d_l4_Pipeline_L4_FH_L4_FW, i8 %udiv_ln_cast, i1 %output_0, i1 %output_1, i1 %output_2, i1 %output_3, i1 %output_4, i1 %output_5, i1 %output_6, i1 %output_7, i1 %output_8, i1 %output_9, i1 %output_10, i1 %output_11, i1 %output_12, i1 %output_13, i32 %buffer_1, i32 %buffer_0, i16 %bias_read, i4 %select_ln195" [kern.cpp:195]   --->   Operation 336 'call' 'call_ln195' <Predicate = true> <Delay = 1.73> <CoreType = "Generic">   --->   Generic Core
-
-State 113 <SV = 37> <Delay = 0.00>
-ST_113 : Operation 337 [1/2] (0.00ns)   --->   "%call_ln195 = call void @conv2d_l4_Pipeline_L4_FH_L4_FW, i8 %udiv_ln_cast, i1 %output_0, i1 %output_1, i1 %output_2, i1 %output_3, i1 %output_4, i1 %output_5, i1 %output_6, i1 %output_7, i1 %output_8, i1 %output_9, i1 %output_10, i1 %output_11, i1 %output_12, i1 %output_13, i32 %buffer_1, i32 %buffer_0, i16 %bias_read, i4 %select_ln195" [kern.cpp:195]   --->   Operation 337 'call' 'call_ln195' <Predicate = (finalize_read)> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
-ST_113 : Operation 338 [1/1] (0.00ns)   --->   "%br_ln0 = br void %if.end148"   --->   Operation 338 'br' 'br_ln0' <Predicate = (finalize_read)> <Delay = 0.00>
-ST_113 : Operation 339 [1/1] (0.00ns)   --->   "%ret_ln247 = ret" [kern.cpp:247]   --->   Operation 339 'ret' 'ret_ln247' <Predicate = true> <Delay = 0.00>
+State 110 <SV = 109> <Delay = 1.58>
+ST_110 : Operation 330 [1/1] (0.00ns)   --->   "%loc_3_loc_load = load i32 %loc_3_loc"   --->   Operation 330 'load' 'loc_3_loc_load' <Predicate = (icmp_ln213)> <Delay = 0.00>
+ST_110 : Operation 331 [1/1] (1.58ns)   --->   "%br_ln0 = br void %for.inc48"   --->   Operation 331 'br' 'br_ln0' <Predicate = (icmp_ln213)> <Delay = 1.58>
+ST_110 : Operation 332 [1/1] (0.00ns)   --->   "%loc_4 = phi i32 %loc_1, void %for.body8.split, i32 %loc_3_loc_load, void %L4_KH"   --->   Operation 332 'phi' 'loc_4' <Predicate = true> <Delay = 0.00>
+ST_110 : Operation 333 [1/1] (0.00ns)   --->   "%br_ln212 = br void %for.body8" [kern.cpp:212]   --->   Operation 333 'br' 'br_ln212' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
 + Verbose Summary: Timing violations
 ============================================================
-Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+Target clock period: 13.000ns, clock uncertainty: 3.510ns.
 
- <State 1>: 6.912ns
+ <State 1>: 8.495ns
 The critical path consists of the following:
 	wire read operation ('out_ch_read') on port 'out_ch' [63]  (0.000 ns)
-	'mul' operation 65 bit ('mul_ln195', kern.cpp:195) [97]  (6.912 ns)
+	'mul' operation 65 bit ('mul_ln195', kern.cpp:195) [97]  (8.495 ns)
 
- <State 2>: 6.912ns
+ <State 2>: 4.135ns
 The critical path consists of the following:
-	'mul' operation 65 bit ('mul_ln195', kern.cpp:195) [97]  (6.912 ns)
+	'urem' operation 4 bit ('urem_ln195', kern.cpp:195) [102]  (4.135 ns)
 
  <State 3>: 4.135ns
 The critical path consists of the following:
@@ -792,11 +780,12 @@ The critical path consists of the following:
 The critical path consists of the following:
 	'urem' operation 4 bit ('urem_ln195', kern.cpp:195) [102]  (4.135 ns)
 
- <State 36>: 6.894ns
+ <State 36>: 8.629ns
 The critical path consists of the following:
 	'urem' operation 4 bit ('urem_ln195', kern.cpp:195) [102]  (4.135 ns)
 	'sub' operation 4 bit ('sub_ln195', kern.cpp:195) [104]  (1.735 ns)
 	'select' operation 4 bit ('select_ln195', kern.cpp:195) [105]  (1.024 ns)
+	'call' operation ('call_ln195', kern.cpp:195) to 'conv2d_l4_Pipeline_L4_FH_L4_FW' [191]  (1.735 ns)
 
  <State 37>: 3.238ns
 The critical path consists of the following:
@@ -816,31 +805,32 @@ The critical path consists of the following:
 	'load' operation 32 bit ('buffer_0_load', kern.cpp:211) on array 'buffer_0' [139]  (3.254 ns)
 	'select' operation 32 bit ('loc', kern.cpp:211) [141]  (0.698 ns)
 
- <State 40>: 4.819ns
+ <State 40>: 8.616ns
 The critical path consists of the following:
 	'phi' operation 2 bit ('k', kern.cpp:212) with incoming values : ('add_ln212', kern.cpp:212) [144]  (0.000 ns)
-	'icmp' operation 1 bit ('icmp_ln212', kern.cpp:212) [146]  (1.565 ns)
-	'store' operation ('store_ln226', kern.cpp:226) of variable 'loc' 32 bit on array 'buffer_0' [178]  (3.254 ns)
+	'add' operation 33 bit ('add_ln219', kern.cpp:219) [156]  (2.552 ns)
+	'xor' operation 33 bit ('xor_ln211', kern.cpp:211) [163]  (0.993 ns)
+	'urem' operation 4 bit ('urem_ln211', kern.cpp:211) [165]  (5.071 ns)
 
- <State 41>: 6.978ns
+ <State 41>: 9.171ns
 The critical path consists of the following:
-	'mul' operation 129 bit ('mul_ln211', kern.cpp:211) [159]  (6.978 ns)
+	'mul' operation 129 bit ('mul_ln211', kern.cpp:211) [159]  (9.171 ns)
 
- <State 42>: 6.978ns
+ <State 42>: 9.171ns
 The critical path consists of the following:
-	'mul' operation 129 bit ('mul_ln211', kern.cpp:211) [159]  (6.978 ns)
+	'mul' operation 129 bit ('mul_ln211', kern.cpp:211) [159]  (9.171 ns)
 
- <State 43>: 6.978ns
+ <State 43>: 9.171ns
 The critical path consists of the following:
-	'mul' operation 129 bit ('mul_ln211', kern.cpp:211) [159]  (6.978 ns)
+	'mul' operation 129 bit ('mul_ln211', kern.cpp:211) [159]  (9.171 ns)
 
- <State 44>: 6.978ns
+ <State 44>: 5.071ns
 The critical path consists of the following:
-	'mul' operation 129 bit ('mul_ln211', kern.cpp:211) [159]  (6.978 ns)
+	'urem' operation 4 bit ('urem_ln211', kern.cpp:211) [165]  (5.071 ns)
 
- <State 45>: 6.978ns
+ <State 45>: 5.071ns
 The critical path consists of the following:
-	'mul' operation 129 bit ('mul_ln211', kern.cpp:211) [159]  (6.978 ns)
+	'urem' operation 4 bit ('urem_ln211', kern.cpp:211) [165]  (5.071 ns)
 
  <State 46>: 5.071ns
 The critical path consists of the following:
@@ -1086,35 +1076,24 @@ The critical path consists of the following:
 The critical path consists of the following:
 	'urem' operation 4 bit ('urem_ln211', kern.cpp:211) [165]  (5.071 ns)
 
- <State 107>: 5.071ns
+ <State 107>: 7.830ns
 The critical path consists of the following:
 	'urem' operation 4 bit ('urem_ln211', kern.cpp:211) [165]  (5.071 ns)
-
- <State 108>: 5.071ns
-The critical path consists of the following:
-	'urem' operation 4 bit ('urem_ln211', kern.cpp:211) [165]  (5.071 ns)
-
- <State 109>: 4.347ns
-The critical path consists of the following:
 	'sub' operation 4 bit ('sub_ln211', kern.cpp:211) [167]  (1.735 ns)
 	'select' operation 4 bit ('select_ln211', kern.cpp:211) [168]  (1.024 ns)
-	'call' operation ('call_ln211', kern.cpp:211) to 'conv2d_l4_Pipeline_L4_KH_L4_KW' [169]  (1.588 ns)
 
- <State 110>: 0.000ns
+ <State 108>: 3.130ns
+The critical path consists of the following:
+	'call' operation ('call_ln211', kern.cpp:211) to 'conv2d_l4_Pipeline_L4_KH_L4_KW' [169]  (3.130 ns)
+
+ <State 109>: 0.000ns
 The critical path consists of the following:
 
- <State 111>: 1.588ns
+ <State 110>: 1.588ns
 The critical path consists of the following:
 	'load' operation 32 bit ('loc_3_loc_load') on local variable 'loc_3_loc' [170]  (0.000 ns)
 	multiplexor before 'phi' operation 32 bit ('loc') with incoming values : ('loc', kern.cpp:211) ('loc_3_loc_load') [173]  (1.588 ns)
 	'phi' operation 32 bit ('loc') with incoming values : ('loc', kern.cpp:211) ('loc_3_loc_load') [173]  (0.000 ns)
-
- <State 112>: 1.735ns
-The critical path consists of the following:
-	'call' operation ('call_ln195', kern.cpp:195) to 'conv2d_l4_Pipeline_L4_FH_L4_FW' [191]  (1.735 ns)
-
- <State 113>: 0.000ns
-The critical path consists of the following:
 
 
 ============================================================
@@ -1235,9 +1214,6 @@ N/A
 	State 108
 	State 109
 	State 110
-	State 111
-	State 112
-	State 113
 
 
 ============================================================

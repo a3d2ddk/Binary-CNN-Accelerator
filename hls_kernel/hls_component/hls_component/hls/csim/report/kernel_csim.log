@@ -1,6 +1,5 @@
 INFO: [SIM 2] *************** CSIM start ***************
-   Compiling ../../../../kern.cpp in debug mode
-   Generating csim.exe
+make: 'csim.exe' is up to date.
 Building input stream...
 Input stream: 112851 packets
 Running DUT...

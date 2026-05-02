@@ -9,8 +9,8 @@
 <ProductFamily>zynq</ProductFamily>
 <Part>xc7z020-clg400-1</Part>
 <TopModelName>kernel_Pipeline_MLPO_BITS</TopModelName>
-<TargetClockPeriod>10.00</TargetClockPeriod>
-<ClockUncertainty>2.70</ClockUncertainty>
+<TargetClockPeriod>13.00</TargetClockPeriod>
+<ClockUncertainty>3.51</ClockUncertainty>
 <FlowTarget>vivado</FlowTarget>
 </UserAssignments>
 
@@ -25,16 +25,16 @@
 <Best-caseLatency>3</Best-caseLatency>
 <Average-caseLatency>15</Average-caseLatency>
 <Worst-caseLatency>29</Worst-caseLatency>
-<Best-caseRealTimeLatency>30.000 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>0.150 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>0.290 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>39.000 ns</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.195 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.377 us</Worst-caseRealTimeLatency>
 <Interval-min>1</Interval-min>
 <Interval-max>27</Interval-max>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <MLPO_BITS>
-<Slack>7.30</Slack>
+<Slack>9.49</Slack>
 <TripCount>
 <range>
 <min>0</min>
@@ -50,8 +50,8 @@
 </Latency>
 <AbsoluteTimeLatency>
 <range>
-<min>10</min>
-<max>270</max>
+<min>13</min>
+<max>351</max>
 </range>
 </AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
@@ -62,7 +62,7 @@
 </MLPO_BITS>
 </SummaryOfLoopLatency>
 <SummaryOfViolations>
-<IssueType>Timing Violation</IssueType>
+<IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
 <SourceLocation>kern.cpp:322</SourceLocation>
 <SummaryOfLoopViolations>

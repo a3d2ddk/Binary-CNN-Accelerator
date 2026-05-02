@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'kernel_Pipeline_MLP1_BITS'" level="0">
-<item name = "Date">Fri May  1 21:41:11 2026
+<item name = "Date">Fri May  1 23:52:22 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">hls_component</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 7.343 ns, 2.70 ns</column>
+<column name="ap_clk">13.00 ns, 9.202 ns, 3.51 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">40, 66, 0.400 us, 0.660 us, 0, 0, loop pipeline stp</column>
+<column name="">39, 65, 0.507 us, 0.845 us, 0, 0, loop pipeline stp</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- MLP1_BITS">38, 64, 39, 1, 1, 0 ~ 27, yes</column>
+<column name="- MLP1_BITS">37, 63, 38, 1, 1, 0 ~ 27, yes</column>
 </table>
 </item>
 </section>

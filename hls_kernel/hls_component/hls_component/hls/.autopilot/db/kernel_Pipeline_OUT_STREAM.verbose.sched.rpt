@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'kernel_Pipeline_OUT_STREAM'
 ================================================================
-* Date:           Fri May  1 21:41:12 2026
+* Date:           Fri May  1 23:52:23 2026
 
 * Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        hls_component
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  10.00 ns|  5.058 ns|     2.70 ns|
+    |ap_clk  |  13.00 ns|  5.058 ns|     3.51 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -29,7 +29,7 @@
     |  Latency (cycles) |   Latency (absolute)  |  Interval |      Pipeline     |
     |   min   |   max   |    min    |    max    | min | max |        Type       |
     +---------+---------+-----------+-----------+-----+-----+-------------------+
-    |        7|        7|  70.000 ns|  70.000 ns|    0|    0|  loop pipeline stp|
+    |        7|        7|  91.000 ns|  91.000 ns|    0|    0|  loop pipeline stp|
     +---------+---------+-----------+-----------+-----+-----+-------------------+
 
     + Detail: 
@@ -120,7 +120,7 @@ ST_2 : Operation 31 [1/1] (0.00ns)   --->   "%br_ln504 = br void %for.inc332" [k
 ============================================================
 + Verbose Summary: Timing violations
 ============================================================
-Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+Target clock period: 13.000ns, clock uncertainty: 3.510ns.
 
  <State 1>: 5.058ns
 The critical path consists of the following:

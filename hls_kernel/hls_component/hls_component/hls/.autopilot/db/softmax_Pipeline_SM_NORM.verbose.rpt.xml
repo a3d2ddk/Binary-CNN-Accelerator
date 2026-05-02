@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'softmax_Pipeline_SM_NORM'" level="0">
-<item name = "Date">Fri May  1 21:41:15 2026
+<item name = "Date">Fri May  1 23:52:25 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">hls_component</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 4.911 ns, 2.70 ns</column>
+<column name="ap_clk">13.00 ns, 9.210 ns, 3.51 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">49, 49, 0.490 us, 0.490 us, 0, 0, loop pipeline stp</column>
+<column name="">47, 47, 0.611 us, 0.611 us, 0, 0, loop pipeline stp</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- SM_NORM">47, 47, 39, 1, 1, 10, yes</column>
+<column name="- SM_NORM">45, 45, 37, 1, 1, 10, yes</column>
 </table>
 </item>
 </section>
@@ -53,7 +53,7 @@
 <column name="Instance">-, -, 2283, 1738, -</column>
 <column name="Memory">-, -, -, -, -</column>
 <column name="Multiplexer">-, -, 0, 54, -</column>
-<column name="Register">-, -, 855, 64, -</column>
+<column name="Register">-, -, 787, 64, -</column>
 <specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
 <specialColumn name="Utilization (%)">0, 0, 2, 3, 0</specialColumn>
 </table>
@@ -80,8 +80,8 @@
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
 <column name="add_ln266_fu_106_p2">+, 0, 0, 13, 4, 1</column>
-<column name="sub_ln268_fu_128_p2">-, 0, 0, 39, 32, 32</column>
-<column name="ap_condition_379">and, 0, 0, 2, 1, 1</column>
+<column name="grp_fu_134_p0">-, 0, 0, 39, 32, 32</column>
+<column name="ap_condition_376">and, 0, 0, 2, 1, 1</column>
 <column name="icmp_ln266_fu_100_p2">icmp, 0, 0, 13, 4, 4</column>
 <column name="icmp_ln268_fu_86_p2">icmp, 0, 0, 39, 32, 1</column>
 <column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
@@ -91,8 +91,8 @@
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
 <column name="ap_done_int">9, 2, 1, 2</column>
 <column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
+<column name="ap_phi_mux_cond33_phi_fu_78_p4">9, 2, 16, 32</column>
 <column name="ap_phi_reg_pp0_iter1_cond33_reg_74">9, 2, 16, 32</column>
-<column name="ap_phi_reg_pp0_iter38_cond33_reg_74">9, 2, 16, 32</column>
 <column name="ap_sig_allocacmp_i_1">9, 2, 4, 8</column>
 <column name="i_fu_38">9, 2, 4, 8</column>
 </table>
@@ -131,8 +131,6 @@
 <column name="ap_enable_reg_pp0_iter34">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter35">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter36">1, 0, 1, 0</column>
-<column name="ap_enable_reg_pp0_iter37">1, 0, 1, 0</column>
-<column name="ap_enable_reg_pp0_iter38">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter4">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter5">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter6">1, 0, 1, 0</column>
@@ -167,8 +165,6 @@
 <column name="ap_loop_exit_ready_pp0_iter33_reg">1, 0, 1, 0</column>
 <column name="ap_loop_exit_ready_pp0_iter34_reg">1, 0, 1, 0</column>
 <column name="ap_loop_exit_ready_pp0_iter35_reg">1, 0, 1, 0</column>
-<column name="ap_loop_exit_ready_pp0_iter36_reg">1, 0, 1, 0</column>
-<column name="ap_loop_exit_ready_pp0_iter37_reg">1, 0, 1, 0</column>
 <column name="ap_loop_exit_ready_pp0_iter3_reg">1, 0, 1, 0</column>
 <column name="ap_loop_exit_ready_pp0_iter4_reg">1, 0, 1, 0</column>
 <column name="ap_loop_exit_ready_pp0_iter5_reg">1, 0, 1, 0</column>
@@ -205,8 +201,6 @@
 <column name="ap_phi_reg_pp0_iter34_cond33_reg_74">16, 0, 16, 0</column>
 <column name="ap_phi_reg_pp0_iter35_cond33_reg_74">16, 0, 16, 0</column>
 <column name="ap_phi_reg_pp0_iter36_cond33_reg_74">16, 0, 16, 0</column>
-<column name="ap_phi_reg_pp0_iter37_cond33_reg_74">16, 0, 16, 0</column>
-<column name="ap_phi_reg_pp0_iter38_cond33_reg_74">16, 0, 16, 0</column>
 <column name="ap_phi_reg_pp0_iter3_cond33_reg_74">16, 0, 16, 0</column>
 <column name="ap_phi_reg_pp0_iter4_cond33_reg_74">16, 0, 16, 0</column>
 <column name="ap_phi_reg_pp0_iter5_cond33_reg_74">16, 0, 16, 0</column>
@@ -215,12 +209,11 @@
 <column name="ap_phi_reg_pp0_iter8_cond33_reg_74">16, 0, 16, 0</column>
 <column name="ap_phi_reg_pp0_iter9_cond33_reg_74">16, 0, 16, 0</column>
 <column name="i_fu_38">4, 0, 4, 0</column>
-<column name="icmp_ln266_reg_158">1, 0, 1, 0</column>
-<column name="icmp_ln268_reg_154">1, 0, 1, 0</column>
-<column name="sub_ln268_reg_172">32, 0, 32, 0</column>
-<column name="zext_ln266_reg_162">4, 0, 64, 60</column>
-<column name="icmp_ln266_reg_158">64, 32, 1, 0</column>
-<column name="zext_ln266_reg_162">64, 32, 64, 60</column>
+<column name="icmp_ln266_reg_160">1, 0, 1, 0</column>
+<column name="icmp_ln268_reg_156">1, 0, 1, 0</column>
+<column name="zext_ln266_reg_164">4, 0, 64, 60</column>
+<column name="icmp_ln266_reg_160">64, 32, 1, 0</column>
+<column name="zext_ln266_reg_164">64, 32, 64, 60</column>
 </table>
 </item>
 </section>

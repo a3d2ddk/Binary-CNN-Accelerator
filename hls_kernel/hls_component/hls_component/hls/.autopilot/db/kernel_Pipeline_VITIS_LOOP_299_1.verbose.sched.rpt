@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'kernel_Pipeline_VITIS_LOOP_299_1'
 ================================================================
-* Date:           Fri May  1 21:41:11 2026
+* Date:           Fri May  1 23:52:21 2026
 
 * Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        hls_component
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  10.00 ns|  6.481 ns|     2.70 ns|
+    |ap_clk  |  13.00 ns|  6.481 ns|     3.51 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -29,7 +29,7 @@
     |  Latency (cycles) |   Latency (absolute)  |  Interval |      Pipeline     |
     |   min   |   max   |    min    |    max    | min | max |        Type       |
     +---------+---------+-----------+-----------+-----+-----+-------------------+
-    |     1026|     1026|  10.260 us|  10.260 us|    0|    0|  loop pipeline stp|
+    |     1026|     1026|  13.338 us|  13.338 us|    0|    0|  loop pipeline stp|
     +---------+---------+-----------+-----------+-----+-----+-------------------+
 
     + Detail: 
@@ -112,14 +112,14 @@ ST_1 : Operation 26 [1/1] (1.58ns)   --->   "%ret_ln0 = ret"   --->   Operation 
 ============================================================
 + Verbose Summary: Timing violations
 ============================================================
-Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+Target clock period: 13.000ns, clock uncertainty: 3.510ns.
 
  <State 1>: 6.481ns
 The critical path consists of the following:
 	'store' operation ('store_ln299', kern.cpp:299) of constant 0 11 bit on local variable 'i', kern.cpp:299 [4]  (1.588 ns)
 	'load' operation 11 bit ('i', kern.cpp:299) on local variable 'i', kern.cpp:299 [7]  (0.000 ns)
 	'icmp' operation 1 bit ('icmp_ln299', kern.cpp:299) [8]  (1.639 ns)
-	'store' operation ('store_ln299', kern.cpp:299) of constant 0 32 bit on array 'buffer_1' [25]  (3.254 ns)
+	'store' operation ('store_ln299', kern.cpp:299) of constant 0 32 bit on array 'buffer_r' [22]  (3.254 ns)
 
 
 ============================================================

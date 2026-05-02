@@ -1,7 +1,7 @@
 {
   "0": {
     "basicblocks": 72,
-    "calls": "5 3 3 2 2 1 1 4 4",
+    "calls": "3 2 2 4 4 1 1 5 5",
     "control_depth": 2,
     "def_use_depth": 9,
     "file": "kern.cpp",
@@ -39,24 +39,6 @@
     "basicblocks": 37,
     "calls": "",
     "control_depth": 2,
-    "def_use_depth": 10,
-    "file": "kern.cpp",
-    "fileloc": 83,
-    "instructions": 226,
-    "loads": {
-      "L": 20
-    },
-    "memory_accesses": 37,
-    "name": "conv2d_l2",
-    "stores": {
-      "L": 20
-    },
-    "total_instructions": 226
-  },
-  "3": {
-    "basicblocks": 37,
-    "calls": "",
-    "control_depth": 2,
     "def_use_depth": 12,
     "file": "kern.cpp",
     "fileloc": 28,
@@ -71,25 +53,7 @@
     },
     "total_instructions": 235
   },
-  "4": {
-    "basicblocks": 37,
-    "calls": "",
-    "control_depth": 2,
-    "def_use_depth": 10,
-    "file": "kern.cpp",
-    "fileloc": 194,
-    "instructions": 226,
-    "loads": {
-      "L": 20
-    },
-    "memory_accesses": 37,
-    "name": "conv2d_l4",
-    "stores": {
-      "L": 20
-    },
-    "total_instructions": 226
-  },
-  "5": {
+  "3": {
     "basicblocks": 5,
     "calls": "",
     "control_depth": 2,
@@ -106,5 +70,41 @@
       "L": 11
     },
     "total_instructions": 128
+  },
+  "4": {
+    "basicblocks": 37,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 10,
+    "file": "kern.cpp",
+    "fileloc": 83,
+    "instructions": 226,
+    "loads": {
+      "L": 20
+    },
+    "memory_accesses": 37,
+    "name": "conv2d_l2",
+    "stores": {
+      "L": 20
+    },
+    "total_instructions": 226
+  },
+  "5": {
+    "basicblocks": 37,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 10,
+    "file": "kern.cpp",
+    "fileloc": 194,
+    "instructions": 226,
+    "loads": {
+      "L": 20
+    },
+    "memory_accesses": 37,
+    "name": "conv2d_l4",
+    "stores": {
+      "L": 20
+    },
+    "total_instructions": 226
   }
 }

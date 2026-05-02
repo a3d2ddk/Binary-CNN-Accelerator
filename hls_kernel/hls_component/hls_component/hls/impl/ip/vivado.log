@@ -3,8 +3,8 @@
 # SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Fri May  1 21:41:41 2026
-# Process ID         : 6404
+# Start of session at: Fri May  1 23:58:57 2026
+# Process ID         : 47196
 # Current directory  : /home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/impl/ip
 # Command line       : vivado -notrace -mode batch -source run_ippack.tcl
 # Log file           : /home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/impl/ip/vivado.log
@@ -19,7 +19,7 @@
 # Host memory        : 16447 MB
 # Swap memory        : 2147 MB
 # Total Virtual      : 18594 MB
-# Available Virtual  : 12685 MB
+# Available Virtual  : 7735 MB
 #-----------------------------------------------------------
 source run_ippack.tcl -notrace
 INFO: calling package_hls_ip ip_types=vitis sysgen json_file=/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/hls_data.json outdir=/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/impl/ip srcdir=/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls ippack_options_dict= ippack_options_dict=
@@ -42,4 +42,4 @@ INFO: Calling post_process_sysgen to specialize IP
 Generating sysgen info xml from json file
 INFO: Created IP /home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/impl/ip/component.xml
 INFO: Created IP archive /home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/impl/ip/xilinx_com_hls_kernel_1_0.zip
-INFO: [Common 17-206] Exiting Vivado at Fri May  1 21:41:48 2026...
+INFO: [Common 17-206] Exiting Vivado at Fri May  1 23:59:02 2026...

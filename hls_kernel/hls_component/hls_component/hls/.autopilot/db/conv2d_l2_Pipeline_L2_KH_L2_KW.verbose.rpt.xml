@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'conv2d_l2_Pipeline_L2_KH_L2_KW'" level="0">
-<item name = "Date">Fri May  1 21:41:14 2026
+<item name = "Date">Fri May  1 23:52:24 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">hls_component</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 7.299 ns, 2.70 ns</column>
+<column name="ap_clk">13.00 ns, 8.742 ns, 3.51 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">14, 14, 0.140 us, 0.140 us, 0, 0, loop pipeline stp</column>
+<column name="">13, 13, 0.169 us, 0.169 us, 0, 0, loop pipeline stp</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- L2_KH_L2_KW">12, 12, 5, 1, 1, 9, yes</column>
+<column name="- L2_KH_L2_KW">11, 11, 4, 1, 1, 9, yes</column>
 </table>
 </item>
 </section>
@@ -53,7 +53,7 @@
 <column name="Instance">-, -, 0, 218, -</column>
 <column name="Memory">-, -, -, -, -</column>
 <column name="Multiplexer">-, -, 0, 81, -</column>
-<column name="Register">-, -, 208, 64, -</column>
+<column name="Register">-, -, 70, -, -</column>
 <specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
 <specialColumn name="Utilization (%)">0, 0, ~0, 1, 0</specialColumn>
 </table>
@@ -85,27 +85,27 @@
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
 <column name="add_ln103_1_fu_624_p2">+, 0, 0, 13, 4, 1</column>
 <column name="add_ln103_fu_636_p2">+, 0, 0, 10, 2, 1</column>
-<column name="add_ln104_fu_664_p2">+, 0, 0, 10, 2, 1</column>
-<column name="add_ln106_1_fu_697_p2">+, 0, 0, 14, 6, 6</column>
-<column name="add_ln106_2_fu_730_p2">+, 0, 0, 10, 2, 2</column>
-<column name="add_ln106_3_fu_739_p2">+, 0, 0, 14, 6, 6</column>
-<column name="add_ln106_fu_688_p2">+, 0, 0, 10, 2, 2</column>
-<column name="add_ln108_1_fu_892_p2">+, 0, 0, 11, 11, 11</column>
-<column name="add_ln108_2_fu_897_p2">+, 0, 0, 11, 11, 11</column>
-<column name="add_ln108_fu_748_p2">+, 0, 0, 12, 11, 11</column>
-<column name="add_ln109_fu_776_p2">+, 0, 0, 7, 4, 4</column>
-<column name="loc_7_fu_1014_p2">+, 0, 0, 39, 32, 32</column>
-<column name="sub_ln109_fu_721_p2">-, 0, 0, 7, 4, 4</column>
+<column name="add_ln104_fu_696_p2">+, 0, 0, 10, 2, 1</column>
+<column name="add_ln106_1_fu_674_p2">+, 0, 0, 14, 6, 6</column>
+<column name="add_ln106_2_fu_680_p2">+, 0, 0, 10, 2, 2</column>
+<column name="add_ln106_3_fu_690_p2">+, 0, 0, 14, 6, 6</column>
+<column name="add_ln106_fu_664_p2">+, 0, 0, 10, 2, 2</column>
+<column name="add_ln108_1_fu_762_p2">+, 0, 0, 11, 11, 11</column>
+<column name="add_ln108_2_fu_768_p2">+, 0, 0, 11, 11, 11</column>
+<column name="add_ln108_fu_750_p2">+, 0, 0, 12, 11, 11</column>
+<column name="add_ln109_fu_811_p2">+, 0, 0, 7, 4, 4</column>
+<column name="loc_7_fu_1019_p2">+, 0, 0, 39, 32, 32</column>
+<column name="sub_ln109_fu_738_p2">-, 0, 0, 7, 4, 4</column>
 <column name="icmp_ln103_fu_618_p2">icmp, 0, 0, 13, 4, 4</column>
 <column name="icmp_ln104_fu_642_p2">icmp, 0, 0, 10, 2, 2</column>
-<column name="icmp_ln107_fu_770_p2">icmp, 0, 0, 10, 2, 1</column>
-<column name="or_ln107_fu_754_p2">or, 0, 0, 6, 6, 6</column>
-<column name="loc_3_fu_1020_p3">select, 0, 0, 32, 1, 32</column>
+<column name="icmp_ln107_fu_805_p2">icmp, 0, 0, 10, 2, 1</column>
+<column name="or_ln107_fu_791_p2">or, 0, 0, 6, 6, 6</column>
+<column name="loc_3_fu_1025_p3">select, 0, 0, 32, 1, 32</column>
 <column name="select_ln100_1_fu_648_p3">select, 0, 0, 2, 1, 1</column>
 <column name="select_ln103_fu_656_p3">select, 0, 0, 2, 1, 2</column>
-<column name="select_ln110_fu_1006_p3">select, 0, 0, 2, 1, 2</column>
+<column name="select_ln110_fu_1011_p3">select, 0, 0, 2, 1, 2</column>
 <column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
-<column name="xor_ln110_fu_1002_p2">xor, 0, 0, 2, 1, 1</column>
+<column name="xor_ln110_fu_1007_p2">xor, 0, 0, 2, 1, 1</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
@@ -123,34 +123,28 @@
 </item>
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
-<column name="a_reg_1343">1, 0, 1, 0</column>
-<column name="add_ln108_reg_1242">11, 0, 11, 0</column>
+<column name="a_reg_1327">1, 0, 1, 0</column>
+<column name="add_ln106_1_reg_1235">6, 0, 6, 0</column>
+<column name="add_ln106_3_reg_1241">6, 0, 6, 0</column>
 <column name="ap_CS_fsm">1, 0, 1, 0</column>
 <column name="ap_done_reg">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter2">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter3">1, 0, 1, 0</column>
-<column name="ap_enable_reg_pp0_iter4">1, 0, 1, 0</column>
 <column name="ap_loop_exit_ready_pp0_iter1_reg">1, 0, 1, 0</column>
 <column name="ap_loop_exit_ready_pp0_iter2_reg">1, 0, 1, 0</column>
-<column name="ap_loop_exit_ready_pp0_iter3_reg">1, 0, 1, 0</column>
-<column name="icmp_ln103_reg_1225">1, 0, 1, 0</column>
-<column name="icmp_ln107_reg_1248">1, 0, 1, 0</column>
+<column name="icmp_ln103_reg_1220">1, 0, 1, 0</column>
+<column name="icmp_ln103_reg_1220_pp0_iter1_reg">1, 0, 1, 0</column>
+<column name="icmp_ln107_reg_1317">1, 0, 1, 0</column>
+<column name="icmp_ln107_reg_1317_pp0_iter2_reg">1, 0, 1, 0</column>
 <column name="indvar_flatten_fu_196">4, 0, 4, 0</column>
 <column name="kh_fu_192">2, 0, 2, 0</column>
 <column name="kw_fu_188">2, 0, 2, 0</column>
 <column name="loc_fu_184">32, 0, 32, 0</column>
-<column name="select_ln100_1_reg_1229">2, 0, 2, 0</column>
-<column name="select_ln103_reg_1235">2, 0, 2, 0</column>
-<column name="tmp_6_reg_1263">1, 0, 1, 0</column>
-<column name="tmp_reg_1253">1, 0, 1, 0</column>
-<column name="tmp_s_reg_1258">1, 0, 1, 0</column>
-<column name="w_reg_1338">1, 0, 1, 0</column>
-<column name="w_reg_1338_pp0_iter3_reg">1, 0, 1, 0</column>
-<column name="zext_ln98_cast_reg_1220">4, 0, 6, 2</column>
-<column name="zext_ln99_cast_reg_1215">4, 0, 6, 2</column>
-<column name="icmp_ln103_reg_1225">64, 32, 1, 0</column>
-<column name="icmp_ln107_reg_1248">64, 32, 1, 0</column>
+<column name="select_ln100_1_reg_1224">2, 0, 2, 0</column>
+<column name="select_ln103_reg_1229">2, 0, 2, 0</column>
+<column name="w_reg_1322">1, 0, 1, 0</column>
+<column name="w_reg_1322_pp0_iter2_reg">1, 0, 1, 0</column>
 </table>
 </item>
 </section>

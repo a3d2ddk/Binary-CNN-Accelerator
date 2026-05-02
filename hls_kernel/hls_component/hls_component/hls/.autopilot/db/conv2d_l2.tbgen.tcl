@@ -499,20 +499,20 @@ set NewPortList {[
 
 set ArgLastReadFirstWriteLatency {
 	conv2d_l2 {
-		input_0 {Type I LastRead 2 FirstWrite -1}
-		input_1 {Type I LastRead 2 FirstWrite -1}
-		input_2 {Type I LastRead 2 FirstWrite -1}
-		input_3 {Type I LastRead 2 FirstWrite -1}
-		input_4 {Type I LastRead 2 FirstWrite -1}
-		input_5 {Type I LastRead 2 FirstWrite -1}
-		input_6 {Type I LastRead 2 FirstWrite -1}
-		input_7 {Type I LastRead 2 FirstWrite -1}
-		input_8 {Type I LastRead 2 FirstWrite -1}
-		input_9 {Type I LastRead 2 FirstWrite -1}
-		input_10 {Type I LastRead 2 FirstWrite -1}
-		input_11 {Type I LastRead 2 FirstWrite -1}
-		input_12 {Type I LastRead 2 FirstWrite -1}
-		input_13 {Type I LastRead 2 FirstWrite -1}
+		input_0 {Type I LastRead 1 FirstWrite -1}
+		input_1 {Type I LastRead 1 FirstWrite -1}
+		input_2 {Type I LastRead 1 FirstWrite -1}
+		input_3 {Type I LastRead 1 FirstWrite -1}
+		input_4 {Type I LastRead 1 FirstWrite -1}
+		input_5 {Type I LastRead 1 FirstWrite -1}
+		input_6 {Type I LastRead 1 FirstWrite -1}
+		input_7 {Type I LastRead 1 FirstWrite -1}
+		input_8 {Type I LastRead 1 FirstWrite -1}
+		input_9 {Type I LastRead 1 FirstWrite -1}
+		input_10 {Type I LastRead 1 FirstWrite -1}
+		input_11 {Type I LastRead 1 FirstWrite -1}
+		input_12 {Type I LastRead 1 FirstWrite -1}
+		input_13 {Type I LastRead 1 FirstWrite -1}
 		kern_0_0_val {Type I LastRead 35 FirstWrite -1}
 		kern_0_1_val {Type I LastRead 35 FirstWrite -1}
 		kern_0_2_val {Type I LastRead 35 FirstWrite -1}
@@ -542,44 +542,64 @@ set ArgLastReadFirstWriteLatency {
 		kern_2_8_val {Type I LastRead 35 FirstWrite -1}
 		num_kerns_val {Type I LastRead 35 FirstWrite -1}
 		in_ch_start {Type I LastRead 35 FirstWrite -1}
-		buffer_0 {Type IO LastRead 37 FirstWrite 1}
-		buffer_1 {Type IO LastRead 37 FirstWrite 1}
+		buffer_0 {Type IO LastRead 37 FirstWrite 0}
+		buffer_1 {Type IO LastRead 37 FirstWrite 0}
 		finalize {Type I LastRead 35 FirstWrite -1}
 		bias {Type I LastRead 35 FirstWrite -1}
 		out_ch {Type I LastRead 0 FirstWrite -1}
-		output_0 {Type O LastRead -1 FirstWrite 5}
-		output_1 {Type O LastRead -1 FirstWrite 5}
-		output_2 {Type O LastRead -1 FirstWrite 5}
-		output_3 {Type O LastRead -1 FirstWrite 5}
-		output_4 {Type O LastRead -1 FirstWrite 5}
-		output_5 {Type O LastRead -1 FirstWrite 5}
-		output_6 {Type O LastRead -1 FirstWrite 5}
-		output_7 {Type O LastRead -1 FirstWrite 5}
-		output_8 {Type O LastRead -1 FirstWrite 5}
-		output_9 {Type O LastRead -1 FirstWrite 5}
-		output_10 {Type O LastRead -1 FirstWrite 5}
-		output_11 {Type O LastRead -1 FirstWrite 5}
-		output_12 {Type O LastRead -1 FirstWrite 5}
-		output_13 {Type O LastRead -1 FirstWrite 5}}
+		output_0 {Type O LastRead -1 FirstWrite 2}
+		output_1 {Type O LastRead -1 FirstWrite 2}
+		output_2 {Type O LastRead -1 FirstWrite 2}
+		output_3 {Type O LastRead -1 FirstWrite 2}
+		output_4 {Type O LastRead -1 FirstWrite 2}
+		output_5 {Type O LastRead -1 FirstWrite 2}
+		output_6 {Type O LastRead -1 FirstWrite 2}
+		output_7 {Type O LastRead -1 FirstWrite 2}
+		output_8 {Type O LastRead -1 FirstWrite 2}
+		output_9 {Type O LastRead -1 FirstWrite 2}
+		output_10 {Type O LastRead -1 FirstWrite 2}
+		output_11 {Type O LastRead -1 FirstWrite 2}
+		output_12 {Type O LastRead -1 FirstWrite 2}
+		output_13 {Type O LastRead -1 FirstWrite 2}}
+	conv2d_l2_Pipeline_L2_FH_L2_FW {
+		zext_ln84 {Type I LastRead 0 FirstWrite -1}
+		output_0 {Type O LastRead -1 FirstWrite 2}
+		output_1 {Type O LastRead -1 FirstWrite 2}
+		output_2 {Type O LastRead -1 FirstWrite 2}
+		output_3 {Type O LastRead -1 FirstWrite 2}
+		output_4 {Type O LastRead -1 FirstWrite 2}
+		output_5 {Type O LastRead -1 FirstWrite 2}
+		output_6 {Type O LastRead -1 FirstWrite 2}
+		output_7 {Type O LastRead -1 FirstWrite 2}
+		output_8 {Type O LastRead -1 FirstWrite 2}
+		output_9 {Type O LastRead -1 FirstWrite 2}
+		output_10 {Type O LastRead -1 FirstWrite 2}
+		output_11 {Type O LastRead -1 FirstWrite 2}
+		output_12 {Type O LastRead -1 FirstWrite 2}
+		output_13 {Type O LastRead -1 FirstWrite 2}
+		buffer_1 {Type IO LastRead 1 FirstWrite 0}
+		buffer_0 {Type IO LastRead 1 FirstWrite 0}
+		sext_ln94 {Type I LastRead 0 FirstWrite -1}
+		select_ln84 {Type I LastRead 0 FirstWrite -1}}
 	conv2d_l2_Pipeline_L2_KH_L2_KW {
 		loc_08 {Type I LastRead 0 FirstWrite -1}
 		zext_ln98 {Type I LastRead 0 FirstWrite -1}
 		zext_ln99 {Type I LastRead 0 FirstWrite -1}
 		udiv_ln4 {Type I LastRead 0 FirstWrite -1}
-		input_0 {Type I LastRead 2 FirstWrite -1}
-		input_1 {Type I LastRead 2 FirstWrite -1}
-		input_2 {Type I LastRead 2 FirstWrite -1}
-		input_3 {Type I LastRead 2 FirstWrite -1}
-		input_4 {Type I LastRead 2 FirstWrite -1}
-		input_5 {Type I LastRead 2 FirstWrite -1}
-		input_6 {Type I LastRead 2 FirstWrite -1}
-		input_7 {Type I LastRead 2 FirstWrite -1}
-		input_8 {Type I LastRead 2 FirstWrite -1}
-		input_9 {Type I LastRead 2 FirstWrite -1}
-		input_10 {Type I LastRead 2 FirstWrite -1}
-		input_11 {Type I LastRead 2 FirstWrite -1}
-		input_12 {Type I LastRead 2 FirstWrite -1}
-		input_13 {Type I LastRead 2 FirstWrite -1}
+		input_0 {Type I LastRead 1 FirstWrite -1}
+		input_1 {Type I LastRead 1 FirstWrite -1}
+		input_2 {Type I LastRead 1 FirstWrite -1}
+		input_3 {Type I LastRead 1 FirstWrite -1}
+		input_4 {Type I LastRead 1 FirstWrite -1}
+		input_5 {Type I LastRead 1 FirstWrite -1}
+		input_6 {Type I LastRead 1 FirstWrite -1}
+		input_7 {Type I LastRead 1 FirstWrite -1}
+		input_8 {Type I LastRead 1 FirstWrite -1}
+		input_9 {Type I LastRead 1 FirstWrite -1}
+		input_10 {Type I LastRead 1 FirstWrite -1}
+		input_11 {Type I LastRead 1 FirstWrite -1}
+		input_12 {Type I LastRead 1 FirstWrite -1}
+		input_13 {Type I LastRead 1 FirstWrite -1}
 		select_ln100 {Type I LastRead 0 FirstWrite -1}
 		kern_0_0_val {Type I LastRead 0 FirstWrite -1}
 		kern_0_1_val {Type I LastRead 0 FirstWrite -1}
@@ -609,33 +629,13 @@ set ArgLastReadFirstWriteLatency {
 		kern_2_7_val {Type I LastRead 0 FirstWrite -1}
 		kern_2_8_val {Type I LastRead 0 FirstWrite -1}
 		k {Type I LastRead 0 FirstWrite -1}
-		loc_9_out {Type O LastRead -1 FirstWrite 3}}
-	conv2d_l2_Pipeline_L2_FH_L2_FW {
-		zext_ln84 {Type I LastRead 0 FirstWrite -1}
-		output_0 {Type O LastRead -1 FirstWrite 5}
-		output_1 {Type O LastRead -1 FirstWrite 5}
-		output_2 {Type O LastRead -1 FirstWrite 5}
-		output_3 {Type O LastRead -1 FirstWrite 5}
-		output_4 {Type O LastRead -1 FirstWrite 5}
-		output_5 {Type O LastRead -1 FirstWrite 5}
-		output_6 {Type O LastRead -1 FirstWrite 5}
-		output_7 {Type O LastRead -1 FirstWrite 5}
-		output_8 {Type O LastRead -1 FirstWrite 5}
-		output_9 {Type O LastRead -1 FirstWrite 5}
-		output_10 {Type O LastRead -1 FirstWrite 5}
-		output_11 {Type O LastRead -1 FirstWrite 5}
-		output_12 {Type O LastRead -1 FirstWrite 5}
-		output_13 {Type O LastRead -1 FirstWrite 5}
-		buffer_1 {Type IO LastRead 2 FirstWrite 1}
-		buffer_0 {Type IO LastRead 2 FirstWrite 1}
-		sext_ln94 {Type I LastRead 0 FirstWrite -1}
-		select_ln84 {Type I LastRead 0 FirstWrite -1}}}
+		loc_9_out {Type O LastRead -1 FirstWrite 2}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "107", "Max" : "66885"}
-	, {"Name" : "Interval", "Min" : "107", "Max" : "66885"}
+	{"Name" : "Latency", "Min" : "103", "Max" : "65348"}
+	, {"Name" : "Interval", "Min" : "103", "Max" : "65348"}
 ]}
 
 set PipelineEnableSignalInfo {[

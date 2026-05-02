@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'kernel'" level="0">
-<item name = "Date">Fri May  1 21:41:13 2026
+<item name = "Date">Fri May  1 23:52:23 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">hls_component</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 7.433 ns, 2.70 ns</column>
+<column name="ap_clk">13.00 ns, 9.480 ns, 3.51 ns</column>
 </table>
 </item>
 </section>
@@ -31,21 +31,21 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_kernel_Pipeline_VITIS_LOOP_299_1_fu_821">kernel_Pipeline_VITIS_LOOP_299_1, 1026, 1026, 10.260 us, 10.260 us, 0, 0, loop pipeline stp</column>
-<column name="grp_kernel_Pipeline_MLP2_BITS_fu_829">kernel_Pipeline_MLP2_BITS, 3, 29, 30.000 ns, 0.290 us, 0, 0, loop pipeline stp</column>
-<column name="grp_kernel_Pipeline_MLP1_BITS_fu_865">kernel_Pipeline_MLP1_BITS, 40, 66, 0.400 us, 0.660 us, 0, 0, loop pipeline stp</column>
-<column name="grp_conv2d_l4_fu_914">conv2d_l4, 46, 4317, 0.460 us, 43.170 us, 46, 4317, no</column>
-<column name="grp_conv2d_l3_fu_984">conv2d_l3, 59, 16757, 0.590 us, 0.168 ms, 59, 16757, no</column>
-<column name="grp_conv2d_l2_fu_1054">conv2d_l2, 107, 66885, 1.070 us, 0.669 ms, 107, 66885, no</column>
-<column name="grp_conv2d_l1_fu_1124">conv2d_l1, 299, 261221, 2.990 us, 2.612 ms, 299, 261221, no</column>
-<column name="grp_kernel_Pipeline_MLPO_BITS_fu_1194">kernel_Pipeline_MLPO_BITS, 3, 29, 30.000 ns, 0.290 us, 0, 0, loop pipeline stp</column>
-<column name="grp_softmax_fu_1230">softmax, 62, 62, 0.620 us, 0.620 us, 62, 62, no</column>
-<column name="grp_kernel_Pipeline_OUT_STREAM_fu_1236">kernel_Pipeline_OUT_STREAM, 7, 7, 70.000 ns, 70.000 ns, 0, 0, loop pipeline stp</column>
+<column name="grp_kernel_Pipeline_VITIS_LOOP_299_1_fu_821">kernel_Pipeline_VITIS_LOOP_299_1, 1026, 1026, 13.338 us, 13.338 us, 0, 0, loop pipeline stp</column>
+<column name="grp_kernel_Pipeline_MLP2_BITS_fu_829">kernel_Pipeline_MLP2_BITS, 3, 29, 39.000 ns, 0.377 us, 0, 0, loop pipeline stp</column>
+<column name="grp_kernel_Pipeline_MLP1_BITS_fu_865">kernel_Pipeline_MLP1_BITS, 39, 65, 0.507 us, 0.845 us, 0, 0, loop pipeline stp</column>
+<column name="grp_conv2d_l4_fu_914">conv2d_l4, 44, 4268, 0.572 us, 55.484 us, 44, 4268, no</column>
+<column name="grp_conv2d_l3_fu_984">conv2d_l3, 56, 16180, 0.728 us, 0.210 ms, 56, 16180, no</column>
+<column name="grp_conv2d_l2_fu_1054">conv2d_l2, 103, 65348, 1.339 us, 0.850 ms, 103, 65348, no</column>
+<column name="grp_conv2d_l1_fu_1124">conv2d_l1, 296, 258148, 3.848 us, 3.356 ms, 296, 258148, no</column>
+<column name="grp_kernel_Pipeline_MLPO_BITS_fu_1194">kernel_Pipeline_MLPO_BITS, 3, 29, 39.000 ns, 0.377 us, 0, 0, loop pipeline stp</column>
+<column name="grp_softmax_fu_1230">softmax, 59, 59, 0.767 us, 0.767 us, 59, 59, no</column>
+<column name="grp_kernel_Pipeline_OUT_STREAM_fu_1236">kernel_Pipeline_OUT_STREAM, 7, 7, 91.000 ns, 91.000 ns, 0, 0, loop pipeline stp</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- kernel_loop">?, ?, 2 ~ 261225, -, -, ?, no</column>
+<column name="- kernel_loop">?, ?, 2 ~ 258152, -, -, ?, no</column>
 </table>
 </item>
 </section>

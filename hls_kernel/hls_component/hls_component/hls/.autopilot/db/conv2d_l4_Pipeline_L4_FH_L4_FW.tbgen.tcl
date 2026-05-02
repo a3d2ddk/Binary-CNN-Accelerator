@@ -258,29 +258,29 @@ set NewPortList {[
 set ArgLastReadFirstWriteLatency {
 	conv2d_l4_Pipeline_L4_FH_L4_FW {
 		zext_ln195 {Type I LastRead 0 FirstWrite -1}
-		output_0 {Type O LastRead -1 FirstWrite 4}
-		output_1 {Type O LastRead -1 FirstWrite 4}
-		output_2 {Type O LastRead -1 FirstWrite 4}
-		output_3 {Type O LastRead -1 FirstWrite 4}
-		output_4 {Type O LastRead -1 FirstWrite 4}
-		output_5 {Type O LastRead -1 FirstWrite 4}
-		output_6 {Type O LastRead -1 FirstWrite 4}
-		output_7 {Type O LastRead -1 FirstWrite 4}
-		output_8 {Type O LastRead -1 FirstWrite 4}
-		output_9 {Type O LastRead -1 FirstWrite 4}
-		output_10 {Type O LastRead -1 FirstWrite 4}
-		output_11 {Type O LastRead -1 FirstWrite 4}
-		output_12 {Type O LastRead -1 FirstWrite 4}
-		output_13 {Type O LastRead -1 FirstWrite 4}
-		buffer_1 {Type IO LastRead 2 FirstWrite 1}
-		buffer_0 {Type IO LastRead 2 FirstWrite 1}
+		output_0 {Type O LastRead -1 FirstWrite 3}
+		output_1 {Type O LastRead -1 FirstWrite 3}
+		output_2 {Type O LastRead -1 FirstWrite 3}
+		output_3 {Type O LastRead -1 FirstWrite 3}
+		output_4 {Type O LastRead -1 FirstWrite 3}
+		output_5 {Type O LastRead -1 FirstWrite 3}
+		output_6 {Type O LastRead -1 FirstWrite 3}
+		output_7 {Type O LastRead -1 FirstWrite 3}
+		output_8 {Type O LastRead -1 FirstWrite 3}
+		output_9 {Type O LastRead -1 FirstWrite 3}
+		output_10 {Type O LastRead -1 FirstWrite 3}
+		output_11 {Type O LastRead -1 FirstWrite 3}
+		output_12 {Type O LastRead -1 FirstWrite 3}
+		output_13 {Type O LastRead -1 FirstWrite 3}
+		buffer_1 {Type IO LastRead 1 FirstWrite 0}
+		buffer_0 {Type IO LastRead 1 FirstWrite 0}
 		sext_ln205 {Type I LastRead 0 FirstWrite -1}
 		select_ln195 {Type I LastRead 0 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "9", "Max" : "9"}
+	{"Name" : "Latency", "Min" : "8", "Max" : "8"}
 	, {"Name" : "Interval", "Min" : "5", "Max" : "5"}
 ]}
 

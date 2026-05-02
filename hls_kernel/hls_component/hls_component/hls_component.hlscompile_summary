@@ -9,10 +9,10 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "Fri May  1 21:40:51 2026",
- "timestampMillis": "1777686051184",
+ "dateTimestamp": "Fri May  1 23:51:59 2026",
+ "timestampMillis": "1777693919663",
  "buildStep": {
-  "cmdId": "f212efe9-4f10-499c-a6a5-5742ad1aeb03",
+  "cmdId": "711593f4-603b-4b55-934f-62f61669bf77",
   "name": "v++",
   "logFile": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/logs/hls_component.steps.log",
   "commandLine": "/home/oldak/chonky-boi/2025.2/Vitis/bin/unwrapped/lnx64.o/v++  -c --mode hls --config /home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_config.cfg --work_dir hls_component ",
@@ -28,7 +28,7 @@
   "iniFiles": [
    {
     "path": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_config.cfg",
-    "content": "part=xc7z020clg400-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.file=kern.cpp\nsyn.top=kernel\ntb.file=/home/oldak/Downloads/files/tb_cnn_accelerator.cpp\nclock=10ns"
+    "content": "part=xc7z020clg400-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.file=kern.cpp\nsyn.top=kernel\ntb.file=/home/oldak/Downloads/files/tb_cnn_accelerator.cpp\nclock=13ns"
    }
   ],
   "cwd": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component"
@@ -38,10 +38,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Fri May  1 21:40:51 2026",
- "timestampMillis": "1777686051184",
+ "dateTimestamp": "Fri May  1 23:51:59 2026",
+ "timestampMillis": "1777693919663",
  "status": {
-  "cmdId": "f212efe9-4f10-499c-a6a5-5742ad1aeb03",
+  "cmdId": "711593f4-603b-4b55-934f-62f61669bf77",
   "state": "CS_RUNNING"
  }
 }
@@ -49,8 +49,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "Fri May  1 21:40:55 2026",
- "timestampMillis": "1777686055178",
+ "dateTimestamp": "Fri May  1 23:52:04 2026",
+ "timestampMillis": "1777693924576",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -85,10 +85,10 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "Fri May  1 21:40:55 2026",
- "timestampMillis": "1777686055178",
+ "dateTimestamp": "Fri May  1 23:52:04 2026",
+ "timestampMillis": "1777693924577",
  "buildStep": {
-  "cmdId": "baaa00d9-7658-4d1a-a442-4a157da4498e",
+  "cmdId": "a5c91834-bd84-4850-bfaf-a065e7166d9e",
   "name": "",
   "logFile": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/hls.log",
   "commandLine": "",
@@ -101,10 +101,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Fri May  1 21:40:55 2026",
- "timestampMillis": "1777686055179",
+ "dateTimestamp": "Fri May  1 23:52:04 2026",
+ "timestampMillis": "1777693924577",
  "status": {
-  "cmdId": "baaa00d9-7658-4d1a-a442-4a157da4498e",
+  "cmdId": "a5c91834-bd84-4850-bfaf-a065e7166d9e",
   "state": "CS_RUNNING"
  }
 }
@@ -112,8 +112,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri May  1 21:40:55 2026",
- "timestampMillis": "1777686055179",
+ "dateTimestamp": "Fri May  1 23:52:04 2026",
+ "timestampMillis": "1777693924577",
  "report": {
   "path": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/hls_data.json",
   "name": "",
@@ -126,8 +126,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri May  1 21:40:55 2026",
- "timestampMillis": "1777686055179",
+ "dateTimestamp": "Fri May  1 23:52:04 2026",
+ "timestampMillis": "1777693924577",
  "report": {
   "path": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/syn/report/csynth.rpt",
   "name": "",
@@ -140,8 +140,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri May  1 21:40:55 2026",
- "timestampMillis": "1777686055179",
+ "dateTimestamp": "Fri May  1 23:52:04 2026",
+ "timestampMillis": "1777693924577",
  "report": {
   "path": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/syn/report/csynth.xml",
   "name": "",
@@ -154,8 +154,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri May  1 21:41:16 2026",
- "timestampMillis": "1777686076832",
+ "dateTimestamp": "Fri May  1 23:52:27 2026",
+ "timestampMillis": "1777693947560",
  "report": {
   "path": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls",
   "name": "",
@@ -168,8 +168,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri May  1 21:41:16 2026",
- "timestampMillis": "1777686076833",
+ "dateTimestamp": "Fri May  1 23:52:27 2026",
+ "timestampMillis": "1777693947560",
  "report": {
   "path": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls",
   "name": "",
@@ -182,8 +182,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri May  1 21:41:16 2026",
- "timestampMillis": "1777686076833",
+ "dateTimestamp": "Fri May  1 23:52:27 2026",
+ "timestampMillis": "1777693947560",
  "report": {
   "path": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls",
   "name": "",
@@ -196,10 +196,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Fri May  1 21:41:16 2026",
- "timestampMillis": "1777686076834",
+ "dateTimestamp": "Fri May  1 23:52:27 2026",
+ "timestampMillis": "1777693947560",
  "status": {
-  "cmdId": "baaa00d9-7658-4d1a-a442-4a157da4498e",
+  "cmdId": "a5c91834-bd84-4850-bfaf-a065e7166d9e",
   "state": "CS_PASSED"
  }
 }
@@ -207,10 +207,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Fri May  1 21:41:17 2026",
- "timestampMillis": "1777686077026",
+ "dateTimestamp": "Fri May  1 23:52:27 2026",
+ "timestampMillis": "1777693947761",
  "status": {
-  "cmdId": "f212efe9-4f10-499c-a6a5-5742ad1aeb03",
+  "cmdId": "711593f4-603b-4b55-934f-62f61669bf77",
   "state": "CS_PASSED"
  }
 }
@@ -218,8 +218,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri May  1 21:41:17 2026",
- "timestampMillis": "1777686077080",
+ "dateTimestamp": "Fri May  1 23:52:27 2026",
+ "timestampMillis": "1777693947815",
  "report": {
   "path": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/reports/v++_compile_hls_component_guidance.html",
   "name": "",
@@ -232,8 +232,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri May  1 21:41:17 2026",
- "timestampMillis": "1777686077080",
+ "dateTimestamp": "Fri May  1 23:52:27 2026",
+ "timestampMillis": "1777693947816",
  "report": {
   "path": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/reports/.db/v++_compile_hls_component_guidance.pb3",
   "name": "",

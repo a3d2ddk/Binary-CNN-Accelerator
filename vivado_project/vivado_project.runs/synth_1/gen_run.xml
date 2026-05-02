@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1777691006" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/design_1_wrapper.dcp">
-  <File Type="VDS-TIMING-PB" Name="design_1_wrapper_timing_summary_synth.pb"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="design_1_wrapper_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="design_1_wrapper.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="design_1_wrapper_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="design_1_wrapper_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="design_1_wrapper_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="design_1_wrapper.vds"/>
-  <File Type="REPORTS-TCL" Name="design_1_wrapper_reports.tcl"/>
-  <File Type="PA-TCL" Name="design_1_wrapper.tcl"/>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1777695823" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/design_1_wrapper.dcp">
+  <File Type="VDS-TIMING-PB" Name="cnn_accel_wrapper_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="cnn_accel_wrapper_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="cnn_accel_wrapper.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="cnn_accel_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="cnn_accel_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="cnn_accel_wrapper_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="cnn_accel_wrapper.vds"/>
+  <File Type="REPORTS-TCL" Name="cnn_accel_wrapper_reports.tcl"/>
+  <File Type="PA-TCL" Name="cnn_accel_wrapper.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/bd/design_1/design_1.bd">
+    <File Path="$PSRCDIR/sources_1/bd/cnn_accel/cnn_accel.bd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PGENDIR/sources_1/bd/design_1/hdl/design_1_wrapper.v">
+    <File Path="$PGENDIR/sources_1/bd/cnn_accel/hdl/cnn_accel_wrapper.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -27,7 +27,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="design_1_wrapper"/>
+      <Option Name="TopModule" Val="cnn_accel_wrapper"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
@@ -57,7 +57,11 @@
     </StratHandle>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axi_dma_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_processing_system7_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axi_mem_intercon_imp_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="cnn_accel_axi_dma_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="cnn_accel_kernel_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="cnn_accel_rst_ps7_0_76M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="cnn_accel_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="cnn_accel_axi_smc_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="cnn_accel_axi_smc_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="cnn_accel_axi_smc_0"/>
 </GenRun>
