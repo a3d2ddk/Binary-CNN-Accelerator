@@ -203,9 +203,10 @@ class WeightLoader:
         "layer7_mlp.bin",
     ]
 
-    def __init__(self, weight_dir: str | Path, dma) -> None:
+    def __init__(self, weight_dir: str | Path, dma, kernel) -> None:
         self.weight_dir = Path(weight_dir)
         self.dma        = dma
+        self.kernel     = kernel   # AXI-Lite control IP (ol.kernel_0)
         self._cache: dict[str, np.ndarray] = {}
 
     def _load(self, filename: str) -> np.ndarray:
@@ -283,6 +284,12 @@ class WeightLoader:
         # finalises — if receive isn't ready they are lost permanently.
         self.dma.recvchannel.transfer(recv_buf)
 
+        # Start the kernel — write AP_START (bit 0) to the control register.
+        # Without this the kernel stays AP_IDLE and TREADY on port A stays
+        # low, causing the DMA send channel to stall indefinitely.
+        # Control register 0x00: bit0=AP_START, bit1=AP_DONE, bit2=AP_IDLE
+        self.kernel.write(0x00, 0x1)
+
         # Send the entire inference stream as one DMA transfer.
         buf = allocate(shape=(len(stream),), dtype=np.uint32)
         buf[:] = stream
@@ -293,4 +300,27 @@ class WeightLoader:
         # Wait for the 5 output words from the kernel's softmax.
         self.dma.recvchannel.wait()
 
+        # Poll AP_DONE (bit 1) to confirm the kernel has finished cleanly
+        # before returning.  Necessary to ensure the kernel is in a known
+        # state before the next inference call restarts it.
+        while not (self.kernel.read(0x00) & 0x2):
+            pass
+
         return decode_output(recv_buf)
+
+
+# ─── Standalone test (non-Pynq) ───────────────────────────────────────────────
+
+if __name__ == "__main__":
+    import argparse
+    ap = argparse.ArgumentParser(description="Inspect .bin weight files")
+    ap.add_argument("files", nargs="+", help=".bin files to inspect")
+    args = ap.parse_args()
+
+    for path in args.files:
+        try:
+            layer_id, words = read_bin(path)
+            print(f"{path}: layer_id={layer_id}, {len(words):,} packets, "
+                  f"{len(words)*4/1024:.1f} KB uncompressed")
+        except Exception as e:
+            print(f"{path}: ERROR — {e}")
