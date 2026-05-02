@@ -3,8 +3,8 @@
 # SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Fri May  1 21:49:52 2026
-# Process ID         : 8422
+# Start of session at: Fri May  1 23:04:37 2026
+# Process ID         : 28668
 # Current directory  : /home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1
 # Command line       : vivado -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
 # Log file           : /home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/design_1_wrapper.vds
@@ -13,13 +13,13 @@
 # Platform           : Ubuntu
 # Operating System   : Ubuntu 22.04.5 LTS
 # Processor Detail   : 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
-# CPU Frequency      : 2800.000 MHz
+# CPU Frequency      : 2731.399 MHz
 # CPU Physical cores : 4
 # CPU Logical cores  : 8
 # Host memory        : 16447 MB
 # Swap memory        : 2147 MB
 # Total Virtual      : 18594 MB
-# Available Virtual  : 12577 MB
+# Available Virtual  : 9835 MB
 #-----------------------------------------------------------
 source design_1_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
@@ -37,14 +37,14 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 8483
+INFO: [Synth 8-7075] Helper process launched with PID 28733
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2335.441 ; gain = 484.156 ; free physical = 3781 ; free virtual = 10692
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2335.777 ; gain = 482.844 ; free physical = 3522 ; free virtual = 8090
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
 INFO: [Synth 8-6157] synthesizing module 'design_1' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_dma_0_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-8422-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_axi_dma_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_dma_0_0' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-8422-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_axi_dma_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_dma_0_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-28668-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_axi_dma_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_dma_0_0' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-28668-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_axi_dma_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'mm2s_prmry_reset_out_n' of module 'design_1_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:193]
 WARNING: [Synth 8-7071] port 's2mm_prmry_reset_out_n' of module 'design_1_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:193]
 WARNING: [Synth 8-7071] port 'mm2s_introut' of module 'design_1_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:193]
@@ -60,10 +60,10 @@ INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_7HNO1D' [/home/oldak/
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_7HNO1D' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:1405]
 INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_1W60HW0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:1496]
 INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_1W60HW0' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:1496]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_mem_intercon_imp_xbar_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-8422-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_axi_mem_intercon_imp_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_mem_intercon_imp_xbar_0' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-8422-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_axi_mem_intercon_imp_xbar_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_mem_intercon_imp_xbar_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-28668-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_axi_mem_intercon_imp_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_mem_intercon_imp_xbar_0' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-28668-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_axi_mem_intercon_imp_xbar_0_stub.v:6]
 WARNING: [Synth 8-689] width (1) of port connection 's_axi_arready' does not match port width (2) of module 'design_1_axi_mem_intercon_imp_xbar_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:1062]
-WARNING: [Synth 8-689] width (32) of port connection 's_axi_rdata' does not match port width (64) of module 'design_1_axi_mem_intercon_imp_xbar_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:1079]
+WARNING: [Synth 8-689] width (64) of port connection 's_axi_rdata' does not match port width (128) of module 'design_1_axi_mem_intercon_imp_xbar_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:1079]
 WARNING: [Synth 8-689] width (1) of port connection 's_axi_rlast' does not match port width (2) of module 'design_1_axi_mem_intercon_imp_xbar_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:1080]
 WARNING: [Synth 8-689] width (2) of port connection 's_axi_rresp' does not match port width (4) of module 'design_1_axi_mem_intercon_imp_xbar_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:1082]
 WARNING: [Synth 8-689] width (1) of port connection 's_axi_rvalid' does not match port width (2) of module 'design_1_axi_mem_intercon_imp_xbar_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:1083]
@@ -108,26 +108,26 @@ WARNING: [Synth 8-7071] port 'M01_AXI_wlast' of module 'design_1_axi_mem_interco
 WARNING: [Synth 8-7071] port 'M01_AXI_wstrb' of module 'design_1_axi_mem_intercon_0' is unconnected for instance 'axi_mem_intercon' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:253]
 WARNING: [Synth 8-7071] port 'M01_AXI_wvalid' of module 'design_1_axi_mem_intercon_0' is unconnected for instance 'axi_mem_intercon' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:253]
 WARNING: [Synth 8-7023] instance 'axi_mem_intercon' of module 'design_1_axi_mem_intercon_0' has 87 connections declared, but only 53 given [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:253]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_smc_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-8422-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_axi_smc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_smc_0' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-8422-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_axi_smc_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_smc_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-28668-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_axi_smc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_smc_0' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-28668-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_axi_smc_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'M00_AXI_awprot' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:307]
 WARNING: [Synth 8-7071] port 'M00_AXI_wstrb' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:307]
 WARNING: [Synth 8-7071] port 'M00_AXI_arprot' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:307]
 WARNING: [Synth 8-7071] port 'M01_AXI_awprot' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:307]
 WARNING: [Synth 8-7071] port 'M01_AXI_arprot' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:307]
 WARNING: [Synth 8-7023] instance 'axi_smc' of module 'design_1_axi_smc_0' has 78 connections declared, but only 73 given [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:307]
-INFO: [Synth 8-6157] synthesizing module 'design_1_kernel_0_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-8422-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_kernel_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_kernel_0_0' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-8422-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_kernel_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_kernel_0_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-28668-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_kernel_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_kernel_0_0' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-28668-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_kernel_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'interrupt' of module 'design_1_kernel_0_0' is unconnected for instance 'kernel_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:381]
 WARNING: [Synth 8-7071] port 'B_TSTRB' of module 'design_1_kernel_0_0' is unconnected for instance 'kernel_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:381]
 WARNING: [Synth 8-7023] instance 'kernel_0' of module 'design_1_kernel_0_0' has 32 connections declared, but only 30 given [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:381]
-INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-8422-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_processing_system7_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-8422-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-28668-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-28668-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_processing_system7_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'USB0_PORT_INDCTL' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:412]
 WARNING: [Synth 8-7071] port 'USB0_VBUS_PWRSELECT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:412]
 WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'design_1_processing_system7_0_0' has 65 connections declared, but only 63 given [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:412]
-INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_50M_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-8422-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_rst_ps7_0_50M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_50M_0' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-8422-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_rst_ps7_0_50M_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_50M_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-28668-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_rst_ps7_0_50M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_50M_0' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/.Xil/Vivado-28668-oldak-ZenBook-UX325EA-UX325EA/realtime/design_1_rst_ps7_0_50M_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:476]
 WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:476]
 WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/synth/design_1.v:476]
@@ -160,63 +160,63 @@ WARNING: [Synth 8-7129] Port S00_ARESETN in module design_1_axi_mem_intercon_0 i
 WARNING: [Synth 8-7129] Port S01_ACLK in module design_1_axi_mem_intercon_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S01_ARESETN in module design_1_axi_mem_intercon_0 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2438.379 ; gain = 587.094 ; free physical = 3649 ; free virtual = 10572
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2438.715 ; gain = 585.781 ; free physical = 3386 ; free virtual = 7955
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2438.379 ; gain = 587.094 ; free physical = 3649 ; free virtual = 10572
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2438.715 ; gain = 585.781 ; free physical = 3386 ; free virtual = 7955
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2438.379 ; gain = 587.094 ; free physical = 3649 ; free virtual = 10572
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2438.715 ; gain = 585.781 ; free physical = 3386 ; free virtual = 7955
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2438.379 ; gain = 0.000 ; free physical = 3649 ; free virtual = 10572
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2438.715 ; gain = 0.000 ; free physical = 3386 ; free virtual = 7955
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0_1/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc] for cell 'design_1_i/processing_system7_0'
-Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0_1/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc] for cell 'design_1_i/processing_system7_0'
-Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0/design_1_axi_dma_0_0_in_context.xdc] for cell 'design_1_i/axi_dma_0'
-Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0/design_1_axi_dma_0_0_in_context.xdc] for cell 'design_1_i/axi_dma_0'
-Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/design_1_axi_smc_0/design_1_axi_smc_0_in_context.xdc] for cell 'design_1_i/axi_smc'
-Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/design_1_axi_smc_0/design_1_axi_smc_0_in_context.xdc] for cell 'design_1_i/axi_smc'
-Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_50M'
-Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_50M'
-Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_xbar_0/design_1_axi_mem_intercon_imp_xbar_0/design_1_axi_mem_intercon_imp_xbar_0_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/xbar'
-Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_xbar_0/design_1_axi_mem_intercon_imp_xbar_0/design_1_axi_mem_intercon_imp_xbar_0_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/xbar'
-Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_kernel_0_0/design_1_kernel_0_0/design_1_kernel_0_0_in_context.xdc] for cell 'design_1_i/kernel_0'
-Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_kernel_0_0/design_1_kernel_0_0/design_1_kernel_0_0_in_context.xdc] for cell 'design_1_i/kernel_0'
+Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0_3/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc] for cell 'design_1_i/processing_system7_0'
+Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0_3/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc] for cell 'design_1_i/processing_system7_0'
+Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0_2/design_1_axi_dma_0_0/design_1_axi_dma_0_0_in_context.xdc] for cell 'design_1_i/axi_dma_0'
+Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0_2/design_1_axi_dma_0_0/design_1_axi_dma_0_0_in_context.xdc] for cell 'design_1_i/axi_dma_0'
+Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0_2/design_1_axi_smc_0/design_1_axi_smc_0_in_context.xdc] for cell 'design_1_i/axi_smc'
+Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0_2/design_1_axi_smc_0/design_1_axi_smc_0_in_context.xdc] for cell 'design_1_i/axi_smc'
+Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0_2/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_50M'
+Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0_2/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_50M'
+Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_xbar_0_2/design_1_axi_mem_intercon_imp_xbar_0/design_1_axi_mem_intercon_imp_xbar_0_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/xbar'
+Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_xbar_0_2/design_1_axi_mem_intercon_imp_xbar_0/design_1_axi_mem_intercon_imp_xbar_0_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/xbar'
+Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_kernel_0_0_2/design_1_kernel_0_0/design_1_kernel_0_0_in_context.xdc] for cell 'design_1_i/kernel_0'
+Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_kernel_0_0_2/design_1_kernel_0_0/design_1_kernel_0_0_in_context.xdc] for cell 'design_1_i/kernel_0'
 Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/dont_touch.xdc]
 Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2484.336 ; gain = 0.000 ; free physical = 3537 ; free virtual = 10454
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2478.734 ; gain = 0.000 ; free physical = 3385 ; free virtual = 7954
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2484.371 ; gain = 0.000 ; free physical = 3531 ; free virtual = 10448
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2478.770 ; gain = 0.000 ; free physical = 3385 ; free virtual = 7954
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2484.371 ; gain = 633.086 ; free physical = 2963 ; free virtual = 9916
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2478.770 ; gain = 625.836 ; free physical = 3382 ; free virtual = 7951
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2492.340 ; gain = 641.055 ; free physical = 2963 ; free virtual = 9916
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2486.738 ; gain = 633.805 ; free physical = 3382 ; free virtual = 7951
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2492.340 ; gain = 641.055 ; free physical = 2963 ; free virtual = 9916
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2486.738 ; gain = 633.805 ; free physical = 3382 ; free virtual = 7951
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2492.340 ; gain = 641.055 ; free physical = 2961 ; free virtual = 9915
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2486.738 ; gain = 633.805 ; free physical = 3380 ; free virtual = 7950
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -246,25 +246,25 @@ WARNING: [Synth 8-7129] Port S00_ARESETN in module design_1_axi_mem_intercon_0 i
 WARNING: [Synth 8-7129] Port S01_ACLK in module design_1_axi_mem_intercon_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S01_ARESETN in module design_1_axi_mem_intercon_0 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2492.340 ; gain = 641.055 ; free physical = 2958 ; free virtual = 9919
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2486.738 ; gain = 633.805 ; free physical = 3377 ; free virtual = 7952
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2594.340 ; gain = 743.055 ; free physical = 3013 ; free virtual = 9968
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2594.738 ; gain = 741.805 ; free physical = 3270 ; free virtual = 7845
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2594.340 ; gain = 743.055 ; free physical = 3013 ; free virtual = 9968
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2594.738 ; gain = 741.805 ; free physical = 3269 ; free virtual = 7844
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2604.355 ; gain = 753.070 ; free physical = 3004 ; free virtual = 9959
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2604.754 ; gain = 751.820 ; free physical = 3260 ; free virtual = 7835
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -282,37 +282,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 2791.168 ; gain = 939.883 ; free physical = 2841 ; free virtual = 9796
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2791.566 ; gain = 938.633 ; free physical = 3094 ; free virtual = 7669
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 2791.168 ; gain = 939.883 ; free physical = 2841 ; free virtual = 9796
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2791.566 ; gain = 938.633 ; free physical = 3094 ; free virtual = 7669
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 2791.168 ; gain = 939.883 ; free physical = 2841 ; free virtual = 9796
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2791.566 ; gain = 938.633 ; free physical = 3094 ; free virtual = 7669
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 2791.168 ; gain = 939.883 ; free physical = 2841 ; free virtual = 9796
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2791.566 ; gain = 938.633 ; free physical = 3094 ; free virtual = 7669
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 2791.168 ; gain = 939.883 ; free physical = 2841 ; free virtual = 9796
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2791.566 ; gain = 938.633 ; free physical = 3094 ; free virtual = 7669
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 2791.168 ; gain = 939.883 ; free physical = 2841 ; free virtual = 9796
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2791.566 ; gain = 938.633 ; free physical = 3094 ; free virtual = 7669
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -342,26 +342,26 @@ Report Cell Usage:
 |6     |design_1_rst_ps7_0_50M             |     1|
 +------+-----------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 2791.168 ; gain = 939.883 ; free physical = 2841 ; free virtual = 9796
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2791.566 ; gain = 938.633 ; free physical = 3094 ; free virtual = 7669
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2791.168 ; gain = 893.891 ; free physical = 2841 ; free virtual = 9796
-Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 2791.176 ; gain = 939.883 ; free physical = 2841 ; free virtual = 9796
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2791.566 ; gain = 898.578 ; free physical = 3094 ; free virtual = 7668
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2791.574 ; gain = 938.633 ; free physical = 3094 ; free virtual = 7668
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2791.176 ; gain = 0.000 ; free physical = 2841 ; free virtual = 9796
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2791.574 ; gain = 0.000 ; free physical = 3093 ; free virtual = 7668
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2791.176 ; gain = 0.000 ; free physical = 3018 ; free virtual = 9973
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2791.574 ; gain = 0.000 ; free physical = 3261 ; free virtual = 7836
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: b1ae401e
+Synth Design complete | Checksum: 53d57d21
 INFO: [Common 17-83] Releasing license: Synthesis
 47 Infos, 100 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:32 . Memory (MB): peak = 2791.203 ; gain = 1140.730 ; free physical = 3018 ; free virtual = 9973
-INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1923.125; main = 1923.125; forked = 288.846
-INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3516.367; main = 2791.172; forked = 994.023
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:29 . Memory (MB): peak = 2791.602 ; gain = 1140.480 ; free physical = 3261 ; free virtual = 7836
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2184.326; main = 2004.731; forked = 307.365
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3728.781; main = 2791.570; forked = 994.023
 INFO: [Common 17-1381] The checkpoint '/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri May  1 21:50:32 2026...
+INFO: [Common 17-206] Exiting Vivado at Fri May  1 23:05:16 2026...

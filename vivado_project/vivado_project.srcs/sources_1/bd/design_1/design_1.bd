@@ -211,7 +211,7 @@
         "vlnv": "xilinx.com:ip:processing_system7:5.5",
         "ip_revision": "8",
         "xci_name": "design_1_processing_system7_0_0",
-        "xci_path": "ip/design_1_processing_system7_0_0_1/design_1_processing_system7_0_0.xci",
+        "xci_path": "ip/design_1_processing_system7_0_0_3/design_1_processing_system7_0_0.xci",
         "inst_hier_path": "processing_system7_0",
         "has_run_ip_tcl": "true",
         "parameters": {
@@ -1935,12 +1935,27 @@
         "vlnv": "xilinx.com:ip:axi_dma:7.1",
         "ip_revision": "37",
         "xci_name": "design_1_axi_dma_0_0",
-        "xci_path": "ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xci",
+        "xci_path": "ip/design_1_axi_dma_0_0_2/design_1_axi_dma_0_0.xci",
         "inst_hier_path": "axi_dma_0",
         "has_run_ip_tcl": "true",
         "parameters": {
           "c_include_sg": {
             "value": "0"
+          },
+          "c_m_axi_mm2s_data_width": {
+            "value": "64"
+          },
+          "c_m_axi_s2mm_data_width": {
+            "value": "64"
+          },
+          "c_mm2s_burst_size": {
+            "value": "16"
+          },
+          "c_s_axis_s2mm_tdata_width": {
+            "value": "32"
+          },
+          "c_sg_length_width": {
+            "value": "26"
           }
         },
         "interface_ports": {
@@ -1994,7 +2009,7 @@
         "vlnv": "xilinx.com:ip:smartconnect:1.0",
         "ip_revision": "28",
         "xci_name": "design_1_axi_smc_0",
-        "xci_path": "ip/design_1_axi_smc_0/design_1_axi_smc_0.xci",
+        "xci_path": "ip/design_1_axi_smc_0_2/design_1_axi_smc_0.xci",
         "inst_hier_path": "axi_smc",
         "has_run_ip_tcl": "true",
         "parameters": {
@@ -2101,13 +2116,13 @@
         "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
         "ip_revision": "17",
         "xci_name": "design_1_rst_ps7_0_50M_0",
-        "xci_path": "ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0.xci",
+        "xci_path": "ip/design_1_rst_ps7_0_50M_0_2/design_1_rst_ps7_0_50M_0.xci",
         "inst_hier_path": "rst_ps7_0_50M",
         "has_run_ip_tcl": "true"
       },
       "axi_mem_intercon": {
         "vlnv": "xilinx.com:ip:axi_interconnect:2.1",
-        "xci_path": "ip/design_1_axi_mem_intercon_0/design_1_axi_mem_intercon_0.xci",
+        "xci_path": "ip/design_1_axi_mem_intercon_0_2/design_1_axi_mem_intercon_0.xci",
         "inst_hier_path": "axi_mem_intercon",
         "xci_name": "design_1_axi_mem_intercon_0",
         "parameters": {
@@ -2248,7 +2263,7 @@
             "vlnv": "xilinx.com:ip:axi_crossbar:2.1",
             "ip_revision": "38",
             "xci_name": "design_1_axi_mem_intercon_imp_xbar_0",
-            "xci_path": "ip/design_1_axi_mem_intercon_imp_xbar_0/design_1_axi_mem_intercon_imp_xbar_0.xci",
+            "xci_path": "ip/design_1_axi_mem_intercon_imp_xbar_0_2/design_1_axi_mem_intercon_imp_xbar_0.xci",
             "inst_hier_path": "axi_mem_intercon/xbar",
             "has_run_ip_tcl": "true",
             "parameters": {
@@ -2675,7 +2690,7 @@
         "vlnv": "xilinx.com:hls:kernel:1.0",
         "ip_revision": "2114590241",
         "xci_name": "design_1_kernel_0_0",
-        "xci_path": "ip/design_1_kernel_0_0/design_1_kernel_0_0.xci",
+        "xci_path": "ip/design_1_kernel_0_0_2/design_1_kernel_0_0.xci",
         "inst_hier_path": "kernel_0",
         "has_run_ip_tcl": "true"
       }

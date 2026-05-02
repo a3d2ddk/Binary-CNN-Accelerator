@@ -116,7 +116,7 @@ def _dma_send(dma, words: np.ndarray) -> None:
     buf[:] = words
     dma.sendchannel.transfer(buf)
     dma.sendchannel.wait()
-    buf.free()
+    del buf
 
 
 # ─── Image encoding ───────────────────────────────────────────────────────────
@@ -295,7 +295,7 @@ class WeightLoader:
         buf[:] = stream
         self.dma.sendchannel.transfer(buf)
         self.dma.sendchannel.wait()
-        buf.free()
+        del buf
 
         # Wait for the 5 output words from the kernel's softmax.
         self.dma.recvchannel.wait()

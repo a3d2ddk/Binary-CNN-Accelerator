@@ -7,12 +7,12 @@
   **** SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
   **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
   **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-  **** Start of session at: Fri May  1 21:47:02 2026
+  **** Start of session at: Fri May  1 23:03:30 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source design_1_axi_dma_0_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 1625.668 ; gain = 104.055 ; free physical = 2466 ; free virtual = 10880
+create_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 1624.965 ; gain = 64.055 ; free physical = 175 ; free virtual = 7826
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/impl/ip'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/oldak/chonky-boi/2025.2/data/ip'.
@@ -23,11 +23,11 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 7594
+INFO: [Synth 8-7075] Helper process launched with PID 28223
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2299.371 ; gain = 484.125 ; free physical = 281 ; free virtual = 8533
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2299.168 ; gain = 481.594 ; free physical = 264 ; free virtual = 5594
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'design_1_axi_dma_0_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/synth/design_1_axi_dma_0_0.vhd:128]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_dma_0_0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0_2/synth/design_1_axi_dma_0_0.vhd:128]
 	Parameter C_S_AXI_LITE_ADDR_WIDTH bound to: 10 - type: integer 
 	Parameter C_S_AXI_LITE_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_DLYTMR_RESOLUTION bound to: 125 - type: integer 
@@ -38,7 +38,7 @@ INFO: [Synth 8-638] synthesizing module 'design_1_axi_dma_0_0' [/home/oldak/Bina
 	Parameter C_INCLUDE_SG bound to: 0 - type: integer 
 	Parameter C_SG_INCLUDE_STSCNTRL_STRM bound to: 0 - type: integer 
 	Parameter C_SG_USE_STSAPP_LENGTH bound to: 0 - type: integer 
-	Parameter C_SG_LENGTH_WIDTH bound to: 14 - type: integer 
+	Parameter C_SG_LENGTH_WIDTH bound to: 26 - type: integer 
 	Parameter C_M_AXI_SG_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter C_M_AXI_SG_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_M_AXIS_MM2S_CNTRL_TDATA_WIDTH bound to: 32 - type: integer 
@@ -48,19 +48,19 @@ INFO: [Synth 8-638] synthesizing module 'design_1_axi_dma_0_0' [/home/oldak/Bina
 	Parameter C_INCLUDE_MM2S_SF bound to: 1 - type: integer 
 	Parameter C_MM2S_BURST_SIZE bound to: 16 - type: integer 
 	Parameter C_M_AXI_MM2S_ADDR_WIDTH bound to: 32 - type: integer 
-	Parameter C_M_AXI_MM2S_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_MM2S_DATA_WIDTH bound to: 64 - type: integer 
 	Parameter C_M_AXIS_MM2S_TDATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_INCLUDE_MM2S_DRE bound to: 0 - type: integer 
 	Parameter C_INCLUDE_S2MM bound to: 1 - type: integer 
 	Parameter C_INCLUDE_S2MM_SF bound to: 1 - type: integer 
 	Parameter C_S2MM_BURST_SIZE bound to: 16 - type: integer 
 	Parameter C_M_AXI_S2MM_ADDR_WIDTH bound to: 32 - type: integer 
-	Parameter C_M_AXI_S2MM_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_S2MM_DATA_WIDTH bound to: 64 - type: integer 
 	Parameter C_S_AXIS_S2MM_TDATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_INCLUDE_S2MM_DRE bound to: 0 - type: integer 
 	Parameter C_INCREASE_THROUGHPUT bound to: 0 - type: integer 
 	Parameter C_FAMILY bound to: zynq - type: string 
-INFO: [Synth 8-3491] module 'axi_dma' declared at '/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/7f6a/hdl/axi_dma_v7_1_vh_rfs.vhd:21634' bound to instance 'U0' of component 'axi_dma' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/synth/design_1_axi_dma_0_0.vhd:388]
+INFO: [Synth 8-3491] module 'axi_dma' declared at '/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/7f6a/hdl/axi_dma_v7_1_vh_rfs.vhd:21634' bound to instance 'U0' of component 'axi_dma' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0_2/synth/design_1_axi_dma_0_0.vhd:388]
 INFO: [Synth 8-638] synthesizing module 'axi_dma' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/7f6a/hdl/axi_dma_v7_1_vh_rfs.vhd:21979]
 INFO: [Synth 8-638] synthesizing module 'axi_dma_rst_module' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/7f6a/hdl/axi_dma_v7_1_vh_rfs.vhd:1589]
 	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
@@ -143,12 +143,12 @@ INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized3
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:1372]
 	Parameter FIFO_MEMORY_TYPE bound to: block - type: string 
 	Parameter FIFO_WRITE_DEPTH bound to: 128 - type: integer 
-	Parameter WRITE_DATA_WIDTH bound to: 39 - type: integer 
+	Parameter WRITE_DATA_WIDTH bound to: 75 - type: integer 
 	Parameter READ_MODE bound to: fwft - type: string 
 	Parameter FIFO_READ_LATENCY bound to: 0 - type: integer 
 	Parameter FULL_RESET_VALUE bound to: 1 - type: integer 
 	Parameter USE_ADV_FEATURES bound to: 1F1F - type: string 
-	Parameter READ_DATA_WIDTH bound to: 39 - type: integer 
+	Parameter READ_DATA_WIDTH bound to: 75 - type: integer 
 	Parameter WR_DATA_COUNT_WIDTH bound to: 8 - type: integer 
 	Parameter PROG_FULL_THRESH bound to: 10 - type: integer 
 	Parameter RD_DATA_COUNT_WIDTH bound to: 8 - type: integer 
@@ -212,6 +212,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_datamover_mssai_skid_buf' [/home/ol
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_ms_strb_set' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:42655]
 INFO: [Synth 8-256] done synthesizing module 'axi_datamover_ms_strb_set' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:42655]
 INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mssai_skid_buf' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:44213]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2__parameterized1' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:4545]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2__parameterized1' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:4545]
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_slice' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:44901]
 INFO: [Synth 8-256] done synthesizing module 'axi_datamover_slice' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:44901]
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized8' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:2109]
@@ -221,17 +223,17 @@ INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized8
 INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_scatter' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:45156]
 INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_realign' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:47044]
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_indet_btt' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:28518]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_stbs_set_nodre' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:24311]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_stbs_set_nodre' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:24311]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_stbs_set' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:23518]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_stbs_set' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:23518]
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord__parameterized0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:1372]
 	Parameter FIFO_MEMORY_TYPE bound to: auto - type: string 
 	Parameter FIFO_WRITE_DEPTH bound to: 16 - type: integer 
-	Parameter WRITE_DATA_WIDTH bound to: 9 - type: integer 
+	Parameter WRITE_DATA_WIDTH bound to: 10 - type: integer 
 	Parameter READ_MODE bound to: fwft - type: string 
 	Parameter FIFO_READ_LATENCY bound to: 0 - type: integer 
 	Parameter FULL_RESET_VALUE bound to: 1 - type: integer 
 	Parameter USE_ADV_FEATURES bound to: 1F1F - type: string 
-	Parameter READ_DATA_WIDTH bound to: 9 - type: integer 
+	Parameter READ_DATA_WIDTH bound to: 10 - type: integer 
 	Parameter WR_DATA_COUNT_WIDTH bound to: 5 - type: integer 
 	Parameter PROG_FULL_THRESH bound to: 10 - type: integer 
 	Parameter RD_DATA_COUNT_WIDTH bound to: 5 - type: integer 
@@ -262,12 +264,12 @@ INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord__parame
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord__parameterized1' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:1372]
 	Parameter FIFO_MEMORY_TYPE bound to: block - type: string 
 	Parameter FIFO_WRITE_DEPTH bound to: 128 - type: integer 
-	Parameter WRITE_DATA_WIDTH bound to: 38 - type: integer 
+	Parameter WRITE_DATA_WIDTH bound to: 74 - type: integer 
 	Parameter READ_MODE bound to: fwft - type: string 
 	Parameter FIFO_READ_LATENCY bound to: 0 - type: integer 
 	Parameter FULL_RESET_VALUE bound to: 1 - type: integer 
 	Parameter USE_ADV_FEATURES bound to: 1F1F - type: string 
-	Parameter READ_DATA_WIDTH bound to: 38 - type: integer 
+	Parameter READ_DATA_WIDTH bound to: 74 - type: integer 
 	Parameter WR_DATA_COUNT_WIDTH bound to: 8 - type: integer 
 	Parameter PROG_FULL_THRESH bound to: 10 - type: integer 
 	Parameter RD_DATA_COUNT_WIDTH bound to: 8 - type: integer 
@@ -286,6 +288,8 @@ INFO: [Synth 8-226] default block is never used [/home/oldak/chonky-boi/2025.2/d
 INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base__parameterized1' (0#1) [/home/oldak/chonky-boi/2025.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:53]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_sync__parameterized3' (0#1) [/home/oldak/chonky-boi/2025.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1975]
 INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord__parameterized1' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:1372]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_stbs_set__parameterized0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:23518]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_stbs_set__parameterized0' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:23518]
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid_buf__parameterized0' [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:19643]
 INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid_buf__parameterized0' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:19643]
 INFO: [Synth 8-256] done synthesizing module 'axi_datamover_indet_btt' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:28518]
@@ -304,7 +308,7 @@ INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid2mm_buf' (0#1) [
 INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_full_wrap' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:50012]
 INFO: [Synth 8-256] done synthesizing module 'axi_datamover' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:55430]
 INFO: [Synth 8-256] done synthesizing module 'axi_dma' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/7f6a/hdl/axi_dma_v7_1_vh_rfs.vhd:21979]
-INFO: [Synth 8-256] done synthesizing module 'design_1_axi_dma_0_0' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/synth/design_1_axi_dma_0_0.vhd:128]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_dma_0_0' (0#1) [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0_2/synth/design_1_axi_dma_0_0.vhd:128]
 INFO: [Synth 8-6014] Unused sequential element awaddr_reg was removed.  [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/7f6a/hdl/axi_dma_v7_1_vh_rfs.vhd:2133]
 INFO: [Synth 8-6014] Unused sequential element wdata_reg was removed.  [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/7f6a/hdl/axi_dma_v7_1_vh_rfs.vhd:2135]
 INFO: [Synth 8-6014] Unused sequential element GEN_SYNC_WRITE.axi2ip_wrdata_i_reg was removed.  [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/7f6a/hdl/axi_dma_v7_1_vh_rfs.vhd:2288]
@@ -350,6 +354,7 @@ WARNING: [Synth 8-6014] Unused sequential element gdvld.data_valid_std_reg was r
 WARNING: [Synth 8-6014] Unused sequential element gen_pntr_flags_cc.gae_cc_std.ram_aempty_i_reg was removed.  [/home/oldak/chonky-boi/2025.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:982]
 WARNING: [Synth 8-6014] Unused sequential element gen_fwft.empty_fwft_fb_reg was removed.  [/home/oldak/chonky-boi/2025.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1404]
 INFO: [Synth 8-6014] Unused sequential element hold_ff_q_reg was removed.  [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:1586]
+INFO: [Synth 8-6014] Unused sequential element INCLUDE_PACKING.lsig_packer_empty_reg was removed.  [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:29405]
 INFO: [Synth 8-6014] Unused sequential element sig_next_tag_reg_reg was removed.  [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:10601]
 INFO: [Synth 8-6014] Unused sequential element sig_next_cmd_cmplt_reg_reg was removed.  [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:10608]
 INFO: [Synth 8-6014] Unused sequential element sig_next_last_strb_reg_reg was removed.  [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/d44a/hdl/axi_datamover_v5_1_vh_rfs.vhd:17126]
@@ -361,10 +366,12 @@ INFO: [Synth 8-3848] Net bd_eq in module/entity axi_dma does not have driver. [/
 INFO: [Synth 8-3848] Net m_axis_ftch1_desc_available in module/entity axi_dma does not have driver. [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/7f6a/hdl/axi_dma_v7_1_vh_rfs.vhd:22442]
 INFO: [Synth 8-3848] Net s2mm_desc_info_in in module/entity axi_dma does not have driver. [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/7f6a/hdl/axi_dma_v7_1_vh_rfs.vhd:22513]
 INFO: [Synth 8-3848] Net m_axis_ftch2_desc_available in module/entity axi_dma does not have driver. [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/7f6a/hdl/axi_dma_v7_1_vh_rfs.vhd:22442]
+INFO: [Synth 8-7129] Port debeat_saddr_lsb[2] in module axi_datamover_wr_demux is either unconnected or has no load
 INFO: [Synth 8-7129] Port debeat_saddr_lsb[1] in module axi_datamover_wr_demux is either unconnected or has no load
 INFO: [Synth 8-7129] Port debeat_saddr_lsb[0] in module axi_datamover_wr_demux is either unconnected or has no load
 INFO: [Synth 8-7129] Port fifo_async_rd_reset in module axi_datamover_fifo__parameterized9 is either unconnected or has no load
 INFO: [Synth 8-7129] Port fifo_async_rd_clk in module axi_datamover_fifo__parameterized9 is either unconnected or has no load
+INFO: [Synth 8-7129] Port end_addr_offset[2] in module axi_datamover_strb_gen2 is either unconnected or has no load
 INFO: [Synth 8-7129] Port end_addr_offset[1] in module axi_datamover_strb_gen2 is either unconnected or has no load
 INFO: [Synth 8-7129] Port end_addr_offset[0] in module axi_datamover_strb_gen2 is either unconnected or has no load
 INFO: [Synth 8-7129] Port realign2wdc_eop_error in module axi_datamover_wrdata_cntl is either unconnected or has no load
@@ -378,6 +385,42 @@ INFO: [Synth 8-7129] Port regcea in module xpm_memory_base__parameterized1 is ei
 INFO: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base__parameterized1 is either unconnected or has no load
 INFO: [Synth 8-7129] Port injectdbiterra in module xpm_memory_base__parameterized1 is either unconnected or has no load
 INFO: [Synth 8-7129] Port clkb in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[73] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[72] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[71] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[70] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[69] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[68] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[67] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[66] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[65] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[64] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[63] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[62] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[61] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[60] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[59] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[58] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[57] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[56] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[55] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[54] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[53] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[52] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[51] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[50] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[49] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[48] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[47] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[46] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[45] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[44] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[43] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[42] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[41] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[40] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[39] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[38] in module xpm_memory_base__parameterized1 is either unconnected or has no load
 INFO: [Synth 8-7129] Port dinb[37] in module xpm_memory_base__parameterized1 is either unconnected or has no load
 INFO: [Synth 8-7129] Port dinb[36] in module xpm_memory_base__parameterized1 is either unconnected or has no load
 INFO: [Synth 8-7129] Port dinb[35] in module xpm_memory_base__parameterized1 is either unconnected or has no load
@@ -423,96 +466,58 @@ INFO: [Synth 8-7129] Port sleep in module xpm_memory_base__parameterized0 is eit
 INFO: [Synth 8-7129] Port rsta in module xpm_memory_base__parameterized0 is either unconnected or has no load
 INFO: [Synth 8-7129] Port regcea in module xpm_memory_base__parameterized0 is either unconnected or has no load
 INFO: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base__parameterized0 is either unconnected or has no load
-INFO: [Synth 8-7129] Port injectdbiterra in module xpm_memory_base__parameterized0 is either unconnected or has no load
-INFO: [Synth 8-7129] Port clkb in module xpm_memory_base__parameterized0 is either unconnected or has no load
-INFO: [Synth 8-7129] Port dinb[8] in module xpm_memory_base__parameterized0 is either unconnected or has no load
-INFO: [Synth 8-7129] Port dinb[7] in module xpm_memory_base__parameterized0 is either unconnected or has no load
-INFO: [Synth 8-7129] Port dinb[6] in module xpm_memory_base__parameterized0 is either unconnected or has no load
-INFO: [Synth 8-7129] Port dinb[5] in module xpm_memory_base__parameterized0 is either unconnected or has no load
-INFO: [Synth 8-7129] Port dinb[4] in module xpm_memory_base__parameterized0 is either unconnected or has no load
-INFO: [Synth 8-7129] Port dinb[3] in module xpm_memory_base__parameterized0 is either unconnected or has no load
-INFO: [Synth 8-7129] Port dinb[2] in module xpm_memory_base__parameterized0 is either unconnected or has no load
-INFO: [Synth 8-7129] Port dinb[1] in module xpm_memory_base__parameterized0 is either unconnected or has no load
-INFO: [Synth 8-7129] Port dinb[0] in module xpm_memory_base__parameterized0 is either unconnected or has no load
-INFO: [Synth 8-7129] Port injectsbiterrb in module xpm_memory_base__parameterized0 is either unconnected or has no load
-INFO: [Synth 8-7129] Port injectdbiterrb in module xpm_memory_base__parameterized0 is either unconnected or has no load
-INFO: [Synth 8-7129] Port SFIFO_Clr_Rd_Data_Valid in module axi_datamover_sfifo_autord__parameterized0 is either unconnected or has no load
-INFO: [Synth 8-7129] Port dre2ibtt_strt_addr_offset[0] in module axi_datamover_indet_btt is either unconnected or has no load
-INFO: [Synth 8-7129] Port fifo_async_rd_reset in module axi_datamover_fifo__parameterized8 is either unconnected or has no load
-INFO: [Synth 8-7129] Port fifo_async_rd_clk in module axi_datamover_fifo__parameterized8 is either unconnected or has no load
-INFO: [Synth 8-7129] Port fifo_async_rd_reset in module axi_datamover_fifo__parameterized7 is either unconnected or has no load
-INFO: [Synth 8-7129] Port fifo_async_rd_clk in module axi_datamover_fifo__parameterized7 is either unconnected or has no load
-INFO: [Synth 8-7129] Port cmd2mstr_command[25] in module axi_datamover_ibttcc is either unconnected or has no load
-INFO: [Synth 8-7129] Port cmd2mstr_command[24] in module axi_datamover_ibttcc is either unconnected or has no load
-INFO: [Synth 8-7129] Port cmd2mstr_command[23] in module axi_datamover_ibttcc is either unconnected or has no load
-INFO: [Synth 8-7129] Port cmd2mstr_command[22] in module axi_datamover_ibttcc is either unconnected or has no load
-INFO: [Synth 8-7129] Port cmd2mstr_command[21] in module axi_datamover_ibttcc is either unconnected or has no load
-INFO: [Synth 8-7129] Port cmd2mstr_command[20] in module axi_datamover_ibttcc is either unconnected or has no load
-INFO: [Synth 8-7129] Port cmd2mstr_command[19] in module axi_datamover_ibttcc is either unconnected or has no load
-INFO: [Synth 8-7129] Port cmd2mstr_command[18] in module axi_datamover_ibttcc is either unconnected or has no load
-INFO: [Synth 8-7129] Port cmd2mstr_command[17] in module axi_datamover_ibttcc is either unconnected or has no load
-INFO: [Synth 8-7129] Port cmd2mstr_command[16] in module axi_datamover_ibttcc is either unconnected or has no load
-INFO: [Synth 8-7129] Port cmd2mstr_command[15] in module axi_datamover_ibttcc is either unconnected or has no load
-INFO: [Synth 8-7129] Port cmd2mstr_command[14] in module axi_datamover_ibttcc is either unconnected or has no load
-INFO: [Synth 8-7129] Port fifo_async_rd_reset in module axi_datamover_fifo__parameterized6 is either unconnected or has no load
-INFO: [Synth 8-7129] Port fifo_async_rd_clk in module axi_datamover_fifo__parameterized6 is either unconnected or has no load
-INFO: [Synth 8-7129] Port fifo_async_rd_reset in module axi_datamover_fifo__parameterized5 is either unconnected or has no load
-INFO: [Synth 8-7129] Port fifo_async_rd_clk in module axi_datamover_fifo__parameterized5 is either unconnected or has no load
-INFO: [Synth 8-7129] Port calc2wsc_calc_error in module axi_datamover_wr_status_cntl is either unconnected or has no load
-INFO: [Synth 8-7129] Port addr2wsc_fifo_empty in module axi_datamover_wr_status_cntl is either unconnected or has no load
-INFO: [Synth 8-7129] Port data2wsc_last_error in module axi_datamover_wr_status_cntl is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2470.340 ; gain = 655.094 ; free physical = 168 ; free virtual = 7854
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2473.137 ; gain = 655.562 ; free physical = 167 ; free virtual = 4916
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2482.215 ; gain = 666.969 ; free physical = 172 ; free virtual = 7838
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2485.012 ; gain = 667.438 ; free physical = 166 ; free virtual = 4906
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2482.215 ; gain = 666.969 ; free physical = 172 ; free virtual = 7838
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2485.012 ; gain = 667.438 ; free physical = 166 ; free virtual = 4906
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2485.184 ; gain = 0.000 ; free physical = 157 ; free virtual = 7800
+Netlist sorting complete. Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.1 . Memory (MB): peak = 2490.949 ; gain = 0.000 ; free physical = 161 ; free virtual = 4880
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0_ooc.xdc] for cell 'U0'
-Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0_ooc.xdc] for cell 'U0'
-Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc] for cell 'U0'
-Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc] for cell 'U0'
+Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0_2/design_1_axi_dma_0_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0_2/design_1_axi_dma_0_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0_2/design_1_axi_dma_0_0.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0_2/design_1_axi_dma_0_0.xdc] for cell 'U0'
 Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/design_1_axi_dma_0_0_synth_1/dont_touch.xdc]
 Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/design_1_axi_dma_0_0_synth_1/dont_touch.xdc]
-Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0_clocks.xdc] for cell 'U0'
-Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0_clocks.xdc] for cell 'U0'
+Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0_2/design_1_axi_dma_0_0_clocks.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0_2/design_1_axi_dma_0_0_clocks.xdc] for cell 'U0'
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/oldak/chonky-boi/2025.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_axi_dma_0_0_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_axi_dma_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 INFO: [Project 1-1714] 5 XPM XDC files have been applied to the design.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2576.984 ; gain = 0.000 ; free physical = 162 ; free virtual = 7724
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2578.750 ; gain = 0.000 ; free physical = 171 ; free virtual = 4764
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2577.020 ; gain = 0.000 ; free physical = 162 ; free virtual = 7723
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2578.785 ; gain = 0.000 ; free physical = 168 ; free virtual = 4761
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2577.020 ; gain = 761.773 ; free physical = 169 ; free virtual = 7491
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2578.785 ; gain = 761.211 ; free physical = 277 ; free virtual = 4847
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2584.988 ; gain = 769.742 ; free physical = 169 ; free virtual = 7491
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2586.754 ; gain = 769.180 ; free physical = 277 ; free virtual = 4847
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2584.988 ; gain = 769.742 ; free physical = 168 ; free virtual = 7490
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2586.754 ; gain = 769.180 ; free physical = 277 ; free virtual = 4847
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'smpl_cs_reg' in module 'axi_dma_smple_sm'
 INFO: [Synth 8-802] inferred FSM for state register 'sig_pcc_sm_state_reg' in module 'axi_datamover_pcc'
@@ -607,82 +612,86 @@ INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM 
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'gen_fwft.curr_fwft_state_reg' using encoding 'sequential' in module 'xpm_fifo_base__parameterized1'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2584.988 ; gain = 769.742 ; free physical = 165 ; free virtual = 7490
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2586.754 ; gain = 769.180 ; free physical = 249 ; free virtual = 4844
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
+	   3 Input   26 Bit       Adders := 1     
 	   2 Input   16 Bit       Adders := 3     
-	   3 Input   14 Bit       Adders := 1     
-	   2 Input    8 Bit       Adders := 6     
+	   2 Input    8 Bit       Adders := 11    
 	   4 Input    8 Bit       Adders := 8     
-	   2 Input    7 Bit       Adders := 5     
+	   2 Input    7 Bit       Adders := 1     
 	   4 Input    7 Bit       Adders := 10    
 	   3 Input    7 Bit       Adders := 2     
-	   2 Input    6 Bit       Adders := 1     
 	   2 Input    5 Bit       Adders := 5     
 	   4 Input    5 Bit       Adders := 4     
-	   2 Input    4 Bit       Adders := 9     
+	   3 Input    4 Bit       Adders := 3     
+	   2 Input    4 Bit       Adders := 11    
 	   4 Input    4 Bit       Adders := 5     
-	   3 Input    4 Bit       Adders := 1     
-	   3 Input    3 Bit       Adders := 3     
 	   2 Input    3 Bit       Adders := 18    
-	   2 Input    2 Bit       Adders := 4     
+	   3 Input    3 Bit       Adders := 1     
 	   4 Input    2 Bit       Adders := 3     
+	   2 Input    2 Bit       Adders := 2     
+	   2 Input    1 Bit       Adders := 3     
 +---Registers : 
 	              153 Bit    Registers := 2     
+	               75 Bit    Registers := 2     
+	               74 Bit    Registers := 2     
+	               72 Bit    Registers := 2     
 	               71 Bit    Registers := 2     
-	               40 Bit    Registers := 2     
-	               39 Bit    Registers := 2     
-	               38 Bit    Registers := 2     
+	               64 Bit    Registers := 2     
 	               35 Bit    Registers := 1     
 	               32 Bit    Registers := 17    
+	               26 Bit    Registers := 12    
 	               23 Bit    Registers := 2     
 	               16 Bit    Registers := 6     
-	               14 Bit    Registers := 12    
 	               11 Bit    Registers := 2     
-	               10 Bit    Registers := 3     
-	                9 Bit    Registers := 3     
-	                8 Bit    Registers := 21    
-	                7 Bit    Registers := 13    
+	               10 Bit    Registers := 5     
+	                9 Bit    Registers := 4     
+	                8 Bit    Registers := 29    
+	                7 Bit    Registers := 12    
 	                6 Bit    Registers := 2     
-	                5 Bit    Registers := 9     
-	                4 Bit    Registers := 58    
-	                3 Bit    Registers := 14    
-	                2 Bit    Registers := 19    
-	                1 Bit    Registers := 485   
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 54    
+	                3 Bit    Registers := 17    
+	                2 Bit    Registers := 17    
+	                1 Bit    Registers := 489   
 +---RAMs : 
-	               4K Bit	(128 X 39 bit)          RAMs := 1     
-	               4K Bit	(128 X 38 bit)          RAMs := 1     
-	              144 Bit	(16 X 9 bit)          RAMs := 1     
+	               9K Bit	(128 X 75 bit)          RAMs := 1     
+	               9K Bit	(128 X 74 bit)          RAMs := 1     
+	              160 Bit	(16 X 10 bit)          RAMs := 1     
 +---Muxes : 
 	   2 Input  153 Bit        Muxes := 2     
-	   2 Input   40 Bit        Muxes := 1     
-	   2 Input   32 Bit        Muxes := 8     
+	   2 Input   72 Bit        Muxes := 1     
+	   2 Input   64 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 10    
+	   2 Input   26 Bit        Muxes := 5     
+	   4 Input   26 Bit        Muxes := 2     
+	   3 Input   26 Bit        Muxes := 1     
 	   2 Input   23 Bit        Muxes := 3     
 	   2 Input   16 Bit        Muxes := 4     
-	   2 Input   14 Bit        Muxes := 5     
-	   4 Input   14 Bit        Muxes := 2     
-	   3 Input   14 Bit        Muxes := 1     
 	   2 Input   11 Bit        Muxes := 2     
-	   2 Input    8 Bit        Muxes := 14    
-	   8 Input    8 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 32    
+	   8 Input    8 Bit        Muxes := 7     
 	   3 Input    8 Bit        Muxes := 1     
-	   2 Input    7 Bit        Muxes := 11    
+	   2 Input    7 Bit        Muxes := 8     
 	   7 Input    7 Bit        Muxes := 1     
-	   2 Input    5 Bit        Muxes := 6     
-	   2 Input    4 Bit        Muxes := 28    
-	   4 Input    4 Bit        Muxes := 8     
-	   2 Input    3 Bit        Muxes := 31    
-	   3 Input    3 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 5     
+	   2 Input    4 Bit        Muxes := 19    
+	   3 Input    4 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 28    
 	   6 Input    3 Bit        Muxes := 2     
-	   5 Input    3 Bit        Muxes := 3     
+	   5 Input    3 Bit        Muxes := 1     
+	   3 Input    3 Bit        Muxes := 1     
 	   2 Input    2 Bit        Muxes := 109   
 	   3 Input    2 Bit        Muxes := 2     
 	   4 Input    2 Bit        Muxes := 21    
-	   2 Input    1 Bit        Muxes := 165   
+	   2 Input    1 Bit        Muxes := 172   
 	   3 Input    1 Bit        Muxes := 11    
 	   8 Input    1 Bit        Muxes := 3     
 	   4 Input    1 Bit        Muxes := 6     
@@ -703,15 +712,11 @@ Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-3936] Found unconnected internal register 'INCLUDE_MM2S_SOF_EOF_GENERATOR.I_MM2S_DMA_MNGR/GEN_MM2S_DMA_CONTROL.GEN_SIMPLE_DMA_MODE.I_MM2S_SMPL_SM/GEN_CMD_BTT_LESS_23.cmnd_data_reg' and it is trimmed from '153' to '75' bits. [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/7f6a/hdl/axi_dma_v7_1_vh_rfs.vhd:12014]
-INFO: [Synth 8-3936] Found unconnected internal register 'INCLUDE_S2MM_SOF_EOF_GENERATOR.I_S2MM_DMA_MNGR/GEN_S2MM_DMA_CONTROL.GEN_SIMPLE_DMA_MODE.I_S2MM_SMPL_SM/GEN_CMD_BTT_LESS_23.cmnd_data_reg' and it is trimmed from '153' to '75' bits. [/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ipshared/7f6a/hdl/axi_dma_v7_1_vh_rfs.vhd:12014]
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
-INFO: [Synth 8-5784] Optimized 1 bits of RAM "gen_wr_a.gen_word_narrow.mem_reg" due to constant propagation. Old ram width 39 bits, new ram width 38 bits.
-INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
-INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
+INFO: [Synth 8-5784] Optimized 1 bits of RAM "gen_wr_a.gen_word_narrow.mem_reg" due to constant propagation. Old ram width 75 bits, new ram width 74 bits.
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
@@ -723,9 +728,11 @@ INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
-INFO: [Synth 8-3332] Sequential element (I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_INCLUDE_IBTTCC.I_S2MM_MSTR_IBTTCC/FSM_onehot_sig_csm_state_reg[3]) is unused and will be removed from module axi_dma.
+INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
+INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
+INFO: [Synth 8-3332] Sequential element (GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_INCLUDE_IBTTCC.I_S2MM_MSTR_IBTTCC/FSM_onehot_sig_csm_state_reg[3]) is unused and will be removed from module axi_datamover.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 2584.988 ; gain = 769.742 ; free physical = 181 ; free virtual = 7094
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2586.754 ; gain = 769.180 ; free physical = 333 ; free virtual = 4537
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
@@ -740,8 +747,8 @@ Block RAM: Preliminary Mapping Report (see note below)
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
 |Module Name                                                                                                                                                                               | RTL Object                       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
-|U0/\I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst          | gen_wr_a.gen_word_narrow.mem_reg | 128 x 39(NO_CHANGE)    | W |   | 128 x 39(NO_CHANGE)    |   | R | Port A and B     | 0      | 1      | 
-|U0/\I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | 128 x 38(NO_CHANGE)    | W |   | 128 x 38(NO_CHANGE)    |   | R | Port A and B     | 0      | 1      | 
+|U0/I_PRMRY_DATAMOVER/\GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst          | gen_wr_a.gen_word_narrow.mem_reg | 128 x 75(NO_CHANGE)    | W |   | 128 x 75(NO_CHANGE)    |   | R | Port A and B     | 1      | 1      | 
+|U0/I_PRMRY_DATAMOVER/\GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | 128 x 74(NO_CHANGE)    | W |   | 128 x 74(NO_CHANGE)    |   | R | Port A and B     | 1      | 1      | 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
 
 Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
@@ -750,7 +757,7 @@ Distributed RAM: Preliminary Mapping Report (see note below)
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----------+----------------------+-------------+
 |Module Name                                                                                                                                                                                 | RTL Object                       | Inference | Size (Depth x Width) | Primitives  | 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----------+----------------------+-------------+
-|U0/\I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 9               | RAM32M x 2  | 
+|U0/I_PRMRY_DATAMOVER/\GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 10              | RAM32M x 2  | 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----------+----------------------+-------------+
 
 Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
@@ -761,7 +768,7 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:36 . Memory (MB): peak = 2607.988 ; gain = 792.742 ; free physical = 2065 ; free virtual = 8768
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2613.754 ; gain = 796.180 ; free physical = 1835 ; free virtual = 6124
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
@@ -772,7 +779,7 @@ INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 2674.660 ; gain = 859.414 ; free physical = 977 ; free virtual = 7693
+Finished Timing Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:41 . Memory (MB): peak = 2686.293 ; gain = 868.719 ; free physical = 3552 ; free virtual = 7754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -782,8 +789,8 @@ Block RAM: Final Mapping Report
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
 |Module Name                                                                                                                                                                               | RTL Object                       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
-|U0/\I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst          | gen_wr_a.gen_word_narrow.mem_reg | 128 x 39(NO_CHANGE)    | W |   | 128 x 39(NO_CHANGE)    |   | R | Port A and B     | 0      | 1      | 
-|U0/\I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | 128 x 38(NO_CHANGE)    | W |   | 128 x 38(NO_CHANGE)    |   | R | Port A and B     | 0      | 1      | 
+|U0/I_PRMRY_DATAMOVER/\GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst          | gen_wr_a.gen_word_narrow.mem_reg | 128 x 75(NO_CHANGE)    | W |   | 128 x 75(NO_CHANGE)    |   | R | Port A and B     | 1      | 1      | 
+|U0/I_PRMRY_DATAMOVER/\GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | 128 x 74(NO_CHANGE)    | W |   | 128 x 74(NO_CHANGE)    |   | R | Port A and B     | 1      | 1      | 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
 
 
@@ -791,7 +798,7 @@ Distributed RAM: Final Mapping Report
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----------+----------------------+-------------+
 |Module Name                                                                                                                                                                                 | RTL Object                       | Inference | Size (Depth x Width) | Primitives  | 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----------+----------------------+-------------+
-|U0/\I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 9               | RAM32M x 2  | 
+|U0/I_PRMRY_DATAMOVER/\GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 10              | RAM32M x 2  | 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----------+----------------------+-------------+
 
 ---------------------------------------------------------------------------------
@@ -801,7 +808,7 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:00:43 . Memory (MB): peak = 2690.676 ; gain = 875.430 ; free physical = 778 ; free virtual = 7683
+Finished Technology Mapping : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 2703.316 ; gain = 885.742 ; free physical = 3519 ; free virtual = 7726
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -819,37 +826,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:47 ; elapsed = 00:00:47 . Memory (MB): peak = 2841.488 ; gain = 1026.242 ; free physical = 790 ; free virtual = 7545
+Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 2854.129 ; gain = 1036.555 ; free physical = 3255 ; free virtual = 7608
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:47 ; elapsed = 00:00:47 . Memory (MB): peak = 2841.488 ; gain = 1026.242 ; free physical = 789 ; free virtual = 7544
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 2854.129 ; gain = 1036.555 ; free physical = 3254 ; free virtual = 7607
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 2841.488 ; gain = 1026.242 ; free physical = 793 ; free virtual = 7540
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:47 ; elapsed = 00:00:47 . Memory (MB): peak = 2854.129 ; gain = 1036.555 ; free physical = 3251 ; free virtual = 7604
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 2841.488 ; gain = 1026.242 ; free physical = 793 ; free virtual = 7540
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:47 ; elapsed = 00:00:47 . Memory (MB): peak = 2854.129 ; gain = 1036.555 ; free physical = 3251 ; free virtual = 7604
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 2845.457 ; gain = 1030.211 ; free physical = 793 ; free virtual = 7540
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 2860.066 ; gain = 1042.492 ; free physical = 3250 ; free virtual = 7603
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 2845.457 ; gain = 1030.211 ; free physical = 793 ; free virtual = 7540
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 2860.066 ; gain = 1042.492 ; free physical = 3250 ; free virtual = 7603
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -860,13 +867,13 @@ Dynamic Shift Register Report:
 |Module Name | RTL Name     | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
 +------------+--------------+--------+------------+--------+---------+--------+--------+--------+
 |dsrl        | data_reg[3]  | 59     | 59         | 59     | 0       | 0      | 0      | 0      | 
-|dsrl__1     | data_reg[3]  | 29     | 29         | 29     | 0       | 0      | 0      | 0      | 
+|dsrl__1     | data_reg[3]  | 38     | 38         | 38     | 0       | 0      | 0      | 0      | 
 |dsrl__2     | data_reg[3]  | 8      | 8          | 8      | 0       | 0      | 0      | 0      | 
 |dsrl__3     | data_reg[5]  | 2      | 2          | 2      | 0       | 0      | 0      | 0      | 
-|dsrl__4     | data_reg[5]  | 21     | 21         | 21     | 0       | 0      | 0      | 0      | 
-|dsrl__5     | data_reg[3]  | 25     | 25         | 25     | 0       | 0      | 0      | 0      | 
+|dsrl__4     | data_reg[5]  | 33     | 33         | 33     | 0       | 0      | 0      | 0      | 
+|dsrl__5     | data_reg[3]  | 37     | 37         | 37     | 0       | 0      | 0      | 0      | 
 |dsrl__6     | data_reg[15] | 9      | 9          | 9      | 0       | 0      | 0      | 0      | 
-|dsrl__7     | data_reg[3]  | 27     | 27         | 27     | 0       | 0      | 0      | 0      | 
+|dsrl__7     | data_reg[3]  | 36     | 36         | 36     | 0       | 0      | 0      | 0      | 
 +------------+--------------+--------+------------+--------+---------+--------+--------+--------+
 
 ---------------------------------------------------------------------------------
@@ -886,48 +893,50 @@ Report Cell Usage:
 +------+---------+------+
 |      |Cell     |Count |
 +------+---------+------+
-|1     |CARRY4   |    42|
-|2     |LUT1     |    68|
-|3     |LUT2     |   164|
-|4     |LUT3     |   396|
-|5     |LUT4     |   261|
-|6     |LUT5     |   211|
-|7     |LUT6     |   345|
-|8     |RAM32M   |     2|
-|9     |RAMB36E1 |     2|
-|10    |SRL16E   |   150|
-|11    |FDRE     |  1790|
-|12    |FDSE     |    78|
+|1     |CARRY4   |    56|
+|2     |LUT1     |    67|
+|3     |LUT2     |   200|
+|4     |LUT3     |   503|
+|5     |LUT4     |   322|
+|6     |LUT5     |   332|
+|7     |LUT6     |   422|
+|8     |MUXF7    |     5|
+|9     |RAM32M   |     2|
+|10    |RAMB18E1 |     2|
+|11    |RAMB36E1 |     2|
+|12    |SRL16E   |   187|
+|13    |FDRE     |  2241|
+|14    |FDSE     |    79|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 2845.457 ; gain = 1030.211 ; free physical = 793 ; free virtual = 7540
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 2860.066 ; gain = 1042.492 ; free physical = 3250 ; free virtual = 7603
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 2845.457 ; gain = 935.406 ; free physical = 785 ; free virtual = 7531
-Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 2845.465 ; gain = 1030.211 ; free physical = 785 ; free virtual = 7531
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 2860.066 ; gain = 948.719 ; free physical = 3242 ; free virtual = 7595
+Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 2860.074 ; gain = 1042.492 ; free physical = 3242 ; free virtual = 7595
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2845.465 ; gain = 0.000 ; free physical = 959 ; free virtual = 7706
-INFO: [Netlist 29-17] Analyzing 46 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.06 . Memory (MB): peak = 2860.074 ; gain = 0.000 ; free physical = 3540 ; free virtual = 7768
+INFO: [Netlist 29-17] Analyzing 67 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2901.484 ; gain = 0.000 ; free physical = 949 ; free virtual = 7695
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2916.094 ; gain = 0.000 ; free physical = 3532 ; free virtual = 7733
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2 instances were transformed.
   RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
 
-Synth Design complete | Checksum: 1e167344
+Synth Design complete | Checksum: f6d06028
 INFO: [Common 17-83] Releasing license: Synthesis
-407 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+410 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:00:53 . Memory (MB): peak = 2901.520 ; gain = 1275.852 ; free physical = 949 ; free virtual = 7696
-INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1928.005; main = 1877.192; forked = 239.734
-INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3662.207; main = 2901.488; forked = 994.020
-Write ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2925.496 ; gain = 0.000 ; free physical = 949 ; free virtual = 7696
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:00:53 . Memory (MB): peak = 2916.129 ; gain = 1291.164 ; free physical = 3551 ; free virtual = 7753
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1968.297; main = 1920.288; forked = 250.452
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3675.859; main = 2916.098; forked = 994.023
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2940.105 ; gain = 0.000 ; free physical = 3551 ; free virtual = 7753
 INFO: [Common 17-1381] The checkpoint '/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/design_1_axi_dma_0_0_synth_1/design_1_axi_dma_0_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_dma_0_0, cache-ID = c8fb43fdf935d28f
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_dma_0_0, cache-ID = 8909a77cb61e45fb
 INFO: [Coretcl 2-1174] Renamed 100 cell refs.
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2925.496 ; gain = 0.000 ; free physical = 930 ; free virtual = 7681
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2940.105 ; gain = 0.000 ; free physical = 3537 ; free virtual = 7739
 INFO: [Common 17-1381] The checkpoint '/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/design_1_axi_dma_0_0_synth_1/design_1_axi_dma_0_0.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_axi_dma_0_0_utilization_synth.rpt -pb design_1_axi_dma_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri May  1 21:48:06 2026...
+INFO: [Common 17-206] Exiting Vivado at Fri May  1 23:04:35 2026...
