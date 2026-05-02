@@ -36,7 +36,7 @@ dict set ap_memory_interface_dict output_13 { MEM_WIDTH 1 MEM_SIZE 640 MASTER_TY
 dict set ap_memory_interface_dict buffer_1 { MEM_WIDTH 32 MEM_SIZE 2048 MASTER_TYPE BRAM_CTRL MEM_ADDRESS_MODE WORD_ADDRESS PACKAGE_IO port READ_LATENCY 0 }
 dict set ap_memory_interface_dict buffer_0 { MEM_WIDTH 32 MEM_SIZE 2048 MASTER_TYPE BRAM_CTRL MEM_ADDRESS_MODE WORD_ADDRESS PACKAGE_IO port READ_LATENCY 0 }
 set C_modelArgList {
-	{ zext_ln140 int 10 regular  }
+	{ zext_ln84 int 10 regular  }
 	{ output_0 int 1 regular {array 640 { 0 3 } 0 1 }  }
 	{ output_1 int 1 regular {array 640 { 0 3 } 0 1 }  }
 	{ output_2 int 1 regular {array 640 { 0 3 } 0 1 }  }
@@ -53,14 +53,14 @@ set C_modelArgList {
 	{ output_13 int 1 regular {array 640 { 0 3 } 0 1 }  }
 	{ buffer_1 int 32 regular {array 512 { 2 2 } 1 1 }  }
 	{ buffer_0 int 32 regular {array 512 { 2 2 } 1 1 }  }
-	{ sext_ln150 int 16 regular  }
-	{ select_ln140 int 4 regular  }
+	{ sext_ln94 int 16 regular  }
+	{ select_ln84 int 4 regular  }
 }
 set hasAXIMCache 0
 set l_AXIML2Cache [list]
 set AXIMCacheInstDict [dict create]
 set C_modelArgMapList {[ 
-	{ "Name" : "zext_ln140", "interface" : "wire", "bitwidth" : 10, "direction" : "READONLY"} , 
+	{ "Name" : "zext_ln84", "interface" : "wire", "bitwidth" : 10, "direction" : "READONLY"} , 
  	{ "Name" : "output_0", "interface" : "memory", "bitwidth" : 1, "direction" : "WRITEONLY"} , 
  	{ "Name" : "output_1", "interface" : "memory", "bitwidth" : 1, "direction" : "WRITEONLY"} , 
  	{ "Name" : "output_2", "interface" : "memory", "bitwidth" : 1, "direction" : "WRITEONLY"} , 
@@ -77,8 +77,8 @@ set C_modelArgMapList {[
  	{ "Name" : "output_13", "interface" : "memory", "bitwidth" : 1, "direction" : "WRITEONLY"} , 
  	{ "Name" : "buffer_1", "interface" : "memory", "bitwidth" : 32, "direction" : "READWRITE"} , 
  	{ "Name" : "buffer_0", "interface" : "memory", "bitwidth" : 32, "direction" : "READWRITE"} , 
- 	{ "Name" : "sext_ln150", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
- 	{ "Name" : "select_ln140", "interface" : "wire", "bitwidth" : 4, "direction" : "READONLY"} ]}
+ 	{ "Name" : "sext_ln94", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
+ 	{ "Name" : "select_ln84", "interface" : "wire", "bitwidth" : 4, "direction" : "READONLY"} ]}
 # RTL Port declarations: 
 set portNum 85
 set portList { 
@@ -88,7 +88,7 @@ set portList {
 	{ ap_done sc_out sc_logic 1 predone -1 } 
 	{ ap_idle sc_out sc_logic 1 done -1 } 
 	{ ap_ready sc_out sc_logic 1 ready -1 } 
-	{ zext_ln140 sc_in sc_lv 10 signal 0 } 
+	{ zext_ln84 sc_in sc_lv 10 signal 0 } 
 	{ output_0_address0 sc_out sc_lv 10 signal 1 } 
 	{ output_0_ce0 sc_out sc_logic 1 signal 1 } 
 	{ output_0_we0 sc_out sc_logic 1 signal 1 } 
@@ -165,8 +165,8 @@ set portList {
 	{ buffer_0_we1 sc_out sc_logic 1 signal 16 } 
 	{ buffer_0_d1 sc_out sc_lv 32 signal 16 } 
 	{ buffer_0_q1 sc_in sc_lv 32 signal 16 } 
-	{ sext_ln150 sc_in sc_lv 16 signal 17 } 
-	{ select_ln140 sc_in sc_lv 4 signal 18 } 
+	{ sext_ln94 sc_in sc_lv 16 signal 17 } 
+	{ select_ln84 sc_in sc_lv 4 signal 18 } 
 }
 set NewPortList {[ 
 	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
@@ -175,7 +175,7 @@ set NewPortList {[
  	{ "name": "ap_done", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "predone", "bundle":{"name": "ap_done", "role": "default" }} , 
  	{ "name": "ap_idle", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "done", "bundle":{"name": "ap_idle", "role": "default" }} , 
  	{ "name": "ap_ready", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "ready", "bundle":{"name": "ap_ready", "role": "default" }} , 
- 	{ "name": "zext_ln140", "direction": "in", "datatype": "sc_lv", "bitwidth":10, "type": "signal", "bundle":{"name": "zext_ln140", "role": "default" }} , 
+ 	{ "name": "zext_ln84", "direction": "in", "datatype": "sc_lv", "bitwidth":10, "type": "signal", "bundle":{"name": "zext_ln84", "role": "default" }} , 
  	{ "name": "output_0_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":10, "type": "signal", "bundle":{"name": "output_0", "role": "address0" }} , 
  	{ "name": "output_0_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "output_0", "role": "ce0" }} , 
  	{ "name": "output_0_we0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "output_0", "role": "we0" }} , 
@@ -252,35 +252,35 @@ set NewPortList {[
  	{ "name": "buffer_0_we1", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "buffer_0", "role": "we1" }} , 
  	{ "name": "buffer_0_d1", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "buffer_0", "role": "d1" }} , 
  	{ "name": "buffer_0_q1", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "buffer_0", "role": "q1" }} , 
- 	{ "name": "sext_ln150", "direction": "in", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "sext_ln150", "role": "default" }} , 
- 	{ "name": "select_ln140", "direction": "in", "datatype": "sc_lv", "bitwidth":4, "type": "signal", "bundle":{"name": "select_ln140", "role": "default" }}  ]}
+ 	{ "name": "sext_ln94", "direction": "in", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "sext_ln94", "role": "default" }} , 
+ 	{ "name": "select_ln84", "direction": "in", "datatype": "sc_lv", "bitwidth":4, "type": "signal", "bundle":{"name": "select_ln84", "role": "default" }}  ]}
 
 set ArgLastReadFirstWriteLatency {
 	conv2d_l2_Pipeline_L2_FH_L2_FW {
-		zext_ln140 {Type I LastRead 0 FirstWrite -1}
-		output_0 {Type O LastRead -1 FirstWrite 2}
-		output_1 {Type O LastRead -1 FirstWrite 2}
-		output_2 {Type O LastRead -1 FirstWrite 2}
-		output_3 {Type O LastRead -1 FirstWrite 2}
-		output_4 {Type O LastRead -1 FirstWrite 2}
-		output_5 {Type O LastRead -1 FirstWrite 2}
-		output_6 {Type O LastRead -1 FirstWrite 2}
-		output_7 {Type O LastRead -1 FirstWrite 2}
-		output_8 {Type O LastRead -1 FirstWrite 2}
-		output_9 {Type O LastRead -1 FirstWrite 2}
-		output_10 {Type O LastRead -1 FirstWrite 2}
-		output_11 {Type O LastRead -1 FirstWrite 2}
-		output_12 {Type O LastRead -1 FirstWrite 2}
-		output_13 {Type O LastRead -1 FirstWrite 2}
-		buffer_1 {Type IO LastRead 1 FirstWrite 0}
-		buffer_0 {Type IO LastRead 1 FirstWrite 0}
-		sext_ln150 {Type I LastRead 0 FirstWrite -1}
-		select_ln140 {Type I LastRead 0 FirstWrite -1}}}
+		zext_ln84 {Type I LastRead 0 FirstWrite -1}
+		output_0 {Type O LastRead -1 FirstWrite 5}
+		output_1 {Type O LastRead -1 FirstWrite 5}
+		output_2 {Type O LastRead -1 FirstWrite 5}
+		output_3 {Type O LastRead -1 FirstWrite 5}
+		output_4 {Type O LastRead -1 FirstWrite 5}
+		output_5 {Type O LastRead -1 FirstWrite 5}
+		output_6 {Type O LastRead -1 FirstWrite 5}
+		output_7 {Type O LastRead -1 FirstWrite 5}
+		output_8 {Type O LastRead -1 FirstWrite 5}
+		output_9 {Type O LastRead -1 FirstWrite 5}
+		output_10 {Type O LastRead -1 FirstWrite 5}
+		output_11 {Type O LastRead -1 FirstWrite 5}
+		output_12 {Type O LastRead -1 FirstWrite 5}
+		output_13 {Type O LastRead -1 FirstWrite 5}
+		buffer_1 {Type IO LastRead 2 FirstWrite 1}
+		buffer_0 {Type IO LastRead 2 FirstWrite 1}
+		sext_ln94 {Type I LastRead 0 FirstWrite -1}
+		select_ln84 {Type I LastRead 0 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "67", "Max" : "67"}
+	{"Name" : "Latency", "Min" : "70", "Max" : "70"}
 	, {"Name" : "Interval", "Min" : "65", "Max" : "65"}
 ]}
 
@@ -289,7 +289,7 @@ set PipelineEnableSignalInfo {[
 ]}
 
 set Spec2ImplPortList { 
-	zext_ln140 { ap_none {  { zext_ln140 in_data 0 10 } } }
+	zext_ln84 { ap_none {  { zext_ln84 in_data 0 10 } } }
 	output_0 { ap_memory {  { output_0_address0 mem_address 1 10 }  { output_0_ce0 mem_ce 1 1 }  { output_0_we0 mem_we 1 1 }  { output_0_d0 mem_din 1 1 } } }
 	output_1 { ap_memory {  { output_1_address0 mem_address 1 10 }  { output_1_ce0 mem_ce 1 1 }  { output_1_we0 mem_we 1 1 }  { output_1_d0 mem_din 1 1 } } }
 	output_2 { ap_memory {  { output_2_address0 mem_address 1 10 }  { output_2_ce0 mem_ce 1 1 }  { output_2_we0 mem_we 1 1 }  { output_2_d0 mem_din 1 1 } } }
@@ -306,6 +306,6 @@ set Spec2ImplPortList {
 	output_13 { ap_memory {  { output_13_address0 mem_address 1 10 }  { output_13_ce0 mem_ce 1 1 }  { output_13_we0 mem_we 1 1 }  { output_13_d0 mem_din 1 1 } } }
 	buffer_1 { ap_memory {  { buffer_1_address0 mem_address 1 9 }  { buffer_1_ce0 mem_ce 1 1 }  { buffer_1_we0 mem_we 1 1 }  { buffer_1_d0 mem_din 1 32 }  { buffer_1_q0 mem_dout 0 32 }  { buffer_1_address1 MemPortADDR2 1 9 }  { buffer_1_ce1 MemPortCE2 1 1 }  { buffer_1_we1 MemPortWE2 1 1 }  { buffer_1_d1 MemPortDIN2 1 32 }  { buffer_1_q1 MemPortDOUT2 0 32 } } }
 	buffer_0 { ap_memory {  { buffer_0_address0 mem_address 1 9 }  { buffer_0_ce0 mem_ce 1 1 }  { buffer_0_we0 mem_we 1 1 }  { buffer_0_d0 mem_din 1 32 }  { buffer_0_q0 mem_dout 0 32 }  { buffer_0_address1 MemPortADDR2 1 9 }  { buffer_0_ce1 MemPortCE2 1 1 }  { buffer_0_we1 MemPortWE2 1 1 }  { buffer_0_d1 MemPortDIN2 1 32 }  { buffer_0_q1 MemPortDOUT2 0 32 } } }
-	sext_ln150 { ap_none {  { sext_ln150 in_data 0 16 } } }
-	select_ln140 { ap_none {  { select_ln140 in_data 0 4 } } }
+	sext_ln94 { ap_none {  { sext_ln94 in_data 0 16 } } }
+	select_ln84 { ap_none {  { select_ln84 in_data 0 4 } } }
 }

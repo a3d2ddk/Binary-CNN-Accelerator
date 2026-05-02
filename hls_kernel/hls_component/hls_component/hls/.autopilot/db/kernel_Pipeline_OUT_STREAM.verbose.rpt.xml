@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'kernel_Pipeline_OUT_STREAM'" level="0">
-<item name = "Date">Fri May  1 17:43:51 2026
+<item name = "Date">Fri May  1 21:41:15 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">hls_component</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">13.00 ns, 5.058 ns, 3.51 ns</column>
+<column name="ap_clk">10.00 ns, 5.058 ns, 2.70 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">7, 7, 91.000 ns, 91.000 ns, 0, 0, loop pipeline stp</column>
+<column name="">7, 7, 70.000 ns, 70.000 ns, 0, 0, loop pipeline stp</column>
 </table>
 </item>
 <item name = "Detail">
@@ -78,10 +78,10 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="add_ln642_fu_153_p2">+, 0, 0, 13, 4, 2</column>
+<column name="add_ln508_fu_153_p2">+, 0, 0, 13, 4, 2</column>
 <column name="ap_block_pp0_stage0_01001">and, 0, 0, 2, 1, 1</column>
-<column name="icmp_ln638_fu_119_p2">icmp, 0, 0, 13, 4, 4</column>
-<column name="icmp_ln642_fu_159_p2">icmp, 0, 0, 13, 4, 4</column>
+<column name="icmp_ln504_fu_119_p2">icmp, 0, 0, 13, 4, 4</column>
+<column name="icmp_ln508_fu_159_p2">icmp, 0, 0, 13, 4, 4</column>
 <column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
 </table>
 </item>
@@ -100,7 +100,7 @@
 <column name="ap_done_reg">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
 <column name="c_fu_64">4, 0, 4, 0</column>
-<column name="icmp_ln642_reg_199">1, 0, 1, 0</column>
+<column name="icmp_ln508_reg_199">1, 0, 1, 0</column>
 </table>
 </item>
 </section>

@@ -36,17 +36,17 @@
 +---------------------+--------------+----------------+----------------+----------------+----------------+----------------+
 | Function            | Location     | Compile/Link   | Unroll/Inline  | Array/Struct   | Performance    | HW Transforms  |
 +---------------------+--------------+----------------+----------------+----------------+----------------+----------------+
-| + kernel            | kern.cpp:343 | 5,270          | 1,495          | 3,223          | 2,670          | 2,969          |
-|  + conv2d_l1        | kern.cpp:78  |  548 (2 calls) |  226 (2 calls) |  538 (2 calls) |  470 (2 calls) |  548 (2 calls) |
-|     batch_norm_relu | kern.cpp:59  |   82 (2 calls) |                |                |                |                |
-|  + conv2d_l2        | kern.cpp:139 |  560 (2 calls) |  216 (2 calls) |  520 (2 calls) |  452 (2 calls) |  530 (2 calls) |
-|     batch_norm_relu | kern.cpp:59  |   82 (2 calls) |                |                |                |                |
-|  + conv2d_l3        | kern.cpp:198 |  560 (2 calls) |  216 (2 calls) |  520 (2 calls) |  452 (2 calls) |  530 (2 calls) |
-|     batch_norm_relu | kern.cpp:59  |   82 (2 calls) |                |                |                |                |
-|  + conv2d_l4        | kern.cpp:258 |  560 (2 calls) |  216 (2 calls) |  520 (2 calls) |  452 (2 calls) |  530 (2 calls) |
-|     batch_norm_relu | kern.cpp:59  |   82 (2 calls) |                |                |                |                |
-|    batch_norm_relu  | kern.cpp:59  |   82 (2 calls) |                |                |                |                |
-|    softmax          | kern.cpp:317 |   80           |  127           |  128           |  128           |  130           |
+| + kernel            | kern.cpp:273 | 5,270          | 1,495          | 3,223          | 2,670          | 2,969          |
+|  + conv2d_l1        | kern.cpp:28  |  548 (2 calls) |  226 (2 calls) |  538 (2 calls) |  470 (2 calls) |  548 (2 calls) |
+|     batch_norm_relu | kern.cpp:23  |   82 (2 calls) |                |                |                |                |
+|  + conv2d_l2        | kern.cpp:83  |  560 (2 calls) |  216 (2 calls) |  520 (2 calls) |  452 (2 calls) |  530 (2 calls) |
+|     batch_norm_relu | kern.cpp:23  |   82 (2 calls) |                |                |                |                |
+|  + conv2d_l3        | kern.cpp:138 |  560 (2 calls) |  216 (2 calls) |  520 (2 calls) |  452 (2 calls) |  530 (2 calls) |
+|     batch_norm_relu | kern.cpp:23  |   82 (2 calls) |                |                |                |                |
+|  + conv2d_l4        | kern.cpp:194 |  560 (2 calls) |  216 (2 calls) |  520 (2 calls) |  452 (2 calls) |  530 (2 calls) |
+|     batch_norm_relu | kern.cpp:23  |   82 (2 calls) |                |                |                |                |
+|    batch_norm_relu  | kern.cpp:23  |   82 (2 calls) |                |                |                |                |
+|    softmax          | kern.cpp:250 |   80           |  127           |  128           |  128           |  130           |
 +---------------------+--------------+----------------+----------------+----------------+----------------+----------------+
 
 * Design Size Message Settings

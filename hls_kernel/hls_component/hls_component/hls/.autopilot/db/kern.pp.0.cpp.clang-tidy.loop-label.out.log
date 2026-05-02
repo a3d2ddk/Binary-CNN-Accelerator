@@ -1,35 +1,35 @@
-/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:2492:5: remark: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:2491:5: remark: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
     for (unsigned i = low; i != high+1; ++i) {
     ^
     VITIS_LOOP_676_1: 
-/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:2492:5: note: FIX-IT applied suggested code changes
-/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:2506:5: remark: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:2491:5: note: FIX-IT applied suggested code changes
+/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:2505:5: remark: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
     for (unsigned i = low; i != high+1; ++i) {
     ^
     VITIS_LOOP_690_1: 
-/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:2506:5: note: FIX-IT applied suggested code changes
-/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:2520:5: remark: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:2505:5: note: FIX-IT applied suggested code changes
+/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:2519:5: remark: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
     for (unsigned i = low; i != high+1; ++i) {
     ^
     VITIS_LOOP_704_1: 
-/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:2520:5: note: FIX-IT applied suggested code changes
-/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:6040:7: remark: Added loop label VITIS_LOOP_1251_1:   [xilinx-label-all-loops]
+/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:2519:5: note: FIX-IT applied suggested code changes
+/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:6039:7: remark: Added loop label VITIS_LOOP_1251_1:   [xilinx-label-all-loops]
       for (i = 0; i < __N - 1; ++i) {
       ^
       VITIS_LOOP_1251_1: 
-/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:6040:7: note: FIX-IT applied suggested code changes
-/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:55284:5: remark: Added loop label VITIS_LOOP_406_1:   [xilinx-label-all-loops]
+/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:6039:7: note: FIX-IT applied suggested code changes
+/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:55259:5: remark: Added loop label VITIS_LOOP_299_1:   [xilinx-label-all-loops]
     for (int i = 0; i < 32 * 32; i++) buffer[i] = 0;
     ^
-    VITIS_LOOP_406_1: 
-/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:55284:5: note: FIX-IT applied suggested code changes
-/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:55328:9: remark: Added loop label VITIS_LOOP_450_2:   [xilinx-label-all-loops]
+    VITIS_LOOP_299_1: 
+/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:55259:5: note: FIX-IT applied suggested code changes
+/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:55298:9: remark: Added loop label VITIS_LOOP_338_2:   [xilinx-label-all-loops]
         for (int k = 0; k < 3; k++) {
         ^
-        VITIS_LOOP_450_2: 
-/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:55328:9: note: FIX-IT applied suggested code changes
-/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:55330:13: remark: Added loop label VITIS_LOOP_452_3:   [xilinx-label-all-loops]
+        VITIS_LOOP_338_2: 
+/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:55298:9: note: FIX-IT applied suggested code changes
+/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:55300:13: remark: Added loop label VITIS_LOOP_340_3:   [xilinx-label-all-loops]
             for (int b = 0; b < 3 * 3; b++) {
             ^
-            VITIS_LOOP_452_3: 
-/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:55330:13: note: FIX-IT applied suggested code changes
+            VITIS_LOOP_340_3: 
+/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/.autopilot/db/kern.pp.0.cpp:55300:13: note: FIX-IT applied suggested code changes

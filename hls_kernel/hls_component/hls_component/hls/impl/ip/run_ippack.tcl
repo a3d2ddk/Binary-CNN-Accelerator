@@ -6,8 +6,8 @@
 # 
 # ==============================================================
 source -notrace "/home/oldak/chonky-boi/2025.2/Vitis/common/scripts/ipxhls.tcl"
-set ip_out_dir "/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/impl/ip"
-set data_file "/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/hls_data.json"
+set ip_out_dir "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/impl/ip"
+set data_file "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/hls_data.json"
 set src_dir [file dir $data_file]
 set ip_types {vitis sysgen}
 set ippack_opts_dict {}

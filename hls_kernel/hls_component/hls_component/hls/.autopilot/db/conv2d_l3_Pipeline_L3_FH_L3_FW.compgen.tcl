@@ -320,14 +320,14 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 298 \
-    name zext_ln199 \
+    name zext_ln139 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_zext_ln199 \
+    corename dc_zext_ln139 \
     op interface \
-    ports { zext_ln199 { I 9 vector } } \
+    ports { zext_ln139 { I 9 vector } } \
 } "
 }
 
@@ -335,14 +335,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 315 \
-    name sext_ln209 \
+    name sext_ln149 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_sext_ln209 \
+    corename dc_sext_ln149 \
     op interface \
-    ports { sext_ln209 { I 16 vector } } \
+    ports { sext_ln149 { I 16 vector } } \
 } "
 }
 
@@ -350,14 +350,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 316 \
-    name select_ln199 \
+    name select_ln139 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_select_ln199 \
+    corename dc_select_ln139 \
     op interface \
-    ports { select_ln199 { I 4 vector } } \
+    ports { select_ln139 { I 4 vector } } \
 } "
 }
 

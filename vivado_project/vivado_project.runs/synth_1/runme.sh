@@ -21,7 +21,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/oldak/big-boi-pj/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1'
+HD_PWD='/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

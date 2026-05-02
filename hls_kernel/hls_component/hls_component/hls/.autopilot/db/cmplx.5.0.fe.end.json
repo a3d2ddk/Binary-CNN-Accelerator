@@ -1,8 +1,30 @@
 {
     "1": {
-        "name": "kernel_Pipeline_VITIS_LOOP_406_1",
+        "name": "conv2d_l3",
         "file": "kern.cpp",
-        "fileloc": "406",
+        "fileloc": "139",
+        "instructions": "113",
+        "total_instructions": "349",
+        "calls": "18 4",
+        "basicblocks": "18",
+        "memory_accesses": "0",
+        "control_depth": "0",
+        "def_use_depth": "6",
+        "loads": {
+            "L": "4"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1",
+            "N": "2"
+        }
+    },
+    "2": {
+        "name": "kernel_Pipeline_VITIS_LOOP_299_1",
+        "file": "kern.cpp",
+        "fileloc": "299",
         "instructions": "23",
         "total_instructions": "23",
         "calls": "",
@@ -20,113 +42,10 @@
             "L": "1"
         }
     },
-    "2": {
-        "name": "softmax",
-        "file": "kern.cpp",
-        "fileloc": "317",
-        "instructions": "110",
-        "total_instructions": "137",
-        "calls": "7",
-        "basicblocks": "1",
-        "memory_accesses": "0",
-        "control_depth": "0",
-        "def_use_depth": "27",
-        "loads": {
-            "L": "10"
-        },
-        "stores": {
-            "L": "10"
-        }
-    },
     "3": {
-        "name": "conv2d_l3_Pipeline_L3_KH_L3_KW",
-        "file": "kern.cpp",
-        "fileloc": "215",
-        "instructions": "127",
-        "total_instructions": "127",
-        "calls": "",
-        "basicblocks": "4",
-        "memory_accesses": "22",
-        "control_depth": "1",
-        "def_use_depth": "1",
-        "loads": {
-            "L": "19"
-        },
-        "stores": {
-            "L": "8"
-        },
-        "loops": {
-            "L": "1"
-        }
-    },
-    "4": {
-        "name": "conv2d_l1_Pipeline_INIT_FH_INIT_FW",
-        "file": "kern.cpp",
-        "fileloc": "114",
-        "instructions": "111",
-        "total_instructions": "111",
-        "calls": "",
-        "basicblocks": "19",
-        "memory_accesses": "28",
-        "control_depth": "2",
-        "def_use_depth": "1",
-        "loads": {
-            "L": "7"
-        },
-        "stores": {
-            "L": "24"
-        },
-        "loops": {
-            "L": "1"
-        }
-    },
-    "5": {
-        "name": "conv2d_l2_Pipeline_L2_FH_L2_FW",
-        "file": "kern.cpp",
-        "fileloc": "175",
-        "instructions": "112",
-        "total_instructions": "112",
-        "calls": "",
-        "basicblocks": "19",
-        "memory_accesses": "28",
-        "control_depth": "2",
-        "def_use_depth": "1",
-        "loads": {
-            "L": "7"
-        },
-        "stores": {
-            "L": "24"
-        },
-        "loops": {
-            "L": "1"
-        }
-    },
-    "6": {
-        "name": "conv2d_l2",
-        "file": "kern.cpp",
-        "fileloc": "140",
-        "instructions": "113",
-        "total_instructions": "351",
-        "calls": "15 5",
-        "basicblocks": "18",
-        "memory_accesses": "0",
-        "control_depth": "0",
-        "def_use_depth": "6",
-        "loads": {
-            "L": "4"
-        },
-        "stores": {
-            "L": "4"
-        },
-        "loops": {
-            "L": "1",
-            "N": "2"
-        }
-    },
-    "7": {
         "name": "softmax_Pipeline_SM_NORM",
         "file": "kern.cpp",
-        "fileloc": "333",
+        "fileloc": "266",
         "instructions": "27",
         "total_instructions": "27",
         "calls": "",
@@ -144,75 +63,10 @@
             "L": "1"
         }
     },
-    "8": {
-        "name": "conv2d_l3",
-        "file": "kern.cpp",
-        "fileloc": "199",
-        "instructions": "113",
-        "total_instructions": "349",
-        "calls": "3 10",
-        "basicblocks": "18",
-        "memory_accesses": "0",
-        "control_depth": "0",
-        "def_use_depth": "6",
-        "loads": {
-            "L": "4"
-        },
-        "stores": {
-            "L": "4"
-        },
-        "loops": {
-            "L": "1",
-            "N": "2"
-        }
-    },
-    "0": {
-        "name": "kernel",
-        "file": "kern.cpp",
-        "fileloc": "343",
-        "instructions": "373",
-        "total_instructions": "3685",
-        "calls": "1 2 17 19 9 9 6 6 8 8 14 14 11 13",
-        "basicblocks": "51",
-        "memory_accesses": "0",
-        "control_depth": "0",
-        "def_use_depth": "1",
-        "loads": {
-            "L": "29"
-        },
-        "stores": {
-            "L": "60"
-        },
-        "loops": {
-            "L": "1"
-        }
-    },
-    "9": {
-        "name": "conv2d_l1",
-        "file": "kern.cpp",
-        "fileloc": "79",
-        "instructions": "101",
-        "total_instructions": "363",
-        "calls": "18 4",
-        "basicblocks": "18",
-        "memory_accesses": "0",
-        "control_depth": "0",
-        "def_use_depth": "6",
-        "loads": {
-            "L": "4"
-        },
-        "stores": {
-            "L": "4"
-        },
-        "loops": {
-            "L": "1",
-            "N": "2"
-        }
-    },
-    "10": {
+    "4": {
         "name": "conv2d_l3_Pipeline_L3_FH_L3_FW",
         "file": "kern.cpp",
-        "fileloc": "234",
+        "fileloc": "174",
         "instructions": "109",
         "total_instructions": "109",
         "calls": "",
@@ -230,31 +84,10 @@
             "L": "1"
         }
     },
-    "11": {
-        "name": "kernel_Pipeline_MLP1_BITS",
-        "file": "kern.cpp",
-        "fileloc": "429",
-        "instructions": "146",
-        "total_instructions": "146",
-        "calls": "",
-        "basicblocks": "3",
-        "memory_accesses": "22",
-        "control_depth": "0",
-        "def_use_depth": "1",
-        "loads": {
-            "L": "18"
-        },
-        "stores": {
-            "L": "9"
-        },
-        "loops": {
-            "L": "1"
-        }
-    },
-    "12": {
+    "5": {
         "name": "conv2d_l4_Pipeline_L4_KH_L4_KW",
         "file": "kern.cpp",
-        "fileloc": "275",
+        "fileloc": "211",
         "instructions": "126",
         "total_instructions": "126",
         "calls": "",
@@ -272,34 +105,13 @@
             "L": "1"
         }
     },
-    "13": {
-        "name": "kernel_Pipeline_MLP2_BITS",
-        "file": "kern.cpp",
-        "fileloc": "430",
-        "instructions": "79",
-        "total_instructions": "79",
-        "calls": "",
-        "basicblocks": "3",
-        "memory_accesses": "9",
-        "control_depth": "0",
-        "def_use_depth": "1",
-        "loads": {
-            "L": "5"
-        },
-        "stores": {
-            "L": "9"
-        },
-        "loops": {
-            "L": "1"
-        }
-    },
-    "14": {
+    "6": {
         "name": "conv2d_l4",
         "file": "kern.cpp",
-        "fileloc": "259",
+        "fileloc": "195",
         "instructions": "115",
         "total_instructions": "348",
-        "calls": "12 16",
+        "calls": "5 10",
         "basicblocks": "18",
         "memory_accesses": "0",
         "control_depth": "0",
@@ -315,10 +127,10 @@
             "N": "2"
         }
     },
-    "15": {
+    "7": {
         "name": "conv2d_l2_Pipeline_L2_KH_L2_KW",
         "file": "kern.cpp",
-        "fileloc": "156",
+        "fileloc": "100",
         "instructions": "126",
         "total_instructions": "126",
         "calls": "",
@@ -336,52 +148,28 @@
             "L": "1"
         }
     },
-    "16": {
-        "name": "conv2d_l4_Pipeline_L4_FH_L4_FW",
+    "8": {
+        "name": "softmax",
         "file": "kern.cpp",
-        "fileloc": "294",
-        "instructions": "107",
-        "total_instructions": "107",
-        "calls": "",
-        "basicblocks": "19",
-        "memory_accesses": "28",
-        "control_depth": "2",
-        "def_use_depth": "1",
+        "fileloc": "250",
+        "instructions": "110",
+        "total_instructions": "137",
+        "calls": "3",
+        "basicblocks": "1",
+        "memory_accesses": "0",
+        "control_depth": "0",
+        "def_use_depth": "27",
         "loads": {
-            "L": "7"
+            "L": "10"
         },
         "stores": {
-            "L": "24"
-        },
-        "loops": {
-            "L": "1"
+            "L": "10"
         }
     },
-    "17": {
-        "name": "kernel_Pipeline_OUT_STREAM",
-        "file": "kern.cpp",
-        "fileloc": "638",
-        "instructions": "26",
-        "total_instructions": "26",
-        "calls": "",
-        "basicblocks": "4",
-        "memory_accesses": "5",
-        "control_depth": "1",
-        "def_use_depth": "1",
-        "loads": {
-            "L": "3"
-        },
-        "stores": {
-            "L": "2"
-        },
-        "loops": {
-            "L": "1"
-        }
-    },
-    "18": {
+    "9": {
         "name": "conv2d_l1_Pipeline_INIT_KH_INIT_KW",
         "file": "kern.cpp",
-        "fileloc": "95",
+        "fileloc": "45",
         "instructions": "151",
         "total_instructions": "151",
         "calls": "",
@@ -399,10 +187,96 @@
             "L": "1"
         }
     },
-    "19": {
-        "name": "kernel_Pipeline_MLPO_BITS",
+    "10": {
+        "name": "conv2d_l4_Pipeline_L4_FH_L4_FW",
         "file": "kern.cpp",
-        "fileloc": "431",
+        "fileloc": "230",
+        "instructions": "107",
+        "total_instructions": "107",
+        "calls": "",
+        "basicblocks": "19",
+        "memory_accesses": "28",
+        "control_depth": "2",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "7"
+        },
+        "stores": {
+            "L": "24"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "11": {
+        "name": "conv2d_l2_Pipeline_L2_FH_L2_FW",
+        "file": "kern.cpp",
+        "fileloc": "119",
+        "instructions": "112",
+        "total_instructions": "112",
+        "calls": "",
+        "basicblocks": "19",
+        "memory_accesses": "28",
+        "control_depth": "2",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "7"
+        },
+        "stores": {
+            "L": "24"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "12": {
+        "name": "conv2d_l2",
+        "file": "kern.cpp",
+        "fileloc": "84",
+        "instructions": "113",
+        "total_instructions": "351",
+        "calls": "7 11",
+        "basicblocks": "18",
+        "memory_accesses": "0",
+        "control_depth": "0",
+        "def_use_depth": "6",
+        "loads": {
+            "L": "4"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1",
+            "N": "2"
+        }
+    },
+    "13": {
+        "name": "conv2d_l1",
+        "file": "kern.cpp",
+        "fileloc": "29",
+        "instructions": "101",
+        "total_instructions": "363",
+        "calls": "9 19",
+        "basicblocks": "18",
+        "memory_accesses": "0",
+        "control_depth": "0",
+        "def_use_depth": "6",
+        "loads": {
+            "L": "4"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1",
+            "N": "2"
+        }
+    },
+    "14": {
+        "name": "kernel_Pipeline_MLP2_BITS",
+        "file": "kern.cpp",
+        "fileloc": "321",
         "instructions": "79",
         "total_instructions": "79",
         "calls": "",
@@ -415,6 +289,132 @@
         },
         "stores": {
             "L": "9"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "15": {
+        "name": "kernel_Pipeline_OUT_STREAM",
+        "file": "kern.cpp",
+        "fileloc": "504",
+        "instructions": "26",
+        "total_instructions": "26",
+        "calls": "",
+        "basicblocks": "4",
+        "memory_accesses": "5",
+        "control_depth": "1",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "16": {
+        "name": "kernel_Pipeline_MLPO_BITS",
+        "file": "kern.cpp",
+        "fileloc": "322",
+        "instructions": "79",
+        "total_instructions": "79",
+        "calls": "",
+        "basicblocks": "3",
+        "memory_accesses": "9",
+        "control_depth": "0",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "5"
+        },
+        "stores": {
+            "L": "9"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "17": {
+        "name": "kernel_Pipeline_MLP1_BITS",
+        "file": "kern.cpp",
+        "fileloc": "320",
+        "instructions": "146",
+        "total_instructions": "146",
+        "calls": "",
+        "basicblocks": "3",
+        "memory_accesses": "22",
+        "control_depth": "0",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "18"
+        },
+        "stores": {
+            "L": "9"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "18": {
+        "name": "conv2d_l3_Pipeline_L3_KH_L3_KW",
+        "file": "kern.cpp",
+        "fileloc": "155",
+        "instructions": "127",
+        "total_instructions": "127",
+        "calls": "",
+        "basicblocks": "4",
+        "memory_accesses": "22",
+        "control_depth": "1",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "19"
+        },
+        "stores": {
+            "L": "8"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "19": {
+        "name": "conv2d_l1_Pipeline_INIT_FH_INIT_FW",
+        "file": "kern.cpp",
+        "fileloc": "64",
+        "instructions": "111",
+        "total_instructions": "111",
+        "calls": "",
+        "basicblocks": "19",
+        "memory_accesses": "28",
+        "control_depth": "2",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "7"
+        },
+        "stores": {
+            "L": "24"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "0": {
+        "name": "kernel",
+        "file": "kern.cpp",
+        "fileloc": "273",
+        "instructions": "373",
+        "total_instructions": "3685",
+        "calls": "2 8 15 16 13 13 12 12 1 1 6 6 17 14",
+        "basicblocks": "51",
+        "memory_accesses": "0",
+        "control_depth": "0",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "29"
+        },
+        "stores": {
+            "L": "60"
         },
         "loops": {
             "L": "1"

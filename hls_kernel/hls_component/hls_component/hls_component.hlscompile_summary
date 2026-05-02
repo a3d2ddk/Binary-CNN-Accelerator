@@ -1,6 +1,6 @@
 <ENTRY>
 {
- "thisFile": "/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls_component.hlscompile_summary",
+ "thisFile": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls_component.hlscompile_summary",
  "connectId": "",
  "serverToken": "",
  "timestamp": "0"
@@ -9,39 +9,39 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "Fri May  1 17:43:29 2026",
- "timestampMillis": "1777671809244",
+ "dateTimestamp": "Fri May  1 21:40:51 2026",
+ "timestampMillis": "1777686051184",
  "buildStep": {
-  "cmdId": "2bc6d4eb-58ba-4c8c-84de-8e10e095e586",
+  "cmdId": "f212efe9-4f10-499c-a6a5-5742ad1aeb03",
   "name": "v++",
-  "logFile": "/home/oldak/big-boi-pj/kernel/hls_component/hls_component/logs/hls_component.steps.log",
-  "commandLine": "/home/oldak/chonky-boi/2025.2/Vitis/bin/unwrapped/lnx64.o/v++  -c --mode hls --config /home/oldak/big-boi-pj/kernel/hls_component/hls_config.cfg --work_dir hls_component ",
+  "logFile": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/logs/hls_component.steps.log",
+  "commandLine": "/home/oldak/chonky-boi/2025.2/Vitis/bin/unwrapped/lnx64.o/v++  -c --mode hls --config /home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_config.cfg --work_dir hls_component ",
   "args": [
    "-c",
    "--mode",
    "hls",
    "--config",
-   "/home/oldak/big-boi-pj/kernel/hls_component/hls_config.cfg",
+   "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_config.cfg",
    "--work_dir",
    "hls_component"
   ],
   "iniFiles": [
    {
-    "path": "/home/oldak/big-boi-pj/kernel/hls_component/hls_config.cfg",
-    "content": "part=xc7z020clg400-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.file=kern.cpp\nsyn.top=kernel\ntb.file=/home/oldak/Downloads/files/tb_cnn_accelerator.cpp\nclock=13ns"
+    "path": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_config.cfg",
+    "content": "part=xc7z020clg400-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.file=kern.cpp\nsyn.top=kernel\ntb.file=/home/oldak/Downloads/files/tb_cnn_accelerator.cpp\nclock=10ns"
    }
   ],
-  "cwd": "/home/oldak/big-boi-pj/kernel/hls_component"
+  "cwd": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Fri May  1 17:43:29 2026",
- "timestampMillis": "1777671809244",
+ "dateTimestamp": "Fri May  1 21:40:51 2026",
+ "timestampMillis": "1777686051184",
  "status": {
-  "cmdId": "2bc6d4eb-58ba-4c8c-84de-8e10e095e586",
+  "cmdId": "f212efe9-4f10-499c-a6a5-5742ad1aeb03",
   "state": "CS_RUNNING"
  }
 }
@@ -49,8 +49,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "Fri May  1 17:43:32 2026",
- "timestampMillis": "1777671812534",
+ "dateTimestamp": "Fri May  1 21:40:55 2026",
+ "timestampMillis": "1777686055178",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -69,7 +69,7 @@
      "uuid": ""
     },
     "sources": [
-     "/home/oldak/big-boi-pj/kernel/hls_component/kern.cpp"
+     "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp"
     ],
     "psSources": [],
     "cuNames": [],
@@ -85,26 +85,26 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "Fri May  1 17:43:32 2026",
- "timestampMillis": "1777671812534",
+ "dateTimestamp": "Fri May  1 21:40:55 2026",
+ "timestampMillis": "1777686055178",
  "buildStep": {
-  "cmdId": "3887d200-9042-4396-88d1-8b72fe8305ad",
+  "cmdId": "baaa00d9-7658-4d1a-a442-4a157da4498e",
   "name": "",
-  "logFile": "/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/hls.log",
+  "logFile": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/hls.log",
   "commandLine": "",
   "args": [],
   "iniFiles": [],
-  "cwd": "/home/oldak/big-boi-pj/kernel/hls_component"
+  "cwd": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Fri May  1 17:43:32 2026",
- "timestampMillis": "1777671812534",
+ "dateTimestamp": "Fri May  1 21:40:55 2026",
+ "timestampMillis": "1777686055179",
  "status": {
-  "cmdId": "3887d200-9042-4396-88d1-8b72fe8305ad",
+  "cmdId": "baaa00d9-7658-4d1a-a442-4a157da4498e",
   "state": "CS_RUNNING"
  }
 }
@@ -112,10 +112,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri May  1 17:43:32 2026",
- "timestampMillis": "1777671812534",
+ "dateTimestamp": "Fri May  1 21:40:55 2026",
+ "timestampMillis": "1777686055179",
  "report": {
-  "path": "/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/hls_data.json",
+  "path": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/hls_data.json",
   "name": "",
   "fileType": "JSON",
   "reportType": "HLS_SYNTHESIS",
@@ -126,10 +126,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri May  1 17:43:32 2026",
- "timestampMillis": "1777671812535",
+ "dateTimestamp": "Fri May  1 21:40:55 2026",
+ "timestampMillis": "1777686055179",
  "report": {
-  "path": "/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth.rpt",
+  "path": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/syn/report/csynth.rpt",
   "name": "",
   "fileType": "TEXT",
   "reportType": "HLS_SYNTHESIS",
@@ -140,10 +140,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri May  1 17:43:32 2026",
- "timestampMillis": "1777671812535",
+ "dateTimestamp": "Fri May  1 21:40:55 2026",
+ "timestampMillis": "1777686055179",
  "report": {
-  "path": "/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/syn/report/csynth.xml",
+  "path": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/syn/report/csynth.xml",
   "name": "",
   "fileType": "XML",
   "reportType": "HLS_SYNTHESIS",
@@ -154,10 +154,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri May  1 17:43:53 2026",
- "timestampMillis": "1777671833018",
+ "dateTimestamp": "Fri May  1 21:41:16 2026",
+ "timestampMillis": "1777686076832",
  "report": {
-  "path": "/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls",
+  "path": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls",
   "name": "",
   "fileType": "DIR",
   "reportType": "HLS_DATAFLOW",
@@ -168,10 +168,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri May  1 17:43:53 2026",
- "timestampMillis": "1777671833019",
+ "dateTimestamp": "Fri May  1 21:41:16 2026",
+ "timestampMillis": "1777686076833",
  "report": {
-  "path": "/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls",
+  "path": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls",
   "name": "",
   "fileType": "DIR",
   "reportType": "HLS_FUNCTION_CALL_GRAPH",
@@ -182,10 +182,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri May  1 17:43:53 2026",
- "timestampMillis": "1777671833019",
+ "dateTimestamp": "Fri May  1 21:41:16 2026",
+ "timestampMillis": "1777686076833",
  "report": {
-  "path": "/home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls",
+  "path": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls",
   "name": "",
   "fileType": "DIR",
   "reportType": "HLS_SCHEDULE",
@@ -196,10 +196,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Fri May  1 17:43:53 2026",
- "timestampMillis": "1777671833019",
+ "dateTimestamp": "Fri May  1 21:41:16 2026",
+ "timestampMillis": "1777686076834",
  "status": {
-  "cmdId": "3887d200-9042-4396-88d1-8b72fe8305ad",
+  "cmdId": "baaa00d9-7658-4d1a-a442-4a157da4498e",
   "state": "CS_PASSED"
  }
 }
@@ -207,10 +207,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Fri May  1 17:43:53 2026",
- "timestampMillis": "1777671833187",
+ "dateTimestamp": "Fri May  1 21:41:17 2026",
+ "timestampMillis": "1777686077026",
  "status": {
-  "cmdId": "2bc6d4eb-58ba-4c8c-84de-8e10e095e586",
+  "cmdId": "f212efe9-4f10-499c-a6a5-5742ad1aeb03",
   "state": "CS_PASSED"
  }
 }
@@ -218,10 +218,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri May  1 17:43:53 2026",
- "timestampMillis": "1777671833225",
+ "dateTimestamp": "Fri May  1 21:41:17 2026",
+ "timestampMillis": "1777686077080",
  "report": {
-  "path": "/home/oldak/big-boi-pj/kernel/hls_component/hls_component/reports/v++_compile_hls_component_guidance.html",
+  "path": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/reports/v++_compile_hls_component_guidance.html",
   "name": "",
   "fileType": "HTML",
   "reportType": "GLOBAL_RULECHECK_GUIDANCE",
@@ -232,10 +232,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri May  1 17:43:53 2026",
- "timestampMillis": "1777671833225",
+ "dateTimestamp": "Fri May  1 21:41:17 2026",
+ "timestampMillis": "1777686077080",
  "report": {
-  "path": "/home/oldak/big-boi-pj/kernel/hls_component/hls_component/reports/.db/v++_compile_hls_component_guidance.pb3",
+  "path": "/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/reports/.db/v++_compile_hls_component_guidance.pb3",
   "name": "",
   "fileType": "BINARY_PROTOBUF",
   "reportType": "GLOBAL_RULECHECK_GUIDANCE",

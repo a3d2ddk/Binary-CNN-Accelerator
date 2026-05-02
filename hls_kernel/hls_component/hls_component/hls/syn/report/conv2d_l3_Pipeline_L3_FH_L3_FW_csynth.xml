@@ -9,8 +9,8 @@
 <ProductFamily>zynq</ProductFamily>
 <Part>xc7z020-clg400-1</Part>
 <TopModelName>conv2d_l3_Pipeline_L3_FH_L3_FW</TopModelName>
-<TargetClockPeriod>13.00</TargetClockPeriod>
-<ClockUncertainty>3.51</ClockUncertainty>
+<TargetClockPeriod>10.00</TargetClockPeriod>
+<ClockUncertainty>2.70</ClockUncertainty>
 <FlowTarget>vivado</FlowTarget>
 </UserAssignments>
 
@@ -18,29 +18,29 @@
 <PipelineType>loop pipeline stp</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>9.252</EstimatedClockPeriod>
+<EstimatedClockPeriod>6.504</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>20</Best-caseLatency>
-<Average-caseLatency>20</Average-caseLatency>
-<Worst-caseLatency>20</Worst-caseLatency>
-<Best-caseRealTimeLatency>0.260 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>0.260 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>0.260 us</Worst-caseRealTimeLatency>
+<Best-caseLatency>22</Best-caseLatency>
+<Average-caseLatency>22</Average-caseLatency>
+<Worst-caseLatency>22</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.220 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.220 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.220 us</Worst-caseRealTimeLatency>
 <Interval-min>17</Interval-min>
 <Interval-max>17</Interval-max>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <L3_FH_L3_FW>
-<Slack>9.49</Slack>
+<Slack>7.30</Slack>
 <TripCount>16</TripCount>
 <isPerfectNested>0</isPerfectNested>
-<Latency>18</Latency>
-<AbsoluteTimeLatency>234</AbsoluteTimeLatency>
+<Latency>20</Latency>
+<AbsoluteTimeLatency>200</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
-<PipelineDepth>4</PipelineDepth>
+<PipelineDepth>6</PipelineDepth>
 <PerformancePragma>-</PerformancePragma>
 <InstanceList>
 </InstanceList>
@@ -49,13 +49,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>kern.cpp:235</SourceLocation>
+<SourceLocation>kern.cpp:175</SourceLocation>
 <SummaryOfLoopViolations>
 <L3_FH_L3_FW>
 <Name>L3_FH_L3_FW</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>kern.cpp:234</SourceLocation>
+<SourceLocation>kern.cpp:174</SourceLocation>
 </L3_FH_L3_FW>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -64,8 +64,8 @@
 <AreaEstimates>
 <Resources>
 <DSP>1</DSP>
-<FF>115</FF>
-<LUT>409</LUT>
+<FF>159</FF>
+<LUT>391</LUT>
 <BRAM_18K>0</BRAM_18K>
 <URAM>0</URAM>
 </Resources>
@@ -146,8 +146,8 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln199</name>
-<Object>zext_ln199</Object>
+<name>zext_ln139</name>
+<Object>zext_ln139</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -993,8 +993,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>sext_ln209</name>
-<Object>sext_ln209</Object>
+<name>sext_ln149</name>
+<Object>sext_ln149</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -1004,8 +1004,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>select_ln199</name>
-<Object>select_ln199</Object>
+<name>select_ln139</name>
+<Object>select_ln139</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>

@@ -9,8 +9,8 @@
 <ProductFamily>zynq</ProductFamily>
 <Part>xc7z020-clg400-1</Part>
 <TopModelName>kernel_Pipeline_MLP1_BITS</TopModelName>
-<TargetClockPeriod>13.00</TargetClockPeriod>
-<ClockUncertainty>3.51</ClockUncertainty>
+<TargetClockPeriod>10.00</TargetClockPeriod>
+<ClockUncertainty>2.70</ClockUncertainty>
 <FlowTarget>vivado</FlowTarget>
 </UserAssignments>
 
@@ -18,23 +18,23 @@
 <PipelineType>loop pipeline stp</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>9.202</EstimatedClockPeriod>
+<EstimatedClockPeriod>7.343</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>39</Best-caseLatency>
-<Average-caseLatency>51</Average-caseLatency>
-<Worst-caseLatency>65</Worst-caseLatency>
-<Best-caseRealTimeLatency>0.507 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>0.663 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>0.845 us</Worst-caseRealTimeLatency>
+<Best-caseLatency>40</Best-caseLatency>
+<Average-caseLatency>52</Average-caseLatency>
+<Worst-caseLatency>66</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.400 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.520 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.660 us</Worst-caseRealTimeLatency>
 <Interval-min>1</Interval-min>
 <Interval-max>27</Interval-max>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <MLP1_BITS>
-<Slack>9.49</Slack>
+<Slack>7.30</Slack>
 <TripCount>
 <range>
 <min>0</min>
@@ -44,33 +44,33 @@
 <isPerfectNested>0</isPerfectNested>
 <Latency>
 <range>
-<min>37</min>
-<max>63</max>
+<min>38</min>
+<max>64</max>
 </range>
 </Latency>
 <AbsoluteTimeLatency>
 <range>
-<min>481</min>
-<max>819</max>
+<min>380</min>
+<max>640</max>
 </range>
 </AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
-<PipelineDepth>38</PipelineDepth>
+<PipelineDepth>39</PipelineDepth>
 <PerformancePragma>-</PerformancePragma>
 <InstanceList>
 </InstanceList>
 </MLP1_BITS>
 </SummaryOfLoopLatency>
 <SummaryOfViolations>
-<IssueType>-</IssueType>
+<IssueType>Timing Violation</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>kern.cpp:560</SourceLocation>
+<SourceLocation>kern.cpp:434</SourceLocation>
 <SummaryOfLoopViolations>
 <MLP1_BITS>
 <Name>MLP1_BITS</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>kern.cpp:561</SourceLocation>
+<SourceLocation>kern.cpp:435</SourceLocation>
 </MLP1_BITS>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -79,8 +79,8 @@
 <AreaEstimates>
 <Resources>
 <DSP>5</DSP>
-<FF>2834</FF>
-<LUT>2547</LUT>
+<FF>2959</FF>
+<LUT>2579</LUT>
 <BRAM_18K>0</BRAM_18K>
 <URAM>0</URAM>
 </Resources>

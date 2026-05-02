@@ -4,8 +4,8 @@
 -- Tool Version: Vivado v.2025.2 (lin64) Build 6299465 Fri Nov 14 12:34:56 MST 2025
 -- Date        : Fri May  1 20:05:20 2026
 -- Host        : oldak-ZenBook-UX325EA-UX325EA running 64-bit Ubuntu 22.04.5 LTS
--- Command     : write_vhdl -force -mode funcsim
---               /home/oldak/big-boi-pj/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_xbar_0/design_1_axi_mem_intercon_imp_xbar_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top design_1_axi_mem_intercon_imp_xbar_0 -prefix
+--               design_1_axi_mem_intercon_imp_xbar_0_ design_1_axi_mem_intercon_imp_xbar_0_sim_netlist.vhdl
 -- Design      : design_1_axi_mem_intercon_imp_xbar_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -39,8 +39,6 @@ entity design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_addr_arbiter is
     \gen_single_thread.active_target_hot\ : in STD_LOGIC_VECTOR ( 0 to 0 );
     D : in STD_LOGIC_VECTOR ( 56 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_addr_arbiter : entity is "axi_crossbar_v2_1_38_addr_arbiter";
 end design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_addr_arbiter;
 
 architecture STRUCTURE of design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_addr_arbiter is
@@ -2140,8 +2138,6 @@ entity design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_decerr_slave is
     \FSM_onehot_gen_axi.write_cs_reg[2]_1\ : in STD_LOGIC;
     \gen_axi.s_axi_rlast_i_reg_0\ : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_decerr_slave : entity is "axi_crossbar_v2_1_38_decerr_slave";
 end design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_decerr_slave;
 
 architecture STRUCTURE of design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_decerr_slave is
@@ -2682,8 +2678,6 @@ entity design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_si_transactor i
     p_0_out : in STD_LOGIC_VECTOR ( 0 to 0 );
     s_axi_arvalid : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_si_transactor : entity is "axi_crossbar_v2_1_38_si_transactor";
 end design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_si_transactor;
 
 architecture STRUCTURE of design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_si_transactor is
@@ -3343,8 +3337,6 @@ entity design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_splitter is
     aresetn_d : in STD_LOGIC;
     aclk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_splitter : entity is "axi_crossbar_v2_1_38_splitter";
 end design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_splitter;
 
 architecture STRUCTURE of design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_splitter is
@@ -5600,8 +5592,6 @@ entity design_1_axi_mem_intercon_imp_xbar_0_axi_data_fifo_v2_1_36_axic_reg_srl_f
     m_avalid : in STD_LOGIC;
     \storage_data1_reg[0]_0\ : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_axi_mem_intercon_imp_xbar_0_axi_data_fifo_v2_1_36_axic_reg_srl_fifo : entity is "axi_data_fifo_v2_1_36_axic_reg_srl_fifo";
 end design_1_axi_mem_intercon_imp_xbar_0_axi_data_fifo_v2_1_36_axic_reg_srl_fifo;
 
 architecture STRUCTURE of design_1_axi_mem_intercon_imp_xbar_0_axi_data_fifo_v2_1_36_axic_reg_srl_fifo is
@@ -6253,8 +6243,6 @@ entity design_1_axi_mem_intercon_imp_xbar_0_axi_register_slice_v2_1_36_axi_regis
     m_axi_rresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
     m_axi_rdata : in STD_LOGIC_VECTOR ( 31 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_axi_mem_intercon_imp_xbar_0_axi_register_slice_v2_1_36_axi_register_slice : entity is "axi_register_slice_v2_1_36_axi_register_slice";
 end design_1_axi_mem_intercon_imp_xbar_0_axi_register_slice_v2_1_36_axi_register_slice;
 
 architecture STRUCTURE of design_1_axi_mem_intercon_imp_xbar_0_axi_register_slice_v2_1_36_axi_register_slice is
@@ -6469,8 +6457,6 @@ entity design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_wdata_router is
     m_avalid : in STD_LOGIC;
     \storage_data1_reg[0]\ : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_wdata_router : entity is "axi_crossbar_v2_1_38_wdata_router";
 end design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_wdata_router;
 
 architecture STRUCTURE of design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_wdata_router is
@@ -6541,8 +6527,6 @@ entity design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_crossbar is
     s_axi_awlen : in STD_LOGIC_VECTOR ( 7 downto 0 );
     s_axi_awaddr : in STD_LOGIC_VECTOR ( 31 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_crossbar : entity is "axi_crossbar_v2_1_38_crossbar";
 end design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_crossbar;
 
 architecture STRUCTURE of design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_crossbar is
@@ -7079,8 +7063,6 @@ entity design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_axi_crossbar is
   attribute C_S_AXI_WRITE_ACCEPTANCE of design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_axi_crossbar : entity is "64'b0000000000000000000000000001000000000000000000000000000000000010";
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_axi_crossbar : entity is "yes";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_axi_crossbar : entity is "axi_crossbar_v2_1_38_axi_crossbar";
   attribute P_ADDR_DECODE : integer;
   attribute P_ADDR_DECODE of design_1_axi_mem_intercon_imp_xbar_0_axi_crossbar_v2_1_38_axi_crossbar : entity is 1;
   attribute P_AXI3 : integer;

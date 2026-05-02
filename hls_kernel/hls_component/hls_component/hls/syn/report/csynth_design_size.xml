@@ -32,21 +32,21 @@
         <hiertable>
             <header size="7" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance" col6="HW Transforms"/>
             <rows>
-                <row id="0" col0="kernel" col1="kern.cpp:343" col2="5270" col3="1495" col4="3223" col5="2670" col6="2969">
-                    <row id="6" col0="conv2d_l1" col1="kern.cpp:78" col2="548" col2_disp=" 548 (2 calls)" col3="226" col3_disp=" 226 (2 calls)" col4="538" col4_disp=" 538 (2 calls)" col5="470" col5_disp=" 470 (2 calls)" col6="548" col6_disp=" 548 (2 calls)">
-                        <row id="2" col0="batch_norm_relu" col1="kern.cpp:59" col2="82" col2_disp="  82 (2 calls)" col3="" col4="" col5="" col6=""/>
+                <row id="0" col0="kernel" col1="kern.cpp:273" col2="5270" col3="1495" col4="3223" col5="2670" col6="2969">
+                    <row id="1" col0="conv2d_l1" col1="kern.cpp:28" col2="548" col2_disp=" 548 (2 calls)" col3="226" col3_disp=" 226 (2 calls)" col4="538" col4_disp=" 538 (2 calls)" col5="470" col5_disp=" 470 (2 calls)" col6="548" col6_disp=" 548 (2 calls)">
+                        <row id="5" col0="batch_norm_relu" col1="kern.cpp:23" col2="82" col2_disp="  82 (2 calls)" col3="" col4="" col5="" col6=""/>
                     </row>
-                    <row id="3" col0="conv2d_l2" col1="kern.cpp:139" col2="560" col2_disp=" 560 (2 calls)" col3="216" col3_disp=" 216 (2 calls)" col4="520" col4_disp=" 520 (2 calls)" col5="452" col5_disp=" 452 (2 calls)" col6="530" col6_disp=" 530 (2 calls)">
-                        <row id="2" col0="batch_norm_relu" col1="kern.cpp:59" col2="82" col2_disp="  82 (2 calls)" col3="" col4="" col5="" col6=""/>
+                    <row id="6" col0="conv2d_l2" col1="kern.cpp:83" col2="560" col2_disp=" 560 (2 calls)" col3="216" col3_disp=" 216 (2 calls)" col4="520" col4_disp=" 520 (2 calls)" col5="452" col5_disp=" 452 (2 calls)" col6="530" col6_disp=" 530 (2 calls)">
+                        <row id="5" col0="batch_norm_relu" col1="kern.cpp:23" col2="82" col2_disp="  82 (2 calls)" col3="" col4="" col5="" col6=""/>
                     </row>
-                    <row id="4" col0="conv2d_l3" col1="kern.cpp:198" col2="560" col2_disp=" 560 (2 calls)" col3="216" col3_disp=" 216 (2 calls)" col4="520" col4_disp=" 520 (2 calls)" col5="452" col5_disp=" 452 (2 calls)" col6="530" col6_disp=" 530 (2 calls)">
-                        <row id="2" col0="batch_norm_relu" col1="kern.cpp:59" col2="82" col2_disp="  82 (2 calls)" col3="" col4="" col5="" col6=""/>
+                    <row id="2" col0="conv2d_l3" col1="kern.cpp:138" col2="560" col2_disp=" 560 (2 calls)" col3="216" col3_disp=" 216 (2 calls)" col4="520" col4_disp=" 520 (2 calls)" col5="452" col5_disp=" 452 (2 calls)" col6="530" col6_disp=" 530 (2 calls)">
+                        <row id="5" col0="batch_norm_relu" col1="kern.cpp:23" col2="82" col2_disp="  82 (2 calls)" col3="" col4="" col5="" col6=""/>
                     </row>
-                    <row id="1" col0="conv2d_l4" col1="kern.cpp:258" col2="560" col2_disp=" 560 (2 calls)" col3="216" col3_disp=" 216 (2 calls)" col4="520" col4_disp=" 520 (2 calls)" col5="452" col5_disp=" 452 (2 calls)" col6="530" col6_disp=" 530 (2 calls)">
-                        <row id="2" col0="batch_norm_relu" col1="kern.cpp:59" col2="82" col2_disp="  82 (2 calls)" col3="" col4="" col5="" col6=""/>
+                    <row id="4" col0="conv2d_l4" col1="kern.cpp:194" col2="560" col2_disp=" 560 (2 calls)" col3="216" col3_disp=" 216 (2 calls)" col4="520" col4_disp=" 520 (2 calls)" col5="452" col5_disp=" 452 (2 calls)" col6="530" col6_disp=" 530 (2 calls)">
+                        <row id="5" col0="batch_norm_relu" col1="kern.cpp:23" col2="82" col2_disp="  82 (2 calls)" col3="" col4="" col5="" col6=""/>
                     </row>
-                    <row id="2" col0="batch_norm_relu" col1="kern.cpp:59" col2="82" col2_disp="  82 (2 calls)" col3="" col4="" col5="" col6=""/>
-                    <row id="5" col0="softmax" col1="kern.cpp:317" col2="80" col3="127" col4="128" col5="128" col6="130"/>
+                    <row id="5" col0="batch_norm_relu" col1="kern.cpp:23" col2="82" col2_disp="  82 (2 calls)" col3="" col4="" col5="" col6=""/>
+                    <row id="3" col0="softmax" col1="kern.cpp:250" col2="80" col3="127" col4="128" col5="128" col6="130"/>
                 </row>
             </rows>
             <notes/>

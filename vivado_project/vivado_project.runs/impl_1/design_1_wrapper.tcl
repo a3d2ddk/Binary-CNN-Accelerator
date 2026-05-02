@@ -1,5 +1,5 @@
 namespace eval ::optrace {
-  variable script "/home/oldak/big-boi-pj/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/impl_1/design_1_wrapper.tcl"
+  variable script "/home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.runs/impl_1/design_1_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -109,7 +109,7 @@ set rc [catch {
   set_param general.usePosixSpawnForFork 1
   set_param runs.launchOptions { -jobs 8  }
   open_checkpoint design_1_wrapper_routed.dcp
-  set_property webtalk.parent_dir /home/oldak/big-boi-pj/Binary-CNN-Accelerator/vivado_project/vivado_project.cache/wt [current_project]
+  set_property webtalk.parent_dir /home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.cache/wt [current_project]
 set_property TOP design_1_wrapper [current_fileset]
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }

@@ -1,6 +1,6 @@
 
 set TopModule "kernel"
-set ClockPeriod 13
+set ClockPeriod 10
 set ClockList ap_clk
 set AxiliteClockList {}
 set HasVivadoClockPeriod 0

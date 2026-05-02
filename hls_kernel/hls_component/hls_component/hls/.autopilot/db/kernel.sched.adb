@@ -310,15 +310,15 @@
 						<id>9</id>
 						<name>image_counter</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>419</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>310</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="10" tracking_level="0" version="0">
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second class_id="11" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
@@ -327,7 +327,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>419</second>
+										<second>310</second>
 									</item>
 								</second>
 							</item>
@@ -366,15 +366,15 @@
 						<id>10</id>
 						<name>conv1_out_ch</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>422</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>313</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -383,7 +383,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>422</second>
+										<second>313</second>
 									</item>
 								</second>
 							</item>
@@ -422,15 +422,15 @@
 						<id>11</id>
 						<name>conv2_out_ch</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>423</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -439,7 +439,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>423</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -478,15 +478,15 @@
 						<id>12</id>
 						<name>conv3_out_ch</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>424</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>315</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -495,7 +495,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>424</second>
+										<second>315</second>
 									</item>
 								</second>
 							</item>
@@ -534,15 +534,15 @@
 						<id>13</id>
 						<name>conv4_out_ch</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>425</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>316</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -551,7 +551,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>425</second>
+										<second>316</second>
 									</item>
 								</second>
 							</item>
@@ -590,15 +590,15 @@
 						<id>14</id>
 						<name>mlp1_neuron</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>429</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>320</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -607,7 +607,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>429</second>
+										<second>320</second>
 									</item>
 								</second>
 							</item>
@@ -646,15 +646,15 @@
 						<id>15</id>
 						<name>mlp2_neuron</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>430</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>321</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -663,7 +663,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>430</second>
+										<second>321</second>
 									</item>
 								</second>
 							</item>
@@ -702,15 +702,15 @@
 						<id>16</id>
 						<name>mlpo_neuron</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>431</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>322</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -719,7 +719,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>431</second>
+										<second>322</second>
 									</item>
 								</second>
 							</item>
@@ -758,15 +758,15 @@
 						<id>17</id>
 						<name>conv1_in_off</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>422</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>313</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -775,7 +775,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>422</second>
+										<second>313</second>
 									</item>
 								</second>
 							</item>
@@ -814,15 +814,15 @@
 						<id>18</id>
 						<name>conv2_in_off</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>423</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -831,7 +831,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>423</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -870,15 +870,15 @@
 						<id>19</id>
 						<name>conv3_in_off</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>424</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>315</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -887,7 +887,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>424</second>
+										<second>315</second>
 									</item>
 								</second>
 							</item>
@@ -926,15 +926,15 @@
 						<id>20</id>
 						<name>conv4_in_off</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>425</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>316</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -943,7 +943,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>425</second>
+										<second>316</second>
 									</item>
 								</second>
 							</item>
@@ -982,15 +982,15 @@
 						<id>21</id>
 						<name>mlp1_w_off</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>429</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>320</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -999,7 +999,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>429</second>
+										<second>320</second>
 									</item>
 								</second>
 							</item>
@@ -1038,15 +1038,15 @@
 						<id>22</id>
 						<name>mlp1_acc</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>429</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>320</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1055,7 +1055,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>429</second>
+										<second>320</second>
 									</item>
 								</second>
 							</item>
@@ -1094,15 +1094,15 @@
 						<id>23</id>
 						<name>mlp2_w_off</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>430</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>321</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1111,7 +1111,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>430</second>
+										<second>321</second>
 									</item>
 								</second>
 							</item>
@@ -1150,15 +1150,15 @@
 						<id>24</id>
 						<name>mlp2_acc</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>430</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>321</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1167,7 +1167,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>430</second>
+										<second>321</second>
 									</item>
 								</second>
 							</item>
@@ -1206,15 +1206,15 @@
 						<id>25</id>
 						<name>mlpo_w_off</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>431</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>322</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1223,7 +1223,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>431</second>
+										<second>322</second>
 									</item>
 								</second>
 							</item>
@@ -1262,15 +1262,15 @@
 						<id>26</id>
 						<name>mlpo_acc</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>431</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>322</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1279,7 +1279,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>431</second>
+										<second>322</second>
 									</item>
 								</second>
 							</item>
@@ -1318,15 +1318,15 @@
 						<id>39</id>
 						<name>starting_image</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>375</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>281</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1335,7 +1335,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>375</second>
+										<second>281</second>
 									</item>
 								</second>
 							</item>
@@ -1374,15 +1374,15 @@
 						<id>40</id>
 						<name>starting_image_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>375</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>281</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1391,7 +1391,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>375</second>
+										<second>281</second>
 									</item>
 								</second>
 							</item>
@@ -1430,15 +1430,15 @@
 						<id>41</id>
 						<name>starting_image_2</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>375</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>281</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1447,7 +1447,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>375</second>
+										<second>281</second>
 									</item>
 								</second>
 							</item>
@@ -1486,15 +1486,15 @@
 						<id>42</id>
 						<name>starting_image_3</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>375</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>281</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1503,7 +1503,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>375</second>
+										<second>281</second>
 									</item>
 								</second>
 							</item>
@@ -1542,15 +1542,15 @@
 						<id>43</id>
 						<name>starting_image_4</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>375</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>281</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1559,7 +1559,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>375</second>
+										<second>281</second>
 									</item>
 								</second>
 							</item>
@@ -1598,15 +1598,15 @@
 						<id>44</id>
 						<name>starting_image_5</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>375</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>281</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1615,7 +1615,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>375</second>
+										<second>281</second>
 									</item>
 								</second>
 							</item>
@@ -1654,15 +1654,15 @@
 						<id>45</id>
 						<name>starting_image_6</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>375</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>281</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1671,7 +1671,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>375</second>
+										<second>281</second>
 									</item>
 								</second>
 							</item>
@@ -1710,15 +1710,15 @@
 						<id>46</id>
 						<name>starting_image_7</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>375</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>281</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1727,7 +1727,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>375</second>
+										<second>281</second>
 									</item>
 								</second>
 							</item>
@@ -1766,15 +1766,15 @@
 						<id>47</id>
 						<name>starting_image_8</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>375</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>281</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1783,7 +1783,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>375</second>
+										<second>281</second>
 									</item>
 								</second>
 							</item>
@@ -1822,15 +1822,15 @@
 						<id>48</id>
 						<name>starting_image_9</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>375</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>281</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1839,7 +1839,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>375</second>
+										<second>281</second>
 									</item>
 								</second>
 							</item>
@@ -1878,15 +1878,15 @@
 						<id>49</id>
 						<name>starting_image_10</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>375</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>281</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1895,7 +1895,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>375</second>
+										<second>281</second>
 									</item>
 								</second>
 							</item>
@@ -1934,15 +1934,15 @@
 						<id>50</id>
 						<name>starting_image_11</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>375</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>281</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1951,7 +1951,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>375</second>
+										<second>281</second>
 									</item>
 								</second>
 							</item>
@@ -1990,15 +1990,15 @@
 						<id>51</id>
 						<name>starting_image_12</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>375</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>281</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2007,7 +2007,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>375</second>
+										<second>281</second>
 									</item>
 								</second>
 							</item>
@@ -2046,15 +2046,15 @@
 						<id>52</id>
 						<name>starting_image_13</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>375</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>281</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2063,7 +2063,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>375</second>
+										<second>281</second>
 									</item>
 								</second>
 							</item>
@@ -2102,15 +2102,15 @@
 						<id>53</id>
 						<name>packed_image_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>377</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>283</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2119,7 +2119,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>377</second>
+										<second>283</second>
 									</item>
 								</second>
 							</item>
@@ -2158,15 +2158,15 @@
 						<id>54</id>
 						<name>packed_image_1_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>377</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>283</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2175,7 +2175,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>377</second>
+										<second>283</second>
 									</item>
 								</second>
 							</item>
@@ -2214,15 +2214,15 @@
 						<id>55</id>
 						<name>packed_image_1_2</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>377</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>283</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2231,7 +2231,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>377</second>
+										<second>283</second>
 									</item>
 								</second>
 							</item>
@@ -2270,15 +2270,15 @@
 						<id>56</id>
 						<name>packed_image_1_3</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>377</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>283</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2287,7 +2287,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>377</second>
+										<second>283</second>
 									</item>
 								</second>
 							</item>
@@ -2326,15 +2326,15 @@
 						<id>57</id>
 						<name>packed_image_1_4</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>377</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>283</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2343,7 +2343,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>377</second>
+										<second>283</second>
 									</item>
 								</second>
 							</item>
@@ -2382,15 +2382,15 @@
 						<id>58</id>
 						<name>packed_image_1_5</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>377</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>283</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2399,7 +2399,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>377</second>
+										<second>283</second>
 									</item>
 								</second>
 							</item>
@@ -2438,15 +2438,15 @@
 						<id>59</id>
 						<name>packed_image_1_6</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>377</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>283</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2455,7 +2455,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>377</second>
+										<second>283</second>
 									</item>
 								</second>
 							</item>
@@ -2494,15 +2494,15 @@
 						<id>60</id>
 						<name>packed_image_1_7</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>377</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>283</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2511,7 +2511,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>377</second>
+										<second>283</second>
 									</item>
 								</second>
 							</item>
@@ -2550,15 +2550,15 @@
 						<id>61</id>
 						<name>packed_image_1_8</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>377</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>283</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2567,7 +2567,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>377</second>
+										<second>283</second>
 									</item>
 								</second>
 							</item>
@@ -2606,15 +2606,15 @@
 						<id>62</id>
 						<name>packed_image_1_9</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>377</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>283</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2623,7 +2623,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>377</second>
+										<second>283</second>
 									</item>
 								</second>
 							</item>
@@ -2662,15 +2662,15 @@
 						<id>63</id>
 						<name>packed_image_1_10</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>377</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>283</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2679,7 +2679,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>377</second>
+										<second>283</second>
 									</item>
 								</second>
 							</item>
@@ -2718,15 +2718,15 @@
 						<id>64</id>
 						<name>packed_image_1_11</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>377</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>283</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2735,7 +2735,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>377</second>
+										<second>283</second>
 									</item>
 								</second>
 							</item>
@@ -2774,15 +2774,15 @@
 						<id>65</id>
 						<name>packed_image_1_12</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>377</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>283</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2791,7 +2791,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>377</second>
+										<second>283</second>
 									</item>
 								</second>
 							</item>
@@ -2830,15 +2830,15 @@
 						<id>66</id>
 						<name>packed_image_1_13</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>377</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>283</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2847,7 +2847,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>377</second>
+										<second>283</second>
 									</item>
 								</second>
 							</item>
@@ -2886,15 +2886,15 @@
 						<id>67</id>
 						<name>packed_image_2</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>379</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>285</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2903,7 +2903,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>379</second>
+										<second>285</second>
 									</item>
 								</second>
 							</item>
@@ -2942,15 +2942,15 @@
 						<id>68</id>
 						<name>packed_image_2_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>379</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>285</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2959,7 +2959,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>379</second>
+										<second>285</second>
 									</item>
 								</second>
 							</item>
@@ -2998,15 +2998,15 @@
 						<id>69</id>
 						<name>packed_image_2_2</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>379</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>285</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3015,7 +3015,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>379</second>
+										<second>285</second>
 									</item>
 								</second>
 							</item>
@@ -3054,15 +3054,15 @@
 						<id>70</id>
 						<name>packed_image_2_3</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>379</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>285</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3071,7 +3071,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>379</second>
+										<second>285</second>
 									</item>
 								</second>
 							</item>
@@ -3110,15 +3110,15 @@
 						<id>71</id>
 						<name>packed_image_2_4</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>379</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>285</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3127,7 +3127,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>379</second>
+										<second>285</second>
 									</item>
 								</second>
 							</item>
@@ -3166,15 +3166,15 @@
 						<id>72</id>
 						<name>packed_image_2_5</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>379</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>285</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3183,7 +3183,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>379</second>
+										<second>285</second>
 									</item>
 								</second>
 							</item>
@@ -3222,15 +3222,15 @@
 						<id>73</id>
 						<name>packed_image_2_6</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>379</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>285</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3239,7 +3239,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>379</second>
+										<second>285</second>
 									</item>
 								</second>
 							</item>
@@ -3278,15 +3278,15 @@
 						<id>74</id>
 						<name>packed_image_2_7</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>379</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>285</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3295,7 +3295,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>379</second>
+										<second>285</second>
 									</item>
 								</second>
 							</item>
@@ -3334,15 +3334,15 @@
 						<id>75</id>
 						<name>packed_image_2_8</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>379</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>285</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3351,7 +3351,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>379</second>
+										<second>285</second>
 									</item>
 								</second>
 							</item>
@@ -3390,15 +3390,15 @@
 						<id>76</id>
 						<name>packed_image_2_9</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>379</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>285</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3407,7 +3407,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>379</second>
+										<second>285</second>
 									</item>
 								</second>
 							</item>
@@ -3446,15 +3446,15 @@
 						<id>77</id>
 						<name>packed_image_2_10</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>379</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>285</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3463,7 +3463,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>379</second>
+										<second>285</second>
 									</item>
 								</second>
 							</item>
@@ -3502,15 +3502,15 @@
 						<id>78</id>
 						<name>packed_image_2_11</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>379</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>285</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3519,7 +3519,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>379</second>
+										<second>285</second>
 									</item>
 								</second>
 							</item>
@@ -3558,15 +3558,15 @@
 						<id>79</id>
 						<name>packed_image_2_12</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>379</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>285</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3575,7 +3575,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>379</second>
+										<second>285</second>
 									</item>
 								</second>
 							</item>
@@ -3614,15 +3614,15 @@
 						<id>80</id>
 						<name>packed_image_2_13</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>379</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>285</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3631,7 +3631,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>379</second>
+										<second>285</second>
 									</item>
 								</second>
 							</item>
@@ -3670,15 +3670,15 @@
 						<id>81</id>
 						<name>packed_image_3</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>381</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>287</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3687,7 +3687,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>381</second>
+										<second>287</second>
 									</item>
 								</second>
 							</item>
@@ -3726,15 +3726,15 @@
 						<id>82</id>
 						<name>packed_image_3_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>381</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>287</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3743,7 +3743,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>381</second>
+										<second>287</second>
 									</item>
 								</second>
 							</item>
@@ -3782,15 +3782,15 @@
 						<id>83</id>
 						<name>packed_image_3_2</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>381</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>287</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3799,7 +3799,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>381</second>
+										<second>287</second>
 									</item>
 								</second>
 							</item>
@@ -3838,15 +3838,15 @@
 						<id>84</id>
 						<name>packed_image_3_3</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>381</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>287</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3855,7 +3855,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>381</second>
+										<second>287</second>
 									</item>
 								</second>
 							</item>
@@ -3894,15 +3894,15 @@
 						<id>85</id>
 						<name>packed_image_3_4</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>381</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>287</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3911,7 +3911,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>381</second>
+										<second>287</second>
 									</item>
 								</second>
 							</item>
@@ -3950,15 +3950,15 @@
 						<id>86</id>
 						<name>packed_image_3_5</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>381</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>287</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3967,7 +3967,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>381</second>
+										<second>287</second>
 									</item>
 								</second>
 							</item>
@@ -4006,15 +4006,15 @@
 						<id>87</id>
 						<name>packed_image_3_6</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>381</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>287</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4023,7 +4023,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>381</second>
+										<second>287</second>
 									</item>
 								</second>
 							</item>
@@ -4062,15 +4062,15 @@
 						<id>88</id>
 						<name>packed_image_3_7</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>381</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>287</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4079,7 +4079,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>381</second>
+										<second>287</second>
 									</item>
 								</second>
 							</item>
@@ -4118,15 +4118,15 @@
 						<id>89</id>
 						<name>packed_image_3_8</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>381</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>287</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4135,7 +4135,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>381</second>
+										<second>287</second>
 									</item>
 								</second>
 							</item>
@@ -4174,15 +4174,15 @@
 						<id>90</id>
 						<name>packed_image_3_9</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>381</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>287</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4191,7 +4191,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>381</second>
+										<second>287</second>
 									</item>
 								</second>
 							</item>
@@ -4230,15 +4230,15 @@
 						<id>91</id>
 						<name>packed_image_3_10</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>381</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>287</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4247,7 +4247,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>381</second>
+										<second>287</second>
 									</item>
 								</second>
 							</item>
@@ -4286,15 +4286,15 @@
 						<id>92</id>
 						<name>packed_image_3_11</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>381</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>287</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4303,7 +4303,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>381</second>
+										<second>287</second>
 									</item>
 								</second>
 							</item>
@@ -4342,15 +4342,15 @@
 						<id>93</id>
 						<name>packed_image_3_12</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>381</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>287</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4359,7 +4359,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>381</second>
+										<second>287</second>
 									</item>
 								</second>
 							</item>
@@ -4398,15 +4398,15 @@
 						<id>94</id>
 						<name>packed_image_3_13</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>381</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>287</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4415,7 +4415,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>381</second>
+										<second>287</second>
 									</item>
 								</second>
 							</item>
@@ -4454,15 +4454,15 @@
 						<id>95</id>
 						<name>packed_image_4</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>383</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>289</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4471,7 +4471,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>383</second>
+										<second>289</second>
 									</item>
 								</second>
 							</item>
@@ -4510,15 +4510,15 @@
 						<id>96</id>
 						<name>packed_image_4_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>383</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>289</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4527,7 +4527,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>383</second>
+										<second>289</second>
 									</item>
 								</second>
 							</item>
@@ -4566,15 +4566,15 @@
 						<id>97</id>
 						<name>packed_image_4_2</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>383</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>289</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4583,7 +4583,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>383</second>
+										<second>289</second>
 									</item>
 								</second>
 							</item>
@@ -4622,15 +4622,15 @@
 						<id>98</id>
 						<name>packed_image_4_3</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>383</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>289</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4639,7 +4639,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>383</second>
+										<second>289</second>
 									</item>
 								</second>
 							</item>
@@ -4678,15 +4678,15 @@
 						<id>99</id>
 						<name>packed_image_4_4</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>383</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>289</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4695,7 +4695,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>383</second>
+										<second>289</second>
 									</item>
 								</second>
 							</item>
@@ -4734,15 +4734,15 @@
 						<id>100</id>
 						<name>packed_image_4_5</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>383</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>289</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4751,7 +4751,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>383</second>
+										<second>289</second>
 									</item>
 								</second>
 							</item>
@@ -4790,15 +4790,15 @@
 						<id>101</id>
 						<name>packed_image_4_6</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>383</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>289</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4807,7 +4807,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>383</second>
+										<second>289</second>
 									</item>
 								</second>
 							</item>
@@ -4846,15 +4846,15 @@
 						<id>102</id>
 						<name>packed_image_4_7</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>383</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>289</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4863,7 +4863,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>383</second>
+										<second>289</second>
 									</item>
 								</second>
 							</item>
@@ -4902,15 +4902,15 @@
 						<id>103</id>
 						<name>packed_image_4_8</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>383</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>289</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4919,7 +4919,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>383</second>
+										<second>289</second>
 									</item>
 								</second>
 							</item>
@@ -4958,15 +4958,15 @@
 						<id>104</id>
 						<name>packed_image_4_9</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>383</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>289</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4975,7 +4975,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>383</second>
+										<second>289</second>
 									</item>
 								</second>
 							</item>
@@ -5014,15 +5014,15 @@
 						<id>105</id>
 						<name>packed_image_4_10</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>383</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>289</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5031,7 +5031,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>383</second>
+										<second>289</second>
 									</item>
 								</second>
 							</item>
@@ -5070,15 +5070,15 @@
 						<id>106</id>
 						<name>packed_image_4_11</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>383</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>289</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5087,7 +5087,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>383</second>
+										<second>289</second>
 									</item>
 								</second>
 							</item>
@@ -5126,15 +5126,15 @@
 						<id>107</id>
 						<name>packed_image_4_12</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>383</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>289</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5143,7 +5143,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>383</second>
+										<second>289</second>
 									</item>
 								</second>
 							</item>
@@ -5182,15 +5182,15 @@
 						<id>108</id>
 						<name>packed_image_4_13</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>383</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>289</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5199,7 +5199,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>383</second>
+										<second>289</second>
 									</item>
 								</second>
 							</item>
@@ -5238,15 +5238,15 @@
 						<id>109</id>
 						<name>mlp_hidden_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>389</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>292</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5255,7 +5255,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>389</second>
+										<second>292</second>
 									</item>
 								</second>
 							</item>
@@ -5294,15 +5294,15 @@
 						<id>110</id>
 						<name>mlp_hidden_2</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>390</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>293</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5311,7 +5311,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>390</second>
+										<second>293</second>
 									</item>
 								</second>
 							</item>
@@ -5350,15 +5350,15 @@
 						<id>111</id>
 						<name>logits</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>391</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>294</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5367,7 +5367,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>391</second>
+										<second>294</second>
 									</item>
 								</second>
 							</item>
@@ -5406,15 +5406,15 @@
 						<id>112</id>
 						<name>probs</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>392</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>295</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5423,7 +5423,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>392</second>
+										<second>295</second>
 									</item>
 								</second>
 							</item>
@@ -5462,15 +5462,15 @@
 						<id>113</id>
 						<name>buffer</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>404</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>297</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5479,7 +5479,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>404</second>
+										<second>297</second>
 									</item>
 								</second>
 							</item>
@@ -5518,15 +5518,15 @@
 						<id>114</id>
 						<name>buffer_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>404</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>297</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5535,7 +5535,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>404</second>
+										<second>297</second>
 									</item>
 								</second>
 							</item>
@@ -5616,17 +5616,17 @@
 					<Obj>
 						<type>0</type>
 						<id>118</id>
-						<name>mlpo_acc_write_ln431</name>
+						<name>mlpo_acc_write_ln322</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>431</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>322</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5635,7 +5635,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>431</second>
+										<second>322</second>
 									</item>
 								</second>
 							</item>
@@ -5673,17 +5673,17 @@
 					<Obj>
 						<type>0</type>
 						<id>119</id>
-						<name>mlpo_w_off_write_ln431</name>
+						<name>mlpo_w_off_write_ln322</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>431</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>322</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5692,7 +5692,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>431</second>
+										<second>322</second>
 									</item>
 								</second>
 							</item>
@@ -5730,17 +5730,17 @@
 					<Obj>
 						<type>0</type>
 						<id>120</id>
-						<name>mlp2_acc_write_ln430</name>
+						<name>mlp2_acc_write_ln321</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>430</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>321</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5749,7 +5749,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>430</second>
+										<second>321</second>
 									</item>
 								</second>
 							</item>
@@ -5787,17 +5787,17 @@
 					<Obj>
 						<type>0</type>
 						<id>121</id>
-						<name>mlp2_w_off_write_ln430</name>
+						<name>mlp2_w_off_write_ln321</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>430</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>321</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5806,7 +5806,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>430</second>
+										<second>321</second>
 									</item>
 								</second>
 							</item>
@@ -5844,17 +5844,17 @@
 					<Obj>
 						<type>0</type>
 						<id>122</id>
-						<name>mlp1_acc_write_ln429</name>
+						<name>mlp1_acc_write_ln320</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>429</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>320</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5863,7 +5863,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>429</second>
+										<second>320</second>
 									</item>
 								</second>
 							</item>
@@ -5901,17 +5901,17 @@
 					<Obj>
 						<type>0</type>
 						<id>123</id>
-						<name>mlp1_w_off_write_ln429</name>
+						<name>mlp1_w_off_write_ln320</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>429</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>320</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5920,7 +5920,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>429</second>
+										<second>320</second>
 									</item>
 								</second>
 							</item>
@@ -5958,17 +5958,17 @@
 					<Obj>
 						<type>0</type>
 						<id>124</id>
-						<name>conv4_in_off_write_ln425</name>
+						<name>conv4_in_off_write_ln316</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>425</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>316</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5977,7 +5977,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>425</second>
+										<second>316</second>
 									</item>
 								</second>
 							</item>
@@ -6015,17 +6015,17 @@
 					<Obj>
 						<type>0</type>
 						<id>125</id>
-						<name>conv3_in_off_write_ln424</name>
+						<name>conv3_in_off_write_ln315</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>424</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>315</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6034,7 +6034,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>424</second>
+										<second>315</second>
 									</item>
 								</second>
 							</item>
@@ -6072,17 +6072,17 @@
 					<Obj>
 						<type>0</type>
 						<id>126</id>
-						<name>conv2_in_off_write_ln423</name>
+						<name>conv2_in_off_write_ln314</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>423</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6091,7 +6091,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>423</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -6129,17 +6129,17 @@
 					<Obj>
 						<type>0</type>
 						<id>127</id>
-						<name>conv1_in_off_write_ln422</name>
+						<name>conv1_in_off_write_ln313</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>422</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>313</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6148,7 +6148,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>422</second>
+										<second>313</second>
 									</item>
 								</second>
 							</item>
@@ -6186,17 +6186,17 @@
 					<Obj>
 						<type>0</type>
 						<id>128</id>
-						<name>mlpo_neuron_write_ln431</name>
+						<name>mlpo_neuron_write_ln322</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>431</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>322</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6205,7 +6205,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>431</second>
+										<second>322</second>
 									</item>
 								</second>
 							</item>
@@ -6243,17 +6243,17 @@
 					<Obj>
 						<type>0</type>
 						<id>129</id>
-						<name>mlp2_neuron_write_ln430</name>
+						<name>mlp2_neuron_write_ln321</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>430</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>321</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6262,7 +6262,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>430</second>
+										<second>321</second>
 									</item>
 								</second>
 							</item>
@@ -6300,17 +6300,17 @@
 					<Obj>
 						<type>0</type>
 						<id>130</id>
-						<name>mlp1_neuron_write_ln429</name>
+						<name>mlp1_neuron_write_ln320</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>429</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>320</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6319,7 +6319,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>429</second>
+										<second>320</second>
 									</item>
 								</second>
 							</item>
@@ -6357,17 +6357,17 @@
 					<Obj>
 						<type>0</type>
 						<id>131</id>
-						<name>conv4_out_ch_write_ln425</name>
+						<name>conv4_out_ch_write_ln316</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>425</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>316</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6376,7 +6376,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>425</second>
+										<second>316</second>
 									</item>
 								</second>
 							</item>
@@ -6414,17 +6414,17 @@
 					<Obj>
 						<type>0</type>
 						<id>132</id>
-						<name>conv3_out_ch_write_ln424</name>
+						<name>conv3_out_ch_write_ln315</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>424</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>315</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6433,7 +6433,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>424</second>
+										<second>315</second>
 									</item>
 								</second>
 							</item>
@@ -6471,17 +6471,17 @@
 					<Obj>
 						<type>0</type>
 						<id>133</id>
-						<name>conv2_out_ch_write_ln423</name>
+						<name>conv2_out_ch_write_ln314</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>423</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6490,7 +6490,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>423</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -6528,17 +6528,17 @@
 					<Obj>
 						<type>0</type>
 						<id>134</id>
-						<name>conv1_out_ch_write_ln422</name>
+						<name>conv1_out_ch_write_ln313</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>422</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>313</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6547,7 +6547,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>422</second>
+										<second>313</second>
 									</item>
 								</second>
 							</item>
@@ -6585,17 +6585,17 @@
 					<Obj>
 						<type>0</type>
 						<id>135</id>
-						<name>image_counter_write_ln419</name>
+						<name>image_counter_write_ln310</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>419</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>310</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6604,7 +6604,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>419</second>
+										<second>310</second>
 									</item>
 								</second>
 							</item>
@@ -6642,17 +6642,17 @@
 					<Obj>
 						<type>0</type>
 						<id>136</id>
-						<name>br_ln438</name>
+						<name>br_ln329</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>438</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>329</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6661,7 +6661,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>438</second>
+										<second>329</second>
 									</item>
 								</second>
 							</item>
@@ -6743,17 +6743,17 @@
 					<Obj>
 						<type>0</type>
 						<id>139</id>
-						<name>br_ln438</name>
+						<name>br_ln329</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>438</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>329</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6762,7 +6762,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>438</second>
+										<second>329</second>
 									</item>
 								</second>
 							</item>
@@ -6803,15 +6803,15 @@
 						<id>142</id>
 						<name>empty</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>440</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>331</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6820,7 +6820,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>440</second>
+										<second>331</second>
 									</item>
 								</second>
 							</item>
@@ -6863,15 +6863,15 @@
 						<id>143</id>
 						<name>in_pkt_data</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>440</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>331</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6880,7 +6880,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>440</second>
+										<second>331</second>
 									</item>
 								</second>
 							</item>
@@ -6919,15 +6919,15 @@
 						<id>144</id>
 						<name>in_pkt_last</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>440</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>331</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6936,7 +6936,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>440</second>
+										<second>331</second>
 									</item>
 								</second>
 							</item>
@@ -6975,15 +6975,15 @@
 						<id>145</id>
 						<name>pkt_id</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>445</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>333</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6992,7 +6992,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>445</second>
+										<second>333</second>
 									</item>
 								</second>
 							</item>
@@ -7034,15 +7034,15 @@
 						<id>146</id>
 						<name>pkt_num_kerns</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>446</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>334</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7051,7 +7051,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>446</second>
+										<second>334</second>
 									</item>
 								</second>
 							</item>
@@ -7093,15 +7093,15 @@
 						<id>147</id>
 						<name>bias</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>415</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>306</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7110,7 +7110,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>415</second>
+										<second>306</second>
 									</item>
 								</second>
 							</item>
@@ -7149,15 +7149,15 @@
 						<id>148</id>
 						<name>kern_a</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7166,7 +7166,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -7207,15 +7207,15 @@
 						<id>149</id>
 						<name>kern_a_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7224,7 +7224,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -7265,15 +7265,15 @@
 						<id>150</id>
 						<name>kern_a_2</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7282,7 +7282,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -7323,15 +7323,15 @@
 						<id>151</id>
 						<name>kern_a_3</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7340,7 +7340,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -7381,15 +7381,15 @@
 						<id>152</id>
 						<name>kern_a_4</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7398,7 +7398,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -7439,15 +7439,15 @@
 						<id>153</id>
 						<name>kern_a_5</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7456,7 +7456,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -7497,15 +7497,15 @@
 						<id>154</id>
 						<name>kern_a_6</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7514,7 +7514,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -7555,15 +7555,15 @@
 						<id>155</id>
 						<name>kern_a_7</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7572,7 +7572,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -7613,15 +7613,15 @@
 						<id>156</id>
 						<name>kern_a_8</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7630,7 +7630,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -7671,15 +7671,15 @@
 						<id>157</id>
 						<name>kern_a_9</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7688,7 +7688,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -7729,15 +7729,15 @@
 						<id>158</id>
 						<name>kern_a_10</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7746,7 +7746,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -7787,15 +7787,15 @@
 						<id>159</id>
 						<name>kern_a_11</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7804,7 +7804,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -7845,15 +7845,15 @@
 						<id>160</id>
 						<name>kern_a_12</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7862,7 +7862,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -7903,15 +7903,15 @@
 						<id>161</id>
 						<name>kern_a_13</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7920,7 +7920,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -7961,15 +7961,15 @@
 						<id>162</id>
 						<name>kern_a_14</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7978,7 +7978,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -8019,15 +8019,15 @@
 						<id>163</id>
 						<name>kern_a_15</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8036,7 +8036,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -8077,15 +8077,15 @@
 						<id>164</id>
 						<name>kern_a_16</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8094,7 +8094,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -8135,15 +8135,15 @@
 						<id>165</id>
 						<name>kern_a_17</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8152,7 +8152,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -8193,15 +8193,15 @@
 						<id>166</id>
 						<name>kern_a_18</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8210,7 +8210,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -8251,15 +8251,15 @@
 						<id>167</id>
 						<name>kern_a_19</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8268,7 +8268,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -8309,15 +8309,15 @@
 						<id>168</id>
 						<name>kern_a_20</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8326,7 +8326,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -8367,15 +8367,15 @@
 						<id>169</id>
 						<name>kern_a_21</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8384,7 +8384,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -8425,15 +8425,15 @@
 						<id>170</id>
 						<name>kern_a_22</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8442,7 +8442,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -8483,15 +8483,15 @@
 						<id>171</id>
 						<name>kern_a_23</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8500,7 +8500,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -8541,15 +8541,15 @@
 						<id>172</id>
 						<name>kern_a_24</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8558,7 +8558,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -8599,15 +8599,15 @@
 						<id>173</id>
 						<name>kern_a_25</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8616,7 +8616,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -8657,15 +8657,15 @@
 						<id>174</id>
 						<name>kern_a_26</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>454</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>342</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8674,7 +8674,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>454</second>
+										<second>342</second>
 									</item>
 								</second>
 							</item>
@@ -8711,17 +8711,17 @@
 					<Obj>
 						<type>0</type>
 						<id>175</id>
-						<name>icmp_ln471</name>
+						<name>icmp_ln356</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>471</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>356</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8730,7 +8730,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>471</second>
+										<second>356</second>
 									</item>
 								</second>
 							</item>
@@ -8768,17 +8768,17 @@
 					<Obj>
 						<type>0</type>
 						<id>176</id>
-						<name>_ln458</name>
+						<name>_ln346</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>458</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>346</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8787,7 +8787,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>458</second>
+										<second>346</second>
 									</item>
 								</second>
 							</item>
@@ -8841,15 +8841,15 @@
 						<id>178</id>
 						<name>mlp2_neuron_load_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>588</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>459</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8858,7 +8858,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>588</second>
+										<second>459</second>
 									</item>
 								</second>
 							</item>
@@ -8898,15 +8898,15 @@
 						<id>179</id>
 						<name>tmp_123</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>588</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>459</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8915,7 +8915,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>588</second>
+										<second>459</second>
 									</item>
 								</second>
 							</item>
@@ -8955,17 +8955,17 @@
 					<Obj>
 						<type>0</type>
 						<id>180</id>
-						<name>icmp_ln588</name>
+						<name>icmp_ln459</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>588</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>459</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8974,7 +8974,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>588</second>
+										<second>459</second>
 									</item>
 								</second>
 							</item>
@@ -9012,17 +9012,17 @@
 					<Obj>
 						<type>0</type>
 						<id>181</id>
-						<name>br_ln588</name>
+						<name>br_ln459</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>588</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>459</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9031,7 +9031,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>588</second>
+										<second>459</second>
 									</item>
 								</second>
 							</item>
@@ -9070,17 +9070,17 @@
 					<Obj>
 						<type>0</type>
 						<id>183</id>
-						<name>br_ln589</name>
+						<name>br_ln460</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>589</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>460</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9089,7 +9089,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>589</second>
+										<second>460</second>
 									</item>
 								</second>
 							</item>
@@ -9130,15 +9130,15 @@
 						<id>185</id>
 						<name>mlp2_w_off_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>599</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>470</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9147,7 +9147,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>599</second>
+										<second>470</second>
 									</item>
 								</second>
 							</item>
@@ -9230,15 +9230,15 @@
 						<id>187</id>
 						<name>tmp_128</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>590</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>461</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9247,7 +9247,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>590</second>
+										<second>461</second>
 									</item>
 								</second>
 							</item>
@@ -9287,17 +9287,17 @@
 					<Obj>
 						<type>0</type>
 						<id>188</id>
-						<name>zext_ln590</name>
+						<name>zext_ln461</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>590</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>461</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9306,7 +9306,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>590</second>
+										<second>461</second>
 									</item>
 								</second>
 							</item>
@@ -9343,17 +9343,17 @@
 					<Obj>
 						<type>0</type>
 						<id>189</id>
-						<name>_ln599</name>
+						<name>_ln470</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>599</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>470</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9362,7 +9362,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>599</second>
+										<second>470</second>
 									</item>
 								</second>
 							</item>
@@ -9435,15 +9435,15 @@
 						<id>190</id>
 						<name>mlp2_w_off_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>599</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>470</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9452,7 +9452,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>599</second>
+										<second>470</second>
 									</item>
 								</second>
 							</item>
@@ -9490,17 +9490,17 @@
 					<Obj>
 						<type>0</type>
 						<id>191</id>
-						<name>mlp2_w_off_write_ln430</name>
+						<name>mlp2_w_off_write_ln321</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>430</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>321</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9509,7 +9509,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>430</second>
+										<second>321</second>
 									</item>
 								</second>
 							</item>
@@ -9549,17 +9549,17 @@
 					<Obj>
 						<type>0</type>
 						<id>192</id>
-						<name>br_ln600</name>
+						<name>br_ln471</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>600</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>471</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9568,7 +9568,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>600</second>
+										<second>471</second>
 									</item>
 								</second>
 							</item>
@@ -9607,15 +9607,15 @@
 						<id>194</id>
 						<name>mlp2_neuron_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>605</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>476</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9624,7 +9624,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>605</second>
+										<second>476</second>
 									</item>
 								</second>
 							</item>
@@ -9664,15 +9664,15 @@
 						<id>195</id>
 						<name>mlp2_acc_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>602</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>473</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9681,7 +9681,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>602</second>
+										<second>473</second>
 									</item>
 								</second>
 							</item>
@@ -9719,17 +9719,17 @@
 					<Obj>
 						<type>0</type>
 						<id>196</id>
-						<name>sext_ln601</name>
+						<name>sext_ln472</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>601</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>472</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9738,7 +9738,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>601</second>
+										<second>472</second>
 									</item>
 								</second>
 							</item>
@@ -9777,15 +9777,15 @@
 						<id>197</id>
 						<name>val_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>602</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>473</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9794,7 +9794,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>602</second>
+										<second>473</second>
 									</item>
 								</second>
 							</item>
@@ -9834,15 +9834,15 @@
 						<id>198</id>
 						<name>tmp_127</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>61</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>25</lineNumber>
 						<contextFuncName>batch_norm_relu</contextFuncName>
 						<contextNormFuncName>batch_norm_relu</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -9851,14 +9851,14 @@
 											<first>kern.cpp</first>
 											<second>batch_norm_relu</second>
 										</first>
-										<second>61</second>
+										<second>25</second>
 									</item>
 									<item>
 										<first>
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>602</second>
+										<second>473</second>
 									</item>
 								</second>
 							</item>
@@ -9897,17 +9897,17 @@
 					<Obj>
 						<type>0</type>
 						<id>199</id>
-						<name>xor_ln61_1</name>
+						<name>xor_ln25_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>61</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>25</lineNumber>
 						<contextFuncName>batch_norm_relu</contextFuncName>
 						<contextNormFuncName>batch_norm_relu</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -9916,14 +9916,14 @@
 											<first>kern.cpp</first>
 											<second>batch_norm_relu</second>
 										</first>
-										<second>61</second>
+										<second>25</second>
 									</item>
 									<item>
 										<first>
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>602</second>
+										<second>473</second>
 									</item>
 								</second>
 							</item>
@@ -9961,17 +9961,17 @@
 					<Obj>
 						<type>0</type>
 						<id>200</id>
-						<name>zext_ln602</name>
+						<name>zext_ln473</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>602</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>473</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9980,7 +9980,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>602</second>
+										<second>473</second>
 									</item>
 								</second>
 							</item>
@@ -10019,15 +10019,15 @@
 						<id>201</id>
 						<name>mlp_hidden_2_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>602</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>473</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10036,7 +10036,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>602</second>
+										<second>473</second>
 									</item>
 								</second>
 							</item>
@@ -10075,17 +10075,17 @@
 					<Obj>
 						<type>0</type>
 						<id>202</id>
-						<name>mlp_hidden_2_addr_write_ln602</name>
+						<name>mlp_hidden_2_addr_write_ln473</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>602</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>473</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10094,7 +10094,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>602</second>
+										<second>473</second>
 									</item>
 								</second>
 							</item>
@@ -10134,15 +10134,15 @@
 						<id>203</id>
 						<name>mlp2_neuron_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>605</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>476</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10151,7 +10151,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>605</second>
+										<second>476</second>
 									</item>
 								</second>
 							</item>
@@ -10189,17 +10189,17 @@
 					<Obj>
 						<type>0</type>
 						<id>204</id>
-						<name>mlp2_acc_write_ln430</name>
+						<name>mlp2_acc_write_ln321</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>430</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>321</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10208,7 +10208,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>430</second>
+										<second>321</second>
 									</item>
 								</second>
 							</item>
@@ -10248,17 +10248,17 @@
 					<Obj>
 						<type>0</type>
 						<id>205</id>
-						<name>mlp2_w_off_write_ln430</name>
+						<name>mlp2_w_off_write_ln321</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>430</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>321</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10267,7 +10267,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>430</second>
+										<second>321</second>
 									</item>
 								</second>
 							</item>
@@ -10306,17 +10306,17 @@
 					<Obj>
 						<type>0</type>
 						<id>206</id>
-						<name>mlp2_neuron_write_ln430</name>
+						<name>mlp2_neuron_write_ln321</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>430</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>321</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10325,7 +10325,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>430</second>
+										<second>321</second>
 									</item>
 								</second>
 							</item>
@@ -10410,15 +10410,15 @@
 						<id>209</id>
 						<name>mlp1_neuron_load_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>557</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>431</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10427,7 +10427,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>557</second>
+										<second>431</second>
 									</item>
 								</second>
 							</item>
@@ -10467,15 +10467,15 @@
 						<id>210</id>
 						<name>tmp_122</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>557</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>431</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10484,7 +10484,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>557</second>
+										<second>431</second>
 									</item>
 								</second>
 							</item>
@@ -10524,17 +10524,17 @@
 					<Obj>
 						<type>0</type>
 						<id>211</id>
-						<name>icmp_ln557</name>
+						<name>icmp_ln431</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>557</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>431</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10543,7 +10543,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>557</second>
+										<second>431</second>
 									</item>
 								</second>
 							</item>
@@ -10581,17 +10581,17 @@
 					<Obj>
 						<type>0</type>
 						<id>212</id>
-						<name>br_ln557</name>
+						<name>br_ln431</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>557</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>431</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10600,7 +10600,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>557</second>
+										<second>431</second>
 									</item>
 								</second>
 							</item>
@@ -10639,17 +10639,17 @@
 					<Obj>
 						<type>0</type>
 						<id>214</id>
-						<name>br_ln558</name>
+						<name>br_ln432</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>558</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>432</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10658,7 +10658,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>558</second>
+										<second>432</second>
 									</item>
 								</second>
 							</item>
@@ -10699,15 +10699,15 @@
 						<id>216</id>
 						<name>mlp1_w_off_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>572</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>446</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10716,7 +10716,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>572</second>
+										<second>446</second>
 									</item>
 								</second>
 							</item>
@@ -10799,15 +10799,15 @@
 						<id>218</id>
 						<name>tmp_126</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>559</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>433</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10816,7 +10816,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>559</second>
+										<second>433</second>
 									</item>
 								</second>
 							</item>
@@ -10856,17 +10856,17 @@
 					<Obj>
 						<type>0</type>
 						<id>219</id>
-						<name>zext_ln559</name>
+						<name>zext_ln433</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>559</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>433</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10875,7 +10875,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>559</second>
+										<second>433</second>
 									</item>
 								</second>
 							</item>
@@ -10912,17 +10912,17 @@
 					<Obj>
 						<type>0</type>
 						<id>220</id>
-						<name>_ln572</name>
+						<name>_ln446</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>572</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>446</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10931,7 +10931,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>572</second>
+										<second>446</second>
 									</item>
 								</second>
 							</item>
@@ -11006,7 +11006,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>7.61</m_delay>
+				<m_delay>5.75</m_delay>
 				<m_topoIndex>238</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -11017,15 +11017,15 @@
 						<id>221</id>
 						<name>mlp1_w_off_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>572</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>446</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11034,7 +11034,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>572</second>
+										<second>446</second>
 									</item>
 								</second>
 							</item>
@@ -11072,17 +11072,17 @@
 					<Obj>
 						<type>0</type>
 						<id>222</id>
-						<name>mlp1_w_off_write_ln429</name>
+						<name>mlp1_w_off_write_ln320</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>429</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>320</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11091,7 +11091,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>429</second>
+										<second>320</second>
 									</item>
 								</second>
 							</item>
@@ -11131,17 +11131,17 @@
 					<Obj>
 						<type>0</type>
 						<id>223</id>
-						<name>br_ln573</name>
+						<name>br_ln447</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>573</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>447</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11150,7 +11150,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>573</second>
+										<second>447</second>
 									</item>
 								</second>
 							</item>
@@ -11189,15 +11189,15 @@
 						<id>225</id>
 						<name>mlp1_neuron_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>578</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>452</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11206,7 +11206,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>578</second>
+										<second>452</second>
 									</item>
 								</second>
 							</item>
@@ -11246,15 +11246,15 @@
 						<id>226</id>
 						<name>mlp1_acc_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>575</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>449</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11263,7 +11263,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>575</second>
+										<second>449</second>
 									</item>
 								</second>
 							</item>
@@ -11301,17 +11301,17 @@
 					<Obj>
 						<type>0</type>
 						<id>227</id>
-						<name>sext_ln574</name>
+						<name>sext_ln448</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>574</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>448</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11320,7 +11320,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>574</second>
+										<second>448</second>
 									</item>
 								</second>
 							</item>
@@ -11359,15 +11359,15 @@
 						<id>228</id>
 						<name>val</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>575</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>449</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11376,7 +11376,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>575</second>
+										<second>449</second>
 									</item>
 								</second>
 							</item>
@@ -11416,15 +11416,15 @@
 						<id>229</id>
 						<name>tmp_125</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>61</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>25</lineNumber>
 						<contextFuncName>batch_norm_relu</contextFuncName>
 						<contextNormFuncName>batch_norm_relu</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -11433,14 +11433,14 @@
 											<first>kern.cpp</first>
 											<second>batch_norm_relu</second>
 										</first>
-										<second>61</second>
+										<second>25</second>
 									</item>
 									<item>
 										<first>
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>575</second>
+										<second>449</second>
 									</item>
 								</second>
 							</item>
@@ -11479,17 +11479,17 @@
 					<Obj>
 						<type>0</type>
 						<id>230</id>
-						<name>xor_ln61</name>
+						<name>xor_ln25</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>61</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>25</lineNumber>
 						<contextFuncName>batch_norm_relu</contextFuncName>
 						<contextNormFuncName>batch_norm_relu</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -11498,14 +11498,14 @@
 											<first>kern.cpp</first>
 											<second>batch_norm_relu</second>
 										</first>
-										<second>61</second>
+										<second>25</second>
 									</item>
 									<item>
 										<first>
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>575</second>
+										<second>449</second>
 									</item>
 								</second>
 							</item>
@@ -11543,17 +11543,17 @@
 					<Obj>
 						<type>0</type>
 						<id>231</id>
-						<name>zext_ln575</name>
+						<name>zext_ln449</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>575</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>449</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11562,7 +11562,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>575</second>
+										<second>449</second>
 									</item>
 								</second>
 							</item>
@@ -11601,15 +11601,15 @@
 						<id>232</id>
 						<name>mlp_hidden_1_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>575</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>449</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11618,7 +11618,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>575</second>
+										<second>449</second>
 									</item>
 								</second>
 							</item>
@@ -11657,17 +11657,17 @@
 					<Obj>
 						<type>0</type>
 						<id>233</id>
-						<name>mlp_hidden_1_addr_write_ln575</name>
+						<name>mlp_hidden_1_addr_write_ln449</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>575</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>449</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11676,7 +11676,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>575</second>
+										<second>449</second>
 									</item>
 								</second>
 							</item>
@@ -11716,15 +11716,15 @@
 						<id>234</id>
 						<name>mlp1_neuron_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>578</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>452</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11733,7 +11733,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>578</second>
+										<second>452</second>
 									</item>
 								</second>
 							</item>
@@ -11771,17 +11771,17 @@
 					<Obj>
 						<type>0</type>
 						<id>235</id>
-						<name>mlp1_acc_write_ln429</name>
+						<name>mlp1_acc_write_ln320</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>429</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>320</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11790,7 +11790,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>429</second>
+										<second>320</second>
 									</item>
 								</second>
 							</item>
@@ -11830,17 +11830,17 @@
 					<Obj>
 						<type>0</type>
 						<id>236</id>
-						<name>mlp1_w_off_write_ln429</name>
+						<name>mlp1_w_off_write_ln320</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>429</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>320</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11849,7 +11849,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>429</second>
+										<second>320</second>
 									</item>
 								</second>
 							</item>
@@ -11888,17 +11888,17 @@
 					<Obj>
 						<type>0</type>
 						<id>237</id>
-						<name>mlp1_neuron_write_ln429</name>
+						<name>mlp1_neuron_write_ln320</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>429</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>320</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11907,7 +11907,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>429</second>
+										<second>320</second>
 									</item>
 								</second>
 							</item>
@@ -11992,15 +11992,15 @@
 						<id>240</id>
 						<name>conv4_out_ch_load_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>534</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>412</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12009,7 +12009,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>534</second>
+										<second>412</second>
 									</item>
 								</second>
 							</item>
@@ -12049,15 +12049,15 @@
 						<id>241</id>
 						<name>tmp_121</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>534</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>412</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12066,7 +12066,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>534</second>
+										<second>412</second>
 									</item>
 								</second>
 							</item>
@@ -12106,17 +12106,17 @@
 					<Obj>
 						<type>0</type>
 						<id>242</id>
-						<name>icmp_ln534</name>
+						<name>icmp_ln412</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>534</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>412</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12125,7 +12125,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>534</second>
+										<second>412</second>
 									</item>
 								</second>
 							</item>
@@ -12163,17 +12163,17 @@
 					<Obj>
 						<type>0</type>
 						<id>243</id>
-						<name>br_ln534</name>
+						<name>br_ln412</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>534</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>412</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12182,7 +12182,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>534</second>
+										<second>412</second>
 									</item>
 								</second>
 							</item>
@@ -12223,15 +12223,15 @@
 						<id>245</id>
 						<name>conv4_out_ch_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>546</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>424</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12240,7 +12240,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>546</second>
+										<second>424</second>
 									</item>
 								</second>
 							</item>
@@ -12280,15 +12280,15 @@
 						<id>246</id>
 						<name>conv4_in_off_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>542</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>420</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12297,7 +12297,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>542</second>
+										<second>420</second>
 									</item>
 								</second>
 							</item>
@@ -12335,17 +12335,17 @@
 					<Obj>
 						<type>0</type>
 						<id>247</id>
-						<name>br_ln535</name>
+						<name>br_ln413</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>535</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>413</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12354,7 +12354,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>535</second>
+										<second>413</second>
 									</item>
 								</second>
 							</item>
@@ -12393,17 +12393,17 @@
 					<Obj>
 						<type>0</type>
 						<id>249</id>
-						<name>_ln536</name>
+						<name>_ln414</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>536</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>414</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12412,7 +12412,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>536</second>
+										<second>414</second>
 									</item>
 								</second>
 							</item>
@@ -12503,7 +12503,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>8.49</m_delay>
+				<m_delay>6.91</m_delay>
 				<m_topoIndex>245</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -12512,17 +12512,17 @@
 					<Obj>
 						<type>0</type>
 						<id>250</id>
-						<name>zext_ln539</name>
+						<name>zext_ln417</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>539</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>417</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12531,7 +12531,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>539</second>
+										<second>417</second>
 									</item>
 								</second>
 							</item>
@@ -12570,15 +12570,15 @@
 						<id>251</id>
 						<name>conv4_in_off_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>539</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>417</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12587,7 +12587,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>539</second>
+										<second>417</second>
 									</item>
 								</second>
 							</item>
@@ -12625,17 +12625,17 @@
 					<Obj>
 						<type>0</type>
 						<id>252</id>
-						<name>conv4_in_off_write_ln425</name>
+						<name>conv4_in_off_write_ln316</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>425</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>316</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12644,7 +12644,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>425</second>
+										<second>316</second>
 									</item>
 								</second>
 							</item>
@@ -12684,17 +12684,17 @@
 					<Obj>
 						<type>0</type>
 						<id>253</id>
-						<name>br_ln540</name>
+						<name>br_ln418</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>540</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>418</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12703,7 +12703,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>540</second>
+										<second>418</second>
 									</item>
 								</second>
 							</item>
@@ -12740,17 +12740,17 @@
 					<Obj>
 						<type>0</type>
 						<id>255</id>
-						<name>_ln542</name>
+						<name>_ln420</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>542</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>420</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12759,7 +12759,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>542</second>
+										<second>420</second>
 									</item>
 								</second>
 							</item>
@@ -12850,7 +12850,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>8.49</m_delay>
+				<m_delay>6.91</m_delay>
 				<m_topoIndex>249</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -12861,15 +12861,15 @@
 						<id>256</id>
 						<name>conv4_out_ch_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>546</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>424</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12878,7 +12878,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>546</second>
+										<second>424</second>
 									</item>
 								</second>
 							</item>
@@ -12916,17 +12916,17 @@
 					<Obj>
 						<type>0</type>
 						<id>257</id>
-						<name>conv4_in_off_write_ln425</name>
+						<name>conv4_in_off_write_ln316</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>425</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>316</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12935,7 +12935,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>425</second>
+										<second>316</second>
 									</item>
 								</second>
 							</item>
@@ -12975,17 +12975,17 @@
 					<Obj>
 						<type>0</type>
 						<id>258</id>
-						<name>conv4_out_ch_write_ln425</name>
+						<name>conv4_out_ch_write_ln316</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>425</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>316</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12994,7 +12994,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>425</second>
+										<second>316</second>
 									</item>
 								</second>
 							</item>
@@ -13079,15 +13079,15 @@
 						<id>261</id>
 						<name>conv3_out_ch_load_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>512</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>393</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13096,7 +13096,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>512</second>
+										<second>393</second>
 									</item>
 								</second>
 							</item>
@@ -13136,15 +13136,15 @@
 						<id>262</id>
 						<name>tmp_120</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>512</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>393</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13153,7 +13153,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>512</second>
+										<second>393</second>
 									</item>
 								</second>
 							</item>
@@ -13193,17 +13193,17 @@
 					<Obj>
 						<type>0</type>
 						<id>263</id>
-						<name>icmp_ln512</name>
+						<name>icmp_ln393</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>512</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>393</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13212,7 +13212,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>512</second>
+										<second>393</second>
 									</item>
 								</second>
 							</item>
@@ -13250,17 +13250,17 @@
 					<Obj>
 						<type>0</type>
 						<id>264</id>
-						<name>br_ln512</name>
+						<name>br_ln393</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>512</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>393</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13269,7 +13269,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>512</second>
+										<second>393</second>
 									</item>
 								</second>
 							</item>
@@ -13310,15 +13310,15 @@
 						<id>266</id>
 						<name>conv3_out_ch_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>524</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>405</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13327,7 +13327,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>524</second>
+										<second>405</second>
 									</item>
 								</second>
 							</item>
@@ -13367,15 +13367,15 @@
 						<id>267</id>
 						<name>conv3_in_off_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>520</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>401</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13384,7 +13384,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>520</second>
+										<second>401</second>
 									</item>
 								</second>
 							</item>
@@ -13422,17 +13422,17 @@
 					<Obj>
 						<type>0</type>
 						<id>268</id>
-						<name>br_ln513</name>
+						<name>br_ln394</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>513</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>394</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13441,7 +13441,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>513</second>
+										<second>394</second>
 									</item>
 								</second>
 							</item>
@@ -13480,17 +13480,17 @@
 					<Obj>
 						<type>0</type>
 						<id>270</id>
-						<name>_ln514</name>
+						<name>_ln395</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>514</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>395</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13499,7 +13499,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>514</second>
+										<second>395</second>
 									</item>
 								</second>
 							</item>
@@ -13590,7 +13590,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>8.49</m_delay>
+				<m_delay>6.91</m_delay>
 				<m_topoIndex>258</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -13599,17 +13599,17 @@
 					<Obj>
 						<type>0</type>
 						<id>271</id>
-						<name>zext_ln517</name>
+						<name>zext_ln398</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>517</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>398</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13618,7 +13618,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>517</second>
+										<second>398</second>
 									</item>
 								</second>
 							</item>
@@ -13657,15 +13657,15 @@
 						<id>272</id>
 						<name>conv3_in_off_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>517</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>398</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13674,7 +13674,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>517</second>
+										<second>398</second>
 									</item>
 								</second>
 							</item>
@@ -13712,17 +13712,17 @@
 					<Obj>
 						<type>0</type>
 						<id>273</id>
-						<name>conv3_in_off_write_ln424</name>
+						<name>conv3_in_off_write_ln315</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>424</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>315</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13731,7 +13731,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>424</second>
+										<second>315</second>
 									</item>
 								</second>
 							</item>
@@ -13771,17 +13771,17 @@
 					<Obj>
 						<type>0</type>
 						<id>274</id>
-						<name>br_ln518</name>
+						<name>br_ln399</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>518</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>399</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13790,7 +13790,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>518</second>
+										<second>399</second>
 									</item>
 								</second>
 							</item>
@@ -13827,17 +13827,17 @@
 					<Obj>
 						<type>0</type>
 						<id>276</id>
-						<name>_ln520</name>
+						<name>_ln401</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>520</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>401</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13846,7 +13846,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>520</second>
+										<second>401</second>
 									</item>
 								</second>
 							</item>
@@ -13937,7 +13937,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>8.49</m_delay>
+				<m_delay>6.91</m_delay>
 				<m_topoIndex>262</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -13948,15 +13948,15 @@
 						<id>277</id>
 						<name>conv3_out_ch_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>524</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>405</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13965,7 +13965,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>524</second>
+										<second>405</second>
 									</item>
 								</second>
 							</item>
@@ -14003,17 +14003,17 @@
 					<Obj>
 						<type>0</type>
 						<id>278</id>
-						<name>conv3_in_off_write_ln424</name>
+						<name>conv3_in_off_write_ln315</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>424</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>315</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14022,7 +14022,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>424</second>
+										<second>315</second>
 									</item>
 								</second>
 							</item>
@@ -14062,17 +14062,17 @@
 					<Obj>
 						<type>0</type>
 						<id>279</id>
-						<name>conv3_out_ch_write_ln424</name>
+						<name>conv3_out_ch_write_ln315</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>424</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>315</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14081,7 +14081,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>424</second>
+										<second>315</second>
 									</item>
 								</second>
 							</item>
@@ -14166,15 +14166,15 @@
 						<id>282</id>
 						<name>conv2_out_ch_load_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>491</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>374</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14183,7 +14183,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>491</second>
+										<second>374</second>
 									</item>
 								</second>
 							</item>
@@ -14223,15 +14223,15 @@
 						<id>283</id>
 						<name>tmp_119</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>491</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>374</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14240,7 +14240,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>491</second>
+										<second>374</second>
 									</item>
 								</second>
 							</item>
@@ -14280,17 +14280,17 @@
 					<Obj>
 						<type>0</type>
 						<id>284</id>
-						<name>icmp_ln491</name>
+						<name>icmp_ln374</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>491</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>374</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14299,7 +14299,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>491</second>
+										<second>374</second>
 									</item>
 								</second>
 							</item>
@@ -14337,17 +14337,17 @@
 					<Obj>
 						<type>0</type>
 						<id>285</id>
-						<name>br_ln491</name>
+						<name>br_ln374</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>491</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>374</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14356,7 +14356,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>491</second>
+										<second>374</second>
 									</item>
 								</second>
 							</item>
@@ -14397,15 +14397,15 @@
 						<id>287</id>
 						<name>conv2_out_ch_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>503</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>386</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14414,7 +14414,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>503</second>
+										<second>386</second>
 									</item>
 								</second>
 							</item>
@@ -14454,15 +14454,15 @@
 						<id>288</id>
 						<name>conv2_in_off_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>499</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>382</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14471,7 +14471,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>499</second>
+										<second>382</second>
 									</item>
 								</second>
 							</item>
@@ -14509,17 +14509,17 @@
 					<Obj>
 						<type>0</type>
 						<id>289</id>
-						<name>br_ln492</name>
+						<name>br_ln375</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>492</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>375</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14528,7 +14528,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>492</second>
+										<second>375</second>
 									</item>
 								</second>
 							</item>
@@ -14567,17 +14567,17 @@
 					<Obj>
 						<type>0</type>
 						<id>291</id>
-						<name>_ln493</name>
+						<name>_ln376</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>493</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>376</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14586,7 +14586,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>493</second>
+										<second>376</second>
 									</item>
 								</second>
 							</item>
@@ -14677,7 +14677,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>8.49</m_delay>
+				<m_delay>6.91</m_delay>
 				<m_topoIndex>271</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -14686,17 +14686,17 @@
 					<Obj>
 						<type>0</type>
 						<id>292</id>
-						<name>zext_ln496</name>
+						<name>zext_ln379</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>496</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>379</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14705,7 +14705,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>496</second>
+										<second>379</second>
 									</item>
 								</second>
 							</item>
@@ -14744,15 +14744,15 @@
 						<id>293</id>
 						<name>conv2_in_off_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>496</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>379</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14761,7 +14761,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>496</second>
+										<second>379</second>
 									</item>
 								</second>
 							</item>
@@ -14799,17 +14799,17 @@
 					<Obj>
 						<type>0</type>
 						<id>294</id>
-						<name>conv2_in_off_write_ln423</name>
+						<name>conv2_in_off_write_ln314</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>423</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14818,7 +14818,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>423</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -14858,17 +14858,17 @@
 					<Obj>
 						<type>0</type>
 						<id>295</id>
-						<name>br_ln497</name>
+						<name>br_ln380</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>497</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>380</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14877,7 +14877,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>497</second>
+										<second>380</second>
 									</item>
 								</second>
 							</item>
@@ -14914,17 +14914,17 @@
 					<Obj>
 						<type>0</type>
 						<id>297</id>
-						<name>_ln499</name>
+						<name>_ln382</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>499</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>382</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14933,7 +14933,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>499</second>
+										<second>382</second>
 									</item>
 								</second>
 							</item>
@@ -15024,7 +15024,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>8.49</m_delay>
+				<m_delay>6.91</m_delay>
 				<m_topoIndex>275</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -15035,15 +15035,15 @@
 						<id>298</id>
 						<name>conv2_out_ch_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>503</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>386</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15052,7 +15052,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>503</second>
+										<second>386</second>
 									</item>
 								</second>
 							</item>
@@ -15090,17 +15090,17 @@
 					<Obj>
 						<type>0</type>
 						<id>299</id>
-						<name>conv2_in_off_write_ln423</name>
+						<name>conv2_in_off_write_ln314</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>423</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15109,7 +15109,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>423</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -15149,17 +15149,17 @@
 					<Obj>
 						<type>0</type>
 						<id>300</id>
-						<name>conv2_out_ch_write_ln423</name>
+						<name>conv2_out_ch_write_ln314</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>423</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15168,7 +15168,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>423</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -15253,15 +15253,15 @@
 						<id>303</id>
 						<name>conv1_out_ch_load_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>470</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>355</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15270,7 +15270,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>470</second>
+										<second>355</second>
 									</item>
 								</second>
 							</item>
@@ -15310,15 +15310,15 @@
 						<id>304</id>
 						<name>tmp_118</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>470</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>355</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15327,7 +15327,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>470</second>
+										<second>355</second>
 									</item>
 								</second>
 							</item>
@@ -15367,17 +15367,17 @@
 					<Obj>
 						<type>0</type>
 						<id>305</id>
-						<name>icmp_ln470</name>
+						<name>icmp_ln355</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>470</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>355</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15386,7 +15386,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>470</second>
+										<second>355</second>
 									</item>
 								</second>
 							</item>
@@ -15424,17 +15424,17 @@
 					<Obj>
 						<type>0</type>
 						<id>306</id>
-						<name>br_ln470</name>
+						<name>br_ln355</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>470</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>355</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15443,7 +15443,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>470</second>
+										<second>355</second>
 									</item>
 								</second>
 							</item>
@@ -15484,15 +15484,15 @@
 						<id>308</id>
 						<name>conv1_out_ch_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>482</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>367</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15501,7 +15501,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>482</second>
+										<second>367</second>
 									</item>
 								</second>
 							</item>
@@ -15541,15 +15541,15 @@
 						<id>309</id>
 						<name>conv1_in_off_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>478</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>363</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15558,7 +15558,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>478</second>
+										<second>363</second>
 									</item>
 								</second>
 							</item>
@@ -15596,17 +15596,17 @@
 					<Obj>
 						<type>0</type>
 						<id>310</id>
-						<name>br_ln471</name>
+						<name>br_ln356</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>471</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>356</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15615,7 +15615,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>471</second>
+										<second>356</second>
 									</item>
 								</second>
 							</item>
@@ -15654,17 +15654,17 @@
 					<Obj>
 						<type>0</type>
 						<id>312</id>
-						<name>_ln472</name>
+						<name>_ln357</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>472</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>357</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15673,7 +15673,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>472</second>
+										<second>357</second>
 									</item>
 								</second>
 							</item>
@@ -15764,7 +15764,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>8.49</m_delay>
+				<m_delay>6.91</m_delay>
 				<m_topoIndex>284</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -15773,17 +15773,17 @@
 					<Obj>
 						<type>0</type>
 						<id>313</id>
-						<name>zext_ln475</name>
+						<name>zext_ln360</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>475</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>360</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15792,7 +15792,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>475</second>
+										<second>360</second>
 									</item>
 								</second>
 							</item>
@@ -15831,15 +15831,15 @@
 						<id>314</id>
 						<name>conv1_in_off_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>475</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>360</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15848,7 +15848,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>475</second>
+										<second>360</second>
 									</item>
 								</second>
 							</item>
@@ -15886,17 +15886,17 @@
 					<Obj>
 						<type>0</type>
 						<id>315</id>
-						<name>conv1_in_off_write_ln422</name>
+						<name>conv1_in_off_write_ln313</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>422</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>313</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15905,7 +15905,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>422</second>
+										<second>313</second>
 									</item>
 								</second>
 							</item>
@@ -15945,17 +15945,17 @@
 					<Obj>
 						<type>0</type>
 						<id>316</id>
-						<name>br_ln476</name>
+						<name>br_ln361</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>476</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>361</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15964,7 +15964,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>476</second>
+										<second>361</second>
 									</item>
 								</second>
 							</item>
@@ -16001,17 +16001,17 @@
 					<Obj>
 						<type>0</type>
 						<id>318</id>
-						<name>_ln478</name>
+						<name>_ln363</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>478</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>363</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16020,7 +16020,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>478</second>
+										<second>363</second>
 									</item>
 								</second>
 							</item>
@@ -16111,7 +16111,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>8.49</m_delay>
+				<m_delay>6.91</m_delay>
 				<m_topoIndex>288</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -16122,15 +16122,15 @@
 						<id>319</id>
 						<name>conv1_out_ch_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>482</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>367</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16139,7 +16139,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>482</second>
+										<second>367</second>
 									</item>
 								</second>
 							</item>
@@ -16177,17 +16177,17 @@
 					<Obj>
 						<type>0</type>
 						<id>320</id>
-						<name>conv1_in_off_write_ln422</name>
+						<name>conv1_in_off_write_ln313</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>422</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>313</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16196,7 +16196,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>422</second>
+										<second>313</second>
 									</item>
 								</second>
 							</item>
@@ -16236,17 +16236,17 @@
 					<Obj>
 						<type>0</type>
 						<id>321</id>
-						<name>conv1_out_ch_write_ln422</name>
+						<name>conv1_out_ch_write_ln313</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>422</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>313</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16255,7 +16255,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>422</second>
+										<second>313</second>
 									</item>
 								</second>
 							</item>
@@ -16340,15 +16340,15 @@
 						<id>324</id>
 						<name>image_counter_load_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16357,7 +16357,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -16395,17 +16395,17 @@
 					<Obj>
 						<type>0</type>
 						<id>325</id>
-						<name>zext_ln462_1</name>
+						<name>zext_ln349_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16414,7 +16414,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -16451,17 +16451,17 @@
 					<Obj>
 						<type>0</type>
 						<id>326</id>
-						<name>mul_ln462</name>
+						<name>mul_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16470,7 +16470,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -16510,15 +16510,15 @@
 						<id>327</id>
 						<name>tmp</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16527,7 +16527,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -16567,17 +16567,17 @@
 					<Obj>
 						<type>0</type>
 						<id>328</id>
-						<name>zext_ln462</name>
+						<name>zext_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16586,7 +16586,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -16623,17 +16623,17 @@
 					<Obj>
 						<type>0</type>
 						<id>329</id>
-						<name>urem_ln462</name>
+						<name>urem_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16642,7 +16642,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -16680,17 +16680,17 @@
 					<Obj>
 						<type>0</type>
 						<id>330</id>
-						<name>trunc_ln462</name>
+						<name>trunc_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16699,7 +16699,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -16738,15 +16738,15 @@
 						<id>331</id>
 						<name>starting_image_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16755,7 +16755,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -16796,15 +16796,15 @@
 						<id>332</id>
 						<name>starting_image_1_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16813,7 +16813,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -16854,15 +16854,15 @@
 						<id>333</id>
 						<name>starting_image_2_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16871,7 +16871,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -16912,15 +16912,15 @@
 						<id>334</id>
 						<name>starting_image_3_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16929,7 +16929,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -16970,15 +16970,15 @@
 						<id>335</id>
 						<name>starting_image_4_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16987,7 +16987,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -17028,15 +17028,15 @@
 						<id>336</id>
 						<name>starting_image_5_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17045,7 +17045,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -17086,15 +17086,15 @@
 						<id>337</id>
 						<name>starting_image_6_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17103,7 +17103,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -17144,15 +17144,15 @@
 						<id>338</id>
 						<name>starting_image_7_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17161,7 +17161,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -17202,15 +17202,15 @@
 						<id>339</id>
 						<name>starting_image_8_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17219,7 +17219,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -17260,15 +17260,15 @@
 						<id>340</id>
 						<name>starting_image_9_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17277,7 +17277,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -17318,15 +17318,15 @@
 						<id>341</id>
 						<name>starting_image_10_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17335,7 +17335,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -17376,15 +17376,15 @@
 						<id>342</id>
 						<name>starting_image_11_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17393,7 +17393,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -17434,15 +17434,15 @@
 						<id>343</id>
 						<name>starting_image_12_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17451,7 +17451,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -17492,15 +17492,15 @@
 						<id>344</id>
 						<name>starting_image_13_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17509,7 +17509,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -17548,17 +17548,17 @@
 					<Obj>
 						<type>0</type>
 						<id>345</id>
-						<name>_ln462</name>
+						<name>_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17567,7 +17567,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -17631,17 +17631,17 @@
 					<Obj>
 						<type>0</type>
 						<id>347</id>
-						<name>starting_image_12_addr_write_ln462</name>
+						<name>starting_image_12_addr_write_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17650,7 +17650,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -17688,17 +17688,17 @@
 					<Obj>
 						<type>0</type>
 						<id>348</id>
-						<name>br_ln462</name>
+						<name>br_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17707,7 +17707,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -17744,17 +17744,17 @@
 					<Obj>
 						<type>0</type>
 						<id>350</id>
-						<name>starting_image_11_addr_write_ln462</name>
+						<name>starting_image_11_addr_write_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17763,7 +17763,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -17801,17 +17801,17 @@
 					<Obj>
 						<type>0</type>
 						<id>351</id>
-						<name>br_ln462</name>
+						<name>br_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17820,7 +17820,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -17857,17 +17857,17 @@
 					<Obj>
 						<type>0</type>
 						<id>353</id>
-						<name>starting_image_10_addr_write_ln462</name>
+						<name>starting_image_10_addr_write_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17876,7 +17876,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -17914,17 +17914,17 @@
 					<Obj>
 						<type>0</type>
 						<id>354</id>
-						<name>br_ln462</name>
+						<name>br_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17933,7 +17933,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -17970,17 +17970,17 @@
 					<Obj>
 						<type>0</type>
 						<id>356</id>
-						<name>starting_image_9_addr_write_ln462</name>
+						<name>starting_image_9_addr_write_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17989,7 +17989,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -18027,17 +18027,17 @@
 					<Obj>
 						<type>0</type>
 						<id>357</id>
-						<name>br_ln462</name>
+						<name>br_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18046,7 +18046,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -18083,17 +18083,17 @@
 					<Obj>
 						<type>0</type>
 						<id>359</id>
-						<name>starting_image_8_addr_write_ln462</name>
+						<name>starting_image_8_addr_write_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18102,7 +18102,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -18140,17 +18140,17 @@
 					<Obj>
 						<type>0</type>
 						<id>360</id>
-						<name>br_ln462</name>
+						<name>br_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18159,7 +18159,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -18196,17 +18196,17 @@
 					<Obj>
 						<type>0</type>
 						<id>362</id>
-						<name>starting_image_7_addr_write_ln462</name>
+						<name>starting_image_7_addr_write_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18215,7 +18215,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -18253,17 +18253,17 @@
 					<Obj>
 						<type>0</type>
 						<id>363</id>
-						<name>br_ln462</name>
+						<name>br_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18272,7 +18272,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -18309,17 +18309,17 @@
 					<Obj>
 						<type>0</type>
 						<id>365</id>
-						<name>starting_image_6_addr_write_ln462</name>
+						<name>starting_image_6_addr_write_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18328,7 +18328,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -18366,17 +18366,17 @@
 					<Obj>
 						<type>0</type>
 						<id>366</id>
-						<name>br_ln462</name>
+						<name>br_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18385,7 +18385,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -18422,17 +18422,17 @@
 					<Obj>
 						<type>0</type>
 						<id>368</id>
-						<name>starting_image_5_addr_write_ln462</name>
+						<name>starting_image_5_addr_write_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18441,7 +18441,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -18479,17 +18479,17 @@
 					<Obj>
 						<type>0</type>
 						<id>369</id>
-						<name>br_ln462</name>
+						<name>br_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18498,7 +18498,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -18535,17 +18535,17 @@
 					<Obj>
 						<type>0</type>
 						<id>371</id>
-						<name>starting_image_4_addr_write_ln462</name>
+						<name>starting_image_4_addr_write_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18554,7 +18554,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -18592,17 +18592,17 @@
 					<Obj>
 						<type>0</type>
 						<id>372</id>
-						<name>br_ln462</name>
+						<name>br_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18611,7 +18611,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -18648,17 +18648,17 @@
 					<Obj>
 						<type>0</type>
 						<id>374</id>
-						<name>starting_image_3_addr_write_ln462</name>
+						<name>starting_image_3_addr_write_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18667,7 +18667,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -18705,17 +18705,17 @@
 					<Obj>
 						<type>0</type>
 						<id>375</id>
-						<name>br_ln462</name>
+						<name>br_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18724,7 +18724,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -18761,17 +18761,17 @@
 					<Obj>
 						<type>0</type>
 						<id>377</id>
-						<name>starting_image_2_addr_write_ln462</name>
+						<name>starting_image_2_addr_write_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18780,7 +18780,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -18818,17 +18818,17 @@
 					<Obj>
 						<type>0</type>
 						<id>378</id>
-						<name>br_ln462</name>
+						<name>br_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18837,7 +18837,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -18874,17 +18874,17 @@
 					<Obj>
 						<type>0</type>
 						<id>380</id>
-						<name>starting_image_1_addr_write_ln462</name>
+						<name>starting_image_1_addr_write_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18893,7 +18893,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -18931,17 +18931,17 @@
 					<Obj>
 						<type>0</type>
 						<id>381</id>
-						<name>br_ln462</name>
+						<name>br_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18950,7 +18950,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -18987,17 +18987,17 @@
 					<Obj>
 						<type>0</type>
 						<id>383</id>
-						<name>starting_image_addr_write_ln462</name>
+						<name>starting_image_addr_write_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19006,7 +19006,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -19044,17 +19044,17 @@
 					<Obj>
 						<type>0</type>
 						<id>384</id>
-						<name>br_ln462</name>
+						<name>br_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19063,7 +19063,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -19100,17 +19100,17 @@
 					<Obj>
 						<type>0</type>
 						<id>386</id>
-						<name>starting_image_13_addr_write_ln462</name>
+						<name>starting_image_13_addr_write_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19119,7 +19119,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -19157,17 +19157,17 @@
 					<Obj>
 						<type>0</type>
 						<id>387</id>
-						<name>br_ln462</name>
+						<name>br_ln349</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>462</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19176,7 +19176,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>462</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -19215,15 +19215,15 @@
 						<id>389</id>
 						<name>image_counter_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>463</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>350</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19232,7 +19232,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>463</second>
+										<second>350</second>
 									</item>
 								</second>
 							</item>
@@ -19272,15 +19272,15 @@
 						<id>390</id>
 						<name>image_counter_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>463</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>350</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19289,7 +19289,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>463</second>
+										<second>350</second>
 									</item>
 								</second>
 							</item>
@@ -19327,17 +19327,17 @@
 					<Obj>
 						<type>0</type>
 						<id>391</id>
-						<name>image_counter_write_ln419</name>
+						<name>image_counter_write_ln310</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>419</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>310</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19346,7 +19346,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>419</second>
+										<second>310</second>
 									</item>
 								</second>
 							</item>
@@ -19387,17 +19387,17 @@
 					<Obj>
 						<type>0</type>
 						<id>392</id>
-						<name>br_ln464</name>
+						<name>br_ln351</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>464</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>351</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19406,7 +19406,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>464</second>
+										<second>351</second>
 									</item>
 								</second>
 							</item>
@@ -19445,15 +19445,15 @@
 						<id>394</id>
 						<name>mlpo_neuron_load_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>617</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>483</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19462,7 +19462,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>617</second>
+										<second>483</second>
 									</item>
 								</second>
 							</item>
@@ -19500,17 +19500,17 @@
 					<Obj>
 						<type>0</type>
 						<id>395</id>
-						<name>icmp_ln617</name>
+						<name>icmp_ln483</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>617</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>483</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19519,7 +19519,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>617</second>
+										<second>483</second>
 									</item>
 								</second>
 							</item>
@@ -19557,17 +19557,17 @@
 					<Obj>
 						<type>0</type>
 						<id>396</id>
-						<name>br_ln617</name>
+						<name>br_ln483</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>617</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>483</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19576,7 +19576,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>617</second>
+										<second>483</second>
 									</item>
 								</second>
 							</item>
@@ -19615,17 +19615,17 @@
 					<Obj>
 						<type>0</type>
 						<id>398</id>
-						<name>br_ln618</name>
+						<name>br_ln484</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>618</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>484</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19634,7 +19634,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>618</second>
+										<second>484</second>
 									</item>
 								</second>
 							</item>
@@ -19675,15 +19675,15 @@
 						<id>400</id>
 						<name>mlpo_w_off_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>628</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>494</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19692,7 +19692,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>628</second>
+										<second>494</second>
 									</item>
 								</second>
 							</item>
@@ -19775,15 +19775,15 @@
 						<id>402</id>
 						<name>tmp_124</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>619</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>485</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19792,7 +19792,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>619</second>
+										<second>485</second>
 									</item>
 								</second>
 							</item>
@@ -19832,17 +19832,17 @@
 					<Obj>
 						<type>0</type>
 						<id>403</id>
-						<name>zext_ln619</name>
+						<name>zext_ln485</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>619</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>485</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19851,7 +19851,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>619</second>
+										<second>485</second>
 									</item>
 								</second>
 							</item>
@@ -19888,17 +19888,17 @@
 					<Obj>
 						<type>0</type>
 						<id>404</id>
-						<name>_ln628</name>
+						<name>_ln494</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>628</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>494</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19907,7 +19907,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>628</second>
+										<second>494</second>
 									</item>
 								</second>
 							</item>
@@ -19980,15 +19980,15 @@
 						<id>405</id>
 						<name>mlpo_w_off_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>628</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>494</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19997,7 +19997,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>628</second>
+										<second>494</second>
 									</item>
 								</second>
 							</item>
@@ -20035,17 +20035,17 @@
 					<Obj>
 						<type>0</type>
 						<id>406</id>
-						<name>mlpo_w_off_write_ln431</name>
+						<name>mlpo_w_off_write_ln322</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>431</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>322</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20054,7 +20054,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>431</second>
+										<second>322</second>
 									</item>
 								</second>
 							</item>
@@ -20094,17 +20094,17 @@
 					<Obj>
 						<type>0</type>
 						<id>407</id>
-						<name>br_ln629</name>
+						<name>br_ln495</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>629</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>495</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20113,7 +20113,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>629</second>
+										<second>495</second>
 									</item>
 								</second>
 							</item>
@@ -20152,15 +20152,15 @@
 						<id>409</id>
 						<name>mlpo_neuron_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>634</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>500</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20169,7 +20169,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>634</second>
+										<second>500</second>
 									</item>
 								</second>
 							</item>
@@ -20209,15 +20209,15 @@
 						<id>410</id>
 						<name>mlpo_acc_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>631</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>497</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20226,7 +20226,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>631</second>
+										<second>497</second>
 									</item>
 								</second>
 							</item>
@@ -20264,17 +20264,17 @@
 					<Obj>
 						<type>0</type>
 						<id>411</id>
-						<name>sext_ln630</name>
+						<name>sext_ln496</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>630</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>496</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20283,7 +20283,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>630</second>
+										<second>496</second>
 									</item>
 								</second>
 							</item>
@@ -20320,17 +20320,17 @@
 					<Obj>
 						<type>0</type>
 						<id>412</id>
-						<name>add_ln631</name>
+						<name>add_ln497</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>631</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>497</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20339,7 +20339,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>631</second>
+										<second>497</second>
 									</item>
 								</second>
 							</item>
@@ -20377,17 +20377,17 @@
 					<Obj>
 						<type>0</type>
 						<id>413</id>
-						<name>zext_ln631</name>
+						<name>zext_ln497</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>631</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>497</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20396,7 +20396,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>631</second>
+										<second>497</second>
 									</item>
 								</second>
 							</item>
@@ -20435,15 +20435,15 @@
 						<id>414</id>
 						<name>logits_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>631</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>497</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20452,7 +20452,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>631</second>
+										<second>497</second>
 									</item>
 								</second>
 							</item>
@@ -20491,17 +20491,17 @@
 					<Obj>
 						<type>0</type>
 						<id>415</id>
-						<name>logits_addr_write_ln631</name>
+						<name>logits_addr_write_ln497</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>631</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>497</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20510,7 +20510,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>631</second>
+										<second>497</second>
 									</item>
 								</second>
 							</item>
@@ -20550,15 +20550,15 @@
 						<id>416</id>
 						<name>mlpo_neuron_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>634</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>500</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20567,7 +20567,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>634</second>
+										<second>500</second>
 									</item>
 								</second>
 							</item>
@@ -20605,17 +20605,17 @@
 					<Obj>
 						<type>0</type>
 						<id>417</id>
-						<name>icmp_ln636</name>
+						<name>icmp_ln502</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>636</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>502</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20624,7 +20624,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>636</second>
+										<second>502</second>
 									</item>
 								</second>
 							</item>
@@ -20662,17 +20662,17 @@
 					<Obj>
 						<type>0</type>
 						<id>418</id>
-						<name>br_ln636</name>
+						<name>br_ln502</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>636</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>502</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20681,7 +20681,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>636</second>
+										<second>502</second>
 									</item>
 								</second>
 							</item>
@@ -20720,17 +20720,17 @@
 					<Obj>
 						<type>0</type>
 						<id>420</id>
-						<name>_ln637</name>
+						<name>_ln503</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>637</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>503</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20739,7 +20739,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>637</second>
+										<second>503</second>
 									</item>
 								</second>
 							</item>
@@ -20870,17 +20870,17 @@
 					<Obj>
 						<type>0</type>
 						<id>424</id>
-						<name>mlpo_acc_write_ln431</name>
+						<name>mlpo_acc_write_ln322</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>431</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>322</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20889,7 +20889,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>431</second>
+										<second>322</second>
 									</item>
 								</second>
 							</item>
@@ -20929,17 +20929,17 @@
 					<Obj>
 						<type>0</type>
 						<id>425</id>
-						<name>mlpo_w_off_write_ln431</name>
+						<name>mlpo_w_off_write_ln322</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>431</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>322</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20948,7 +20948,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>431</second>
+										<second>322</second>
 									</item>
 								</second>
 							</item>
@@ -20987,17 +20987,17 @@
 					<Obj>
 						<type>0</type>
 						<id>426</id>
-						<name>mlpo_neuron_write_ln431</name>
+						<name>mlpo_neuron_write_ln322</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>431</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>322</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21006,7 +21006,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>431</second>
+										<second>322</second>
 									</item>
 								</second>
 							</item>
@@ -21089,17 +21089,17 @@
 					<Obj>
 						<type>0</type>
 						<id>429</id>
-						<name>br_ln438</name>
+						<name>br_ln329</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>438</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>329</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21108,7 +21108,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>438</second>
+										<second>329</second>
 									</item>
 								</second>
 							</item>
@@ -21145,17 +21145,17 @@
 					<Obj>
 						<type>0</type>
 						<id>431</id>
-						<name>_ln659</name>
+						<name>_ln524</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>659</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>524</lineNumber>
 						<contextFuncName>kernel</contextFuncName>
 						<contextNormFuncName>kernel</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21164,7 +21164,7 @@
 											<first>kern.cpp</first>
 											<second>kernel</second>
 										</first>
-										<second>659</second>
+										<second>524</second>
 									</item>
 								</second>
 							</item>
@@ -21266,7 +21266,7 @@
 					<Obj>
 						<type>2</type>
 						<id>529</id>
-						<name>kernel_Pipeline_VITIS_LOOP_406_1</name>
+						<name>kernel_Pipeline_VITIS_LOOP_299_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -21290,7 +21290,7 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:kernel_Pipeline_VITIS_LOOP_406_1&gt;</content>
+				<content>&lt;constant:kernel_Pipeline_VITIS_LOOP_299_1&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_370">
 				<Value>
@@ -23708,7 +23708,7 @@
 				<Obj>
 					<type>3</type>
 					<id>177</id>
-					<name>VITIS_LOOP_450_2</name>
+					<name>VITIS_LOOP_338_2</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -37420,7 +37420,7 @@
 		<item>
 			<first>328</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -37434,336 +37434,336 @@
 		<item>
 			<first>330</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>331</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>332</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>333</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>334</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>335</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>336</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>337</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>338</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>339</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>340</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>341</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>342</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>343</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>344</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>345</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>347</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>348</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>350</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>351</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>353</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>354</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>356</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>357</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>359</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>360</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>362</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>363</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>365</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>366</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>368</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>369</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>371</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>372</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>374</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>375</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>377</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>378</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>380</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>381</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>383</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>384</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>386</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>387</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>389</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>390</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>391</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>392</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -37798,7 +37798,7 @@
 		<item>
 			<first>400</first>
 			<second>
-				<first>38</first>
+				<first>39</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -37812,42 +37812,42 @@
 		<item>
 			<first>402</first>
 			<second>
-				<first>38</first>
+				<first>39</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>403</first>
 			<second>
-				<first>38</first>
+				<first>39</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>404</first>
 			<second>
-				<first>38</first>
+				<first>39</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>405</first>
 			<second>
-				<first>38</first>
+				<first>39</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>406</first>
 			<second>
-				<first>38</first>
+				<first>39</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>407</first>
 			<second>
-				<first>39</first>
+				<first>40</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -37924,63 +37924,63 @@
 		<item>
 			<first>420</first>
 			<second>
-				<first>40</first>
+				<first>41</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>421</first>
 			<second>
-				<first>42</first>
+				<first>43</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>422</first>
 			<second>
-				<first>43</first>
+				<first>44</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>424</first>
 			<second>
-				<first>43</first>
+				<first>44</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>425</first>
 			<second>
-				<first>43</first>
+				<first>44</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>426</first>
 			<second>
-				<first>43</first>
+				<first>44</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>427</first>
 			<second>
-				<first>43</first>
+				<first>44</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>429</first>
 			<second>
-				<first>37</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>431</first>
 			<second>
-				<first>44</first>
+				<first>45</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -38181,112 +38181,112 @@
 			<first>346</first>
 			<second>
 				<first>2</first>
-				<second>21</second>
+				<second>22</second>
 			</second>
 		</item>
 		<item>
 			<first>349</first>
 			<second>
-				<first>21</first>
-				<second>21</second>
+				<first>22</first>
+				<second>22</second>
 			</second>
 		</item>
 		<item>
 			<first>352</first>
 			<second>
-				<first>21</first>
-				<second>21</second>
+				<first>22</first>
+				<second>22</second>
 			</second>
 		</item>
 		<item>
 			<first>355</first>
 			<second>
-				<first>21</first>
-				<second>21</second>
+				<first>22</first>
+				<second>22</second>
 			</second>
 		</item>
 		<item>
 			<first>358</first>
 			<second>
-				<first>21</first>
-				<second>21</second>
+				<first>22</first>
+				<second>22</second>
 			</second>
 		</item>
 		<item>
 			<first>361</first>
 			<second>
-				<first>21</first>
-				<second>21</second>
+				<first>22</first>
+				<second>22</second>
 			</second>
 		</item>
 		<item>
 			<first>364</first>
 			<second>
-				<first>21</first>
-				<second>21</second>
+				<first>22</first>
+				<second>22</second>
 			</second>
 		</item>
 		<item>
 			<first>367</first>
 			<second>
-				<first>21</first>
-				<second>21</second>
+				<first>22</first>
+				<second>22</second>
 			</second>
 		</item>
 		<item>
 			<first>370</first>
 			<second>
-				<first>21</first>
-				<second>21</second>
+				<first>22</first>
+				<second>22</second>
 			</second>
 		</item>
 		<item>
 			<first>373</first>
 			<second>
-				<first>21</first>
-				<second>21</second>
+				<first>22</first>
+				<second>22</second>
 			</second>
 		</item>
 		<item>
 			<first>376</first>
 			<second>
-				<first>21</first>
-				<second>21</second>
+				<first>22</first>
+				<second>22</second>
 			</second>
 		</item>
 		<item>
 			<first>379</first>
 			<second>
-				<first>21</first>
-				<second>21</second>
+				<first>22</first>
+				<second>22</second>
 			</second>
 		</item>
 		<item>
 			<first>382</first>
 			<second>
-				<first>21</first>
-				<second>21</second>
+				<first>22</first>
+				<second>22</second>
 			</second>
 		</item>
 		<item>
 			<first>385</first>
 			<second>
-				<first>21</first>
-				<second>21</second>
+				<first>22</first>
+				<second>22</second>
 			</second>
 		</item>
 		<item>
 			<first>388</first>
 			<second>
-				<first>21</first>
-				<second>21</second>
+				<first>22</first>
+				<second>22</second>
 			</second>
 		</item>
 		<item>
 			<first>393</first>
 			<second>
-				<first>21</first>
-				<second>21</second>
+				<first>22</first>
+				<second>22</second>
 			</second>
 		</item>
 		<item>
@@ -38334,8 +38334,8 @@
 		<item>
 			<first>430</first>
 			<second>
-				<first>21</first>
-				<second>21</second>
+				<first>22</first>
+				<second>22</second>
 			</second>
 		</item>
 		<item>

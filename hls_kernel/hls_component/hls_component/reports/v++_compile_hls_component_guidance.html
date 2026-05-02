@@ -3407,16 +3407,16 @@ window.onload = function () { addSorting(); }
 <center><h1>Design Guidance Report</h1></center><center><table class="header" border="0">
 <tr><td><b>Copyright</b></td><td>Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.</td></tr>
 <tr><td><b>Tool Version</b></td><td>xcd v.2025.2 (lin64) Build 0 </td></tr>
-<tr><td><b>Date</b></td><td>Fri May  1 17:43:53 2026</td></tr>
+<tr><td><b>Date</b></td><td>Fri May  1 21:41:17 2026</td></tr>
 <tr><td><b>Host</b></td><td>oldak-ZenBook-UX325EA-UX325EA running 64-bit Ubuntu 22.04.5 LTS</td></tr>
-<tr><td><b>Command</b></td><td>/home/oldak/chonky-boi/2025.2/Vitis/bin/unwrapped/lnx64.o/v++  -c --mode hls --config /home/oldak/big-boi-pj/kernel/hls_component/hls_config.cfg --work_dir hls_component </td></tr>
+<tr><td><b>Command</b></td><td>/home/oldak/chonky-boi/2025.2/Vitis/bin/unwrapped/lnx64.o/v++  -c --mode hls --config /home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_config.cfg --work_dir hls_component </td></tr>
 </table></center><br>
 <table class="toc" border="1"><tr><td><b>Table of Contents</b></td></tr>
 <tr><td><a href="#REPORT SUMMARY">1 REPORT SUMMARY</a></tr></td>
 <tr><td><a href="#VIOLATION DETAILS">2 VIOLATION DETAILS</a></tr></td>
 </table>
 <a name="REPORT SUMMARY"></a><h1>1 REPORT SUMMARY</h1>
-<pre>Violations found: 16
+<pre>Violations found: 25
 </pre>
 <pre>Rule Specs Violated: 2
 </pre>
@@ -3434,37 +3434,7 @@ window.onload = function () { addSorting(); }
 <th align="left" width="380">Resolution</th>
 </tr>
 <tr>
-<td align="left">15</td>
-<td align="left">Kernel</td>
-<td align="left">ADVISORY</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Kernel Related</td>
-<td align="left">Accelerator.kernel.Kernel</td>
-<td align="left">%s</td>
-<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">8</td>
-<td align="left">Throughput</td>
-<td align="left">ADVISORY</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Throughput Related</td>
-<td align="left">Accelerator.kernel.Throughput</td>
-<td align="left">%s</td>
-<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
 <td align="left">16</td>
-<td align="left">Kernel</td>
-<td align="left">ADVISORY</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Kernel Related</td>
-<td align="left">Accelerator.kernel.Kernel</td>
-<td align="left">%s</td>
-<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">6</td>
 <td align="left">Throughput</td>
 <td align="left">ADVISORY</td>
 <td align="left"><undefined></td>
@@ -3484,27 +3454,7 @@ window.onload = function () { addSorting(); }
 <td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 <tr>
-<td align="left">3</td>
-<td align="left">Throughput</td>
-<td align="left">ADVISORY</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Throughput Related</td>
-<td align="left">Accelerator.kernel.Throughput</td>
-<td align="left">%s</td>
-<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">9</td>
-<td align="left">Throughput</td>
-<td align="left">ADVISORY</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Throughput Related</td>
-<td align="left">Accelerator.kernel.Throughput</td>
-<td align="left">%s</td>
-<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">7</td>
+<td align="left">17</td>
 <td align="left">Throughput</td>
 <td align="left">ADVISORY</td>
 <td align="left"><undefined></td>
@@ -3524,32 +3474,23 @@ window.onload = function () { addSorting(); }
 <td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 <tr>
+<td align="left">18</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.kernel.Kernel</td>
+<td align="left">Cannot meet target clock period from basic block for.body269_ifconv to 'and' operation 1 bit ('or_cond', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=486">kern.cpp</a>) (combination delay: 7.4325 ns) to honor II or Latency constraint in region 'MLPO_BITS'.
+</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
 <td align="left">4</td>
-<td align="left">Throughput</td>
-<td align="left">ADVISORY</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
 <td align="left"><undefined></td>
-<td align="left">HLS Throughput Related</td>
-<td align="left">Accelerator.kernel.Throughput</td>
-<td align="left">%s</td>
-<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">1</td>
-<td align="left">Throughput</td>
-<td align="left">ADVISORY</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Throughput Related</td>
-<td align="left">Accelerator.kernel.Throughput</td>
-<td align="left">%s</td>
-<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">10</td>
-<td align="left">Throughput</td>
-<td align="left">ADVISORY</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Throughput Related</td>
-<td align="left">Accelerator.kernel.Throughput</td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.kernel.Kernel</td>
 <td align="left">%s</td>
 <td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3564,7 +3505,132 @@ window.onload = function () { addSorting(); }
 <td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 <tr>
+<td align="left">19</td>
+<td align="left">Throughput</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Throughput Related</td>
+<td align="left">Accelerator.kernel.Throughput</td>
+<td align="left">%s</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
 <td align="left">5</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.kernel.Kernel</td>
+<td align="left">The critical path in module 'kernel_Pipeline_MLP2_BITS' consists of the following:
+	'store' operation ('i_write_ln462', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=462">kern.cpp</a>) of constant 0 5 bit on local variable 'i', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=462">kern.cpp</a> [68]  (1.588 ns)
+	'load' operation 5 bit ('i', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=462">kern.cpp</a>) on local variable 'i', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=462">kern.cpp</a> [77]  (0.000 ns)
+	'add' operation 33 bit ('add_ln464', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=464">kern.cpp</a>) [85]  (2.552 ns)
+	'icmp' operation 1 bit ('icmp_ln465', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=465">kern.cpp</a>) [88]  (2.314 ns)
+	'xor' operation 1 bit ('not_icmp_ln465', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=465">kern.cpp</a>) [101]  (0.000 ns)
+	'and' operation 1 bit ('or_cond871', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=462">kern.cpp</a>) [105]  (0.978 ns)
+
+</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">15</td>
+<td align="left">Throughput</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Throughput Related</td>
+<td align="left">Accelerator.kernel.Throughput</td>
+<td align="left">%s</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">6</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.kernel.Kernel</td>
+<td align="left">Cannot meet target clock period from basic block for.body154_ifconv to 'and' operation 1 bit ('or_cond872', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=434">kern.cpp</a>) (combination delay: 7.34344 ns) to honor II or Latency constraint in region 'MLP1_BITS'.
+</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">8</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.kernel.Kernel</td>
+<td align="left">%s</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">7</td>
+<td align="left">Throughput</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Throughput Related</td>
+<td align="left">Accelerator.kernel.Throughput</td>
+<td align="left">%s</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">9</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.kernel.Kernel</td>
+<td align="left">The critical path in module 'kernel_Pipeline_MLP1_BITS' consists of the following:
+	'store' operation ('i_2_write_ln434', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=434">kern.cpp</a>) of constant 0 5 bit on local variable 'i', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=434">kern.cpp</a> [81]  (1.588 ns)
+	'load' operation 5 bit ('i', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=434">kern.cpp</a>) on local variable 'i', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=434">kern.cpp</a> [88]  (0.000 ns)
+	'add' operation 32 bit ('flat', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=436">kern.cpp</a>) [97]  (2.552 ns)
+	'icmp' operation 1 bit ('icmp_ln437', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=437">kern.cpp</a>) [99]  (2.225 ns)
+	'xor' operation 1 bit ('not_icmp_ln437', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=437">kern.cpp</a>) [181]  (0.000 ns)
+	'and' operation 1 bit ('or_cond872', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=434">kern.cpp</a>) [185]  (0.978 ns)
+
+</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">20</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.kernel.Kernel</td>
+<td align="left">%s</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">10</td>
+<td align="left">Throughput</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Throughput Related</td>
+<td align="left">Accelerator.kernel.Throughput</td>
+<td align="left">%s</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">21</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.kernel.Kernel</td>
+<td align="left">The critical path in module 'kernel_Pipeline_MLPO_BITS' consists of the following:
+	'store' operation ('i_1_write_ln486', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=486">kern.cpp</a>) of constant 0 5 bit on local variable 'i', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=486">kern.cpp</a> [68]  (1.588 ns)
+	'load' operation 5 bit ('i', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=486">kern.cpp</a>) on local variable 'i', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=486">kern.cpp</a> [77]  (0.000 ns)
+	'add' operation 33 bit ('add_ln488', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=488">kern.cpp</a>) [85]  (2.552 ns)
+	'icmp' operation 1 bit ('icmp_ln489', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=489">kern.cpp</a>) [88]  (2.314 ns)
+	'xor' operation 1 bit ('not_icmp_ln489', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=489">kern.cpp</a>) [101]  (0.000 ns)
+	'and' operation 1 bit ('or_cond', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=486">kern.cpp</a>) [105]  (0.978 ns)
+
+</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">1</td>
 <td align="left">Throughput</td>
 <td align="left">ADVISORY</td>
 <td align="left"><undefined></td>
@@ -3584,7 +3650,58 @@ window.onload = function () { addSorting(); }
 <td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 <tr>
+<td align="left">22</td>
+<td align="left">Throughput</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Throughput Related</td>
+<td align="left">Accelerator.kernel.Throughput</td>
+<td align="left">%s</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">24</td>
+<td align="left">Kernel</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.kernel.Kernel</td>
+<td align="left">%s</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
 <td align="left">2</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.kernel.Kernel</td>
+<td align="left">Cannot meet target clock period from basic block for.body211_ifconv to 'and' operation 1 bit ('or_cond871', <a href="file:///home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/kern.cpp#line=462">kern.cpp</a>) (combination delay: 7.4325 ns) to honor II or Latency constraint in region 'MLP2_BITS'.
+</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">23</td>
+<td align="left">Throughput</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Throughput Related</td>
+<td align="left">Accelerator.kernel.Throughput</td>
+<td align="left">%s</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">25</td>
+<td align="left">Kernel</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.kernel.Kernel</td>
+<td align="left">%s</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">3</td>
 <td align="left">Throughput</td>
 <td align="left">ADVISORY</td>
 <td align="left"><undefined></td>

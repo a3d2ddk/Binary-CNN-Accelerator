@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'conv2d_l2_Pipeline_L2_FH_L2_FW'" level="0">
-<item name = "Date">Fri May  1 17:43:48 2026
+<item name = "Date">Fri May  1 21:41:12 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">hls_component</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">13.00 ns, 9.471 ns, 3.51 ns</column>
+<column name="ap_clk">10.00 ns, 6.504 ns, 2.70 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">67, 67, 0.871 us, 0.871 us, 0, 0, loop pipeline stp</column>
+<column name="">70, 70, 0.700 us, 0.700 us, 0, 0, loop pipeline stp</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- L2_FH_L2_FW">65, 65, 3, 1, 1, 64, yes</column>
+<column name="- L2_FH_L2_FW">68, 68, 6, 1, 1, 64, yes</column>
 </table>
 </item>
 </section>

@@ -2,10 +2,10 @@
 // Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2025.2 (lin64) Build 6299465 Fri Nov 14 12:34:56 MST 2025
-// Date        : Fri May  1 20:06:47 2026
+// Date        : Fri May  1 21:49:48 2026
 // Host        : oldak-ZenBook-UX325EA-UX325EA running 64-bit Ubuntu 22.04.5 LTS
 // Command     : write_verilog -force -mode synth_stub
-//               /home/oldak/big-boi-pj/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_kernel_0_0/design_1_kernel_0_0_stub.v
+//               /home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_kernel_0_0/design_1_kernel_0_0_stub.v
 // Design      : design_1_kernel_0_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg400-1
@@ -14,7 +14,7 @@
 // This empty module with port declaration file causes synthesis tools to infer a black box for IP.
 // The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
 // Please paste the declaration into a Verilog source file or add the file as an additional source.
-(* CHECK_LICENSE_TYPE = "design_1_kernel_0_0,kernel,{}" *) (* CORE_GENERATION_INFO = "design_1_kernel_0_0,kernel,{x_ipProduct=Vivado 2025.2,x_ipVendor=xilinx.com,x_ipLibrary=hls,x_ipName=kernel,x_ipVersion=1.0,x_ipCoreRevision=2114590004,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_S_AXI_CONTROL_ADDR_WIDTH=4,C_S_AXI_CONTROL_DATA_WIDTH=32}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) 
+(* CHECK_LICENSE_TYPE = "design_1_kernel_0_0,kernel,{}" *) (* CORE_GENERATION_INFO = "design_1_kernel_0_0,kernel,{x_ipProduct=Vivado 2025.2,x_ipVendor=xilinx.com,x_ipLibrary=hls,x_ipName=kernel,x_ipVersion=1.0,x_ipCoreRevision=2114590241,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_S_AXI_CONTROL_ADDR_WIDTH=4,C_S_AXI_CONTROL_DATA_WIDTH=32}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) 
 (* IP_DEFINITION_SOURCE = "HLS" *) (* X_CORE_INFO = "kernel,Vivado 2025.2" *) (* hls_module = "yes" *) 
 module design_1_kernel_0_0(s_axi_control_ARADDR, 
   s_axi_control_ARREADY, s_axi_control_ARVALID, s_axi_control_AWADDR, 

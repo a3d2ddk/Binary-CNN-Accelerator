@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'conv2d_l4_Pipeline_L4_KH_L4_KW'
 ================================================================
-* Date:           Fri May  1 17:43:50 2026
+* Date:           Fri May  1 21:41:13 2026
 
 * Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        hls_component
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  13.00 ns|  8.841 ns|     3.51 ns|
+    |ap_clk  |  10.00 ns|  7.299 ns|     2.70 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -29,7 +29,7 @@
     |  Latency (cycles) |  Latency (absolute) |  Interval |      Pipeline     |
     |   min   |   max   |    min   |    max   | min | max |        Type       |
     +---------+---------+----------+----------+-----+-----+-------------------+
-    |       16|       16|  0.208 us|  0.208 us|    0|    0|  loop pipeline stp|
+    |       16|       16|  0.160 us|  0.160 us|    0|    0|  loop pipeline stp|
     +---------+---------+----------+----------+-----+-----+-------------------+
 
     + Detail: 
@@ -59,9 +59,9 @@
 |Instance         |        -|    -|       0|    218|    -|
 |Memory           |        -|    -|       -|      -|    -|
 |Multiplexer      |        -|    -|       0|     81|    -|
-|Register         |        -|    -|     261|     96|    -|
+|Register         |        -|    -|     260|     96|    -|
 +-----------------+---------+-----+--------+-------+-----+
-|Total            |        0|    1|     261|    621|    0|
+|Total            |        0|    1|     260|    621|    0|
 +-----------------+---------+-----+--------+-------+-----+
 |Available        |      280|  220|  106400|  53200|    0|
 +-----------------+---------+-----+--------+-------+-----+
@@ -99,27 +99,27 @@
     +--------------------------+----------+----+---+----+------------+------------+
     |       Variable Name      | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
     +--------------------------+----------+----+---+----+------------+------------+
-    |add_ln278_1_fu_624_p2     |         +|   0|  0|  13|           4|           1|
-    |add_ln278_fu_636_p2       |         +|   0|  0|  10|           2|           1|
-    |add_ln279_fu_718_p2       |         +|   0|  0|  10|           2|           1|
-    |add_ln281_1_fu_674_p2     |         +|   0|  0|  13|           4|           4|
-    |add_ln281_2_fu_680_p2     |         +|   0|  0|  10|           2|           2|
-    |add_ln281_3_fu_690_p2     |         +|   0|  0|  13|           4|           4|
-    |add_ln281_fu_664_p2       |         +|   0|  0|  10|           2|           2|
-    |add_ln283_fu_772_p2       |         +|   0|  0|  15|           8|           8|
-    |add_ln284_fu_782_p2       |         +|   0|  0|   7|           4|           4|
-    |loc_3_fu_1007_p2          |         +|   0|  0|  39|          32|          32|
-    |sub_ln284_fu_760_p2       |         -|   0|  0|   7|           4|           4|
-    |icmp_ln278_fu_618_p2      |      icmp|   0|  0|  13|           4|           4|
-    |icmp_ln279_fu_642_p2      |      icmp|   0|  0|  10|           2|           2|
-    |icmp_ln282_fu_712_p2      |      icmp|   0|  0|  10|           2|           1|
-    |or_ln282_fu_696_p2        |        or|   0|  0|   4|           4|           4|
-    |loc_2_fu_1013_p3          |    select|   0|  0|  32|           1|          32|
-    |select_ln275_1_fu_648_p3  |    select|   0|  0|   2|           1|           1|
-    |select_ln278_fu_656_p3    |    select|   0|  0|   2|           1|           2|
-    |select_ln285_fu_999_p3    |    select|   0|  0|   2|           1|           2|
+    |add_ln214_1_fu_624_p2     |         +|   0|  0|  13|           4|           1|
+    |add_ln214_fu_636_p2       |         +|   0|  0|  10|           2|           1|
+    |add_ln215_fu_664_p2       |         +|   0|  0|  10|           2|           1|
+    |add_ln217_1_fu_697_p2     |         +|   0|  0|  13|           4|           4|
+    |add_ln217_2_fu_730_p2     |         +|   0|  0|  10|           2|           2|
+    |add_ln217_3_fu_739_p2     |         +|   0|  0|  13|           4|           4|
+    |add_ln217_fu_688_p2       |         +|   0|  0|  10|           2|           2|
+    |add_ln219_fu_748_p2       |         +|   0|  0|  15|           8|           8|
+    |add_ln220_fu_780_p2       |         +|   0|  0|   7|           4|           4|
+    |loc_3_fu_1002_p2          |         +|   0|  0|  39|          32|          32|
+    |sub_ln220_fu_721_p2       |         -|   0|  0|   7|           4|           4|
+    |icmp_ln214_fu_618_p2      |      icmp|   0|  0|  13|           4|           4|
+    |icmp_ln215_fu_642_p2      |      icmp|   0|  0|  10|           2|           2|
+    |icmp_ln218_fu_774_p2      |      icmp|   0|  0|  10|           2|           1|
+    |or_ln218_fu_758_p2        |        or|   0|  0|   4|           4|           4|
+    |loc_2_fu_1008_p3          |    select|   0|  0|  32|           1|          32|
+    |select_ln211_1_fu_648_p3  |    select|   0|  0|   2|           1|           1|
+    |select_ln214_fu_656_p3    |    select|   0|  0|   2|           1|           2|
+    |select_ln221_fu_994_p3    |    select|   0|  0|   2|           1|           2|
     |ap_enable_pp0             |       xor|   0|  0|   2|           1|           2|
-    |xor_ln285_fu_995_p2       |       xor|   0|  0|   2|           1|           1|
+    |xor_ln221_fu_990_p2       |       xor|   0|  0|   2|           1|           1|
     +--------------------------+----------+----+---+----+------------+------------+
     |Total                     |          |   0|  0| 226|          86|         114|
     +--------------------------+----------+----+---+----+------------+------------+
@@ -145,9 +145,7 @@
     +----------------------------------+----+----+-----+-----------+
     |               Name               | FF | LUT| Bits| Const Bits|
     +----------------------------------+----+----+-----+-----------+
-    |a_reg_1326                        |   1|   0|    1|          0|
-    |add_ln281_1_reg_1231              |   4|   0|    4|          0|
-    |add_ln281_3_reg_1236              |   4|   0|    4|          0|
+    |a_reg_1338                        |   1|   0|    1|          0|
     |ap_CS_fsm                         |   1|   0|    1|          0|
     |ap_done_reg                       |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter1           |   1|   0|    1|          0|
@@ -161,20 +159,25 @@
     |ap_loop_exit_ready_pp0_iter3_reg  |   1|   0|    1|          0|
     |ap_loop_exit_ready_pp0_iter4_reg  |   1|   0|    1|          0|
     |ap_loop_exit_ready_pp0_iter5_reg  |   1|   0|    1|          0|
-    |icmp_ln278_reg_1216               |   1|   0|    1|          0|
-    |icmp_ln282_reg_1241               |   1|   0|    1|          0|
+    |icmp_ln214_reg_1221               |   1|   0|    1|          0|
+    |icmp_ln218_reg_1243               |   1|   0|    1|          0|
     |indvar_flatten_fu_196             |   4|   0|    4|          0|
     |kh_fu_192                         |   2|   0|    2|          0|
     |kw_fu_188                         |   2|   0|    2|          0|
     |loc_fu_184                        |  32|   0|   32|          0|
-    |select_ln275_1_reg_1220           |   2|   0|    2|          0|
-    |select_ln278_reg_1225             |   2|   0|    2|          0|
-    |w_reg_1251                        |   1|   0|    1|          0|
-    |icmp_ln278_reg_1216               |  64|  32|    1|          0|
-    |icmp_ln282_reg_1241               |  64|  32|    1|          0|
-    |w_reg_1251                        |  64|  32|    1|          0|
+    |select_ln211_1_reg_1225           |   2|   0|    2|          0|
+    |select_ln214_reg_1231             |   2|   0|    2|          0|
+    |tmp_4_reg_1258                    |   1|   0|    1|          0|
+    |tmp_reg_1248                      |   1|   0|    1|          0|
+    |tmp_s_reg_1253                    |   1|   0|    1|          0|
+    |w_reg_1263                        |   1|   0|    1|          0|
+    |zext_ln209_cast_reg_1216          |   2|   0|    4|          2|
+    |zext_ln210_cast_reg_1211          |   2|   0|    4|          2|
+    |icmp_ln214_reg_1221               |  64|  32|    1|          0|
+    |icmp_ln218_reg_1243               |  64|  32|    1|          0|
+    |w_reg_1263                        |  64|  32|    1|          0|
     +----------------------------------+----+----+-----+-----------+
-    |Total                             | 261|  96|   72|          0|
+    |Total                             | 260|  96|   75|          4|
     +----------------------------------+----+----+-----+-----------+
 
 
@@ -193,8 +196,8 @@
 |ap_idle            |  out|    1|  ap_ctrl_hs|  conv2d_l4_Pipeline_L4_KH_L4_KW|  return value|
 |ap_ready           |  out|    1|  ap_ctrl_hs|  conv2d_l4_Pipeline_L4_KH_L4_KW|  return value|
 |loc_1              |   in|   32|     ap_none|                           loc_1|        scalar|
-|zext_ln273         |   in|    2|     ap_none|                      zext_ln273|        scalar|
-|zext_ln274         |   in|    2|     ap_none|                      zext_ln274|        scalar|
+|zext_ln209         |   in|    2|     ap_none|                      zext_ln209|        scalar|
+|zext_ln210         |   in|    2|     ap_none|                      zext_ln210|        scalar|
 |udiv_ln2           |   in|    9|     ap_none|                        udiv_ln2|        scalar|
 |input_0_address0   |  out|    9|   ap_memory|                         input_0|         array|
 |input_0_ce0        |  out|    1|   ap_memory|                         input_0|         array|
@@ -238,7 +241,7 @@
 |input_13_address0  |  out|    9|   ap_memory|                        input_13|         array|
 |input_13_ce0       |  out|    1|   ap_memory|                        input_13|         array|
 |input_13_q0        |   in|    1|   ap_memory|                        input_13|         array|
-|select_ln275       |   in|    4|     ap_none|                    select_ln275|        scalar|
+|select_ln211       |   in|    4|     ap_none|                    select_ln211|        scalar|
 |kern_0_0_val       |   in|    1|     ap_none|                    kern_0_0_val|        scalar|
 |kern_0_1_val       |   in|    1|     ap_none|                    kern_0_1_val|        scalar|
 |kern_0_2_val       |   in|    1|     ap_none|                    kern_0_2_val|        scalar|

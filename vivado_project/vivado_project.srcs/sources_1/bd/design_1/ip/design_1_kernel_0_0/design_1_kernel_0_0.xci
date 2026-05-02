@@ -4,12 +4,12 @@
     "xci_name": "design_1_kernel_0_0",
     "cell_name": "kernel_0",
     "component_reference": "xilinx.com:hls:kernel:1.0",
-    "ip_revision": "2114590004",
+    "ip_revision": "2114590241",
     "gen_directory": "../../../../../../vivado_project.gen/sources_1/bd/design_1/ip/design_1_kernel_0_0",
     "parameters": {
       "component_parameters": {
         "Component_Name": [ { "value": "design_1_kernel_0_0", "resolve_type": "user", "usage": "all" } ],
-        "clk_period": [ { "value": "13", "enabled": false, "usage": "all" } ],
+        "clk_period": [ { "value": "10", "enabled": false, "usage": "all" } ],
         "machine": [ { "value": "64", "enabled": false, "usage": "all" } ],
         "combinational": [ { "value": "0", "enabled": false, "usage": "all" } ],
         "latency": [ { "value": "undef", "enabled": false, "usage": "all" } ],
@@ -34,7 +34,7 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "2114590004" } ],
+        "IPREVISION": [ { "value": "2114590241" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../../../vivado_project.gen/sources_1/bd/design_1/ip/design_1_kernel_0_0" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
@@ -398,5 +398,5 @@
       }
     }
   },
-  "checksum": "6fb93701"
+  "checksum": "27d009ed"
 }

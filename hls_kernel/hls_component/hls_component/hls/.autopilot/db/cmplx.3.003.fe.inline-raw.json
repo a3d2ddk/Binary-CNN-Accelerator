@@ -1,11 +1,11 @@
 {
   "0": {
     "basicblocks": 58,
-    "calls": "4 5 5 1 1 3 3 2 2",
+    "calls": "1 3 3 4 4 5 5 2 2",
     "control_depth": 2,
     "def_use_depth": 8,
     "file": "kern.cpp",
-    "fileloc": 343,
+    "fileloc": 273,
     "instructions": 581,
     "loads": {
       "L": 15
@@ -18,22 +18,22 @@
     "total_instructions": 1638
   },
   "1": {
-    "basicblocks": 22,
+    "basicblocks": 5,
     "calls": "",
     "control_depth": 2,
-    "def_use_depth": 12,
+    "def_use_depth": 32,
     "file": "kern.cpp",
-    "fileloc": 139,
-    "instructions": 115,
+    "fileloc": 250,
+    "instructions": 127,
     "loads": {
-      "L": 9
+      "L": 11
     },
-    "memory_accesses": 13,
-    "name": "conv2d_l2",
+    "memory_accesses": 2,
+    "name": "softmax",
     "stores": {
-      "L": 7
+      "L": 11
     },
-    "total_instructions": 115
+    "total_instructions": 127
   },
   "2": {
     "basicblocks": 22,
@@ -41,7 +41,7 @@
     "control_depth": 2,
     "def_use_depth": 12,
     "file": "kern.cpp",
-    "fileloc": 258,
+    "fileloc": 194,
     "instructions": 115,
     "loads": {
       "L": 9
@@ -59,43 +59,7 @@
     "control_depth": 2,
     "def_use_depth": 12,
     "file": "kern.cpp",
-    "fileloc": 198,
-    "instructions": 115,
-    "loads": {
-      "L": 9
-    },
-    "memory_accesses": 13,
-    "name": "conv2d_l3",
-    "stores": {
-      "L": 7
-    },
-    "total_instructions": 115
-  },
-  "4": {
-    "basicblocks": 5,
-    "calls": "",
-    "control_depth": 2,
-    "def_use_depth": 32,
-    "file": "kern.cpp",
-    "fileloc": 317,
-    "instructions": 127,
-    "loads": {
-      "L": 11
-    },
-    "memory_accesses": 2,
-    "name": "softmax",
-    "stores": {
-      "L": 11
-    },
-    "total_instructions": 127
-  },
-  "5": {
-    "basicblocks": 22,
-    "calls": "",
-    "control_depth": 2,
-    "def_use_depth": 12,
-    "file": "kern.cpp",
-    "fileloc": 78,
+    "fileloc": 28,
     "instructions": 120,
     "loads": {
       "L": 9
@@ -106,5 +70,41 @@
       "L": 7
     },
     "total_instructions": 120
+  },
+  "4": {
+    "basicblocks": 22,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 12,
+    "file": "kern.cpp",
+    "fileloc": 83,
+    "instructions": 115,
+    "loads": {
+      "L": 9
+    },
+    "memory_accesses": 13,
+    "name": "conv2d_l2",
+    "stores": {
+      "L": 7
+    },
+    "total_instructions": 115
+  },
+  "5": {
+    "basicblocks": 22,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 12,
+    "file": "kern.cpp",
+    "fileloc": 138,
+    "instructions": 115,
+    "loads": {
+      "L": 9
+    },
+    "memory_accesses": 13,
+    "name": "conv2d_l3",
+    "stores": {
+      "L": 7
+    },
+    "total_instructions": 115
   }
 }

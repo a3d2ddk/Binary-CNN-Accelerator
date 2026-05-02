@@ -11,8 +11,8 @@
       "validated": "true"
     },
     "design_tree": {
-      "axi_dma_0": "",
       "processing_system7_0": "",
+      "axi_dma_0": "",
       "axi_smc": "",
       "rst_ps7_0_50M": "",
       "axi_mem_intercon": {
@@ -207,73 +207,11 @@
       }
     },
     "components": {
-      "axi_dma_0": {
-        "vlnv": "xilinx.com:ip:axi_dma:7.1",
-        "ip_revision": "37",
-        "xci_name": "design_1_axi_dma_0_0",
-        "xci_path": "ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xci",
-        "inst_hier_path": "axi_dma_0",
-        "has_run_ip_tcl": "true",
-        "parameters": {
-          "c_include_sg": {
-            "value": "0"
-          },
-          "c_sg_length_width": {
-            "value": "26"
-          }
-        },
-        "interface_ports": {
-          "M_AXI_MM2S": {
-            "bd_attributes": {
-              "TYPE": {
-                "value": "END_POINT",
-                "value_src": "auto"
-              }
-            },
-            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
-            "mode": "Master",
-            "address_space_ref": "Data_MM2S",
-            "base_address": {
-              "minimum": "0x00000000",
-              "maximum": "0xFFFFFFFF",
-              "width": "32"
-            }
-          },
-          "M_AXI_S2MM": {
-            "bd_attributes": {
-              "TYPE": {
-                "value": "END_POINT",
-                "value_src": "auto"
-              }
-            },
-            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
-            "mode": "Master",
-            "address_space_ref": "Data_S2MM",
-            "base_address": {
-              "minimum": "0x00000000",
-              "maximum": "0xFFFFFFFF",
-              "width": "32"
-            }
-          }
-        },
-        "addressing": {
-          "address_spaces": {
-            "Data_MM2S": {
-              "range": "4G",
-              "width": "32"
-            },
-            "Data_S2MM": {
-              "range": "4G",
-              "width": "32"
-            }
-          }
-        }
-      },
       "processing_system7_0": {
         "vlnv": "xilinx.com:ip:processing_system7:5.5",
         "ip_revision": "8",
         "xci_name": "design_1_processing_system7_0_0",
-        "xci_path": "ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xci",
+        "xci_path": "ip/design_1_processing_system7_0_0_1/design_1_processing_system7_0_0.xci",
         "inst_hier_path": "processing_system7_0",
         "has_run_ip_tcl": "true",
         "parameters": {
@@ -1993,6 +1931,65 @@
           }
         }
       },
+      "axi_dma_0": {
+        "vlnv": "xilinx.com:ip:axi_dma:7.1",
+        "ip_revision": "37",
+        "xci_name": "design_1_axi_dma_0_0",
+        "xci_path": "ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xci",
+        "inst_hier_path": "axi_dma_0",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "c_include_sg": {
+            "value": "0"
+          }
+        },
+        "interface_ports": {
+          "M_AXI_MM2S": {
+            "bd_attributes": {
+              "TYPE": {
+                "value": "END_POINT",
+                "value_src": "auto"
+              }
+            },
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+            "mode": "Master",
+            "address_space_ref": "Data_MM2S",
+            "base_address": {
+              "minimum": "0x00000000",
+              "maximum": "0xFFFFFFFF",
+              "width": "32"
+            }
+          },
+          "M_AXI_S2MM": {
+            "bd_attributes": {
+              "TYPE": {
+                "value": "END_POINT",
+                "value_src": "auto"
+              }
+            },
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+            "mode": "Master",
+            "address_space_ref": "Data_S2MM",
+            "base_address": {
+              "minimum": "0x00000000",
+              "maximum": "0xFFFFFFFF",
+              "width": "32"
+            }
+          }
+        },
+        "addressing": {
+          "address_spaces": {
+            "Data_MM2S": {
+              "range": "4G",
+              "width": "32"
+            },
+            "Data_S2MM": {
+              "range": "4G",
+              "width": "32"
+            }
+          }
+        }
+      },
       "axi_smc": {
         "vlnv": "xilinx.com:ip:smartconnect:1.0",
         "ip_revision": "28",
@@ -2676,7 +2673,7 @@
       },
       "kernel_0": {
         "vlnv": "xilinx.com:hls:kernel:1.0",
-        "ip_revision": "2114590004",
+        "ip_revision": "2114590241",
         "xci_name": "design_1_kernel_0_0",
         "xci_path": "ip/design_1_kernel_0_0/design_1_kernel_0_0.xci",
         "inst_hier_path": "kernel_0",

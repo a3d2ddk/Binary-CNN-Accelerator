@@ -1,8 +1,8 @@
 # This script segment is generated automatically by AutoPilot
 
-set name kernel_mul_64ns_66ns_129_3_1
+set name kernel_mul_64ns_66ns_129_5_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 2 ALLOW_PRAGMA 1
+	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 4 ALLOW_PRAGMA 1
 }
 
 

@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'conv2d_l3_Pipeline_L3_FH_L3_FW'
 ================================================================
-* Date:           Fri May  1 17:43:50 2026
+* Date:           Fri May  1 21:41:13 2026
 
 * Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        hls_component
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  13.00 ns|  9.252 ns|     3.51 ns|
+    |ap_clk  |  10.00 ns|  6.504 ns|     2.70 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -29,7 +29,7 @@
     |  Latency (cycles) |  Latency (absolute) |  Interval |      Pipeline     |
     |   min   |   max   |    min   |    max   | min | max |        Type       |
     +---------+---------+----------+----------+-----+-----+-------------------+
-    |       20|       20|  0.260 us|  0.260 us|    0|    0|  loop pipeline stp|
+    |       22|       22|  0.220 us|  0.220 us|    0|    0|  loop pipeline stp|
     +---------+---------+----------+----------+-----+-----+-------------------+
 
     + Detail: 
@@ -41,7 +41,7 @@
         |               |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
         |   Loop Name   |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
         +---------------+---------+---------+----------+-----------+-----------+------+----------+
-        |- L3_FH_L3_FW  |       18|       18|         4|          1|          1|    16|       yes|
+        |- L3_FH_L3_FW  |       20|       20|         6|          1|          1|    16|       yes|
         +---------------+---------+---------+----------+-----------+-----------+------+----------+
 
 
@@ -58,10 +58,10 @@
 |FIFO             |        -|    -|       -|      -|    -|
 |Instance         |        -|    -|       -|      -|    -|
 |Memory           |        -|    -|       -|      -|    -|
-|Multiplexer      |        -|    -|       0|     72|    -|
-|Register         |        -|    -|     115|      -|    -|
+|Multiplexer      |        -|    -|       0|     54|    -|
+|Register         |        -|    -|     159|      -|    -|
 +-----------------+---------+-----+--------+-------+-----+
-|Total            |        0|    1|     115|    409|    0|
+|Total            |        0|    1|     159|    391|    0|
 +-----------------+---------+-----+--------+-------+-----+
 |Available        |      280|  220|  106400|  53200|    0|
 +-----------------+---------+-----+--------+-------+-----+
@@ -89,23 +89,23 @@
     +--------------------------+----------+----+---+----+------------+------------+
     |       Variable Name      | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
     +--------------------------+----------+----+---+----+------------+------------+
-    |add_ln234_1_fu_410_p2     |         +|   0|  0|  13|           5|           1|
-    |add_ln234_fu_422_p2       |         +|   0|  0|  11|           3|           1|
-    |add_ln235_fu_538_p2       |         +|   0|  0|  11|           3|           1|
-    |add_ln240_fu_496_p2       |         +|   0|  0|  13|           5|           5|
-    |val_fu_597_p2             |         +|   0|  0|  39|          32|          32|
-    |icmp_ln234_fu_404_p2      |      icmp|   0|  0|  14|           5|           6|
-    |icmp_ln235_fu_428_p2      |      icmp|   0|  0|  13|           3|           4|
-    |icmp_ln242_1_fu_573_p2    |      icmp|   0|  0|  39|          32|          32|
-    |icmp_ln242_2_fu_587_p2    |      icmp|   0|  0|  39|          32|          32|
-    |icmp_ln242_fu_559_p2      |      icmp|   0|  0|  39|          32|          32|
-    |mx_fu_591_p3              |    select|   0|  0|  32|           1|          32|
-    |select_ln234_1_fu_442_p3  |    select|   0|  0|   3|           1|           3|
-    |select_ln234_fu_434_p3    |    select|   0|  0|   3|           1|           1|
-    |select_ln242_1_fu_579_p3  |    select|   0|  0|  32|           1|          32|
-    |select_ln242_fu_565_p3    |    select|   0|  0|  32|           1|          32|
+    |add_ln174_1_fu_410_p2     |         +|   0|  0|  13|           5|           1|
+    |add_ln174_fu_457_p2       |         +|   0|  0|  11|           3|           1|
+    |add_ln175_fu_503_p2       |         +|   0|  0|  11|           3|           1|
+    |add_ln180_fu_543_p2       |         +|   0|  0|  13|           5|           5|
+    |val_fu_593_p2             |         +|   0|  0|  39|          32|          32|
+    |icmp_ln174_fu_404_p2      |      icmp|   0|  0|  14|           5|           6|
+    |icmp_ln175_fu_463_p2      |      icmp|   0|  0|  13|           3|           4|
+    |icmp_ln182_1_fu_569_p2    |      icmp|   0|  0|  39|          32|          32|
+    |icmp_ln182_2_fu_583_p2    |      icmp|   0|  0|  39|          32|          32|
+    |icmp_ln182_fu_555_p2      |      icmp|   0|  0|  39|          32|          32|
+    |mx_fu_587_p3              |    select|   0|  0|  32|           1|          32|
+    |select_ln174_1_fu_477_p3  |    select|   0|  0|   3|           1|           3|
+    |select_ln174_fu_469_p3    |    select|   0|  0|   3|           1|           1|
+    |select_ln182_1_fu_575_p3  |    select|   0|  0|  32|           1|          32|
+    |select_ln182_fu_561_p3    |    select|   0|  0|  32|           1|          32|
     |ap_enable_pp0             |       xor|   0|  0|   2|           1|           2|
-    |xor_ln61_fu_627_p2        |       xor|   0|  0|   2|           1|           2|
+    |xor_ln25_fu_623_p2        |       xor|   0|  0|   2|           1|           2|
     +--------------------------+----------+----+---+----+------------+------------+
     |Total                     |          |   0|  0| 337|         159|         250|
     +--------------------------+----------+----+---+----+------------+------------+
@@ -117,36 +117,42 @@
     |ap_done_int                            |   9|          2|    1|          2|
     |ap_enable_reg_pp0_iter1                |   9|          2|    1|          2|
     |ap_sig_allocacmp_indvar_flatten6_load  |   9|          2|    5|         10|
-    |ap_sig_allocacmp_oh_load               |   9|          2|    3|          6|
-    |ap_sig_allocacmp_ow_load               |   9|          2|    3|          6|
     |indvar_flatten6_fu_124                 |   9|          2|    5|         10|
     |oh_fu_120                              |   9|          2|    3|          6|
     |ow_fu_116                              |   9|          2|    3|          6|
     +---------------------------------------+----+-----------+-----+-----------+
-    |Total                                  |  72|         16|   24|         48|
+    |Total                                  |  54|         12|   18|         36|
     +---------------------------------------+----+-----------+-----+-----------+
 
     * Register: 
-    +----------------------------------+----+----+-----+-----------+
-    |               Name               | FF | LUT| Bits| Const Bits|
-    +----------------------------------+----+----+-----+-----------+
-    |ap_CS_fsm                         |   1|   0|    1|          0|
-    |ap_done_reg                       |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter1           |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter2           |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter3           |   1|   0|    1|          0|
-    |ap_loop_exit_ready_pp0_iter1_reg  |   1|   0|    1|          0|
-    |ap_loop_exit_ready_pp0_iter2_reg  |   1|   0|    1|          0|
-    |indvar_flatten6_fu_124            |   5|   0|    5|          0|
-    |oh_fu_120                         |   3|   0|    3|          0|
-    |ow_fu_116                         |   3|   0|    3|          0|
-    |select_ln242_1_reg_721            |  32|   0|   32|          0|
-    |select_ln242_reg_715              |  32|   0|   32|          0|
-    |sext_ln209_cast_reg_686           |  32|   0|   32|          0|
-    |tmp_reg_727                       |   1|   0|    1|          0|
-    +----------------------------------+----+----+-----+-----------+
-    |Total                             | 115|   0|  115|          0|
-    +----------------------------------+----+----+-----+-----------+
+    +------------------------------------+----+----+-----+-----------+
+    |                Name                | FF | LUT| Bits| Const Bits|
+    +------------------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                           |   1|   0|    1|          0|
+    |ap_done_reg                         |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter2             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter3             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter4             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter5             |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter1_reg    |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter2_reg    |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter3_reg    |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter4_reg    |   1|   0|    1|          0|
+    |indvar_flatten6_fu_124              |   5|   0|    5|          0|
+    |oh_fu_120                           |   3|   0|    3|          0|
+    |ow_fu_116                           |   3|   0|    3|          0|
+    |select_ln174_1_reg_697              |   3|   0|    3|          0|
+    |select_ln174_reg_691                |   3|   0|    3|          0|
+    |select_ln182_1_reg_733              |  32|   0|   32|          0|
+    |select_ln182_reg_727                |  32|   0|   32|          0|
+    |select_ln182_reg_727_pp0_iter3_reg  |  32|   0|   32|          0|
+    |sext_ln149_cast_reg_682             |  32|   0|   32|          0|
+    |tmp_reg_739                         |   1|   0|    1|          0|
+    |trunc_ln178_reg_702                 |   2|   0|    2|          0|
+    +------------------------------------+----+----+-----+-----------+
+    |Total                               | 159|   0|  159|          0|
+    +------------------------------------+----+----+-----+-----------+
 
 
 
@@ -163,7 +169,7 @@
 |ap_done             |  out|    1|  ap_ctrl_hs|  conv2d_l3_Pipeline_L3_FH_L3_FW|  return value|
 |ap_idle             |  out|    1|  ap_ctrl_hs|  conv2d_l3_Pipeline_L3_FH_L3_FW|  return value|
 |ap_ready            |  out|    1|  ap_ctrl_hs|  conv2d_l3_Pipeline_L3_FH_L3_FW|  return value|
-|zext_ln199          |   in|    9|     ap_none|                      zext_ln199|        scalar|
+|zext_ln139          |   in|    9|     ap_none|                      zext_ln139|        scalar|
 |output_0_address0   |  out|    9|   ap_memory|                        output_0|         array|
 |output_0_ce0        |  out|    1|   ap_memory|                        output_0|         array|
 |output_0_we0        |  out|    1|   ap_memory|                        output_0|         array|
@@ -240,7 +246,7 @@
 |buffer_0_we1        |  out|    1|   ap_memory|                        buffer_0|         array|
 |buffer_0_d1         |  out|   32|   ap_memory|                        buffer_0|         array|
 |buffer_0_q1         |   in|   32|   ap_memory|                        buffer_0|         array|
-|sext_ln209          |   in|   16|     ap_none|                      sext_ln209|        scalar|
-|select_ln199        |   in|    4|     ap_none|                    select_ln199|        scalar|
+|sext_ln149          |   in|   16|     ap_none|                      sext_ln149|        scalar|
+|select_ln139        |   in|    4|     ap_none|                    select_ln139|        scalar|
 +--------------------+-----+-----+------------+--------------------------------+--------------+
 

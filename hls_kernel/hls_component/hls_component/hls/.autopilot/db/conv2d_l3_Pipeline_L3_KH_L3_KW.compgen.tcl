@@ -292,14 +292,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 249 \
-    name zext_ln213 \
+    name zext_ln153 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_zext_ln213 \
+    corename dc_zext_ln153 \
     op interface \
-    ports { zext_ln213 { I 3 vector } } \
+    ports { zext_ln153 { I 3 vector } } \
 } "
 }
 
@@ -307,14 +307,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 250 \
-    name zext_ln214 \
+    name zext_ln154 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_zext_ln214 \
+    corename dc_zext_ln154 \
     op interface \
-    ports { zext_ln214 { I 3 vector } } \
+    ports { zext_ln154 { I 3 vector } } \
 } "
 }
 
@@ -337,14 +337,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 266 \
-    name select_ln215 \
+    name select_ln155 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_select_ln215 \
+    corename dc_select_ln155 \
     op interface \
-    ports { select_ln215 { I 4 vector } } \
+    ports { select_ln155 { I 4 vector } } \
 } "
 }
 

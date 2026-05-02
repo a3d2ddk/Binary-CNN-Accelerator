@@ -299,20 +299,20 @@ set ArgLastReadFirstWriteLatency {
 	kernel_Pipeline_MLP1_BITS {
 		mlp1_acc {Type I LastRead 0 FirstWrite -1}
 		mlp1_w_off {Type I LastRead 0 FirstWrite -1}
-		packed_image_4 {Type I LastRead 35 FirstWrite -1}
-		packed_image_4_1 {Type I LastRead 35 FirstWrite -1}
-		packed_image_4_2 {Type I LastRead 35 FirstWrite -1}
-		packed_image_4_3 {Type I LastRead 35 FirstWrite -1}
-		packed_image_4_4 {Type I LastRead 35 FirstWrite -1}
-		packed_image_4_5 {Type I LastRead 35 FirstWrite -1}
-		packed_image_4_6 {Type I LastRead 35 FirstWrite -1}
-		packed_image_4_7 {Type I LastRead 35 FirstWrite -1}
-		packed_image_4_8 {Type I LastRead 35 FirstWrite -1}
-		packed_image_4_9 {Type I LastRead 35 FirstWrite -1}
-		packed_image_4_10 {Type I LastRead 35 FirstWrite -1}
-		packed_image_4_11 {Type I LastRead 35 FirstWrite -1}
-		packed_image_4_12 {Type I LastRead 35 FirstWrite -1}
-		packed_image_4_13 {Type I LastRead 35 FirstWrite -1}
+		packed_image_4 {Type I LastRead 36 FirstWrite -1}
+		packed_image_4_1 {Type I LastRead 36 FirstWrite -1}
+		packed_image_4_2 {Type I LastRead 36 FirstWrite -1}
+		packed_image_4_3 {Type I LastRead 36 FirstWrite -1}
+		packed_image_4_4 {Type I LastRead 36 FirstWrite -1}
+		packed_image_4_5 {Type I LastRead 36 FirstWrite -1}
+		packed_image_4_6 {Type I LastRead 36 FirstWrite -1}
+		packed_image_4_7 {Type I LastRead 36 FirstWrite -1}
+		packed_image_4_8 {Type I LastRead 36 FirstWrite -1}
+		packed_image_4_9 {Type I LastRead 36 FirstWrite -1}
+		packed_image_4_10 {Type I LastRead 36 FirstWrite -1}
+		packed_image_4_11 {Type I LastRead 36 FirstWrite -1}
+		packed_image_4_12 {Type I LastRead 36 FirstWrite -1}
+		packed_image_4_13 {Type I LastRead 36 FirstWrite -1}
 		empty_103 {Type I LastRead 0 FirstWrite -1}
 		empty_104 {Type I LastRead 0 FirstWrite -1}
 		empty_105 {Type I LastRead 0 FirstWrite -1}
@@ -341,12 +341,12 @@ set ArgLastReadFirstWriteLatency {
 		empty_128 {Type I LastRead 0 FirstWrite -1}
 		empty {Type I LastRead 0 FirstWrite -1}
 		total_1 {Type I LastRead 0 FirstWrite -1}
-		mlp1_acc_2_out {Type O LastRead -1 FirstWrite 37}}}
+		mlp1_acc_2_out {Type O LastRead -1 FirstWrite 38}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "39", "Max" : "65"}
+	{"Name" : "Latency", "Min" : "40", "Max" : "66"}
 	, {"Name" : "Interval", "Min" : "1", "Max" : "27"}
 ]}
 

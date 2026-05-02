@@ -153,7 +153,6 @@ extern "C" {
 }
 # 2 "<built-in>" 2
 # 1 "kern.cpp" 2
-# 35 "kern.cpp"
 # 1 "/home/oldak/chonky-boi/2025.2/lnx64/tools/clang-16/lib/clang/16/include/stdint.h" 1 3
 # 52 "/home/oldak/chonky-boi/2025.2/lnx64/tools/clang-16/lib/clang/16/include/stdint.h" 3
 # 1 "/usr/include/stdint.h" 1 3 4
@@ -388,7 +387,7 @@ typedef unsigned long int uintptr_t;
 typedef __intmax_t intmax_t;
 typedef __uintmax_t uintmax_t;
 # 53 "/home/oldak/chonky-boi/2025.2/lnx64/tools/clang-16/lib/clang/16/include/stdint.h" 2 3
-# 36 "kern.cpp" 2
+# 2 "kern.cpp" 2
 # 1 "/home/oldak/chonky-boi/2025.2/Vitis/common/technology/autopilot/ap_axi_sdata.h" 1
 # 15 "/home/oldak/chonky-boi/2025.2/Vitis/common/technology/autopilot/ap_axi_sdata.h"
 # 1 "/home/oldak/chonky-boi/2025.2/Vitis/common/technology/autopilot/ap_int.h" 1
@@ -54971,18 +54970,17 @@ private:
 };
 
 }
-# 37 "kern.cpp" 2
-# 54 "kern.cpp"
+# 3 "kern.cpp" 2
+# 19 "kern.cpp"
 typedef ap_axiu<32, 0, 0, 0> pkt;
 typedef ap_uint<32> data;
 typedef int32_t acc_t;
-
 
 static inline ap_uint<1> batch_norm_relu(acc_t val)
 {
     return (val >= 0) ? ap_uint<1>(1) : ap_uint<1>(0);
 }
-# 78 "kern.cpp"
+
 void conv2d_l1(
     uint16_t input[32 * 32 * 3],
     ap_uint<1> kern[3][3 * 3],
@@ -55037,12 +55035,6 @@ void conv2d_l1(
         }}
     }
 }
-
-
-
-
-
-
 
 void conv2d_l2(
     ap_uint<1> input[32 / 2][32 / 2][64],
@@ -55099,10 +55091,6 @@ void conv2d_l2(
     }
 }
 
-
-
-
-
 void conv2d_l3(
     ap_uint<1> input[32 / 4][32 / 4][128],
     ap_uint<1> kern[3][3 * 3],
@@ -55157,10 +55145,6 @@ void conv2d_l3(
         }}
     }
 }
-
-
-
-
 
 
 void conv2d_l4(
@@ -55219,9 +55203,6 @@ void conv2d_l4(
 }
 
 
-
-
-
 void softmax(acc_t logits[10], uint16_t probs[10])
 {
 #pragma HLS INLINE off
@@ -55244,9 +55225,6 @@ void softmax(acc_t logits[10], uint16_t probs[10])
     }
 }
 
-
-
-
 extern "C" {
 __attribute__((sdx_kernel("kernel", 0))) void kernel(
     hls::stream<pkt> &A,
@@ -55254,12 +55232,12 @@ __attribute__((sdx_kernel("kernel", 0))) void kernel(
 {
 #line 1 "directive"
 #pragma HLSDIRECTIVE TOP name=kernel
-# 346 "kern.cpp"
+# 276 "kern.cpp"
 
 #pragma HLS INTERFACE mode = axis port = A
 #pragma HLS INTERFACE mode = axis port = B
 #pragma HLS INTERFACE mode = s_axilite port = return bundle = control
-# 375 "kern.cpp"
+
     uint16_t starting_image[32 * 32 * 3];
 #pragma HLS ARRAY_PARTITION variable=starting_image cyclic factor=14 dim=1
     ap_uint<1> packed_image_1[32 / 2 ][32 / 2 ][64];
@@ -55271,22 +55249,17 @@ __attribute__((sdx_kernel("kernel", 0))) void kernel(
     ap_uint<1> packed_image_4[32 / 16][32 / 16][512];
 #pragma HLS ARRAY_PARTITION variable=packed_image_4 cyclic factor=14 dim=3
 
-
-
-
     ap_uint<1> mlp_hidden_1[512];
     ap_uint<1> mlp_hidden_2[512];
     acc_t logits[10];
     uint16_t probs[10];
-# 404 "kern.cpp"
+
     acc_t buffer[32 * 32];
 #pragma HLS ARRAY_PARTITION variable=buffer cyclic factor=2 dim=1
-    VITIS_LOOP_406_1: for (int i = 0; i < 32 * 32; i++) buffer[i] = 0;
-
+    VITIS_LOOP_299_1: for (int i = 0; i < 32 * 32; i++) buffer[i] = 0;
 
     ap_uint<1> kern_a[3][3 * 3];
 #pragma HLS ARRAY_PARTITION variable=kern_a complete dim=0
-
 
     pkt in_pkt, out_pkt;
     data ret_data;
@@ -55317,17 +55290,14 @@ kernel_loop: while (!eos) {
 
         in_pkt = A.read();
 
-
-
-
         pkt_id = (ap_uint<3>)((in_pkt.get_data() >> 29) & 0x7);
         pkt_num_kerns = (ap_uint<2>)((in_pkt.get_data() >> 27) & 0x3);
         pkt_data = (ap_uint<27>)(in_pkt.get_data() & 0x07FFFFFF);
 
 
-        VITIS_LOOP_450_2: for (int k = 0; k < 3; k++) {
+        VITIS_LOOP_338_2: for (int k = 0; k < 3; k++) {
 #pragma HLS UNROLL
-            VITIS_LOOP_452_3: for (int b = 0; b < 3 * 3; b++) {
+            VITIS_LOOP_340_3: for (int b = 0; b < 3 * 3; b++) {
 #pragma HLS UNROLL
                 kern_a[k][b] = (ap_uint<1>)((pkt_data >> (26 - k * 9 - b)) & 0x1);
             }
@@ -55335,14 +55305,11 @@ kernel_loop: while (!eos) {
 
         switch ((int)pkt_id) {
 
-
             case 0: {
                 starting_image[image_counter] = (uint16_t)(pkt_data & 0xFFFF);
                 image_counter++;
                 break;
             }
-
-
 
             case 1: {
                 if (conv1_out_ch < 64) {
@@ -55363,8 +55330,6 @@ kernel_loop: while (!eos) {
                 break;
             }
 
-
-
             case 2: {
                 if (conv2_out_ch < 128) {
                     if (pkt_num_kerns > 0) {
@@ -55383,8 +55348,6 @@ kernel_loop: while (!eos) {
                 }
                 break;
             }
-
-
 
             case 3: {
                 if (conv3_out_ch < 256) {
@@ -55405,9 +55368,6 @@ kernel_loop: while (!eos) {
                 break;
             }
 
-
-
-
             case 4: {
                 if (conv4_out_ch < 512) {
                     if (pkt_num_kerns > 0) {
@@ -55426,10 +55386,6 @@ kernel_loop: while (!eos) {
                 }
                 break;
             }
-
-
-
-
 
             case 5: {
                 if (mlp1_neuron < 512) {
@@ -55459,9 +55415,6 @@ kernel_loop: while (!eos) {
                 break;
             }
 
-
-
-
             case 6: {
                 if (mlp2_neuron < 512) {
                     if (pkt_num_kerns > 0) {
@@ -55485,11 +55438,6 @@ kernel_loop: while (!eos) {
                 }
                 break;
             }
-
-
-
-
-
 
             case 7: {
                 if (mlpo_neuron < 10) {
@@ -55533,6 +55481,5 @@ kernel_loop: while (!eos) {
             eos = true;
 
     }
-
 }
 }

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'softmax_Pipeline_SM_NORM'" level="0">
-<item name = "Date">Fri May  1 17:43:49 2026
+<item name = "Date">Fri May  1 21:41:12 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">hls_component</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">13.00 ns, 9.210 ns, 3.51 ns</column>
+<column name="ap_clk">10.00 ns, 4.911 ns, 2.70 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">47, 47, 0.611 us, 0.611 us, 0, 0, loop pipeline stp</column>
+<column name="">49, 49, 0.490 us, 0.490 us, 0, 0, loop pipeline stp</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- SM_NORM">45, 45, 37, 1, 1, 10, yes</column>
+<column name="- SM_NORM">47, 47, 39, 1, 1, 10, yes</column>
 </table>
 </item>
 </section>

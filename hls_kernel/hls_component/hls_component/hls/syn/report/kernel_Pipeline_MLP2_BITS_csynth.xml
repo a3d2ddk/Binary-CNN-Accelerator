@@ -9,8 +9,8 @@
 <ProductFamily>zynq</ProductFamily>
 <Part>xc7z020-clg400-1</Part>
 <TopModelName>kernel_Pipeline_MLP2_BITS</TopModelName>
-<TargetClockPeriod>13.00</TargetClockPeriod>
-<ClockUncertainty>3.51</ClockUncertainty>
+<TargetClockPeriod>10.00</TargetClockPeriod>
+<ClockUncertainty>2.70</ClockUncertainty>
 <FlowTarget>vivado</FlowTarget>
 </UserAssignments>
 
@@ -25,16 +25,16 @@
 <Best-caseLatency>3</Best-caseLatency>
 <Average-caseLatency>15</Average-caseLatency>
 <Worst-caseLatency>29</Worst-caseLatency>
-<Best-caseRealTimeLatency>39.000 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>0.195 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>0.377 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>30.000 ns</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.150 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.290 us</Worst-caseRealTimeLatency>
 <Interval-min>1</Interval-min>
 <Interval-max>27</Interval-max>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <MLP2_BITS>
-<Slack>9.49</Slack>
+<Slack>7.30</Slack>
 <TripCount>
 <range>
 <min>0</min>
@@ -50,8 +50,8 @@
 </Latency>
 <AbsoluteTimeLatency>
 <range>
-<min>13</min>
-<max>351</max>
+<min>10</min>
+<max>270</max>
 </range>
 </AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
@@ -62,15 +62,15 @@
 </MLP2_BITS>
 </SummaryOfLoopLatency>
 <SummaryOfViolations>
-<IssueType>-</IssueType>
+<IssueType>Timing Violation</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>kern.cpp:430</SourceLocation>
+<SourceLocation>kern.cpp:321</SourceLocation>
 <SummaryOfLoopViolations>
 <MLP2_BITS>
 <Name>MLP2_BITS</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>kern.cpp:592</SourceLocation>
+<SourceLocation>kern.cpp:463</SourceLocation>
 </MLP2_BITS>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -172,8 +172,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>sext_ln591</name>
-<Object>sext_ln591</Object>
+<name>sext_ln462</name>
+<Object>sext_ln462</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>

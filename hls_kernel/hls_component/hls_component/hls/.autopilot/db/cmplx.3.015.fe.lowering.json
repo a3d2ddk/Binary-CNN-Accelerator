@@ -1,11 +1,11 @@
 {
   "0": {
     "basicblocks": 72,
-    "calls": "3 1 1 5 5 4 4 2 2",
+    "calls": "5 3 3 2 2 1 1 4 4",
     "control_depth": 2,
     "def_use_depth": 9,
     "file": "kern.cpp",
-    "fileloc": 343,
+    "fileloc": 273,
     "instructions": 700,
     "loads": {
       "L": 20
@@ -21,63 +21,9 @@
     "basicblocks": 37,
     "calls": "",
     "control_depth": 2,
-    "def_use_depth": 12,
-    "file": "kern.cpp",
-    "fileloc": 78,
-    "instructions": 235,
-    "loads": {
-      "L": 20
-    },
-    "memory_accesses": 37,
-    "name": "conv2d_l1",
-    "stores": {
-      "L": 20
-    },
-    "total_instructions": 235
-  },
-  "2": {
-    "basicblocks": 37,
-    "calls": "",
-    "control_depth": 2,
     "def_use_depth": 10,
     "file": "kern.cpp",
-    "fileloc": 258,
-    "instructions": 226,
-    "loads": {
-      "L": 20
-    },
-    "memory_accesses": 37,
-    "name": "conv2d_l4",
-    "stores": {
-      "L": 20
-    },
-    "total_instructions": 226
-  },
-  "3": {
-    "basicblocks": 5,
-    "calls": "",
-    "control_depth": 2,
-    "def_use_depth": 28,
-    "file": "kern.cpp",
-    "fileloc": 317,
-    "instructions": 128,
-    "loads": {
-      "L": 11
-    },
-    "memory_accesses": 2,
-    "name": "softmax",
-    "stores": {
-      "L": 11
-    },
-    "total_instructions": 128
-  },
-  "4": {
-    "basicblocks": 37,
-    "calls": "",
-    "control_depth": 2,
-    "def_use_depth": 10,
-    "file": "kern.cpp",
-    "fileloc": 198,
+    "fileloc": 138,
     "instructions": 226,
     "loads": {
       "L": 20
@@ -89,13 +35,13 @@
     },
     "total_instructions": 226
   },
-  "5": {
+  "2": {
     "basicblocks": 37,
     "calls": "",
     "control_depth": 2,
     "def_use_depth": 10,
     "file": "kern.cpp",
-    "fileloc": 139,
+    "fileloc": 83,
     "instructions": 226,
     "loads": {
       "L": 20
@@ -106,5 +52,59 @@
       "L": 20
     },
     "total_instructions": 226
+  },
+  "3": {
+    "basicblocks": 37,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 12,
+    "file": "kern.cpp",
+    "fileloc": 28,
+    "instructions": 235,
+    "loads": {
+      "L": 20
+    },
+    "memory_accesses": 37,
+    "name": "conv2d_l1",
+    "stores": {
+      "L": 20
+    },
+    "total_instructions": 235
+  },
+  "4": {
+    "basicblocks": 37,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 10,
+    "file": "kern.cpp",
+    "fileloc": 194,
+    "instructions": 226,
+    "loads": {
+      "L": 20
+    },
+    "memory_accesses": 37,
+    "name": "conv2d_l4",
+    "stores": {
+      "L": 20
+    },
+    "total_instructions": 226
+  },
+  "5": {
+    "basicblocks": 5,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 28,
+    "file": "kern.cpp",
+    "fileloc": 250,
+    "instructions": 128,
+    "loads": {
+      "L": 11
+    },
+    "memory_accesses": 2,
+    "name": "softmax",
+    "stores": {
+      "L": 11
+    },
+    "total_instructions": 128
   }
 }

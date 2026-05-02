@@ -3,12 +3,12 @@
 # SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Fri May  1 17:44:44 2026
-# Process ID         : 8193
-# Current directory  : /home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/impl/ip
+# Start of session at: Fri May  1 21:41:41 2026
+# Process ID         : 6404
+# Current directory  : /home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/impl/ip
 # Command line       : vivado -notrace -mode batch -source run_ippack.tcl
-# Log file           : /home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/impl/ip/vivado.log
-# Journal file       : /home/oldak/big-boi-pj/kernel/hls_component/hls_component/hls/impl/ip/vivado.jou
+# Log file           : /home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/impl/ip/vivado.log
+# Journal file       : /home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component/hls_component/hls/impl/ip/vivado.jou
 # Running On         : oldak-ZenBook-UX325EA-UX325EA
 # Platform           : Ubuntu
 # Operating System   : Ubuntu 22.04.5 LTS
@@ -19,6 +19,6 @@
 # Host memory        : 16447 MB
 # Swap memory        : 2147 MB
 # Total Virtual      : 18594 MB
-# Available Virtual  : 12282 MB
+# Available Virtual  : 12685 MB
 #-----------------------------------------------------------
 source run_ippack.tcl -notrace

@@ -333,14 +333,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 533 \
-    name add_ln103 \
+    name add_ln53 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_add_ln103 \
+    corename dc_add_ln53 \
     op interface \
-    ports { add_ln103 { I 33 vector } } \
+    ports { add_ln53 { I 33 vector } } \
 } "
 }
 

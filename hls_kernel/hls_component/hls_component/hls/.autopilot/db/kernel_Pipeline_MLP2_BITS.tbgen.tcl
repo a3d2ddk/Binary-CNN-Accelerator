@@ -22,7 +22,7 @@ set ap_memory_interface_dict [dict create]
 dict set ap_memory_interface_dict mlp_hidden_1 { MEM_WIDTH 1 MEM_SIZE 512 MASTER_TYPE BRAM_CTRL MEM_ADDRESS_MODE WORD_ADDRESS PACKAGE_IO port READ_LATENCY 1 }
 set C_modelArgList {
 	{ mlp2_acc int 32 regular  }
-	{ sext_ln591 int 32 regular  }
+	{ sext_ln462 int 32 regular  }
 	{ mlp_hidden_1 int 1 regular {array 512 { 1 3 } 1 1 }  }
 	{ empty_76 int 1 regular  }
 	{ empty_77 int 1 regular  }
@@ -59,7 +59,7 @@ set l_AXIML2Cache [list]
 set AXIMCacheInstDict [dict create]
 set C_modelArgMapList {[ 
 	{ "Name" : "mlp2_acc", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
- 	{ "Name" : "sext_ln591", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
+ 	{ "Name" : "sext_ln462", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
  	{ "Name" : "mlp_hidden_1", "interface" : "memory", "bitwidth" : 1, "direction" : "READONLY"} , 
  	{ "Name" : "empty_76", "interface" : "wire", "bitwidth" : 1, "direction" : "READONLY"} , 
  	{ "Name" : "empty_77", "interface" : "wire", "bitwidth" : 1, "direction" : "READONLY"} , 
@@ -100,7 +100,7 @@ set portList {
 	{ ap_idle sc_out sc_logic 1 done -1 } 
 	{ ap_ready sc_out sc_logic 1 ready -1 } 
 	{ mlp2_acc sc_in sc_lv 32 signal 0 } 
-	{ sext_ln591 sc_in sc_lv 32 signal 1 } 
+	{ sext_ln462 sc_in sc_lv 32 signal 1 } 
 	{ mlp_hidden_1_address0 sc_out sc_lv 9 signal 2 } 
 	{ mlp_hidden_1_ce0 sc_out sc_logic 1 signal 2 } 
 	{ mlp_hidden_1_q0 sc_in sc_lv 1 signal 2 } 
@@ -143,7 +143,7 @@ set NewPortList {[
  	{ "name": "ap_idle", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "done", "bundle":{"name": "ap_idle", "role": "default" }} , 
  	{ "name": "ap_ready", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "ready", "bundle":{"name": "ap_ready", "role": "default" }} , 
  	{ "name": "mlp2_acc", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "mlp2_acc", "role": "default" }} , 
- 	{ "name": "sext_ln591", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "sext_ln591", "role": "default" }} , 
+ 	{ "name": "sext_ln462", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "sext_ln462", "role": "default" }} , 
  	{ "name": "mlp_hidden_1_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":9, "type": "signal", "bundle":{"name": "mlp_hidden_1", "role": "address0" }} , 
  	{ "name": "mlp_hidden_1_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "mlp_hidden_1", "role": "ce0" }} , 
  	{ "name": "mlp_hidden_1_q0", "direction": "in", "datatype": "sc_lv", "bitwidth":1, "type": "signal", "bundle":{"name": "mlp_hidden_1", "role": "q0" }} , 
@@ -181,7 +181,7 @@ set NewPortList {[
 set ArgLastReadFirstWriteLatency {
 	kernel_Pipeline_MLP2_BITS {
 		mlp2_acc {Type I LastRead 0 FirstWrite -1}
-		sext_ln591 {Type I LastRead 0 FirstWrite -1}
+		sext_ln462 {Type I LastRead 0 FirstWrite -1}
 		mlp_hidden_1 {Type I LastRead 0 FirstWrite -1}
 		empty_76 {Type I LastRead 0 FirstWrite -1}
 		empty_77 {Type I LastRead 0 FirstWrite -1}
@@ -226,7 +226,7 @@ set PipelineEnableSignalInfo {[
 
 set Spec2ImplPortList { 
 	mlp2_acc { ap_none {  { mlp2_acc in_data 0 32 } } }
-	sext_ln591 { ap_none {  { sext_ln591 in_data 0 32 } } }
+	sext_ln462 { ap_none {  { sext_ln462 in_data 0 32 } } }
 	mlp_hidden_1 { ap_memory {  { mlp_hidden_1_address0 mem_address 1 9 }  { mlp_hidden_1_ce0 mem_ce 1 1 }  { mlp_hidden_1_q0 mem_dout 0 1 } } }
 	empty_76 { ap_none {  { empty_76 in_data 0 1 } } }
 	empty_77 { ap_none {  { empty_77 in_data 0 1 } } }

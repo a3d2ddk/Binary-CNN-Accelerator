@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'softmax'" level="0">
-<item name = "Date">Fri May  1 17:43:49 2026
+<item name = "Date">Fri May  1 21:41:12 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">hls_component</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">13.00 ns, 9.210 ns, 3.51 ns</column>
+<column name="ap_clk">10.00 ns, 6.500 ns, 2.70 ns</column>
 </table>
 </item>
 </section>
@@ -24,14 +24,14 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">59, 59, 0.767 us, 0.767 us, 59, 59, no</column>
+<column name="">62, 62, 0.620 us, 0.620 us, 62, 62, no</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_softmax_Pipeline_SM_NORM_fu_224">softmax_Pipeline_SM_NORM, 47, 47, 0.611 us, 0.611 us, 0, 0, loop pipeline stp</column>
+<column name="grp_softmax_Pipeline_SM_NORM_fu_224">softmax_Pipeline_SM_NORM, 49, 49, 0.490 us, 0.490 us, 0, 0, loop pipeline stp</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

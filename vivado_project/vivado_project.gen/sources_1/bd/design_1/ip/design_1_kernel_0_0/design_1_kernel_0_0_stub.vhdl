@@ -2,10 +2,10 @@
 -- Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2025.2 (lin64) Build 6299465 Fri Nov 14 12:34:56 MST 2025
--- Date        : Fri May  1 20:06:47 2026
+-- Date        : Fri May  1 21:49:49 2026
 -- Host        : oldak-ZenBook-UX325EA-UX325EA running 64-bit Ubuntu 22.04.5 LTS
 -- Command     : write_vhdl -force -mode synth_stub
---               /home/oldak/big-boi-pj/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_kernel_0_0/design_1_kernel_0_0_stub.vhdl
+--               /home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_kernel_0_0/design_1_kernel_0_0_stub.vhdl
 -- Design      : design_1_kernel_0_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z020clg400-1
@@ -52,7 +52,7 @@ entity design_1_kernel_0_0 is
   attribute CHECK_LICENSE_TYPE : string;
   attribute CHECK_LICENSE_TYPE of design_1_kernel_0_0 : entity is "design_1_kernel_0_0,kernel,{}";
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of design_1_kernel_0_0 : entity is "design_1_kernel_0_0,kernel,{x_ipProduct=Vivado 2025.2,x_ipVendor=xilinx.com,x_ipLibrary=hls,x_ipName=kernel,x_ipVersion=1.0,x_ipCoreRevision=2114590004,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_S_AXI_CONTROL_ADDR_WIDTH=4,C_S_AXI_CONTROL_DATA_WIDTH=32}";
+  attribute CORE_GENERATION_INFO of design_1_kernel_0_0 : entity is "design_1_kernel_0_0,kernel,{x_ipProduct=Vivado 2025.2,x_ipVendor=xilinx.com,x_ipLibrary=hls,x_ipName=kernel,x_ipVersion=1.0,x_ipCoreRevision=2114590241,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_S_AXI_CONTROL_ADDR_WIDTH=4,C_S_AXI_CONTROL_DATA_WIDTH=32}";
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of design_1_kernel_0_0 : entity is "yes";
   attribute IP_DEFINITION_SOURCE : string;

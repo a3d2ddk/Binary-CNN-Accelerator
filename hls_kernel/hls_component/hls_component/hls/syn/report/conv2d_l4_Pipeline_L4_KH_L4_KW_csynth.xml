@@ -9,8 +9,8 @@
 <ProductFamily>zynq</ProductFamily>
 <Part>xc7z020-clg400-1</Part>
 <TopModelName>conv2d_l4_Pipeline_L4_KH_L4_KW</TopModelName>
-<TargetClockPeriod>13.00</TargetClockPeriod>
-<ClockUncertainty>3.51</ClockUncertainty>
+<TargetClockPeriod>10.00</TargetClockPeriod>
+<ClockUncertainty>2.70</ClockUncertainty>
 <FlowTarget>vivado</FlowTarget>
 </UserAssignments>
 
@@ -18,27 +18,27 @@
 <PipelineType>loop pipeline stp</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>8.841</EstimatedClockPeriod>
+<EstimatedClockPeriod>7.299</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
 <Best-caseLatency>16</Best-caseLatency>
 <Average-caseLatency>16</Average-caseLatency>
 <Worst-caseLatency>16</Worst-caseLatency>
-<Best-caseRealTimeLatency>0.208 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>0.208 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>0.208 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>0.160 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.160 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.160 us</Worst-caseRealTimeLatency>
 <Interval-min>10</Interval-min>
 <Interval-max>10</Interval-max>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <L4_KH_L4_KW>
-<Slack>9.49</Slack>
+<Slack>7.30</Slack>
 <TripCount>9</TripCount>
 <isPerfectNested>0</isPerfectNested>
 <Latency>14</Latency>
-<AbsoluteTimeLatency>182</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>140</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>7</PipelineDepth>
 <PerformancePragma>-</PerformancePragma>
@@ -49,13 +49,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>kern.cpp:275</SourceLocation>
+<SourceLocation>kern.cpp:211</SourceLocation>
 <SummaryOfLoopViolations>
 <L4_KH_L4_KW>
 <Name>L4_KH_L4_KW</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>kern.cpp:278</SourceLocation>
+<SourceLocation>kern.cpp:214</SourceLocation>
 </L4_KH_L4_KW>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -64,7 +64,7 @@
 <AreaEstimates>
 <Resources>
 <DSP>1</DSP>
-<FF>261</FF>
+<FF>260</FF>
 <LUT>621</LUT>
 <BRAM_18K>0</BRAM_18K>
 <URAM>0</URAM>
@@ -157,8 +157,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln273</name>
-<Object>zext_ln273</Object>
+<name>zext_ln209</name>
+<Object>zext_ln209</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -168,8 +168,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln274</name>
-<Object>zext_ln274</Object>
+<name>zext_ln210</name>
+<Object>zext_ln210</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -652,8 +652,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>select_ln275</name>
-<Object>select_ln275</Object>
+<name>select_ln211</name>
+<Object>select_ln211</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>

@@ -1,143 +1,143 @@
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 124, Column: 38 }
+DebugLoc:        { File: kern.cpp, Line: 74, Column: 38 }
 Function:        _Z9conv2d_l1PtPA9_7ap_uintILi1EES0_ILi2EEiPibiiPA16_A64_S1_
 Args:            
   - Callee:          'batch_norm_relu(int)'
-    DebugLoc:        { File: kern.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 24, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'conv2d_l1(unsigned short*, ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [16][64])'
-    DebugLoc:        { File: kern.cpp, Line: 88, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 38, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 185, Column: 38 }
+DebugLoc:        { File: kern.cpp, Line: 129, Column: 38 }
 Function:        _Z9conv2d_l2PA16_A64_7ap_uintILi1EEPA9_S0_S_ILi2EEiPibiiPA8_A128_S0_
 Args:            
   - Callee:          'batch_norm_relu(int)'
-    DebugLoc:        { File: kern.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 24, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'conv2d_l2(ap_uint<1> (*) [16][64], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [8][128])'
-    DebugLoc:        { File: kern.cpp, Line: 149, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 93, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 244, Column: 38 }
+DebugLoc:        { File: kern.cpp, Line: 184, Column: 38 }
 Function:        _Z9conv2d_l3PA8_A128_7ap_uintILi1EEPA9_S0_S_ILi2EEiPibiiPA4_A256_S0_
 Args:            
   - Callee:          'batch_norm_relu(int)'
-    DebugLoc:        { File: kern.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 24, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'conv2d_l3(ap_uint<1> (*) [8][128], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [4][256])'
-    DebugLoc:        { File: kern.cpp, Line: 208, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 148, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 304, Column: 38 }
+DebugLoc:        { File: kern.cpp, Line: 240, Column: 38 }
 Function:        _Z9conv2d_l4PA4_A256_7ap_uintILi1EEPA9_S0_S_ILi2EEiPibiiPA2_A512_S0_
 Args:            
   - Callee:          'batch_norm_relu(int)'
-    DebugLoc:        { File: kern.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 24, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'conv2d_l4(ap_uint<1> (*) [4][256], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [2][512])'
-    DebugLoc:        { File: kern.cpp, Line: 268, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 204, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 637, Column: 29 }
+DebugLoc:        { File: kern.cpp, Line: 503, Column: 29 }
 Function:        kernel
 Args:            
   - Callee:          'softmax(int*, unsigned short*)'
-    DebugLoc:        { File: kern.cpp, Line: 318, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 251, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 602, Column: 53 }
+DebugLoc:        { File: kern.cpp, Line: 473, Column: 53 }
 Function:        kernel
 Args:            
   - Callee:          'batch_norm_relu(int)'
-    DebugLoc:        { File: kern.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 24, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 542, Column: 25 }
+DebugLoc:        { File: kern.cpp, Line: 420, Column: 25 }
 Function:        kernel
 Args:            
   - Callee:          'conv2d_l4(ap_uint<1> (*) [4][256], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [2][512])'
-    DebugLoc:        { File: kern.cpp, Line: 268, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 204, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 520, Column: 25 }
+DebugLoc:        { File: kern.cpp, Line: 401, Column: 25 }
 Function:        kernel
 Args:            
   - Callee:          'conv2d_l3(ap_uint<1> (*) [8][128], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [4][256])'
-    DebugLoc:        { File: kern.cpp, Line: 208, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 148, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 499, Column: 25 }
+DebugLoc:        { File: kern.cpp, Line: 382, Column: 25 }
 Function:        kernel
 Args:            
   - Callee:          'conv2d_l2(ap_uint<1> (*) [16][64], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [8][128])'
-    DebugLoc:        { File: kern.cpp, Line: 149, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 93, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 478, Column: 25 }
+DebugLoc:        { File: kern.cpp, Line: 363, Column: 25 }
 Function:        kernel
 Args:            
   - Callee:          'conv2d_l1(unsigned short*, ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [16][64])'
-    DebugLoc:        { File: kern.cpp, Line: 88, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 38, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
 Function:        kernel
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_450_2
+  - LoopName:        VITIS_LOOP_338_2
   - String:          ''' ('
-  - LoopLoc:         'kern.cpp:450:27'
+  - LoopLoc:         'kern.cpp:338:27'
   - String:          ') '
   - String:          'in function '''
   - String:          kernel
@@ -147,13 +147,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
 Function:        kernel
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_452_3
+  - LoopName:        VITIS_LOOP_340_3
   - String:          ''' ('
-  - LoopLoc:         'kern.cpp:452:31'
+  - LoopLoc:         'kern.cpp:340:31'
   - String:          ') '
   - String:          'in function '''
   - String:          kernel
@@ -163,13 +163,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
 Function:        kernel
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_452_3
+  - LoopName:        VITIS_LOOP_340_3
   - String:          ''' ('
-  - LoopLoc:         'kern.cpp:452:31'
+  - LoopLoc:         'kern.cpp:340:31'
   - String:          ') '
   - String:          'in function '''
   - String:          kernel
@@ -179,13 +179,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
 Function:        kernel
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_452_3
+  - LoopName:        VITIS_LOOP_340_3
   - String:          ''' ('
-  - LoopLoc:         'kern.cpp:452:31'
+  - LoopLoc:         'kern.cpp:340:31'
   - String:          ') '
   - String:          'in function '''
   - String:          kernel
@@ -195,13 +195,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: kern.cpp, Line: 318, Column: 0 }
+DebugLoc:        { File: kern.cpp, Line: 251, Column: 0 }
 Function:        _Z7softmaxPiPt
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        SM_EXP
   - String:          ''' ('
-  - LoopLoc:         'kern.cpp:327:13'
+  - LoopLoc:         'kern.cpp:260:13'
   - String:          ') '
   - String:          'in function '''
   - String:          softmax
@@ -211,13 +211,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: kern.cpp, Line: 318, Column: 0 }
+DebugLoc:        { File: kern.cpp, Line: 251, Column: 0 }
 Function:        _Z7softmaxPiPt
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        SM_MAX
   - String:          ''' ('
-  - LoopLoc:         'kern.cpp:321:13'
+  - LoopLoc:         'kern.cpp:254:13'
   - String:          ') '
   - String:          'in function '''
   - String:          softmax
@@ -227,131 +227,131 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 124, Column: 38 }
+DebugLoc:        { File: kern.cpp, Line: 74, Column: 38 }
 Function:        _Z9conv2d_l1PtPA9_7ap_uintILi1EES0_ILi2EEiPibiiPA16_A64_S1_
 Args:            
   - Callee:          'batch_norm_relu(int)'
-    DebugLoc:        { File: kern.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 24, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'conv2d_l1(unsigned short*, ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [16][64])'
-    DebugLoc:        { File: kern.cpp, Line: 88, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 38, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 185, Column: 38 }
+DebugLoc:        { File: kern.cpp, Line: 129, Column: 38 }
 Function:        _Z9conv2d_l2PA16_A64_7ap_uintILi1EEPA9_S0_S_ILi2EEiPibiiPA8_A128_S0_
 Args:            
   - Callee:          'batch_norm_relu(int)'
-    DebugLoc:        { File: kern.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 24, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'conv2d_l2(ap_uint<1> (*) [16][64], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [8][128])'
-    DebugLoc:        { File: kern.cpp, Line: 149, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 93, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 244, Column: 38 }
+DebugLoc:        { File: kern.cpp, Line: 184, Column: 38 }
 Function:        _Z9conv2d_l3PA8_A128_7ap_uintILi1EEPA9_S0_S_ILi2EEiPibiiPA4_A256_S0_
 Args:            
   - Callee:          'batch_norm_relu(int)'
-    DebugLoc:        { File: kern.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 24, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'conv2d_l3(ap_uint<1> (*) [8][128], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [4][256])'
-    DebugLoc:        { File: kern.cpp, Line: 208, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 148, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 304, Column: 38 }
+DebugLoc:        { File: kern.cpp, Line: 240, Column: 38 }
 Function:        _Z9conv2d_l4PA4_A256_7ap_uintILi1EEPA9_S0_S_ILi2EEiPibiiPA2_A512_S0_
 Args:            
   - Callee:          'batch_norm_relu(int)'
-    DebugLoc:        { File: kern.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 24, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'conv2d_l4(ap_uint<1> (*) [4][256], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [2][512])'
-    DebugLoc:        { File: kern.cpp, Line: 268, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 204, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 472, Column: 25 }
+DebugLoc:        { File: kern.cpp, Line: 357, Column: 25 }
 Function:        kernel
 Args:            
   - Callee:          'conv2d_l1(unsigned short*, ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [16][64])'
-    DebugLoc:        { File: kern.cpp, Line: 88, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 38, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 493, Column: 25 }
+DebugLoc:        { File: kern.cpp, Line: 376, Column: 25 }
 Function:        kernel
 Args:            
   - Callee:          'conv2d_l2(ap_uint<1> (*) [16][64], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [8][128])'
-    DebugLoc:        { File: kern.cpp, Line: 149, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 93, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 514, Column: 25 }
+DebugLoc:        { File: kern.cpp, Line: 395, Column: 25 }
 Function:        kernel
 Args:            
   - Callee:          'conv2d_l3(ap_uint<1> (*) [8][128], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [4][256])'
-    DebugLoc:        { File: kern.cpp, Line: 208, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 148, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 536, Column: 25 }
+DebugLoc:        { File: kern.cpp, Line: 414, Column: 25 }
 Function:        kernel
 Args:            
   - Callee:          'conv2d_l4(ap_uint<1> (*) [4][256], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [2][512])'
-    DebugLoc:        { File: kern.cpp, Line: 268, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 204, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 575, Column: 53 }
+DebugLoc:        { File: kern.cpp, Line: 449, Column: 53 }
 Function:        kernel
 Args:            
   - Callee:          'batch_norm_relu(int)'
-    DebugLoc:        { File: kern.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 24, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 637, Column: 29 }
+DebugLoc:        { File: kern.cpp, Line: 503, Column: 29 }
 Function:        kernel
 Args:            
   - Callee:          'softmax(int*, unsigned short*)'
-    DebugLoc:        { File: kern.cpp, Line: 318, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 251, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
@@ -360,7 +360,7 @@ Name:            NeverInline
 Function:        apatb_kernel_ir
 Args:            
   - Callee:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          apatb_kernel_ir
   - String:          ' because it should never be inlined (cost=never)'
@@ -368,77 +368,77 @@ Args:
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: kern.cpp, Line: 88, Column: 0 }
+DebugLoc:        { File: kern.cpp, Line: 38, Column: 0 }
 Function:        _Z9conv2d_l1PtPA9_7ap_uintILi1EES0_ILi2EEiPibiiPA16_A64_S1_
 Args:            
   - String:          'Inlining function '''
   - Callee:          'batch_norm_relu(int)'
-    DebugLoc:        { File: kern.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 24, Column: 0 }
   - String:          ''' into '''
   - Caller:          'conv2d_l1(unsigned short*, ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [16][64])'
-    DebugLoc:        { File: kern.cpp, Line: 88, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 38, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: kern.cpp, Line: 149, Column: 0 }
+DebugLoc:        { File: kern.cpp, Line: 93, Column: 0 }
 Function:        _Z9conv2d_l2PA16_A64_7ap_uintILi1EEPA9_S0_S_ILi2EEiPibiiPA8_A128_S0_
 Args:            
   - String:          'Inlining function '''
   - Callee:          'batch_norm_relu(int)'
-    DebugLoc:        { File: kern.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 24, Column: 0 }
   - String:          ''' into '''
   - Caller:          'conv2d_l2(ap_uint<1> (*) [16][64], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [8][128])'
-    DebugLoc:        { File: kern.cpp, Line: 149, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 93, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: kern.cpp, Line: 208, Column: 0 }
+DebugLoc:        { File: kern.cpp, Line: 148, Column: 0 }
 Function:        _Z9conv2d_l3PA8_A128_7ap_uintILi1EEPA9_S0_S_ILi2EEiPibiiPA4_A256_S0_
 Args:            
   - String:          'Inlining function '''
   - Callee:          'batch_norm_relu(int)'
-    DebugLoc:        { File: kern.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 24, Column: 0 }
   - String:          ''' into '''
   - Caller:          'conv2d_l3(ap_uint<1> (*) [8][128], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [4][256])'
-    DebugLoc:        { File: kern.cpp, Line: 208, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 148, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: kern.cpp, Line: 268, Column: 0 }
+DebugLoc:        { File: kern.cpp, Line: 204, Column: 0 }
 Function:        _Z9conv2d_l4PA4_A256_7ap_uintILi1EEPA9_S0_S_ILi2EEiPibiiPA2_A512_S0_
 Args:            
   - String:          'Inlining function '''
   - Callee:          'batch_norm_relu(int)'
-    DebugLoc:        { File: kern.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 24, Column: 0 }
   - String:          ''' into '''
   - Caller:          'conv2d_l4(ap_uint<1> (*) [4][256], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [2][512])'
-    DebugLoc:        { File: kern.cpp, Line: 268, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 204, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
 Function:        kernel
 Args:            
   - String:          'Inlining function '''
   - Callee:          'batch_norm_relu(int)'
-    DebugLoc:        { File: kern.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 24, Column: 0 }
   - String:          ''' into '''
   - Caller:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: kern.cpp, Line: 375, Column: 14 }
+DebugLoc:        { File: kern.cpp, Line: 281, Column: 14 }
 Function:        kernel
 Args:            
   - String:          'Applying '
@@ -458,7 +458,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: kern.cpp, Line: 377, Column: 16 }
+DebugLoc:        { File: kern.cpp, Line: 283, Column: 16 }
 Function:        kernel
 Args:            
   - String:          'Applying '
@@ -478,7 +478,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: kern.cpp, Line: 379, Column: 16 }
+DebugLoc:        { File: kern.cpp, Line: 285, Column: 16 }
 Function:        kernel
 Args:            
   - String:          'Applying '
@@ -498,7 +498,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: kern.cpp, Line: 381, Column: 16 }
+DebugLoc:        { File: kern.cpp, Line: 287, Column: 16 }
 Function:        kernel
 Args:            
   - String:          'Applying '
@@ -518,7 +518,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: kern.cpp, Line: 383, Column: 16 }
+DebugLoc:        { File: kern.cpp, Line: 289, Column: 16 }
 Function:        kernel
 Args:            
   - String:          'Applying '
@@ -538,7 +538,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: kern.cpp, Line: 404, Column: 11 }
+DebugLoc:        { File: kern.cpp, Line: 297, Column: 11 }
 Function:        kernel
 Args:            
   - String:          'Applying '
@@ -558,7 +558,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: kern.cpp, Line: 409, Column: 16 }
+DebugLoc:        { File: kern.cpp, Line: 301, Column: 16 }
 Function:        kernel
 Args:            
   - String:          'Applying '
@@ -582,7 +582,7 @@ Args:
 --- !Failure
 Pass:            reflow-array-partition
 Name:            WarnArrayXFORMOnIndexCast
-DebugLoc:        { File: kern.cpp, Line: 462, Column: 17 }
+DebugLoc:        { File: kern.cpp, Line: 349, Column: 17 }
 Function:        kernel
 Args:            
   - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
@@ -590,113 +590,113 @@ Args:
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            CouldNotAnalyzeBoundsPattern
-DebugLoc:        { File: kern.cpp, Line: 620, Column: 36 }
+DebugLoc:        { File: kern.cpp, Line: 486, Column: 36 }
 Function:        kernel
 Args:            
   - String:          Could not analyze the loop bounds
   - String:          ' _XLX_SEP_ '
   - LoopName:        MLPO_BITS
   - String:          ' '
-  - LoopLoc:         'kern.cpp:620:36'
+  - LoopLoc:         'kern.cpp:486:36'
   - String:          ' '
   - Function:        kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            CouldNotAnalyzeBoundsPattern
-DebugLoc:        { File: kern.cpp, Line: 560, Column: 36 }
+DebugLoc:        { File: kern.cpp, Line: 434, Column: 36 }
 Function:        kernel
 Args:            
   - String:          Could not analyze the loop bounds
   - String:          ' _XLX_SEP_ '
   - LoopName:        MLP1_BITS
   - String:          ' '
-  - LoopLoc:         'kern.cpp:560:36'
+  - LoopLoc:         'kern.cpp:434:36'
   - String:          ' '
   - Function:        kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            CouldNotAnalyzeBoundsPattern
-DebugLoc:        { File: kern.cpp, Line: 591, Column: 36 }
+DebugLoc:        { File: kern.cpp, Line: 462, Column: 36 }
 Function:        kernel
 Args:            
   - String:          Could not analyze the loop bounds
   - String:          ' _XLX_SEP_ '
   - LoopName:        MLP2_BITS
   - String:          ' '
-  - LoopLoc:         'kern.cpp:591:36'
+  - LoopLoc:         'kern.cpp:462:36'
   - String:          ' '
   - Function:        kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            CouldNotAnalyzeBoundsPattern
-DebugLoc:        { File: kern.cpp, Line: 438, Column: 14 }
+DebugLoc:        { File: kern.cpp, Line: 329, Column: 14 }
 Function:        kernel
 Args:            
   - String:          Could not analyze the loop bounds
   - String:          ' _XLX_SEP_ '
   - LoopName:        kernel_loop
   - String:          ' '
-  - LoopLoc:         'kern.cpp:438:14'
+  - LoopLoc:         'kern.cpp:329:14'
   - String:          ' '
   - Function:        kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' '
 ...
 --- !Failure
 Pass:            reflow-occurrence-inference
 Name:            NonComputableLoopForm
-DebugLoc:        { File: kern.cpp, Line: 591, Column: 36 }
+DebugLoc:        { File: kern.cpp, Line: 462, Column: 36 }
 Function:        kernel
 Args:            
   - String:          'Could not analyze occurrence information within '''
   - LoopName:        MLP2_BITS
   - String:          '''('
-  - LoopLoc:         'kern.cpp:591:36'
+  - LoopLoc:         'kern.cpp:462:36'
   - String:          ') . Requires loop in simplify form and with single exit.'
 ...
 --- !Failure
 Pass:            reflow-occurrence-inference
 Name:            NonComputableLoopForm
-DebugLoc:        { File: kern.cpp, Line: 560, Column: 36 }
+DebugLoc:        { File: kern.cpp, Line: 434, Column: 36 }
 Function:        kernel
 Args:            
   - String:          'Could not analyze occurrence information within '''
   - LoopName:        MLP1_BITS
   - String:          '''('
-  - LoopLoc:         'kern.cpp:560:36'
+  - LoopLoc:         'kern.cpp:434:36'
   - String:          ') . Requires loop in simplify form and with single exit.'
 ...
 --- !Failure
 Pass:            reflow-occurrence-inference
 Name:            NonComputableLoopForm
-DebugLoc:        { File: kern.cpp, Line: 620, Column: 36 }
+DebugLoc:        { File: kern.cpp, Line: 486, Column: 36 }
 Function:        kernel
 Args:            
   - String:          'Could not analyze occurrence information within '''
   - LoopName:        MLPO_BITS
   - String:          '''('
-  - LoopLoc:         'kern.cpp:620:36'
+  - LoopLoc:         'kern.cpp:486:36'
   - String:          ') . Requires loop in simplify form and with single exit.'
 ...
 --- !Failure
 Pass:            reflow-occurrence-inference
 Name:            NonComputableLoopForm
-DebugLoc:        { File: kern.cpp, Line: 438, Column: 14 }
+DebugLoc:        { File: kern.cpp, Line: 329, Column: 14 }
 Function:        kernel
 Args:            
   - String:          'Could not analyze occurrence information within '''
   - LoopName:        kernel_loop
   - String:          '''('
-  - LoopLoc:         'kern.cpp:438:14'
+  - LoopLoc:         'kern.cpp:329:14'
   - String:          ') . Requires loop in simplify form and with single exit.'
 ...
 --- !HLSReportInfo
@@ -704,15 +704,15 @@ Pass:            reflow-auto-loop-pipeline
 Name:            AutoLoopPipeline
 Args:            
   - String:          'Pipelining loop< '
-  - LoopName:        VITIS_LOOP_406_1
+  - LoopName:        VITIS_LOOP_299_1
   - String:          '> at '
-  - LoopLoc:         'kern.cpp:406:23'
+  - LoopLoc:         'kern.cpp:299:23'
   - String:          ' due to pipeline_loops threshold'
 ...
 --- !Passed
 Pass:            reflow-auto-loop-pipeline
 Name:            AutoParallelPerformanceDrivenVerbosePassed
-DebugLoc:        { File: kern.cpp, Line: 406, Column: 23 }
+DebugLoc:        { File: kern.cpp, Line: 299, Column: 23 }
 Function:        kernel
 Args:            
   - PragmaType:      pipeline
@@ -724,10 +724,10 @@ Args:
   - PragmaFunction:  kernel
   - String:          ' '
   - PragmaInferReason: config_compile -pipeline_loops 64
-  - LoopName:        VITIS_LOOP_406_1
+  - LoopName:        VITIS_LOOP_299_1
   - String:          ' '
-  - LoopLoc:         'kern.cpp:406:23'
-    DebugLoc:        { File: kern.cpp, Line: 406, Column: 23 }
+  - LoopLoc:         'kern.cpp:299:23'
+    DebugLoc:        { File: kern.cpp, Line: 299, Column: 23 }
   - String:          ' '
 ...
 --- !HLSReportInfo
@@ -737,13 +737,13 @@ Args:
   - String:          'Pipelining loop< '
   - LoopName:        OUT_STREAM
   - String:          '> at '
-  - LoopLoc:         'kern.cpp:638:41'
+  - LoopLoc:         'kern.cpp:504:41'
   - String:          ' due to pipeline_loops threshold'
 ...
 --- !Passed
 Pass:            reflow-auto-loop-pipeline
 Name:            AutoParallelPerformanceDrivenVerbosePassed
-DebugLoc:        { File: kern.cpp, Line: 638, Column: 41 }
+DebugLoc:        { File: kern.cpp, Line: 504, Column: 41 }
 Function:        kernel
 Args:            
   - PragmaType:      pipeline
@@ -757,72 +757,72 @@ Args:
   - PragmaInferReason: config_compile -pipeline_loops 64
   - LoopName:        OUT_STREAM
   - String:          ' '
-  - LoopLoc:         'kern.cpp:638:41'
-    DebugLoc:        { File: kern.cpp, Line: 638, Column: 41 }
+  - LoopLoc:         'kern.cpp:504:41'
+    DebugLoc:        { File: kern.cpp, Line: 504, Column: 41 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 472, Column: 25 }
+DebugLoc:        { File: kern.cpp, Line: 357, Column: 25 }
 Function:        kernel
 Args:            
   - Callee:          'conv2d_l1(unsigned short*, ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [16][64])'
-    DebugLoc:        { File: kern.cpp, Line: 88, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 38, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 493, Column: 25 }
+DebugLoc:        { File: kern.cpp, Line: 376, Column: 25 }
 Function:        kernel
 Args:            
   - Callee:          'conv2d_l2(ap_uint<1> (*) [16][64], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [8][128])'
-    DebugLoc:        { File: kern.cpp, Line: 149, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 93, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 514, Column: 25 }
+DebugLoc:        { File: kern.cpp, Line: 395, Column: 25 }
 Function:        kernel
 Args:            
   - Callee:          'conv2d_l3(ap_uint<1> (*) [8][128], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [4][256])'
-    DebugLoc:        { File: kern.cpp, Line: 208, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 148, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 536, Column: 25 }
+DebugLoc:        { File: kern.cpp, Line: 414, Column: 25 }
 Function:        kernel
 Args:            
   - Callee:          'conv2d_l4(ap_uint<1> (*) [4][256], ap_uint<1> (*) [9], ap_uint<2>, int, int*, bool, int, int, ap_uint<1> (*) [2][512])'
-    DebugLoc:        { File: kern.cpp, Line: 268, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 204, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: kern.cpp, Line: 637, Column: 29 }
+DebugLoc:        { File: kern.cpp, Line: 503, Column: 29 }
 Function:        kernel
 Args:            
   - Callee:          'softmax(int*, unsigned short*)'
-    DebugLoc:        { File: kern.cpp, Line: 318, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 251, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel
-    DebugLoc:        { File: kern.cpp, Line: 346, Column: 0 }
+    DebugLoc:        { File: kern.cpp, Line: 276, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...

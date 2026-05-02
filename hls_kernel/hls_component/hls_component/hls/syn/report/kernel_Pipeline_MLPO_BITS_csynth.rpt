@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'kernel_Pipeline_MLPO_BITS'
 ================================================================
-* Date:           Fri May  1 17:43:51 2026
+* Date:           Fri May  1 21:41:15 2026
 
 * Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        hls_component
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  13.00 ns|  7.433 ns|     3.51 ns|
+    |ap_clk  |  10.00 ns|  7.433 ns|     2.70 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -29,7 +29,7 @@
     |  Latency (cycles) |  Latency (absolute)  |  Interval |      Pipeline     |
     |   min   |   max   |    min    |    max   | min | max |        Type       |
     +---------+---------+-----------+----------+-----+-----+-------------------+
-    |        3|       29|  39.000 ns|  0.377 us|    0|    0|  loop pipeline stp|
+    |        3|       29|  30.000 ns|  0.290 us|    0|    0|  loop pipeline stp|
     +---------+---------+-----------+----------+-----+-----+-------------------+
 
     + Detail: 
@@ -94,21 +94,21 @@
     +--------------------------+----------+----+---+----+------------+------------+
     |       Variable Name      | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
     +--------------------------+----------+----+---+----+------------+------------+
-    |add_ln620_fu_617_p2       |         +|   0|  0|  13|           5|           1|
-    |add_ln621_fu_388_p2       |         +|   0|  0|  13|           5|           1|
-    |add_ln622_fu_412_p2       |         +|   0|  0|  40|          33|          33|
-    |add_ln625_fu_439_p2       |         +|   0|  0|  12|          11|           6|
+    |add_ln486_fu_617_p2       |         +|   0|  0|  13|           5|           1|
+    |add_ln487_fu_388_p2       |         +|   0|  0|  13|           5|           1|
+    |add_ln488_fu_412_p2       |         +|   0|  0|  40|          33|          33|
+    |add_ln491_fu_439_p2       |         +|   0|  0|  12|          11|           6|
     |mlpo_acc_5_fu_666_p2      |         +|   0|  0|  39|          32|          32|
     |or_cond_fu_629_p2         |       and|   0|  0|   2|           1|           1|
-    |icmp_ln620_fu_623_p2      |      icmp|   0|  0|  13|           5|           5|
-    |icmp_ln621_fu_394_p2      |      icmp|   0|  0|  13|           5|           4|
-    |icmp_ln623_fu_433_p2      |      icmp|   0|  0|  31|          24|           1|
+    |icmp_ln486_fu_623_p2      |      icmp|   0|  0|  13|           5|           5|
+    |icmp_ln487_fu_394_p2      |      icmp|   0|  0|  13|           5|           4|
+    |icmp_ln489_fu_433_p2      |      icmp|   0|  0|  31|          24|           1|
     |mlpo_acc_2_fu_672_p3      |    select|   0|  0|  32|           1|          32|
-    |select_ln621_fu_400_p3    |    select|   0|  0|   5|           1|           1|
-    |select_ln626_fu_658_p3    |    select|   0|  0|   2|           1|           2|
+    |select_ln487_fu_400_p3    |    select|   0|  0|   5|           1|           1|
+    |select_ln492_fu_658_p3    |    select|   0|  0|   2|           1|           2|
     |ap_enable_pp0             |       xor|   0|  0|   2|           1|           2|
-    |not_icmp_ln623_fu_611_p2  |       xor|   0|  0|   2|           1|           2|
-    |xor_ln626_fu_653_p2       |       xor|   0|  0|   2|           1|           1|
+    |not_icmp_ln489_fu_611_p2  |       xor|   0|  0|   2|           1|           2|
+    |xor_ln492_fu_653_p2       |       xor|   0|  0|   2|           1|           1|
     +--------------------------+----------+----+---+----+------------+------------+
     |Total                     |          |   0|  0| 221|         127|         124|
     +--------------------------+----------+----+---+----+------------+------------+
@@ -139,7 +139,7 @@
     |ap_enable_reg_pp0_iter1           |   1|   0|    1|          0|
     |ap_loop_exit_ready_pp0_iter1_reg  |   1|   0|    1|          0|
     |i_1_fu_158                        |   5|   0|    5|          0|
-    |icmp_ln623_reg_718                |   1|   0|    1|          0|
+    |icmp_ln489_reg_718                |   1|   0|    1|          0|
     |mlpo_acc_1_fu_154                 |  32|   0|   32|          0|
     |or_cond_reg_733                   |   1|   0|    1|          0|
     |phi_mul25_fu_150                  |  11|   0|   11|          0|
@@ -165,7 +165,7 @@
 |ap_idle                |  out|    1|  ap_ctrl_hs|  kernel_Pipeline_MLPO_BITS|  return value|
 |ap_ready               |  out|    1|  ap_ctrl_hs|  kernel_Pipeline_MLPO_BITS|  return value|
 |mlpo_acc               |   in|   32|     ap_none|                   mlpo_acc|        scalar|
-|sext_ln620             |   in|   32|     ap_none|                 sext_ln620|        scalar|
+|sext_ln486             |   in|   32|     ap_none|                 sext_ln486|        scalar|
 |mlp_hidden_2_address0  |  out|    9|   ap_memory|               mlp_hidden_2|         array|
 |mlp_hidden_2_ce0       |  out|    1|   ap_memory|               mlp_hidden_2|         array|
 |mlp_hidden_2_q0        |   in|    1|   ap_memory|               mlp_hidden_2|         array|

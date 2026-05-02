@@ -2,10 +2,10 @@
 -- Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2025.2 (lin64) Build 6299465 Fri Nov 14 12:34:56 MST 2025
--- Date        : Fri May  1 20:05:10 2026
+-- Date        : Fri May  1 20:05:09 2026
 -- Host        : oldak-ZenBook-UX325EA-UX325EA running 64-bit Ubuntu 22.04.5 LTS
--- Command     : write_vhdl -force -mode synth_stub
---               /home/oldak/big-boi-pj/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top design_1_rst_ps7_0_50M_0 -prefix
+--               design_1_rst_ps7_0_50M_0_ design_1_rst_ps7_0_50M_0_stub.vhdl
 -- Design      : design_1_rst_ps7_0_50M_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z020clg400-1

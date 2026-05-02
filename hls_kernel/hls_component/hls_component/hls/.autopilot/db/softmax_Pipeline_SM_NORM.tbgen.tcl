@@ -70,13 +70,13 @@ set NewPortList {[
 set ArgLastReadFirstWriteLatency {
 	softmax_Pipeline_SM_NORM {
 		es_1 {Type I LastRead 0 FirstWrite -1}
-		probs {Type O LastRead -1 FirstWrite 36}
+		probs {Type O LastRead -1 FirstWrite 38}
 		ev {Type I LastRead 0 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "47", "Max" : "47"}
+	{"Name" : "Latency", "Min" : "49", "Max" : "49"}
 	, {"Name" : "Interval", "Min" : "11", "Max" : "11"}
 ]}
 

@@ -130,15 +130,15 @@
 						<id>4</id>
 						<name>i</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>333</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>266</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="10" tracking_level="0" version="0">
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second class_id="11" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
@@ -147,7 +147,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>333</second>
+										<second>266</second>
 									</item>
 								</second>
 							</item>
@@ -186,15 +186,15 @@
 						<id>5</id>
 						<name>es_1_read</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>335</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -203,7 +203,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>335</second>
+										<second>268</second>
 									</item>
 								</second>
 							</item>
@@ -241,17 +241,17 @@
 					<Obj>
 						<type>0</type>
 						<id>6</id>
-						<name>icmp_ln335</name>
+						<name>icmp_ln268</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>335</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -260,7 +260,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>335</second>
+										<second>268</second>
 									</item>
 								</second>
 							</item>
@@ -298,17 +298,17 @@
 					<Obj>
 						<type>0</type>
 						<id>7</id>
-						<name>i_write_ln333</name>
+						<name>i_write_ln266</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>333</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>266</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -317,7 +317,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>333</second>
+										<second>266</second>
 									</item>
 								</second>
 							</item>
@@ -399,15 +399,15 @@
 						<id>10</id>
 						<name>i_1</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>333</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>266</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -416,7 +416,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>333</second>
+										<second>266</second>
 									</item>
 								</second>
 							</item>
@@ -454,17 +454,17 @@
 					<Obj>
 						<type>0</type>
 						<id>11</id>
-						<name>icmp_ln333</name>
+						<name>icmp_ln266</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>333</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>266</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -473,7 +473,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>333</second>
+										<second>266</second>
 									</item>
 								</second>
 							</item>
@@ -511,17 +511,17 @@
 					<Obj>
 						<type>0</type>
 						<id>12</id>
-						<name>add_ln333</name>
+						<name>add_ln266</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>333</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>266</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -530,7 +530,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>333</second>
+										<second>266</second>
 									</item>
 								</second>
 							</item>
@@ -568,17 +568,17 @@
 					<Obj>
 						<type>0</type>
 						<id>13</id>
-						<name>br_ln333</name>
+						<name>br_ln266</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>333</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>266</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -587,7 +587,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>333</second>
+										<second>266</second>
 									</item>
 								</second>
 							</item>
@@ -626,17 +626,17 @@
 					<Obj>
 						<type>0</type>
 						<id>15</id>
-						<name>zext_ln333</name>
+						<name>zext_ln266</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>333</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>266</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -645,7 +645,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>333</second>
+										<second>266</second>
 									</item>
 								</second>
 							</item>
@@ -682,17 +682,17 @@
 					<Obj>
 						<type>0</type>
 						<id>19</id>
-						<name>br_ln335</name>
+						<name>br_ln268</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>335</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -701,7 +701,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>335</second>
+										<second>268</second>
 									</item>
 								</second>
 							</item>
@@ -742,15 +742,15 @@
 						<id>21</id>
 						<name>ev_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>335</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -759,7 +759,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>335</second>
+										<second>268</second>
 									</item>
 								</second>
 							</item>
@@ -800,15 +800,15 @@
 						<id>22</id>
 						<name>ev_load</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>335</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -817,7 +817,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>335</second>
+										<second>268</second>
 									</item>
 								</second>
 							</item>
@@ -854,17 +854,17 @@
 					<Obj>
 						<type>0</type>
 						<id>23</id>
-						<name>shl_ln335</name>
+						<name>shl_ln268</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>335</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -873,7 +873,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>335</second>
+										<second>268</second>
 									</item>
 								</second>
 							</item>
@@ -911,17 +911,17 @@
 					<Obj>
 						<type>0</type>
 						<id>24</id>
-						<name>sub_ln335</name>
+						<name>sub_ln268</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>335</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -930,7 +930,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>335</second>
+										<second>268</second>
 									</item>
 								</second>
 							</item>
@@ -968,17 +968,17 @@
 					<Obj>
 						<type>0</type>
 						<id>25</id>
-						<name>sdiv_ln335</name>
+						<name>sdiv_ln268</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>335</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -987,7 +987,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>335</second>
+										<second>268</second>
 									</item>
 								</second>
 							</item>
@@ -1025,17 +1025,17 @@
 					<Obj>
 						<type>0</type>
 						<id>26</id>
-						<name>trunc_ln335</name>
+						<name>trunc_ln268</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>335</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1044,7 +1044,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>335</second>
+										<second>268</second>
 									</item>
 								</second>
 							</item>
@@ -1073,7 +1073,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>20</m_topoIndex>
+				<m_topoIndex>19</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_21">
@@ -1081,17 +1081,17 @@
 					<Obj>
 						<type>0</type>
 						<id>27</id>
-						<name>br_ln335</name>
+						<name>br_ln268</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>335</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1100,7 +1100,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>335</second>
+										<second>268</second>
 									</item>
 								</second>
 							</item>
@@ -1139,15 +1139,15 @@
 						<id>29</id>
 						<name>cond33</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>335</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1156,7 +1156,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>335</second>
+										<second>268</second>
 									</item>
 								</second>
 							</item>
@@ -1198,15 +1198,15 @@
 						<id>30</id>
 						<name>probs_addr</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>335</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1215,7 +1215,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>335</second>
+										<second>268</second>
 									</item>
 								</second>
 							</item>
@@ -1254,17 +1254,17 @@
 					<Obj>
 						<type>0</type>
 						<id>31</id>
-						<name>probs_addr_write_ln335</name>
+						<name>probs_addr_write_ln268</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>335</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1273,7 +1273,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>335</second>
+										<second>268</second>
 									</item>
 								</second>
 							</item>
@@ -1311,17 +1311,17 @@
 					<Obj>
 						<type>0</type>
 						<id>32</id>
-						<name>i_write_ln333</name>
+						<name>i_write_ln266</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>333</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>266</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1330,7 +1330,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>333</second>
+										<second>266</second>
 									</item>
 								</second>
 							</item>
@@ -1370,17 +1370,17 @@
 					<Obj>
 						<type>0</type>
 						<id>33</id>
-						<name>br_ln333</name>
+						<name>br_ln266</name>
 						<fileName>kern.cpp</fileName>
-						<fileDirectory>/home/oldak/big-boi-pj/kernel/hls_component</fileDirectory>
-						<lineNumber>333</lineNumber>
+						<fileDirectory>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</fileDirectory>
+						<lineNumber>266</lineNumber>
 						<contextFuncName>softmax</contextFuncName>
 						<contextNormFuncName>softmax</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/oldak/big-boi-pj/kernel/hls_component</first>
+								<first>/home/oldak/Binary-CNN-Accelerator/hls_kernel/hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1389,7 +1389,7 @@
 											<first>kern.cpp</first>
 											<second>softmax</second>
 										</first>
-										<second>333</second>
+										<second>266</second>
 									</item>
 								</second>
 							</item>
@@ -1459,7 +1459,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>1.58</m_delay>
-				<m_topoIndex>19</m_topoIndex>
+				<m_topoIndex>20</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 		</nodes>
@@ -2322,8 +2322,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>47</mMinLatency>
-			<mMaxLatency>47</mMaxLatency>
+			<mMinLatency>49</mMinLatency>
+			<mMaxLatency>49</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -2368,11 +2368,11 @@
 				<item>34</item>
 			</basic_blocks>
 			<mII>1</mII>
-			<mDepth>37</mDepth>
+			<mDepth>39</mDepth>
 			<mMinTripCount>10</mMinTripCount>
 			<mMaxTripCount>10</mMaxTripCount>
-			<mMinLatency>45</mMinLatency>
-			<mMaxLatency>45</mMaxLatency>
+			<mMinLatency>47</mMinLatency>
+			<mMaxLatency>47</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -2402,7 +2402,7 @@
 	</cdfg_regions>
 	<fsm class_id="24" tracking_level="1" version="0" object_id="_99">
 		<states class_id="25" tracking_level="0" version="0">
-			<count>37</count>
+			<count>39</count>
 			<item_version>0</item_version>
 			<item class_id="26" tracking_level="1" version="0" object_id="_100">
 				<id>1</id>
@@ -2504,7 +2504,7 @@
 			<item class_id_reference="26" object_id="_119">
 				<id>2</id>
 				<operations>
-					<count>4</count>
+					<count>3</count>
 					<item_version>0</item_version>
 					<item class_id_reference="28" object_id="_120">
 						<id>22</id>
@@ -2521,430 +2521,432 @@
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_123">
+				</operations>
+			</item>
+			<item class_id_reference="26" object_id="_123">
+				<id>3</id>
+				<operations>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item class_id_reference="28" object_id="_124">
 						<id>25</id>
 						<stage>36</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_124">
-				<id>3</id>
+			<item class_id_reference="26" object_id="_125">
+				<id>4</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_125">
+					<item class_id_reference="28" object_id="_126">
 						<id>25</id>
 						<stage>35</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_126">
-				<id>4</id>
+			<item class_id_reference="26" object_id="_127">
+				<id>5</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_127">
+					<item class_id_reference="28" object_id="_128">
 						<id>25</id>
 						<stage>34</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_128">
-				<id>5</id>
+			<item class_id_reference="26" object_id="_129">
+				<id>6</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_129">
+					<item class_id_reference="28" object_id="_130">
 						<id>25</id>
 						<stage>33</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_130">
-				<id>6</id>
+			<item class_id_reference="26" object_id="_131">
+				<id>7</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_131">
+					<item class_id_reference="28" object_id="_132">
 						<id>25</id>
 						<stage>32</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_132">
-				<id>7</id>
+			<item class_id_reference="26" object_id="_133">
+				<id>8</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_133">
+					<item class_id_reference="28" object_id="_134">
 						<id>25</id>
 						<stage>31</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_134">
-				<id>8</id>
+			<item class_id_reference="26" object_id="_135">
+				<id>9</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_135">
+					<item class_id_reference="28" object_id="_136">
 						<id>25</id>
 						<stage>30</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_136">
-				<id>9</id>
+			<item class_id_reference="26" object_id="_137">
+				<id>10</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_137">
+					<item class_id_reference="28" object_id="_138">
 						<id>25</id>
 						<stage>29</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_138">
-				<id>10</id>
+			<item class_id_reference="26" object_id="_139">
+				<id>11</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_139">
+					<item class_id_reference="28" object_id="_140">
 						<id>25</id>
 						<stage>28</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_140">
-				<id>11</id>
+			<item class_id_reference="26" object_id="_141">
+				<id>12</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_141">
+					<item class_id_reference="28" object_id="_142">
 						<id>25</id>
 						<stage>27</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_142">
-				<id>12</id>
+			<item class_id_reference="26" object_id="_143">
+				<id>13</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_143">
+					<item class_id_reference="28" object_id="_144">
 						<id>25</id>
 						<stage>26</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_144">
-				<id>13</id>
+			<item class_id_reference="26" object_id="_145">
+				<id>14</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_145">
+					<item class_id_reference="28" object_id="_146">
 						<id>25</id>
 						<stage>25</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_146">
-				<id>14</id>
+			<item class_id_reference="26" object_id="_147">
+				<id>15</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_147">
+					<item class_id_reference="28" object_id="_148">
 						<id>25</id>
 						<stage>24</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_148">
-				<id>15</id>
+			<item class_id_reference="26" object_id="_149">
+				<id>16</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_149">
+					<item class_id_reference="28" object_id="_150">
 						<id>25</id>
 						<stage>23</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_150">
-				<id>16</id>
+			<item class_id_reference="26" object_id="_151">
+				<id>17</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_151">
+					<item class_id_reference="28" object_id="_152">
 						<id>25</id>
 						<stage>22</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_152">
-				<id>17</id>
+			<item class_id_reference="26" object_id="_153">
+				<id>18</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_153">
+					<item class_id_reference="28" object_id="_154">
 						<id>25</id>
 						<stage>21</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_154">
-				<id>18</id>
+			<item class_id_reference="26" object_id="_155">
+				<id>19</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_155">
+					<item class_id_reference="28" object_id="_156">
 						<id>25</id>
 						<stage>20</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_156">
-				<id>19</id>
+			<item class_id_reference="26" object_id="_157">
+				<id>20</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_157">
+					<item class_id_reference="28" object_id="_158">
 						<id>25</id>
 						<stage>19</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_158">
-				<id>20</id>
+			<item class_id_reference="26" object_id="_159">
+				<id>21</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_159">
+					<item class_id_reference="28" object_id="_160">
 						<id>25</id>
 						<stage>18</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_160">
-				<id>21</id>
+			<item class_id_reference="26" object_id="_161">
+				<id>22</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_161">
+					<item class_id_reference="28" object_id="_162">
 						<id>25</id>
 						<stage>17</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_162">
-				<id>22</id>
+			<item class_id_reference="26" object_id="_163">
+				<id>23</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_163">
+					<item class_id_reference="28" object_id="_164">
 						<id>25</id>
 						<stage>16</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_164">
-				<id>23</id>
+			<item class_id_reference="26" object_id="_165">
+				<id>24</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_165">
+					<item class_id_reference="28" object_id="_166">
 						<id>25</id>
 						<stage>15</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_166">
-				<id>24</id>
+			<item class_id_reference="26" object_id="_167">
+				<id>25</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_167">
+					<item class_id_reference="28" object_id="_168">
 						<id>25</id>
 						<stage>14</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_168">
-				<id>25</id>
+			<item class_id_reference="26" object_id="_169">
+				<id>26</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_169">
+					<item class_id_reference="28" object_id="_170">
 						<id>25</id>
 						<stage>13</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_170">
-				<id>26</id>
+			<item class_id_reference="26" object_id="_171">
+				<id>27</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_171">
+					<item class_id_reference="28" object_id="_172">
 						<id>25</id>
 						<stage>12</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_172">
-				<id>27</id>
+			<item class_id_reference="26" object_id="_173">
+				<id>28</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_173">
+					<item class_id_reference="28" object_id="_174">
 						<id>25</id>
 						<stage>11</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_174">
-				<id>28</id>
+			<item class_id_reference="26" object_id="_175">
+				<id>29</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_175">
+					<item class_id_reference="28" object_id="_176">
 						<id>25</id>
 						<stage>10</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_176">
-				<id>29</id>
+			<item class_id_reference="26" object_id="_177">
+				<id>30</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_177">
+					<item class_id_reference="28" object_id="_178">
 						<id>25</id>
 						<stage>9</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_178">
-				<id>30</id>
+			<item class_id_reference="26" object_id="_179">
+				<id>31</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_179">
+					<item class_id_reference="28" object_id="_180">
 						<id>25</id>
 						<stage>8</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_180">
-				<id>31</id>
+			<item class_id_reference="26" object_id="_181">
+				<id>32</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_181">
+					<item class_id_reference="28" object_id="_182">
 						<id>25</id>
 						<stage>7</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_182">
-				<id>32</id>
+			<item class_id_reference="26" object_id="_183">
+				<id>33</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_183">
+					<item class_id_reference="28" object_id="_184">
 						<id>25</id>
 						<stage>6</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_184">
-				<id>33</id>
+			<item class_id_reference="26" object_id="_185">
+				<id>34</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_185">
+					<item class_id_reference="28" object_id="_186">
 						<id>25</id>
 						<stage>5</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_186">
-				<id>34</id>
+			<item class_id_reference="26" object_id="_187">
+				<id>35</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_187">
+					<item class_id_reference="28" object_id="_188">
 						<id>25</id>
 						<stage>4</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_188">
-				<id>35</id>
+			<item class_id_reference="26" object_id="_189">
+				<id>36</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_189">
+					<item class_id_reference="28" object_id="_190">
 						<id>25</id>
 						<stage>3</stage>
 						<latency>36</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_190">
-				<id>36</id>
+			<item class_id_reference="26" object_id="_191">
+				<id>37</id>
 				<operations>
-					<count>2</count>
+					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_191">
+					<item class_id_reference="28" object_id="_192">
 						<id>25</id>
 						<stage>2</stage>
 						<latency>36</latency>
 					</item>
-					<item class_id_reference="28" object_id="_192">
-						<id>35</id>
-						<stage>1</stage>
-						<latency>1</latency>
-					</item>
 				</operations>
 			</item>
 			<item class_id_reference="26" object_id="_193">
-				<id>37</id>
+				<id>38</id>
 				<operations>
-					<count>6</count>
+					<count>3</count>
 					<item_version>0</item_version>
 					<item class_id_reference="28" object_id="_194">
 						<id>25</id>
@@ -2957,21 +2959,33 @@
 						<latency>1</latency>
 					</item>
 					<item class_id_reference="28" object_id="_196">
+						<id>35</id>
+						<stage>1</stage>
+						<latency>1</latency>
+					</item>
+				</operations>
+			</item>
+			<item class_id_reference="26" object_id="_197">
+				<id>39</id>
+				<operations>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item class_id_reference="28" object_id="_198">
 						<id>29</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_197">
+					<item class_id_reference="28" object_id="_199">
 						<id>30</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_198">
+					<item class_id_reference="28" object_id="_200">
 						<id>31</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_199">
+					<item class_id_reference="28" object_id="_201">
 						<id>33</id>
 						<stage>1</stage>
 						<latency>1</latency>
@@ -2980,9 +2994,9 @@
 			</item>
 		</states>
 		<transitions class_id="29" tracking_level="0" version="0">
-			<count>36</count>
+			<count>38</count>
 			<item_version>0</item_version>
-			<item class_id="30" tracking_level="1" version="0" object_id="_200">
+			<item class_id="30" tracking_level="1" version="0" object_id="_202">
 				<inState>2</inState>
 				<outState>3</outState>
 				<condition class_id="31" tracking_level="0" version="0">
@@ -2997,7 +3011,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_201">
+			<item class_id_reference="30" object_id="_203">
 				<inState>3</inState>
 				<outState>4</outState>
 				<condition>
@@ -3012,7 +3026,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_202">
+			<item class_id_reference="30" object_id="_204">
 				<inState>4</inState>
 				<outState>5</outState>
 				<condition>
@@ -3027,7 +3041,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_203">
+			<item class_id_reference="30" object_id="_205">
 				<inState>5</inState>
 				<outState>6</outState>
 				<condition>
@@ -3042,7 +3056,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_204">
+			<item class_id_reference="30" object_id="_206">
 				<inState>6</inState>
 				<outState>7</outState>
 				<condition>
@@ -3057,7 +3071,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_205">
+			<item class_id_reference="30" object_id="_207">
 				<inState>7</inState>
 				<outState>8</outState>
 				<condition>
@@ -3072,7 +3086,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_206">
+			<item class_id_reference="30" object_id="_208">
 				<inState>8</inState>
 				<outState>9</outState>
 				<condition>
@@ -3087,7 +3101,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_207">
+			<item class_id_reference="30" object_id="_209">
 				<inState>9</inState>
 				<outState>10</outState>
 				<condition>
@@ -3102,7 +3116,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_208">
+			<item class_id_reference="30" object_id="_210">
 				<inState>10</inState>
 				<outState>11</outState>
 				<condition>
@@ -3117,7 +3131,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_209">
+			<item class_id_reference="30" object_id="_211">
 				<inState>11</inState>
 				<outState>12</outState>
 				<condition>
@@ -3132,7 +3146,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_210">
+			<item class_id_reference="30" object_id="_212">
 				<inState>12</inState>
 				<outState>13</outState>
 				<condition>
@@ -3147,7 +3161,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_211">
+			<item class_id_reference="30" object_id="_213">
 				<inState>13</inState>
 				<outState>14</outState>
 				<condition>
@@ -3162,7 +3176,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_212">
+			<item class_id_reference="30" object_id="_214">
 				<inState>14</inState>
 				<outState>15</outState>
 				<condition>
@@ -3177,7 +3191,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_213">
+			<item class_id_reference="30" object_id="_215">
 				<inState>15</inState>
 				<outState>16</outState>
 				<condition>
@@ -3192,7 +3206,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_214">
+			<item class_id_reference="30" object_id="_216">
 				<inState>16</inState>
 				<outState>17</outState>
 				<condition>
@@ -3207,7 +3221,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_215">
+			<item class_id_reference="30" object_id="_217">
 				<inState>17</inState>
 				<outState>18</outState>
 				<condition>
@@ -3222,7 +3236,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_216">
+			<item class_id_reference="30" object_id="_218">
 				<inState>18</inState>
 				<outState>19</outState>
 				<condition>
@@ -3237,7 +3251,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_217">
+			<item class_id_reference="30" object_id="_219">
 				<inState>19</inState>
 				<outState>20</outState>
 				<condition>
@@ -3252,7 +3266,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_218">
+			<item class_id_reference="30" object_id="_220">
 				<inState>20</inState>
 				<outState>21</outState>
 				<condition>
@@ -3267,7 +3281,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_219">
+			<item class_id_reference="30" object_id="_221">
 				<inState>21</inState>
 				<outState>22</outState>
 				<condition>
@@ -3282,7 +3296,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_220">
+			<item class_id_reference="30" object_id="_222">
 				<inState>22</inState>
 				<outState>23</outState>
 				<condition>
@@ -3297,7 +3311,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_221">
+			<item class_id_reference="30" object_id="_223">
 				<inState>23</inState>
 				<outState>24</outState>
 				<condition>
@@ -3312,7 +3326,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_222">
+			<item class_id_reference="30" object_id="_224">
 				<inState>24</inState>
 				<outState>25</outState>
 				<condition>
@@ -3327,7 +3341,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_223">
+			<item class_id_reference="30" object_id="_225">
 				<inState>25</inState>
 				<outState>26</outState>
 				<condition>
@@ -3342,7 +3356,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_224">
+			<item class_id_reference="30" object_id="_226">
 				<inState>26</inState>
 				<outState>27</outState>
 				<condition>
@@ -3357,7 +3371,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_225">
+			<item class_id_reference="30" object_id="_227">
 				<inState>27</inState>
 				<outState>28</outState>
 				<condition>
@@ -3372,7 +3386,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_226">
+			<item class_id_reference="30" object_id="_228">
 				<inState>28</inState>
 				<outState>29</outState>
 				<condition>
@@ -3387,7 +3401,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_227">
+			<item class_id_reference="30" object_id="_229">
 				<inState>29</inState>
 				<outState>30</outState>
 				<condition>
@@ -3402,7 +3416,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_228">
+			<item class_id_reference="30" object_id="_230">
 				<inState>30</inState>
 				<outState>31</outState>
 				<condition>
@@ -3417,7 +3431,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_229">
+			<item class_id_reference="30" object_id="_231">
 				<inState>31</inState>
 				<outState>32</outState>
 				<condition>
@@ -3432,7 +3446,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_230">
+			<item class_id_reference="30" object_id="_232">
 				<inState>32</inState>
 				<outState>33</outState>
 				<condition>
@@ -3447,7 +3461,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_231">
+			<item class_id_reference="30" object_id="_233">
 				<inState>33</inState>
 				<outState>34</outState>
 				<condition>
@@ -3462,7 +3476,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_232">
+			<item class_id_reference="30" object_id="_234">
 				<inState>34</inState>
 				<outState>35</outState>
 				<condition>
@@ -3477,7 +3491,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_233">
+			<item class_id_reference="30" object_id="_235">
 				<inState>35</inState>
 				<outState>36</outState>
 				<condition>
@@ -3492,7 +3506,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_234">
+			<item class_id_reference="30" object_id="_236">
 				<inState>36</inState>
 				<outState>37</outState>
 				<condition>
@@ -3507,7 +3521,37 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_235">
+			<item class_id_reference="30" object_id="_237">
+				<inState>37</inState>
+				<outState>38</outState>
+				<condition>
+					<id>-1</id>
+					<sop>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<count>0</count>
+							<item_version>0</item_version>
+						</item>
+					</sop>
+				</condition>
+			</item>
+			<item class_id_reference="30" object_id="_238">
+				<inState>38</inState>
+				<outState>39</outState>
+				<condition>
+					<id>-1</id>
+					<sop>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<count>0</count>
+							<item_version>0</item_version>
+						</item>
+					</sop>
+				</condition>
+			</item>
+			<item class_id_reference="30" object_id="_239">
 				<inState>1</inState>
 				<outState>2</outState>
 				<condition>
@@ -3636,14 +3680,14 @@
 		<item>
 			<first>25</first>
 			<second>
-				<first>1</first>
+				<first>2</first>
 				<second>35</second>
 			</second>
 		</item>
 		<item>
 			<first>26</first>
 			<second>
-				<first>36</first>
+				<first>37</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -3657,21 +3701,21 @@
 		<item>
 			<first>29</first>
 			<second>
-				<first>36</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>30</first>
 			<second>
-				<first>36</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>31</first>
 			<second>
-				<first>36</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -3685,14 +3729,14 @@
 		<item>
 			<first>33</first>
 			<second>
-				<first>36</first>
+				<first>38</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>35</first>
 			<second>
-				<first>35</first>
+				<first>37</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -3725,14 +3769,14 @@
 			<first>28</first>
 			<second>
 				<first>1</first>
-				<second>37</second>
+				<second>38</second>
 			</second>
 		</item>
 		<item>
 			<first>34</first>
 			<second>
 				<first>1</first>
-				<second>37</second>
+				<second>39</second>
 			</second>
 		</item>
 		<item>
@@ -3746,7 +3790,7 @@
 	<regions class_id="41" tracking_level="0" version="0">
 		<count>1</count>
 		<item_version>0</item_version>
-		<item class_id="42" tracking_level="1" version="0" object_id="_236">
+		<item class_id="42" tracking_level="1" version="0" object_id="_240">
 			<region_name>SM_NORM</region_name>
 			<basic_blocks>
 				<count>4</count>
@@ -3763,7 +3807,7 @@
 			<anchor_node>-1</anchor_node>
 			<region_type>8</region_type>
 			<interval>1</interval>
-			<pipe_depth>37</pipe_depth>
+			<pipe_depth>39</pipe_depth>
 			<mDBIIViolationVec class_id="43" tracking_level="0" version="0">
 				<count>0</count>
 				<item_version>0</item_version>
@@ -3946,7 +3990,7 @@
 			</second>
 		</item>
 		<item>
-			<first>139</first>
+			<first>138</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3958,7 +4002,7 @@
 		<count>11</count>
 		<item_version>0</item_version>
 		<item class_id="48" tracking_level="0" version="0">
-			<first>add_ln333_fu_106</first>
+			<first>add_ln266_fu_106</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3990,7 +4034,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln333_fu_100</first>
+			<first>icmp_ln266_fu_100</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3998,7 +4042,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln335_fu_86</first>
+			<first>icmp_ln268_fu_86</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4014,7 +4058,7 @@
 			</second>
 		</item>
 		<item>
-			<first>shl_ln335_fu_122</first>
+			<first>shl_ln268_fu_122</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4022,7 +4066,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sub_ln335_fu_128</first>
+			<first>sub_ln268_fu_128</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4030,7 +4074,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln335_fu_139</first>
+			<first>trunc_ln268_fu_138</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4038,7 +4082,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln333_fu_112</first>
+			<first>zext_ln266_fu_112</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4113,7 +4157,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln333_store_fu_117</first>
+			<first>store_ln266_store_fu_117</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4121,7 +4165,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln333_store_fu_92</first>
+			<first>store_ln266_store_fu_92</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4161,7 +4205,7 @@
 		</item>
 	</dp_mem_port_nodes>
 	<dp_reg_nodes>
-		<count>8</count>
+		<count>9</count>
 		<item_version>0</item_version>
 		<item>
 			<first>74</first>
@@ -4172,7 +4216,7 @@
 			</second>
 		</item>
 		<item>
-			<first>144</first>
+			<first>142</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4180,7 +4224,7 @@
 			</second>
 		</item>
 		<item>
-			<first>151</first>
+			<first>149</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4188,7 +4232,7 @@
 			</second>
 		</item>
 		<item>
-			<first>156</first>
+			<first>154</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4196,7 +4240,7 @@
 			</second>
 		</item>
 		<item>
-			<first>160</first>
+			<first>158</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4204,7 +4248,7 @@
 			</second>
 		</item>
 		<item>
-			<first>164</first>
+			<first>162</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4212,7 +4256,7 @@
 			</second>
 		</item>
 		<item>
-			<first>169</first>
+			<first>167</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4220,16 +4264,24 @@
 			</second>
 		</item>
 		<item>
-			<first>174</first>
+			<first>172</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
 				<item>24</item>
 			</second>
 		</item>
+		<item>
+			<first>177</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>26</item>
+			</second>
+		</item>
 	</dp_reg_nodes>
 	<dp_regname_nodes>
-		<count>8</count>
+		<count>9</count>
 		<item_version>0</item_version>
 		<item>
 			<first>cond33_reg_74</first>
@@ -4240,7 +4292,7 @@
 			</second>
 		</item>
 		<item>
-			<first>es_1_read_reg_151</first>
+			<first>es_1_read_reg_149</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4248,7 +4300,7 @@
 			</second>
 		</item>
 		<item>
-			<first>ev_addr_reg_169</first>
+			<first>ev_addr_reg_167</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4256,7 +4308,7 @@
 			</second>
 		</item>
 		<item>
-			<first>i_reg_144</first>
+			<first>i_reg_142</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4264,7 +4316,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln333_reg_160</first>
+			<first>icmp_ln266_reg_158</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4272,7 +4324,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln335_reg_156</first>
+			<first>icmp_ln268_reg_154</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4280,7 +4332,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sub_ln335_reg_174</first>
+			<first>sub_ln268_reg_172</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4288,7 +4340,15 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln333_reg_164</first>
+			<first>trunc_ln268_reg_177</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>26</item>
+			</second>
+		</item>
+		<item>
+			<first>zext_ln266_reg_162</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4441,7 +4501,7 @@
 			</second>
 		</item>
 	</node2core>
-	<sched_res class_id="54" tracking_level="1" version="0" object_id="_237">
+	<sched_res class_id="54" tracking_level="1" version="0" object_id="_241">
 		<ResourceTableActual class_id="55" tracking_level="0" version="0">
 			<II>1</II>
 			<Resource class_id="56" tracking_level="0" version="0">
@@ -4471,7 +4531,7 @@
 					<Ops>
 						<Op>
 							<source_obj>31</source_obj>
-							<cycle>36</cycle>
+							<cycle>38</cycle>
 							<type>W</type>
 							<direction>in</direction>
 						</Op>

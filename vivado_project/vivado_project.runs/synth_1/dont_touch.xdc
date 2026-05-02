@@ -4,11 +4,11 @@
 # Block Designs: bd/design_1/design_1.bd
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1 || ORIG_REF_NAME==design_1} -quiet] -quiet
 
+# IP: bd/design_1/ip/design_1_processing_system7_0_0_1/design_1_processing_system7_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_processing_system7_0_0 || ORIG_REF_NAME==design_1_processing_system7_0_0} -quiet] -quiet
+
 # IP: bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_axi_dma_0_0 || ORIG_REF_NAME==design_1_axi_dma_0_0} -quiet] -quiet
-
-# IP: bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_processing_system7_0_0 || ORIG_REF_NAME==design_1_processing_system7_0_0} -quiet] -quiet
 
 # IP: bd/design_1/ip/design_1_axi_smc_0/design_1_axi_smc_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_axi_smc_0 || ORIG_REF_NAME==design_1_axi_smc_0} -quiet] -quiet
@@ -25,4 +25,4 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_ax
 # IP: bd/design_1/ip/design_1_kernel_0_0/design_1_kernel_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_kernel_0_0 || ORIG_REF_NAME==design_1_kernel_0_0} -quiet] -quiet
 
-# XDC: /home/oldak/big-boi-pj/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/design_1_ooc.xdc
+# XDC: /home/oldak/Binary-CNN-Accelerator/vivado_project/vivado_project.gen/sources_1/bd/design_1/design_1_ooc.xdc

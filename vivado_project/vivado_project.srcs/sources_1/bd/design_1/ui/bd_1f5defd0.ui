@@ -7,8 +7,8 @@
 #  -string -flagsOSRD
 preplace port DDR -pg 1 -lvl 5 -x 1520 -y 610 -defaultsOSRD
 preplace port FIXED_IO -pg 1 -lvl 5 -x 1520 -y 770 -defaultsOSRD
-preplace inst axi_dma_0 -pg 1 -lvl 3 -x 960 -y 460 -defaultsOSRD
 preplace inst processing_system7_0 -pg 1 -lvl 1 -x 230 -y 660 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 3 -x 960 -y 460 -defaultsOSRD
 preplace inst axi_smc -pg 1 -lvl 2 -x 600 -y 690 -defaultsOSRD
 preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -x 230 -y 450 -defaultsOSRD
 preplace inst axi_mem_intercon -pg 1 -lvl 4 -x 1340 -y 170 -defaultsOSRD
@@ -32,6 +32,8 @@ pagesize -pg 1 -db -bbox -sgen 0 0 1640 790
 "
 }
 {
-   "da_axi4_cnt":"5",
-   "da_ps7_cnt":"1"
+   "da_axi4_cnt":"20",
+   "da_board_cnt":"4",
+   "da_clkrst_cnt":"4",
+   "da_ps7_cnt":"4"
 }

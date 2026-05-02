@@ -9,8 +9,8 @@
 <ProductFamily>zynq</ProductFamily>
 <Part>xc7z020-clg400-1</Part>
 <TopModelName>softmax</TopModelName>
-<TargetClockPeriod>13.00</TargetClockPeriod>
-<ClockUncertainty>3.51</ClockUncertainty>
+<TargetClockPeriod>10.00</TargetClockPeriod>
+<ClockUncertainty>2.70</ClockUncertainty>
 <FlowTarget>vivado</FlowTarget>
 </UserAssignments>
 
@@ -18,31 +18,31 @@
 <PipelineType>no</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>9.210</EstimatedClockPeriod>
+<EstimatedClockPeriod>6.500</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>59</Best-caseLatency>
-<Average-caseLatency>59</Average-caseLatency>
-<Worst-caseLatency>59</Worst-caseLatency>
-<Best-caseRealTimeLatency>0.767 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>0.767 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>0.767 us</Worst-caseRealTimeLatency>
-<Interval-min>59</Interval-min>
-<Interval-max>59</Interval-max>
+<Best-caseLatency>62</Best-caseLatency>
+<Average-caseLatency>62</Average-caseLatency>
+<Worst-caseLatency>62</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.620 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.620 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.620 us</Worst-caseRealTimeLatency>
+<Interval-min>62</Interval-min>
+<Interval-max>62</Interval-max>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>kern.cpp:326</SourceLocation>
+<SourceLocation>kern.cpp:259</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 
 <AreaEstimates>
 <Resources>
 <BRAM_18K>0</BRAM_18K>
-<FF>4013</FF>
+<FF>4433</FF>
 <LUT>4662</LUT>
 <URAM>0</URAM>
 <DSP>0</DSP>

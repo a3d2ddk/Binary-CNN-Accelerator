@@ -37,7 +37,7 @@ set C_modelArgList {
 	{ loc_08 int 32 regular  }
 	{ oh_4 int 5 regular  }
 	{ ow_4 int 5 regular  }
-	{ add_ln103 int 33 regular  }
+	{ add_ln53 int 33 regular  }
 	{ input_0 int 16 regular {array 220 { 1 3 } 1 1 }  }
 	{ input_1 int 16 regular {array 220 { 1 3 } 1 1 }  }
 	{ input_2 int 16 regular {array 220 { 1 3 } 1 1 }  }
@@ -89,7 +89,7 @@ set C_modelArgMapList {[
 	{ "Name" : "loc_08", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
  	{ "Name" : "oh_4", "interface" : "wire", "bitwidth" : 5, "direction" : "READONLY"} , 
  	{ "Name" : "ow_4", "interface" : "wire", "bitwidth" : 5, "direction" : "READONLY"} , 
- 	{ "Name" : "add_ln103", "interface" : "wire", "bitwidth" : 33, "direction" : "READONLY"} , 
+ 	{ "Name" : "add_ln53", "interface" : "wire", "bitwidth" : 33, "direction" : "READONLY"} , 
  	{ "Name" : "input_0", "interface" : "memory", "bitwidth" : 16, "direction" : "READONLY"} , 
  	{ "Name" : "input_1", "interface" : "memory", "bitwidth" : 16, "direction" : "READONLY"} , 
  	{ "Name" : "input_2", "interface" : "memory", "bitwidth" : 16, "direction" : "READONLY"} , 
@@ -145,7 +145,7 @@ set portList {
 	{ loc_08 sc_in sc_lv 32 signal 0 } 
 	{ oh_4 sc_in sc_lv 5 signal 1 } 
 	{ ow_4 sc_in sc_lv 5 signal 2 } 
-	{ add_ln103 sc_in sc_lv 33 signal 3 } 
+	{ add_ln53 sc_in sc_lv 33 signal 3 } 
 	{ input_0_address0 sc_out sc_lv 8 signal 4 } 
 	{ input_0_ce0 sc_out sc_logic 1 signal 4 } 
 	{ input_0_q0 sc_in sc_lv 16 signal 4 } 
@@ -229,7 +229,7 @@ set NewPortList {[
  	{ "name": "loc_08", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "loc_08", "role": "default" }} , 
  	{ "name": "oh_4", "direction": "in", "datatype": "sc_lv", "bitwidth":5, "type": "signal", "bundle":{"name": "oh_4", "role": "default" }} , 
  	{ "name": "ow_4", "direction": "in", "datatype": "sc_lv", "bitwidth":5, "type": "signal", "bundle":{"name": "ow_4", "role": "default" }} , 
- 	{ "name": "add_ln103", "direction": "in", "datatype": "sc_lv", "bitwidth":33, "type": "signal", "bundle":{"name": "add_ln103", "role": "default" }} , 
+ 	{ "name": "add_ln53", "direction": "in", "datatype": "sc_lv", "bitwidth":33, "type": "signal", "bundle":{"name": "add_ln53", "role": "default" }} , 
  	{ "name": "input_0_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":8, "type": "signal", "bundle":{"name": "input_0", "role": "address0" }} , 
  	{ "name": "input_0_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "input_0", "role": "ce0" }} , 
  	{ "name": "input_0_q0", "direction": "in", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "input_0", "role": "q0" }} , 
@@ -308,21 +308,21 @@ set ArgLastReadFirstWriteLatency {
 		loc_08 {Type I LastRead 0 FirstWrite -1}
 		oh_4 {Type I LastRead 0 FirstWrite -1}
 		ow_4 {Type I LastRead 0 FirstWrite -1}
-		add_ln103 {Type I LastRead 0 FirstWrite -1}
-		input_0 {Type I LastRead 68 FirstWrite -1}
-		input_1 {Type I LastRead 68 FirstWrite -1}
-		input_2 {Type I LastRead 68 FirstWrite -1}
-		input_3 {Type I LastRead 68 FirstWrite -1}
-		input_4 {Type I LastRead 68 FirstWrite -1}
-		input_5 {Type I LastRead 68 FirstWrite -1}
-		input_6 {Type I LastRead 68 FirstWrite -1}
-		input_7 {Type I LastRead 68 FirstWrite -1}
-		input_8 {Type I LastRead 68 FirstWrite -1}
-		input_9 {Type I LastRead 68 FirstWrite -1}
-		input_10 {Type I LastRead 68 FirstWrite -1}
-		input_11 {Type I LastRead 68 FirstWrite -1}
-		input_12 {Type I LastRead 68 FirstWrite -1}
-		input_13 {Type I LastRead 68 FirstWrite -1}
+		add_ln53 {Type I LastRead 0 FirstWrite -1}
+		input_0 {Type I LastRead 69 FirstWrite -1}
+		input_1 {Type I LastRead 69 FirstWrite -1}
+		input_2 {Type I LastRead 69 FirstWrite -1}
+		input_3 {Type I LastRead 69 FirstWrite -1}
+		input_4 {Type I LastRead 69 FirstWrite -1}
+		input_5 {Type I LastRead 69 FirstWrite -1}
+		input_6 {Type I LastRead 69 FirstWrite -1}
+		input_7 {Type I LastRead 69 FirstWrite -1}
+		input_8 {Type I LastRead 69 FirstWrite -1}
+		input_9 {Type I LastRead 69 FirstWrite -1}
+		input_10 {Type I LastRead 69 FirstWrite -1}
+		input_11 {Type I LastRead 69 FirstWrite -1}
+		input_12 {Type I LastRead 69 FirstWrite -1}
+		input_13 {Type I LastRead 69 FirstWrite -1}
 		kern_0_0_val {Type I LastRead 0 FirstWrite -1}
 		kern_0_1_val {Type I LastRead 0 FirstWrite -1}
 		kern_0_2_val {Type I LastRead 0 FirstWrite -1}
@@ -351,12 +351,12 @@ set ArgLastReadFirstWriteLatency {
 		kern_2_7_val {Type I LastRead 0 FirstWrite -1}
 		kern_2_8_val {Type I LastRead 0 FirstWrite -1}
 		k {Type I LastRead 0 FirstWrite -1}
-		loc_11_out {Type O LastRead -1 FirstWrite 69}}}
+		loc_11_out {Type O LastRead -1 FirstWrite 70}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "80", "Max" : "80"}
+	{"Name" : "Latency", "Min" : "81", "Max" : "81"}
 	, {"Name" : "Interval", "Min" : "10", "Max" : "10"}
 ]}
 
@@ -368,7 +368,7 @@ set Spec2ImplPortList {
 	loc_08 { ap_none {  { loc_08 in_data 0 32 } } }
 	oh_4 { ap_none {  { oh_4 in_data 0 5 } } }
 	ow_4 { ap_none {  { ow_4 in_data 0 5 } } }
-	add_ln103 { ap_none {  { add_ln103 in_data 0 33 } } }
+	add_ln53 { ap_none {  { add_ln53 in_data 0 33 } } }
 	input_0 { ap_memory {  { input_0_address0 mem_address 1 8 }  { input_0_ce0 mem_ce 1 1 }  { input_0_q0 mem_dout 0 16 } } }
 	input_1 { ap_memory {  { input_1_address0 mem_address 1 8 }  { input_1_ce0 mem_ce 1 1 }  { input_1_q0 mem_dout 0 16 } } }
 	input_2 { ap_memory {  { input_2_address0 mem_address 1 8 }  { input_2_ce0 mem_ce 1 1 }  { input_2_q0 mem_dout 0 16 } } }
